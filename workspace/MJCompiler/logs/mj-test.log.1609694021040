@@ -1,0 +1,143 @@
+INFO  18:12:35,756 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:12:35,795 - #2 program
+INFO  18:12:35,795 - #48 test301
+INFO  18:12:35,795 - #8 const
+INFO  18:12:35,796 - #48 int
+INFO  18:12:35,796 - #48 nula
+INFO  18:12:35,798 - #9 =
+INFO  18:12:35,798 - #49 0
+INFO  18:12:35,798 - #7 ,
+INFO  18:12:35,798 - #48 pera
+INFO  18:12:35,798 - #9 =
+INFO  18:12:35,798 - #49 5
+INFO  18:12:35,799 - #7 ,
+INFO  18:12:35,799 - #48 draza
+INFO  18:12:35,799 - #9 =
+INFO  18:12:35,799 - #49 10
+INFO  18:12:35,799 - #4 ;
+INFO  18:12:35,799 - #8 const
+INFO  18:12:35,800 - #48 char
+INFO  18:12:35,801 - #48 jovana
+INFO  18:12:35,801 - #9 =
+INFO  18:12:35,801 - #50 a
+INFO  18:12:35,801 - #7 ,
+INFO  18:12:35,801 - #48 ivica
+INFO  18:12:35,801 - #9 =
+INFO  18:12:35,801 - #50 p
+INFO  18:12:35,801 - #4 ;
+INFO  18:12:35,801 - #8 const
+INFO  18:12:35,802 - #48 bool
+INFO  18:12:35,802 - #48 m
+INFO  18:12:35,802 - #9 =
+INFO  18:12:35,802 - #51 false
+INFO  18:12:35,802 - #4 ;
+INFO  18:12:35,802 - #10 {
+INFO  18:12:35,802 - #12 void
+INFO  18:12:35,803 - #48 main
+INFO  18:12:35,803 - #11 (
+INFO  18:12:35,804 - #13 )
+INFO  18:12:35,805 - #48 int
+INFO  18:12:35,805 - #48 bodovi
+INFO  18:12:35,806 - #4 ;
+INFO  18:12:35,806 - #10 {
+INFO  18:12:35,806 - #3 }
+INFO  18:12:35,807 - #3 }
+INFO  18:12:35,817 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstDecls(
+    ConstDecls(
+      ConstDecls(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          DodelaViseVrednosti(
+            DodelaViseVrednosti(
+              DodelaVrednosti(
+               nula
+                Number_Const(
+                 0
+                ) [Number_Const]
+              ) [DodelaVrednosti]
+             pera
+              Number_Const(
+               5
+              ) [Number_Const]
+            ) [DodelaViseVrednosti]
+           draza
+            Number_Const(
+             10
+            ) [Number_Const]
+          ) [DodelaViseVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        DodelaViseVrednosti(
+          DodelaVrednosti(
+           jovana
+            Character_Const(
+             a
+            ) [Character_Const]
+          ) [DodelaVrednosti]
+         ivica
+          Character_Const(
+           p
+          ) [Character_Const]
+        ) [DodelaViseVrednosti]
+      ) [ConstDecl]
+    ) [ConstDecls]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      DodelaVrednosti(
+       m
+        Boolean_Const(
+          null
+        ) [Boolean_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bodovi
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:12:35,817 - ===================================
+INFO  18:12:35,822 - Deklarisana metoda main na liniji 9
+INFO  18:12:35,822 - Deklarisana promenljiva bodovi na liniji 10
+INFO  18:12:35,823 - Zavrsena obrada metode main na liniji 9
+INFO  18:12:35,823 - ===================================
+INFO  18:12:35,824 - Parsiranje uspesno zavrseno!

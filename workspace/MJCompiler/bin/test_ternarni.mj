@@ -1,0 +1,100 @@
+// Test301
+
+program test301
+
+	const int nula = 0;
+	const int jedan = 1;
+	const int pet = 5;
+
+	int niz[];
+	char nizch[];
+	bool flag;
+	bool flagovi[];
+{
+	void main()	
+		int bodovi;
+		bool bt;
+	{	
+	
+		//radi super	
+		//flagovi = new bool[15];
+		//flagovi[5] = true;
+		//flagovi[10] = false;
+		//niz = new int[100];
+		//niz[1] = 5;
+		//niz[2] = 10;
+		//bodovi = flagovi[niz[jedan]]? 3*2*(flagovi[10]? 5 : 10): 5+9+10+(flagovi[niz[jedan]]? 10 : 15);	
+		//print(bodovi);
+	
+		//radi super
+		//bt = true;
+		//nizch = new char[15];
+		//nizch[2] = 'a';
+		//nizch[3] = 'b';
+		//niz = new int[100];
+		//niz[2] = 3;
+		//niz[3] = 2;
+		//print(bt? nizch[niz[2]]:nizch[niz[3]]);
+		
+		//radi super
+		//bt = true;
+		//niz = new int[1000];
+		//niz[pet] = 15;
+		//niz[2] = 5;
+		//niz[3] = 6;
+		//niz[6] = 7;
+		//niz[jedan*(pet + 2)] = 99;
+		//bodovi = bt?niz[niz[2]]: niz[niz[niz[3]]]; 
+		//print(bodovi);
+		
+		//radi super
+		//bt = false;
+		//bodovi = pet + jedan*(bt? 8/2*(bt? 9: 2)+80 : (bt? 10*3*(20+8): 10));
+		//print(bodovi);
+		
+		//radi super
+		//flag = false;
+		//bt = false;
+		//niz = new int[1500];
+		//niz[5] = 100;
+		//niz[6] = 5;
+		//niz[niz[6]]--;
+		//niz[10] = 1000;
+		//niz[1000] = 2000;
+		//niz[100] = 70;
+		//niz[70] = 98;
+		//niz[98] = 6;
+		//niz[6] = 20;
+		//niz[5] = 100;
+		//print(niz[bt?5:niz[flag? 10:niz[flag? 10 : niz[pet]]]]);
+		
+		//niz = new int[50];
+		//bt = true;
+		//bodovi = 0;
+		//bodovi = bt ? 1+2+(bt ? 30:40) : 6*7*8;
+		//print(bodovi);
+	
+		//radi super
+		//niz = new int[40];
+		//niz[30] = 5;
+		//niz[20] = 15;
+		//bt = true;
+		//bodovi = 10;
+		//bodovi = niz[bt? bodovi+20 : bodovi+10];
+		//print(bodovi);
+		
+		//radi super
+		//niz[10] = 4;
+		//niz[1] = 9;
+		//niz[4] = 99;
+		//niz[9] = 9;
+		//niz[bt? niz[bodovi] : niz[1]]++;
+		//print(niz[4]);
+		
+		//print(bt ? bodovi : bodovi + 10);
+		//print(false ? bodovi + 20 : bodovi + 30);
+		//print(bodovi > 10 ? '+' : '-');
+	}
+}
+
+

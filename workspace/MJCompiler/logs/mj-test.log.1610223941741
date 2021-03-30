@@ -1,0 +1,109 @@
+INFO  21:24:45,099 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:24:45,233 - #2 program
+INFO  21:24:45,233 - #48 MJProgram
+INFO  21:24:45,233 - #8 const
+INFO  21:24:45,235 - #48 bool
+INFO  21:24:45,235 - #48 jovana
+INFO  21:24:45,236 - #9 =
+INFO  21:24:45,236 - #50 0
+INFO  21:24:45,236 - #7 ,
+INFO  21:24:45,236 - #48 fifi
+INFO  21:24:45,236 - #9 =
+INFO  21:24:45,236 - #50 1
+INFO  21:24:45,236 - #7 ,
+INFO  21:24:45,237 - #48 mm
+INFO  21:24:45,237 - #9 =
+INFO  21:24:45,237 - #49 5
+INFO  21:24:45,237 - #7 ,
+INFO  21:24:45,237 - #48 ppp
+INFO  21:24:45,237 - #9 =
+INFO  21:24:45,237 - #50 1
+INFO  21:24:45,237 - #4 ;
+INFO  21:24:45,237 - #10 {
+INFO  21:24:45,238 - #12 void
+INFO  21:24:45,238 - #48 main
+INFO  21:24:45,239 - #11 (
+INFO  21:24:45,240 - #13 )
+INFO  21:24:45,240 - #48 int
+INFO  21:24:45,241 - #48 jovana
+INFO  21:24:45,241 - #4 ;
+INFO  21:24:45,241 - #10 {
+INFO  21:24:45,241 - #3 }
+INFO  21:24:45,242 - #3 }
+INFO  21:24:45,249 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      DodelaViseVrednosti(
+        DodelaViseVrednosti(
+          DodelaViseVrednosti(
+            DodelaVrednosti(
+             jovana
+              Boolean_Const(
+               0
+              ) [Boolean_Const]
+            ) [DodelaVrednosti]
+           fifi
+            Boolean_Const(
+             1
+            ) [Boolean_Const]
+          ) [DodelaViseVrednosti]
+         mm
+          Number_Const(
+           5
+          ) [Number_Const]
+        ) [DodelaViseVrednosti]
+       ppp
+        Boolean_Const(
+         1
+        ) [Boolean_Const]
+      ) [DodelaViseVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:24:45,250 - ===================================
+INFO  21:24:45,253 - Deklarisana simbolicka konstanta jovana na liniji 6
+INFO  21:24:45,253 - Deklarisana simbolicka konstanta fifi na liniji 6
+ERROR 21:24:45,253 - Greska na liniji 6: Tip konstante mm i tip dodeljene vrednosti se ne poklapaju! 
+INFO  21:24:45,253 - Deklarisana simbolicka konstanta ppp na liniji 6
+INFO  21:24:45,253 - Deklarisana metoda main na liniji 8
+INFO  21:24:45,253 - Deklarisana promenljiva jovana na liniji 9
+INFO  21:24:45,253 - Zavrsena obrada metode main na liniji 8
+INFO  21:24:45,253 - ===================================
+ERROR 21:24:45,254 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,170 @@
+INFO  11:45:13,959 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  11:45:14,004 - #2 program
+INFO  11:45:14,004 - #32 MJProgram
+INFO  11:45:14,004 - #32 int
+INFO  11:45:14,005 - #32 pera
+INFO  11:45:14,006 - #5 [
+INFO  11:45:14,006 - #6 ]
+INFO  11:45:14,006 - #4 ;
+INFO  11:45:14,007 - #32 int
+INFO  11:45:14,007 - #32 dsdsa
+INFO  11:45:14,007 - #4 ;
+INFO  11:45:14,007 - #32 int
+INFO  11:45:14,007 - #32 mika
+INFO  11:45:14,007 - #5 [
+INFO  11:45:14,007 - #6 ]
+INFO  11:45:14,007 - #7 ,
+INFO  11:45:14,008 - #32 zika
+INFO  11:45:14,008 - #5 [
+INFO  11:45:14,008 - #6 ]
+INFO  11:45:14,008 - #7 ,
+INFO  11:45:14,008 - #32 ceca
+INFO  11:45:14,008 - #5 [
+INFO  11:45:14,008 - #6 ]
+INFO  11:45:14,008 - #4 ;
+INFO  11:45:14,008 - #10 {
+INFO  11:45:14,008 - #12 void
+INFO  11:45:14,009 - #32 main
+INFO  11:45:14,010 - #11 (
+INFO  11:45:14,010 - #13 )
+INFO  11:45:14,011 - #10 {
+INFO  11:45:14,012 - #32 pos
+INFO  11:45:14,012 - #9 =
+INFO  11:45:14,012 - #16 new
+INFO  11:45:14,013 - #32 int
+INFO  11:45:14,013 - #5 [
+INFO  11:45:14,013 - #32 sdsa
+INFO  11:45:14,013 - #7 ,
+ERROR 11:45:14,013 - 
+Sintaksna greska na liniji 10
+INFO  11:45:14,013 - #32 ize
+INFO  11:45:14,013 - #6 ]
+INFO  11:45:14,013 - #4 ;
+INFO  11:45:14,014 - #17 read
+INFO  11:45:14,014 - #11 (
+INFO  11:45:14,014 - #32 x
+ERROR 11:45:14,014 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+INFO  11:45:14,015 - #7 ,
+ERROR 11:45:14,016 - 
+Sintaksna greska na liniji 11
+INFO  11:45:14,016 - #7 ,
+INFO  11:45:14,016 - #32 abc
+INFO  11:45:14,016 - #13 )
+INFO  11:45:14,016 - #4 ;
+INFO  11:45:14,016 - #17 read
+INFO  11:45:14,016 - #11 (
+INFO  11:45:14,016 - #32 x
+ERROR 11:45:14,016 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+INFO  11:45:14,016 - #7 ,
+ERROR 11:45:14,017 - 
+Sintaksna greska na liniji 12
+INFO  11:45:14,017 - #32 a
+INFO  11:45:14,017 - #13 )
+INFO  11:45:14,017 - #4 ;
+INFO  11:45:14,017 - #3 }
+INFO  11:45:14,017 - #3 }
+ERROR 11:45:14,017 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+INFO  11:45:14,027 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             pera
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           dsdsa
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarViseDeklaracija(
+        VarViseDeklaracija(
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             mika
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+          DeoDeklaracijeNiz(
+           zika
+          ) [DeoDeklaracijeNiz]
+        ) [VarViseDeklaracija]
+        DeoDeklaracijeNiz(
+         ceca
+        ) [DeoDeklaracijeNiz]
+      ) [VarViseDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      StatementLista(
+        StatementLista(
+          StatementLista(
+            NoStatements(
+            ) [NoStatements]
+            DesignatorStatementSemi(
+              Assignment(
+                ErrorStmt_iskaz_dodele(
+                ) [ErrorStmt_iskaz_dodele]
+              ) [Assignment]
+            ) [DesignatorStatementSemi]
+          ) [StatementLista]
+          DesignatorStatementSemi(
+            Assignment(
+              ErrorStmt_iskaz_dodele(
+              ) [ErrorStmt_iskaz_dodele]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [StatementLista]
+        DesignatorStatementSemi(
+          Assignment(
+            ErrorStmt_iskaz_dodele(
+            ) [ErrorStmt_iskaz_dodele]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:45:14,059 - ===================================
+INFO  11:45:14,062 - Deklarisana promenljiva pera na liniji 3
+INFO  11:45:14,063 - Deklarisana promenljiva dsdsa na liniji 4
+INFO  11:45:14,063 - Deklarisana promenljiva mika na liniji 5
+ERROR 11:45:14,063 - Neispravna konstrukcija na liniji 5!
+ERROR 11:45:14,065 - Neispravna konstrukcija na liniji 5!
+INFO  11:45:14,065 - Deklarisana metoda main na liniji 9
+INFO  11:45:14,065 - Zavrsena obrada metode main na liniji 9
+INFO  11:45:14,066 - ===================================
+ERROR 11:45:14,066 - Parsiranje NIJE uspesno zavrseno!

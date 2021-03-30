@@ -1,0 +1,144 @@
+INFO  23:55:10,843 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:55:10,885 - #2 program
+INFO  23:55:10,885 - #32 test301
+INFO  23:55:10,885 - #32 int
+INFO  23:55:10,886 - #32 niz
+INFO  23:55:10,887 - #5 [
+INFO  23:55:10,887 - #6 ]
+INFO  23:55:10,887 - #4 ;
+INFO  23:55:10,887 - #32 char
+INFO  23:55:10,888 - #32 nizch
+INFO  23:55:10,888 - #5 [
+INFO  23:55:10,888 - #6 ]
+INFO  23:55:10,888 - #4 ;
+INFO  23:55:10,888 - #32 int
+INFO  23:55:10,888 - #32 m
+INFO  23:55:10,888 - #4 ;
+INFO  23:55:10,888 - #32 int
+INFO  23:55:10,888 - #32 m
+INFO  23:55:10,888 - #4 ;
+INFO  23:55:10,889 - #10 {
+INFO  23:55:10,889 - #12 void
+INFO  23:55:10,889 - #32 main
+INFO  23:55:10,890 - #11 (
+INFO  23:55:10,890 - #13 )
+INFO  23:55:10,891 - #32 int
+INFO  23:55:10,891 - #32 bodovi
+INFO  23:55:10,892 - #4 ;
+INFO  23:55:10,892 - #10 {
+INFO  23:55:10,892 - #32 nizch
+INFO  23:55:10,892 - #9 =
+INFO  23:55:10,892 - #16 new
+INFO  23:55:10,893 - #32 char
+INFO  23:55:10,893 - #5 [
+INFO  23:55:10,893 - #6 ]
+ERROR 23:55:10,893 - 
+Sintaksna greska na liniji 15
+INFO  23:55:10,893 - #5 [
+INFO  23:55:10,893 - #6 ]
+INFO  23:55:10,893 - #4 ;
+INFO  23:55:10,894 - #3 }
+INFO  23:55:10,894 - #3 }
+ERROR 23:55:10,894 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+INFO  23:55:10,905 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijeNiz(
+               niz
+              ) [DeoDeklaracijeNiz]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             nizch
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           m
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         m
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bodovi
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStatementSemi(
+          Assignment(
+            ErrorStmt_iskaz_dodele(
+            ) [ErrorStmt_iskaz_dodele]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:55:10,905 - ===================================
+INFO  23:55:10,910 - Deklarisana promenljiva niz na liniji 5
+INFO  23:55:10,910 - Deklarisana promenljiva nizch na liniji 6
+INFO  23:55:10,910 - Deklarisana promenljiva m na liniji 7
+ERROR 23:55:10,911 - Greska na liniji: 9: Promenljiva m je vec deklarisana u ovom opsegu!
+INFO  23:55:10,911 - Deklarisana metoda main na liniji 12
+INFO  23:55:10,911 - Deklarisana promenljiva bodovi na liniji 13
+INFO  23:55:10,911 - Zavrsena obrada metode main na liniji 12
+INFO  23:55:10,911 - ===================================
+ERROR 23:55:10,912 - Parsiranje NIJE uspesno zavrseno!

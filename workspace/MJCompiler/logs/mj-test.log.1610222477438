@@ -1,0 +1,281 @@
+INFO  21:00:39,308 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:00:39,349 - #2 program
+INFO  21:00:39,349 - #48 MJProgram
+INFO  21:00:39,349 - #8 const
+INFO  21:00:39,350 - #48 int
+INFO  21:00:39,351 - #48 milica
+INFO  21:00:39,351 - #9 =
+INFO  21:00:39,351 - #49 5
+INFO  21:00:39,351 - #7 ,
+INFO  21:00:39,352 - #48 p
+INFO  21:00:39,352 - #9 =
+INFO  21:00:39,352 - #49 10
+INFO  21:00:39,352 - #4 ;
+INFO  21:00:39,352 - #8 const
+INFO  21:00:39,353 - #48 char
+INFO  21:00:39,353 - #48 hej
+INFO  21:00:39,353 - #9 =
+INFO  21:00:39,353 - #51 a
+INFO  21:00:39,353 - #7 ,
+INFO  21:00:39,353 - #48 b
+INFO  21:00:39,353 - #9 =
+INFO  21:00:39,353 - #51 p
+INFO  21:00:39,353 - #4 ;
+INFO  21:00:39,353 - #48 int
+INFO  21:00:39,353 - #48 pera
+INFO  21:00:39,354 - #5 [
+INFO  21:00:39,354 - #6 ]
+INFO  21:00:39,354 - #4 ;
+INFO  21:00:39,354 - #48 int
+INFO  21:00:39,354 - #48 hello
+INFO  21:00:39,355 - #4 ;
+INFO  21:00:39,355 - #48 int
+INFO  21:00:39,355 - #48 jovana
+INFO  21:00:39,355 - #4 ;
+INFO  21:00:39,355 - #8 const
+INFO  21:00:39,355 - #48 int
+INFO  21:00:39,355 - #48 pp
+INFO  21:00:39,355 - #9 =
+INFO  21:00:39,355 - #51 f
+INFO  21:00:39,355 - #4 ;
+INFO  21:00:39,355 - #10 {
+INFO  21:00:39,355 - #12 void
+INFO  21:00:39,356 - #48 main
+INFO  21:00:39,357 - #11 (
+INFO  21:00:39,358 - #13 )
+INFO  21:00:39,358 - #48 int
+INFO  21:00:39,359 - #48 jovana
+INFO  21:00:39,359 - #4 ;
+INFO  21:00:39,359 - #10 {
+INFO  21:00:39,359 - #14 print
+INFO  21:00:39,359 - #11 (
+INFO  21:00:39,359 - #48 milica
+INFO  21:00:39,360 - #13 )
+INFO  21:00:39,360 - #4 ;
+INFO  21:00:39,360 - #48 hello
+INFO  21:00:39,360 - #9 =
+INFO  21:00:39,361 - #48 pera
+INFO  21:00:39,361 - #5 [
+INFO  21:00:39,361 - #48 hello
+INFO  21:00:39,362 - #6 ]
+INFO  21:00:39,362 - #4 ;
+INFO  21:00:39,362 - #48 pera
+INFO  21:00:39,362 - #5 [
+INFO  21:00:39,363 - #49 9
+INFO  21:00:39,363 - #6 ]
+INFO  21:00:39,363 - #43 --
+INFO  21:00:39,363 - #4 ;
+INFO  21:00:39,363 - #3 }
+INFO  21:00:39,363 - #3 }
+INFO  21:00:39,376 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          ConstDecls(
+            ConstDecls(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                DodelaViseVrednosti(
+                  DodelaVrednosti(
+                   milica
+                    Number_Const(
+                     5
+                    ) [Number_Const]
+                  ) [DodelaVrednosti]
+                 p
+                  Number_Const(
+                   10
+                  ) [Number_Const]
+                ) [DodelaViseVrednosti]
+              ) [ConstDecl]
+            ) [ConstDecls]
+            ConstDecl(
+              Type(
+               char
+              ) [Type]
+              DodelaViseVrednosti(
+                DodelaVrednosti(
+                 hej
+                  Character_Const(
+                   a
+                  ) [Character_Const]
+                ) [DodelaVrednosti]
+               b
+                Character_Const(
+                 p
+                ) [Character_Const]
+              ) [DodelaViseVrednosti]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijeNiz(
+               pera
+              ) [DeoDeklaracijeNiz]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             hello
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           jovana
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      DodelaVrednosti(
+       pp
+        Character_Const(
+         f
+        ) [Character_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        StatementLista(
+          StatementLista(
+            NoStatements(
+            ) [NoStatements]
+            PrintStatement(
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorDesignator(
+                      DesignatorIdentifikator(
+                       milica
+                      ) [DesignatorIdentifikator]
+                    ) [FactorDesignator]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [PrintStatement]
+          ) [StatementLista]
+          DesignatorStatementSemi(
+            Assignment(
+              Assign_Designator_Klasa(
+                DesignatorIdentifikator(
+                 hello
+                ) [DesignatorIdentifikator]
+                Expr_obican(
+                  ExprWithoutMinus(
+                    Term_0(
+                      FactorDesignator(
+                        DesignatorArray(
+                          DesignatorArrayName(
+                           pera
+                          ) [DesignatorArrayName]
+                          Expr_obican(
+                            ExprWithoutMinus(
+                              Term_0(
+                                FactorDesignator(
+                                  DesignatorIdentifikator(
+                                   hello
+                                  ) [DesignatorIdentifikator]
+                                ) [FactorDesignator]
+                              ) [Term_0]
+                            ) [ExprWithoutMinus]
+                          ) [Expr_obican]
+                        ) [DesignatorArray]
+                      ) [FactorDesignator]
+                    ) [Term_0]
+                  ) [ExprWithoutMinus]
+                ) [Expr_obican]
+              ) [Assign_Designator_Klasa]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [StatementLista]
+        DesignatorStatementSemi(
+          Decrement(
+            DesignatorArray(
+              DesignatorArrayName(
+               pera
+              ) [DesignatorArrayName]
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorNumber(
+                     9
+                    ) [FactorNumber]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [DesignatorArray]
+          ) [Decrement]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:00:39,376 - ===================================
+INFO  21:00:39,379 - Deklarisana simbolicka konstanta milica na liniji 3
+INFO  21:00:39,379 - Deklarisana simbolicka konstanta hej na liniji 4
+INFO  21:00:39,379 - Deklarisana promenljiva pera na liniji 5
+INFO  21:00:39,379 - Deklarisana promenljiva hello na liniji 6
+INFO  21:00:39,379 - Deklarisana promenljiva jovana na liniji 7
+ERROR 21:00:39,379 - Greska na liniji 8: Tip konstante pp i tip dodeljene vrednosti se ne poklapaju! 
+INFO  21:00:39,379 - Deklarisana metoda main na liniji 10
+INFO  21:00:39,379 - Deklarisana promenljiva jovana na liniji 11
+INFO  21:00:39,379 - Detektovana simbolicka konstanta milica na liniji 13
+INFO  21:00:39,380 - Detektovana globalna promenljiva hello na liniji 14
+INFO  21:00:39,380 - Detektovana globalna promenljiva pera na liniji 14
+INFO  21:00:39,380 - Detektovana globalna promenljiva hello na liniji 14
+INFO  21:00:39,380 - Izraz dodele uspesno izvrsen na liniji 14
+INFO  21:00:39,380 - Detektovana globalna promenljiva pera na liniji 15
+INFO  21:00:39,380 - Izvrseno dekrementiranje promenljive pera
+INFO  21:00:39,380 - Zavrsena obrada metode main na liniji 10
+INFO  21:00:39,380 - ===================================
+ERROR 21:00:39,381 - Parsiranje NIJE uspesno zavrseno!

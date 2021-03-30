@@ -1,0 +1,193 @@
+INFO  16:19:55,389 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:19:55,432 - #2 program
+INFO  16:19:55,432 - #48 test301
+INFO  16:19:55,432 - #48 int
+INFO  16:19:55,433 - #48 pera
+INFO  16:19:55,434 - #7 ,
+INFO  16:19:55,434 - #48 laza
+INFO  16:19:55,434 - #7 ,
+INFO  16:19:55,435 - #48 mica
+INFO  16:19:55,435 - #4 ;
+INFO  16:19:55,435 - #48 int
+INFO  16:19:55,435 - #48 j
+INFO  16:19:55,435 - #5 [
+INFO  16:19:55,435 - #6 ]
+INFO  16:19:55,435 - #7 ,
+INFO  16:19:55,435 - #48 m
+INFO  16:19:55,435 - #5 [
+INFO  16:19:55,435 - #6 ]
+INFO  16:19:55,436 - #7 ,
+INFO  16:19:55,436 - #48 g
+INFO  16:19:55,436 - #5 [
+INFO  16:19:55,436 - #6 ]
+INFO  16:19:55,436 - #4 ;
+INFO  16:19:55,436 - #48 char
+INFO  16:19:55,436 - #48 dekana
+INFO  16:19:55,436 - #7 ,
+INFO  16:19:55,436 - #48 jocika
+INFO  16:19:55,436 - #4 ;
+INFO  16:19:55,436 - #10 {
+INFO  16:19:55,436 - #12 void
+INFO  16:19:55,437 - #48 main
+INFO  16:19:55,438 - #11 (
+INFO  16:19:55,438 - #13 )
+INFO  16:19:55,439 - #48 int
+INFO  16:19:55,439 - #48 hello
+INFO  16:19:55,439 - #4 ;
+INFO  16:19:55,439 - #10 {
+INFO  16:19:55,439 - #48 hello
+INFO  16:19:55,440 - #9 =
+INFO  16:19:55,440 - #48 j
+INFO  16:19:55,440 - #5 [
+INFO  16:19:55,441 - #49 4
+INFO  16:19:55,441 - #6 ]
+INFO  16:19:55,442 - #4 ;
+INFO  16:19:55,442 - #3 }
+INFO  16:19:55,442 - #3 }
+INFO  16:19:55,451 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarViseDeklaracija(
+            VarViseDeklaracija(
+              VarJednaDeklaracija(
+                DeoDeklaracijaPromenljiva(
+                 pera
+                ) [DeoDeklaracijaPromenljiva]
+              ) [VarJednaDeklaracija]
+              DeoDeklaracijaPromenljiva(
+               laza
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarViseDeklaracija]
+            DeoDeklaracijaPromenljiva(
+             mica
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarViseDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarViseDeklaracija(
+          VarViseDeklaracija(
+            VarJednaDeklaracija(
+              DeoDeklaracijeNiz(
+               j
+              ) [DeoDeklaracijeNiz]
+            ) [VarJednaDeklaracija]
+            DeoDeklaracijeNiz(
+             m
+            ) [DeoDeklaracijeNiz]
+          ) [VarViseDeklaracija]
+          DeoDeklaracijeNiz(
+           g
+          ) [DeoDeklaracijeNiz]
+        ) [VarViseDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       char
+      ) [Type]
+      VarViseDeklaracija(
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           dekana
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+        DeoDeklaracijaPromenljiva(
+         jocika
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarViseDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             hello
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStatementSemi(
+          Assignment(
+            Assign_Designator_Klasa(
+              DesignatorIdentifikator(
+               hello
+              ) [DesignatorIdentifikator]
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorDesignator(
+                      DesignatorArray(
+                        DesignatorArrayName(
+                         j
+                        ) [DesignatorArrayName]
+                        Expr_obican(
+                          ExprWithoutMinus(
+                            Term_0(
+                              FactorNumber(
+                               4
+                              ) [FactorNumber]
+                            ) [Term_0]
+                          ) [ExprWithoutMinus]
+                        ) [Expr_obican]
+                      ) [DesignatorArray]
+                    ) [FactorDesignator]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [Assign_Designator_Klasa]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:19:55,452 - ===================================
+INFO  16:19:55,457 - Deklarisana promenljiva pera na liniji 5
+INFO  16:19:55,457 - Deklarisana promenljiva laza na liniji 5
+INFO  16:19:55,457 - Deklarisana promenljiva mica na liniji 5
+INFO  16:19:55,457 - Deklarisana promenljiva j na liniji 6
+INFO  16:19:55,457 - Deklarisana promenljiva m na liniji 6
+INFO  16:19:55,457 - Deklarisana promenljiva g na liniji 6
+INFO  16:19:55,458 - Deklarisana promenljiva dekana na liniji 7
+INFO  16:19:55,458 - Deklarisana promenljiva jocika na liniji 7
+INFO  16:19:55,458 - Deklarisana metoda main na liniji 10
+INFO  16:19:55,458 - Deklarisana promenljiva hello na liniji 11
+INFO  16:19:55,458 - Detektovana lokalna promenljiva hello na liniji 13
+INFO  16:19:55,458 - Detektovana globalna promenljiva j na liniji 13
+INFO  16:19:55,458 - Izraz dodele uspesno izvrsen na liniji 13
+INFO  16:19:55,459 - Zavrsena obrada metode main na liniji 10
+INFO  16:19:55,459 - ===================================
+INFO  16:19:55,460 - Parsiranje uspesno zavrseno!

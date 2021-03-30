@@ -1,0 +1,108 @@
+INFO  18:39:44,543 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:39:44,584 - #2 program
+INFO  18:39:44,584 - #48 MJProgram
+INFO  18:39:44,584 - #8 const
+INFO  18:39:44,586 - #48 int
+INFO  18:39:44,586 - #48 milica
+INFO  18:39:44,586 - #9 =
+INFO  18:39:44,586 - #49 5
+INFO  18:39:44,586 - #4 ;
+INFO  18:39:44,587 - #48 int
+INFO  18:39:44,587 - #48 pera
+INFO  18:39:44,588 - #5 [
+INFO  18:39:44,588 - #6 ]
+INFO  18:39:44,588 - #4 ;
+INFO  18:39:44,588 - #48 int
+INFO  18:39:44,588 - #48 hello
+INFO  18:39:44,588 - #4 ;
+INFO  18:39:44,588 - #10 {
+INFO  18:39:44,589 - #12 void
+INFO  18:39:44,589 - #48 main
+INFO  18:39:44,590 - #11 (
+INFO  18:39:44,591 - #13 )
+INFO  18:39:44,592 - #10 {
+INFO  18:39:44,593 - #48 pera
+INFO  18:39:44,593 - #5 [
+INFO  18:39:44,594 - #48 hello
+INFO  18:39:44,594 - #42 ++
+ERROR 18:39:44,594 - 
+Sintaksna greska na liniji 9
+INFO  18:39:44,594 - #6 ]
+INFO  18:39:44,595 - #4 ;
+INFO  18:39:44,595 - #3 }
+INFO  18:39:44,595 - #3 }
+ERROR 18:39:44,595 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+INFO  18:39:44,606 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDecls(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          DodelaVrednosti(
+           milica
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           pera
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         hello
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStatementSemi(
+          Assignment(
+            ErrorStmt_iskaz_dodele(
+            ) [ErrorStmt_iskaz_dodele]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:39:44,606 - ===================================
+INFO  18:39:44,611 - Deklarisana metoda main na liniji 7
+INFO  18:39:44,611 - Zavrsena obrada metode main na liniji 7
+INFO  18:39:44,611 - ===================================
+ERROR 18:39:44,612 - Parsiranje NIJE uspesno zavrseno!

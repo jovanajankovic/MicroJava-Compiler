@@ -1,0 +1,216 @@
+INFO  18:48:07,849 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:48:07,895 - #2 program
+INFO  18:48:07,895 - #32 test301
+INFO  18:48:07,895 - #8 const
+INFO  18:48:07,896 - #32 int
+INFO  18:48:07,897 - #32 nula
+INFO  18:48:07,897 - #9 =
+INFO  18:48:07,897 - #33 0
+INFO  18:48:07,897 - #4 ;
+INFO  18:48:07,898 - #8 const
+INFO  18:48:07,898 - #32 int
+INFO  18:48:07,899 - #32 jedan
+INFO  18:48:07,899 - #9 =
+INFO  18:48:07,899 - #33 1
+INFO  18:48:07,899 - #4 ;
+INFO  18:48:07,899 - #8 const
+INFO  18:48:07,899 - #32 int
+INFO  18:48:07,899 - #32 pet
+INFO  18:48:07,899 - #9 =
+INFO  18:48:07,899 - #33 5
+INFO  18:48:07,899 - #4 ;
+INFO  18:48:07,899 - #32 int
+INFO  18:48:07,899 - #32 niz
+INFO  18:48:07,900 - #5 [
+INFO  18:48:07,900 - #6 ]
+INFO  18:48:07,900 - #4 ;
+INFO  18:48:07,900 - #32 char
+INFO  18:48:07,901 - #32 nizch
+INFO  18:48:07,901 - #5 [
+INFO  18:48:07,901 - #6 ]
+INFO  18:48:07,901 - #4 ;
+INFO  18:48:07,901 - #10 {
+INFO  18:48:07,901 - #12 void
+INFO  18:48:07,902 - #32 main
+INFO  18:48:07,903 - #11 (
+INFO  18:48:07,904 - #13 )
+INFO  18:48:07,904 - #32 int
+INFO  18:48:07,905 - #32 bodovi
+INFO  18:48:07,905 - #4 ;
+INFO  18:48:07,905 - #32 bool
+INFO  18:48:07,905 - #32 bt
+INFO  18:48:07,905 - #4 ;
+INFO  18:48:07,905 - #10 {
+INFO  18:48:07,906 - #32 bt
+INFO  18:48:07,906 - #9 =
+INFO  18:48:07,906 - #34 1
+INFO  18:48:07,906 - #4 ;
+INFO  18:48:07,907 - #14 print
+INFO  18:48:07,907 - #11 (
+INFO  18:48:07,907 - #32 bt
+INFO  18:48:07,907 - #13 )
+INFO  18:48:07,908 - #4 ;
+INFO  18:48:07,908 - #3 }
+INFO  18:48:07,908 - #3 }
+INFO  18:48:07,916 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDecls(
+        ConstDecls(
+          ConstDecls(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              DodelaVrednosti(
+               nula
+                Number_Const(
+                 0
+                ) [Number_Const]
+              ) [DodelaVrednosti]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            DodelaVrednosti(
+             jedan
+              Number_Const(
+               1
+              ) [Number_Const]
+            ) [DodelaVrednosti]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          DodelaVrednosti(
+           pet
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           niz
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       char
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijeNiz(
+         nizch
+        ) [DeoDeklaracijeNiz]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        VarDeclarationList(
+          NoVarDeclarationList(
+          ) [NoVarDeclarationList]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               bodovi
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bt
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        StatementLista(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStatementSemi(
+            Assignment(
+              Assign_Designator_Klasa(
+                DesignatorIdentifikator(
+                 bt
+                ) [DesignatorIdentifikator]
+                Expr_obican(
+                  ExprWithoutMinus(
+                    Term_0(
+                      FactorBool(
+                       1
+                      ) [FactorBool]
+                    ) [Term_0]
+                  ) [ExprWithoutMinus]
+                ) [Expr_obican]
+              ) [Assign_Designator_Klasa]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [StatementLista]
+        PrintStatement(
+          Expr_obican(
+            ExprWithoutMinus(
+              Term_0(
+                FactorDesignator(
+                  DesignatorIdentifikator(
+                   bt
+                  ) [DesignatorIdentifikator]
+                ) [FactorDesignator]
+              ) [Term_0]
+            ) [ExprWithoutMinus]
+          ) [Expr_obican]
+        ) [PrintStatement]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:48:07,917 - ===================================
+INFO  18:48:07,922 - Deklarisana simbolicka konstanta nula na liniji 5
+INFO  18:48:07,922 - Deklarisana simbolicka konstanta jedan na liniji 6
+INFO  18:48:07,922 - Deklarisana simbolicka konstanta pet na liniji 7
+INFO  18:48:07,922 - Deklarisana promenljiva niz na liniji 9
+INFO  18:48:07,922 - Deklarisana promenljiva nizch na liniji 10
+INFO  18:48:07,923 - Deklarisana metoda main na liniji 13
+INFO  18:48:07,923 - Deklarisana promenljiva bodovi na liniji 14
+INFO  18:48:07,923 - Deklarisana promenljiva bt na liniji 15
+INFO  18:48:07,923 - Detektovana lokalna promenljiva bt na liniji 17
+INFO  18:48:07,923 - Izraz dodele uspesno izvrsen na liniji 17
+INFO  18:48:07,923 - Detektovana lokalna promenljiva bt na liniji 18
+INFO  18:48:07,923 - Zavrsena obrada metode main na liniji 13
+INFO  18:48:07,923 - ===================================
+INFO  18:48:07,926 - Generating bytecode file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  18:48:07,936 - Parsiranje uspesno zavrseno!

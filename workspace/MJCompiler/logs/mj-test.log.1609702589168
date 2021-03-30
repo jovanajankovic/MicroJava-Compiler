@@ -1,0 +1,56 @@
+INFO  20:36:25,127 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:36:25,170 - #2 program
+INFO  20:36:25,170 - #48 test301
+INFO  20:36:25,170 - #10 {
+INFO  20:36:25,171 - #12 void
+INFO  20:36:25,172 - #48 main
+INFO  20:36:25,173 - #11 (
+INFO  20:36:25,174 - #13 )
+INFO  20:36:25,175 - #48 int
+INFO  20:36:25,175 - #48 bodovi
+INFO  20:36:25,176 - #4 ;
+INFO  20:36:25,177 - #10 {
+INFO  20:36:25,177 - #3 }
+INFO  20:36:25,178 - #3 }
+INFO  20:36:25,186 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bodovi
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:36:25,186 - ===================================
+INFO  20:36:25,190 - Deklarisana metoda main na liniji 6
+INFO  20:36:25,192 - Deklarisana promenljiva bodovi na liniji 7
+INFO  20:36:25,192 - Zavrsena obrada metode main na liniji 6
+INFO  20:36:25,192 - ===================================
+INFO  20:36:25,193 - Parsiranje uspesno zavrseno!

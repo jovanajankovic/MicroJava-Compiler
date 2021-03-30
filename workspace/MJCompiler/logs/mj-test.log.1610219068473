@@ -1,0 +1,169 @@
+INFO  20:03:52,475 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:03:52,522 - #2 program
+INFO  20:03:52,522 - #48 MJProgram
+INFO  20:03:52,522 - #8 const
+INFO  20:03:52,523 - #48 int
+INFO  20:03:52,524 - #48 milica
+INFO  20:03:52,524 - #9 =
+INFO  20:03:52,524 - #49 5
+INFO  20:03:52,524 - #4 ;
+INFO  20:03:52,524 - #48 int
+INFO  20:03:52,525 - #48 pera
+INFO  20:03:52,525 - #5 [
+INFO  20:03:52,525 - #6 ]
+INFO  20:03:52,525 - #4 ;
+INFO  20:03:52,526 - #48 int
+INFO  20:03:52,526 - #48 hello
+INFO  20:03:52,526 - #4 ;
+INFO  20:03:52,526 - #10 {
+INFO  20:03:52,526 - #12 void
+INFO  20:03:52,527 - #48 main
+INFO  20:03:52,527 - #11 (
+INFO  20:03:52,528 - #13 )
+INFO  20:03:52,529 - #10 {
+INFO  20:03:52,529 - #48 milica
+INFO  20:03:52,530 - #9 =
+INFO  20:03:52,530 - #48 hello
+INFO  20:03:52,530 - #4 ;
+INFO  20:03:52,531 - #48 hello
+INFO  20:03:52,531 - #9 =
+INFO  20:03:52,531 - #48 pera
+INFO  20:03:52,531 - #5 [
+INFO  20:03:52,532 - #48 hello
+INFO  20:03:52,532 - #6 ]
+INFO  20:03:52,532 - #4 ;
+INFO  20:03:52,532 - #3 }
+INFO  20:03:52,532 - #3 }
+INFO  20:03:52,539 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDecls(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          DodelaVrednosti(
+           milica
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           pera
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         hello
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      StatementLista(
+        StatementLista(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStatementSemi(
+            Assignment(
+              Assign_Designator_Klasa(
+                DesignatorIdentifikator(
+                 milica
+                ) [DesignatorIdentifikator]
+                Expr_obican(
+                  ExprWithoutMinus(
+                    Term_0(
+                      FactorDesignator(
+                        DesignatorIdentifikator(
+                         hello
+                        ) [DesignatorIdentifikator]
+                      ) [FactorDesignator]
+                    ) [Term_0]
+                  ) [ExprWithoutMinus]
+                ) [Expr_obican]
+              ) [Assign_Designator_Klasa]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [StatementLista]
+        DesignatorStatementSemi(
+          Assignment(
+            Assign_Designator_Klasa(
+              DesignatorIdentifikator(
+               hello
+              ) [DesignatorIdentifikator]
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorDesignator(
+                      DesignatorArray(
+                        DesignatorArrayName(
+                         pera
+                        ) [DesignatorArrayName]
+                        Expr_obican(
+                          ExprWithoutMinus(
+                            Term_0(
+                              FactorDesignator(
+                                DesignatorIdentifikator(
+                                 hello
+                                ) [DesignatorIdentifikator]
+                              ) [FactorDesignator]
+                            ) [Term_0]
+                          ) [ExprWithoutMinus]
+                        ) [Expr_obican]
+                      ) [DesignatorArray]
+                    ) [FactorDesignator]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [Assign_Designator_Klasa]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:03:52,540 - ===================================
+INFO  20:03:52,544 - Deklarisana simbolicka konstanta milica na liniji 3
+INFO  20:03:52,544 - Deklarisana promenljiva pera na liniji 4
+INFO  20:03:52,544 - Deklarisana promenljiva hello na liniji 5
+INFO  20:03:52,545 - Deklarisana metoda main na liniji 7
+INFO  20:03:52,545 - Detektovana simbolicka konstanta milica na liniji 9
+INFO  20:03:52,545 - Detektovana globalna promenljiva hello na liniji 9
+INFO  20:03:52,545 - Izraz dodele uspesno izvrsen na liniji 9
+INFO  20:03:52,545 - Detektovana globalna promenljiva hello na liniji 10
+INFO  20:03:52,545 - Detektovana globalna promenljiva pera na liniji 10
+INFO  20:03:52,545 - Detektovana globalna promenljiva hello na liniji 10
+INFO  20:03:52,545 - Izraz dodele uspesno izvrsen na liniji 10
+INFO  20:03:52,545 - Zavrsena obrada metode main na liniji 7
+INFO  20:03:52,546 - ===================================
+INFO  20:03:52,547 - Parsiranje uspesno zavrseno!

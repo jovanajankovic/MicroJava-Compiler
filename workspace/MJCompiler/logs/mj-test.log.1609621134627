@@ -1,0 +1,365 @@
+INFO  21:58:17,097 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:58:17,135 - #2 program
+INFO  21:58:17,135 - #50 test301
+INFO  21:58:17,135 - #8 const
+INFO  21:58:17,136 - #50 int
+INFO  21:58:17,136 - #50 jedan
+INFO  21:58:17,137 - #9 =
+INFO  21:58:17,137 - #51 1
+INFO  21:58:17,137 - #4 ;
+INFO  21:58:17,137 - #8 const
+INFO  21:58:17,138 - #50 int
+INFO  21:58:17,138 - #50 pet
+INFO  21:58:17,138 - #9 =
+INFO  21:58:17,138 - #51 5
+INFO  21:58:17,139 - #4 ;
+INFO  21:58:17,139 - #50 int
+INFO  21:58:17,139 - #50 niz
+INFO  21:58:17,139 - #5 [
+INFO  21:58:17,139 - #6 ]
+INFO  21:58:17,139 - #4 ;
+INFO  21:58:17,139 - #50 char
+INFO  21:58:17,140 - #50 nizch
+INFO  21:58:17,140 - #5 [
+INFO  21:58:17,140 - #6 ]
+INFO  21:58:17,140 - #4 ;
+INFO  21:58:17,140 - #50 int
+INFO  21:58:17,140 - #50 mika
+INFO  21:58:17,140 - #5 [
+INFO  21:58:17,140 - #6 ]
+INFO  21:58:17,140 - #4 ;
+INFO  21:58:17,140 - #50 int
+INFO  21:58:17,140 - #50 pp1
+INFO  21:58:17,140 - #4 ;
+INFO  21:58:17,140 - #50 int
+INFO  21:58:17,140 - #50 j
+INFO  21:58:17,140 - #4 ;
+INFO  21:58:17,140 - #10 {
+INFO  21:58:17,141 - #12 void
+INFO  21:58:17,141 - #50 main
+INFO  21:58:17,142 - #11 (
+INFO  21:58:17,142 - #13 )
+INFO  21:58:17,143 - #50 int
+INFO  21:58:17,143 - #50 pera
+INFO  21:58:17,143 - #4 ;
+INFO  21:58:17,143 - #50 int
+INFO  21:58:17,143 - #50 laza
+INFO  21:58:17,143 - #4 ;
+INFO  21:58:17,144 - #50 int
+INFO  21:58:17,144 - #50 jovana
+INFO  21:58:17,144 - #5 [
+INFO  21:58:17,144 - #6 ]
+INFO  21:58:17,144 - #4 ;
+INFO  21:58:17,144 - #50 int
+INFO  21:58:17,144 - #50 perica
+INFO  21:58:17,144 - #5 [
+INFO  21:58:17,144 - #6 ]
+INFO  21:58:17,144 - #4 ;
+INFO  21:58:17,144 - #50 int
+INFO  21:58:17,144 - #50 genija
+INFO  21:58:17,145 - #4 ;
+INFO  21:58:17,145 - #50 int
+INFO  21:58:17,145 - #50 per
+INFO  21:58:17,145 - #4 ;
+INFO  21:58:17,145 - #50 int
+INFO  21:58:17,145 - #50 k
+INFO  21:58:17,145 - #5 [
+INFO  21:58:17,145 - #6 ]
+INFO  21:58:17,145 - #4 ;
+INFO  21:58:17,145 - #50 char
+INFO  21:58:17,146 - #50 p
+INFO  21:58:17,146 - #4 ;
+INFO  21:58:17,146 - #50 int
+INFO  21:58:17,146 - #50 i
+INFO  21:58:17,146 - #4 ;
+INFO  21:58:17,146 - #50 int
+INFO  21:58:17,146 - #50 l
+INFO  21:58:17,146 - #4 ;
+INFO  21:58:17,146 - #10 {
+INFO  21:58:17,146 - #26 read
+INFO  21:58:17,147 - #11 (
+INFO  21:58:17,147 - #50 p
+INFO  21:58:17,147 - #13 )
+INFO  21:58:17,147 - #4 ;
+INFO  21:58:17,147 - #14 print
+INFO  21:58:17,148 - #11 (
+INFO  21:58:17,148 - #50 p
+INFO  21:58:17,148 - #13 )
+INFO  21:58:17,149 - #4 ;
+INFO  21:58:17,149 - #3 }
+INFO  21:58:17,149 - #3 }
+INFO  21:58:17,157 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          VarDeclarations(
+            ConstDecls(
+              ConstDecls(
+                NoDeclarations(
+                ) [NoDeclarations]
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  DodelaVrednosti(
+                   jedan
+                    Number_Const(
+                     1
+                    ) [Number_Const]
+                  ) [DodelaVrednosti]
+                ) [ConstDecl]
+              ) [ConstDecls]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                DodelaVrednosti(
+                 pet
+                  Number_Const(
+                   5
+                  ) [Number_Const]
+                ) [DodelaVrednosti]
+              ) [ConstDecl]
+            ) [ConstDecls]
+            VarDeclOpstaSmena(
+              Type(
+               int
+              ) [Type]
+              VarJednaDeklaracija(
+                DeoDeklaracijeNiz(
+                 niz
+                ) [DeoDeklaracijeNiz]
+              ) [VarJednaDeklaracija]
+            ) [VarDeclOpstaSmena]
+          ) [VarDeclarations]
+          VarDeclOpstaSmena(
+            Type(
+             char
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijeNiz(
+               nizch
+              ) [DeoDeklaracijeNiz]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             mika
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           pp1
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         j
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationList(
+              VarDeclarationList(
+                VarDeclarationList(
+                  VarDeclarationList(
+                    VarDeclarationList(
+                      VarDeclarationList(
+                        VarDeclarationList(
+                          NoVarDeclarationList(
+                          ) [NoVarDeclarationList]
+                          VarDeclOpstaSmena(
+                            Type(
+                             int
+                            ) [Type]
+                            VarJednaDeklaracija(
+                              DeoDeklaracijaPromenljiva(
+                               pera
+                              ) [DeoDeklaracijaPromenljiva]
+                            ) [VarJednaDeklaracija]
+                          ) [VarDeclOpstaSmena]
+                        ) [VarDeclarationList]
+                        VarDeclOpstaSmena(
+                          Type(
+                           int
+                          ) [Type]
+                          VarJednaDeklaracija(
+                            DeoDeklaracijaPromenljiva(
+                             laza
+                            ) [DeoDeklaracijaPromenljiva]
+                          ) [VarJednaDeklaracija]
+                        ) [VarDeclOpstaSmena]
+                      ) [VarDeclarationList]
+                      VarDeclOpstaSmena(
+                        Type(
+                         int
+                        ) [Type]
+                        VarJednaDeklaracija(
+                          DeoDeklaracijeNiz(
+                           jovana
+                          ) [DeoDeklaracijeNiz]
+                        ) [VarJednaDeklaracija]
+                      ) [VarDeclOpstaSmena]
+                    ) [VarDeclarationList]
+                    VarDeclOpstaSmena(
+                      Type(
+                       int
+                      ) [Type]
+                      VarJednaDeklaracija(
+                        DeoDeklaracijeNiz(
+                         perica
+                        ) [DeoDeklaracijeNiz]
+                      ) [VarJednaDeklaracija]
+                    ) [VarDeclOpstaSmena]
+                  ) [VarDeclarationList]
+                  VarDeclOpstaSmena(
+                    Type(
+                     int
+                    ) [Type]
+                    VarJednaDeklaracija(
+                      DeoDeklaracijaPromenljiva(
+                       genija
+                      ) [DeoDeklaracijaPromenljiva]
+                    ) [VarJednaDeklaracija]
+                  ) [VarDeclOpstaSmena]
+                ) [VarDeclarationList]
+                VarDeclOpstaSmena(
+                  Type(
+                   int
+                  ) [Type]
+                  VarJednaDeklaracija(
+                    DeoDeklaracijaPromenljiva(
+                     per
+                    ) [DeoDeklaracijaPromenljiva]
+                  ) [VarJednaDeklaracija]
+                ) [VarDeclOpstaSmena]
+              ) [VarDeclarationList]
+              VarDeclOpstaSmena(
+                Type(
+                 int
+                ) [Type]
+                VarJednaDeklaracija(
+                  DeoDeklaracijeNiz(
+                   k
+                  ) [DeoDeklaracijeNiz]
+                ) [VarJednaDeklaracija]
+              ) [VarDeclOpstaSmena]
+            ) [VarDeclarationList]
+            VarDeclOpstaSmena(
+              Type(
+               char
+              ) [Type]
+              VarJednaDeklaracija(
+                DeoDeklaracijaPromenljiva(
+                 p
+                ) [DeoDeklaracijaPromenljiva]
+              ) [VarJednaDeklaracija]
+            ) [VarDeclOpstaSmena]
+          ) [VarDeclarationList]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               i
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             l
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        StatementLista(
+          NoStatements(
+          ) [NoStatements]
+          ReadStatement(
+            DesignatorIdentifikator(
+             p
+            ) [DesignatorIdentifikator]
+          ) [ReadStatement]
+        ) [StatementLista]
+        PrintStatement(
+          Expr_obican(
+            ExprWithoutMinus(
+              Term_0(
+                FactorDesignator(
+                  DesignatorIdentifikator(
+                   p
+                  ) [DesignatorIdentifikator]
+                ) [FactorDesignator]
+              ) [Term_0]
+            ) [ExprWithoutMinus]
+          ) [Expr_obican]
+        ) [PrintStatement]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:58:17,158 - ===================================
+INFO  21:58:17,162 - Deklarisana promenljiva niz na liniji 8
+INFO  21:58:17,162 - Deklarisana promenljiva nizch na liniji 9
+INFO  21:58:17,162 - Deklarisana promenljiva mika na liniji 10
+INFO  21:58:17,162 - Deklarisana promenljiva pp1 na liniji 11
+INFO  21:58:17,163 - Deklarisana promenljiva j na liniji 12
+INFO  21:58:17,163 - Deklarisana metoda main na liniji 14
+INFO  21:58:17,163 - Deklarisana promenljiva pera na liniji 15
+INFO  21:58:17,163 - Deklarisana promenljiva laza na liniji 16
+INFO  21:58:17,163 - Deklarisana promenljiva jovana na liniji 17
+INFO  21:58:17,163 - Deklarisana promenljiva perica na liniji 18
+INFO  21:58:17,163 - Deklarisana promenljiva genija na liniji 19
+INFO  21:58:17,163 - Deklarisana promenljiva per na liniji 20
+INFO  21:58:17,163 - Deklarisana promenljiva k na liniji 21
+INFO  21:58:17,163 - Deklarisana promenljiva p na liniji 22
+INFO  21:58:17,163 - Deklarisana promenljiva i na liniji 23
+INFO  21:58:17,163 - Deklarisana promenljiva l na liniji 24
+INFO  21:58:17,163 - Detektovana lokalna promenljiva p na liniji 28
+INFO  21:58:17,164 - Izvrseno citanje promenljive p
+INFO  21:58:17,164 - Detektovana lokalna promenljiva p na liniji 29
+INFO  21:58:17,164 - Zavrsena obrada metode main na liniji 14
+INFO  21:58:17,164 - ===================================
+INFO  21:58:17,174 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,136 @@
+INFO  19:26:05,325 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:26:05,368 - #2 program
+INFO  19:26:05,369 - #32 test301
+INFO  19:26:05,369 - #32 int
+INFO  19:26:05,370 - #32 pp1
+INFO  19:26:05,370 - #4 ;
+INFO  19:26:05,370 - #10 {
+INFO  19:26:05,371 - #12 void
+INFO  19:26:05,371 - #32 main
+INFO  19:26:05,372 - #11 (
+INFO  19:26:05,372 - #13 )
+INFO  19:26:05,373 - #32 int
+INFO  19:26:05,373 - #32 pp1
+INFO  19:26:05,373 - #4 ;
+INFO  19:26:05,374 - #32 bool
+INFO  19:26:05,374 - #32 bt
+INFO  19:26:05,374 - #4 ;
+INFO  19:26:05,374 - #10 {
+INFO  19:26:05,374 - #32 pp1
+INFO  19:26:05,375 - #9 =
+INFO  19:26:05,375 - #33 5
+INFO  19:26:05,375 - #4 ;
+INFO  19:26:05,376 - #14 print
+INFO  19:26:05,376 - #11 (
+INFO  19:26:05,376 - #32 pp1
+INFO  19:26:05,376 - #13 )
+INFO  19:26:05,376 - #4 ;
+INFO  19:26:05,377 - #3 }
+INFO  19:26:05,377 - #3 }
+INFO  19:26:05,384 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         pp1
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        VarDeclarationList(
+          NoVarDeclarationList(
+          ) [NoVarDeclarationList]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               pp1
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bt
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        StatementLista(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStatementSemi(
+            Assignment(
+              Assign_Designator_Klasa(
+                DesignatorIdentifikator(
+                 pp1
+                ) [DesignatorIdentifikator]
+                Expr_obican(
+                  ExprWithoutMinus(
+                    Term_0(
+                      FactorNumber(
+                       5
+                      ) [FactorNumber]
+                    ) [Term_0]
+                  ) [ExprWithoutMinus]
+                ) [Expr_obican]
+              ) [Assign_Designator_Klasa]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [StatementLista]
+        PrintStatement(
+          Expr_obican(
+            ExprWithoutMinus(
+              Term_0(
+                FactorDesignator(
+                  DesignatorIdentifikator(
+                   pp1
+                  ) [DesignatorIdentifikator]
+                ) [FactorDesignator]
+              ) [Term_0]
+            ) [ExprWithoutMinus]
+          ) [Expr_obican]
+        ) [PrintStatement]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:26:05,384 - ===================================
+INFO  19:26:05,389 - Deklarisana promenljiva pp1 na liniji 6
+INFO  19:26:05,389 - Deklarisana metoda main na liniji 8
+INFO  19:26:05,389 - Deklarisana promenljiva pp1 na liniji 9
+INFO  19:26:05,389 - Deklarisana promenljiva bt na liniji 10
+INFO  19:26:05,389 - Detektovana lokalna promenljiva pp1 na liniji 12
+INFO  19:26:05,390 - Izraz dodele uspesno izvrsen na liniji 12
+INFO  19:26:05,390 - Detektovana lokalna promenljiva pp1 na liniji 13
+INFO  19:26:05,390 - Zavrsena obrada metode main na liniji 8
+INFO  19:26:05,390 - ===================================
+INFO  19:26:05,391 - Generating bytecode file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  19:26:05,401 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,87 @@
+INFO  17:12:44,204 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:12:44,237 - #2 program
+INFO  17:12:44,237 - #50 MJProgram
+INFO  17:12:44,237 - #50 char
+INFO  17:12:44,238 - #50 jovana
+INFO  17:12:44,239 - #4 ;
+INFO  17:12:44,239 - #50 int
+INFO  17:12:44,240 - #50 pera
+INFO  17:12:44,240 - #4 ;
+INFO  17:12:44,240 - #8 const
+INFO  17:12:44,240 - #50 int
+INFO  17:12:44,240 - #50 hello
+INFO  17:12:44,240 - #9 =
+INFO  17:12:44,240 - #51 5
+INFO  17:12:44,240 - #4 ;
+INFO  17:12:44,241 - #50 int
+INFO  17:12:44,241 - #50 ciga
+INFO  17:12:44,242 - #5 [
+INFO  17:12:44,242 - #6 ]
+INFO  17:12:44,242 - #4 ;
+INFO  17:12:44,242 - #10 {
+INFO  17:12:44,242 - #3 }
+INFO  17:12:44,249 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    ConstDecls(
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclOpstaSmena(
+            Type(
+             char
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               jovana
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             pera
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        DodelaVrednosti(
+         hello
+          Number_Const(
+           5
+          ) [Number_Const]
+        ) [DodelaVrednosti]
+      ) [ConstDecl]
+    ) [ConstDecls]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijeNiz(
+         ciga
+        ) [DeoDeklaracijeNiz]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  17:12:44,250 - ===================================
+INFO  17:12:44,252 - Deklarisana promenljiva jovana na liniji 2
+INFO  17:12:44,252 - Deklarisana promenljiva pera na liniji 3
+INFO  17:12:44,252 - Deklarisana konstanta hello na liniji 4
+INFO  17:12:44,252 - Deklarisana promenljiva ciga na liniji 5
+INFO  17:12:44,252 - ===================================
+INFO  17:12:44,253 - Parsiranje uspesno zavrseno!

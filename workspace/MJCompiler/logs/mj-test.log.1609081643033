@@ -1,0 +1,68 @@
+INFO  16:07:09,067 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:07:09,102 - #2 program
+INFO  16:07:09,102 - #50 MJProgram
+INFO  16:07:09,102 - #50 char
+INFO  16:07:09,103 - #50 jovana
+INFO  16:07:09,104 - #4 ;
+INFO  16:07:09,104 - #50 int
+INFO  16:07:09,104 - #50 pera
+INFO  16:07:09,104 - #4 ;
+INFO  16:07:09,104 - #8 const
+INFO  16:07:09,105 - #50 int
+INFO  16:07:09,105 - #50 hello
+INFO  16:07:09,105 - #9 =
+INFO  16:07:09,105 - #48 a
+INFO  16:07:09,105 - #4 ;
+INFO  16:07:09,106 - #10 {
+INFO  16:07:09,106 - #3 }
+INFO  16:07:09,113 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           pera
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      DodelaVrednosti(
+       hello
+        Character_Const(
+        ) [Character_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  16:07:09,113 - ===================================
+INFO  16:07:09,115 - Deklarisana promenljiva jovana na liniji 2
+INFO  16:07:09,115 - Deklarisana promenljiva pera na liniji 3
+ERROR 16:07:09,115 - Tip konstante hello i tip dodeljene vrednosti se ne poklapaju! 
+INFO  16:07:09,115 - ===================================
+ERROR 16:07:09,116 - Parsiranje NIJE uspesno zavrseno!

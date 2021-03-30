@@ -1,0 +1,76 @@
+INFO  18:04:40,905 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:04:40,947 - #2 program
+INFO  18:04:40,947 - #48 MJProgram
+INFO  18:04:40,947 - #8 const
+INFO  18:04:40,948 - #48 int
+INFO  18:04:40,948 - #48 jovana
+INFO  18:04:40,949 - #9 =
+INFO  18:04:40,949 - #49 5
+INFO  18:04:40,949 - #4 ;
+INFO  18:04:40,949 - #48 char
+INFO  18:04:40,950 - #48 jovana
+INFO  18:04:40,950 - #4 ;
+INFO  18:04:40,950 - #10 {
+INFO  18:04:40,951 - #12 void
+INFO  18:04:40,951 - #48 main
+INFO  18:04:40,952 - #11 (
+INFO  18:04:40,952 - #13 )
+INFO  18:04:40,953 - #10 {
+INFO  18:04:40,953 - #3 }
+INFO  18:04:40,954 - #3 }
+INFO  18:04:40,961 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    ConstDecls(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        DodelaVrednosti(
+         jovana
+          Number_Const(
+           5
+          ) [Number_Const]
+        ) [DodelaVrednosti]
+      ) [ConstDecl]
+    ) [ConstDecls]
+    VarDeclOpstaSmena(
+      Type(
+       char
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         jovana
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:04:40,961 - ===================================
+INFO  18:04:40,964 - usao
+ERROR 18:04:40,964 - Greska na liniji 3! Promenljiva jovana je vec deklarisana u ovom opsegu!
+INFO  18:04:40,964 - Deklarisana metoda main na liniji 5
+INFO  18:04:40,965 - Zavrsena obrada metode main na liniji 5
+INFO  18:04:40,965 - ===================================
+ERROR 18:04:40,965 - Parsiranje NIJE uspesno zavrseno!

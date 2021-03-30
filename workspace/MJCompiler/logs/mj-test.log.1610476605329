@@ -1,0 +1,177 @@
+INFO  19:30:06,563 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:30:06,608 - #2 program
+INFO  19:30:06,608 - #32 test301
+INFO  19:30:06,608 - #32 int
+INFO  19:30:06,609 - #32 niz
+INFO  19:30:06,610 - #5 [
+INFO  19:30:06,610 - #6 ]
+INFO  19:30:06,610 - #4 ;
+INFO  19:30:06,610 - #10 {
+INFO  19:30:06,611 - #12 void
+INFO  19:30:06,612 - #32 main
+INFO  19:30:06,613 - #11 (
+INFO  19:30:06,614 - #13 )
+INFO  19:30:06,615 - #10 {
+INFO  19:30:06,616 - #32 niz
+INFO  19:30:06,616 - #9 =
+INFO  19:30:06,617 - #16 new
+INFO  19:30:06,617 - #32 int
+INFO  19:30:06,617 - #5 [
+INFO  19:30:06,617 - #33 5
+INFO  19:30:06,617 - #6 ]
+INFO  19:30:06,618 - #4 ;
+INFO  19:30:06,618 - #32 niz
+INFO  19:30:06,618 - #5 [
+INFO  19:30:06,619 - #18 -
+INFO  19:30:06,619 - #33 1
+INFO  19:30:06,619 - #6 ]
+INFO  19:30:06,619 - #9 =
+INFO  19:30:06,619 - #33 5
+INFO  19:30:06,619 - #4 ;
+INFO  19:30:06,619 - #14 print
+INFO  19:30:06,620 - #11 (
+INFO  19:30:06,620 - #32 niz
+INFO  19:30:06,620 - #5 [
+INFO  19:30:06,620 - #18 -
+INFO  19:30:06,620 - #33 1
+INFO  19:30:06,620 - #6 ]
+INFO  19:30:06,620 - #13 )
+INFO  19:30:06,620 - #4 ;
+INFO  19:30:06,620 - #3 }
+INFO  19:30:06,620 - #3 }
+INFO  19:30:06,628 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijeNiz(
+         niz
+        ) [DeoDeklaracijeNiz]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      StatementLista(
+        StatementLista(
+          StatementLista(
+            NoStatements(
+            ) [NoStatements]
+            DesignatorStatementSemi(
+              Assignment(
+                Assign_Designator_Klasa(
+                  DesignatorIdentifikator(
+                   niz
+                  ) [DesignatorIdentifikator]
+                  Expr_obican(
+                    ExprWithoutMinus(
+                      Term_0(
+                        FactorNewArray(
+                          Type(
+                           int
+                          ) [Type]
+                          Expr_obican(
+                            ExprWithoutMinus(
+                              Term_0(
+                                FactorNumber(
+                                 5
+                                ) [FactorNumber]
+                              ) [Term_0]
+                            ) [ExprWithoutMinus]
+                          ) [Expr_obican]
+                        ) [FactorNewArray]
+                      ) [Term_0]
+                    ) [ExprWithoutMinus]
+                  ) [Expr_obican]
+                ) [Assign_Designator_Klasa]
+              ) [Assignment]
+            ) [DesignatorStatementSemi]
+          ) [StatementLista]
+          DesignatorStatementSemi(
+            Assignment(
+              Assign_Designator_Klasa(
+                DesignatorArray(
+                  DesignatorArrayName(
+                   niz
+                  ) [DesignatorArrayName]
+                  Expr_obican(
+                    MinusExpr(
+                      Term_0(
+                        FactorNumber(
+                         1
+                        ) [FactorNumber]
+                      ) [Term_0]
+                    ) [MinusExpr]
+                  ) [Expr_obican]
+                ) [DesignatorArray]
+                Expr_obican(
+                  ExprWithoutMinus(
+                    Term_0(
+                      FactorNumber(
+                       5
+                      ) [FactorNumber]
+                    ) [Term_0]
+                  ) [ExprWithoutMinus]
+                ) [Expr_obican]
+              ) [Assign_Designator_Klasa]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [StatementLista]
+        PrintStatement(
+          Expr_obican(
+            ExprWithoutMinus(
+              Term_0(
+                FactorDesignator(
+                  DesignatorArray(
+                    DesignatorArrayName(
+                     niz
+                    ) [DesignatorArrayName]
+                    Expr_obican(
+                      MinusExpr(
+                        Term_0(
+                          FactorNumber(
+                           1
+                          ) [FactorNumber]
+                        ) [Term_0]
+                      ) [MinusExpr]
+                    ) [Expr_obican]
+                  ) [DesignatorArray]
+                ) [FactorDesignator]
+              ) [Term_0]
+            ) [ExprWithoutMinus]
+          ) [Expr_obican]
+        ) [PrintStatement]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:30:06,629 - ===================================
+INFO  19:30:06,633 - Deklarisana promenljiva niz na liniji 7
+INFO  19:30:06,634 - Deklarisana metoda main na liniji 9
+INFO  19:30:06,634 - Detektovana globalna promenljiva niz na liniji 16
+INFO  19:30:06,634 - Izraz dodele uspesno izvrsen na liniji 16
+INFO  19:30:06,634 - Detektovana globalna promenljiva niz na liniji 17
+INFO  19:30:06,634 - Izraz dodele uspesno izvrsen na liniji 17
+INFO  19:30:06,634 - Detektovana globalna promenljiva niz na liniji 18
+INFO  19:30:06,634 - Zavrsena obrada metode main na liniji 9
+INFO  19:30:06,635 - ===================================
+INFO  19:30:06,636 - Generating bytecode file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  19:30:06,646 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,33 @@
+INFO  15:04:27,863 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:04:27,897 - #2 program
+INFO  15:04:27,897 - #51 MJProgram
+INFO  15:04:27,897 - #51 bool
+INFO  15:04:27,898 - #51 jovana
+INFO  15:04:27,899 - #4 ;
+INFO  15:04:27,900 - #10 {
+INFO  15:04:27,900 - #3 }
+INFO  15:04:27,906 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       bool
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         jovana
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  15:04:27,907 - ===================================
+ERROR 15:04:27,909 - Nije pronadjen tip bool u tabeli simbola! 
+INFO  15:04:27,909 - ===================================
+ERROR 15:04:27,910 - Parsiranje NIJE uspesno zavrseno!

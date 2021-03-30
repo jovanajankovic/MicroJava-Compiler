@@ -1,0 +1,49 @@
+INFO  16:02:12,496 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:02:12,528 - #2 program
+INFO  16:02:12,529 - #50 MJProgram
+INFO  16:02:12,529 - #50 char
+INFO  16:02:12,530 - #50 jovana
+INFO  16:02:12,530 - #4 ;
+INFO  16:02:12,531 - #50 int
+INFO  16:02:12,531 - #50 pera
+INFO  16:02:12,531 - #4 ;
+INFO  16:02:12,531 - #10 {
+INFO  16:02:12,531 - #3 }
+INFO  16:02:12,538 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         char
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           jovana
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         pera
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  16:02:12,538 - ===================================
+INFO  16:02:12,541 - Deklarisana promenljiva jovana na liniji 2
+INFO  16:02:12,541 - Deklarisana promenljiva pera na liniji 3
+INFO  16:02:12,541 - ===================================
+INFO  16:02:12,542 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,274 @@
+INFO  22:43:05,920 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:43:05,954 - #2 program
+INFO  22:43:05,954 - #3 MJProgram
+INFO  22:43:05,954 - #3 int
+INFO  22:43:05,955 - #3 hej
+INFO  22:43:05,956 - #6 [
+INFO  22:43:05,956 - #7 ]
+INFO  22:43:05,956 - #8 ,
+INFO  22:43:05,956 - #3 jovana
+INFO  22:43:05,956 - #8 ,
+INFO  22:43:05,956 - #3 mica
+INFO  22:43:05,956 - #5 ;
+INFO  22:43:05,956 - #3 int
+INFO  22:43:05,957 - #3 pera
+INFO  22:43:05,957 - #6 [
+INFO  22:43:05,957 - #7 ]
+INFO  22:43:05,957 - #5 ;
+INFO  22:43:05,957 - #3 int
+INFO  22:43:05,957 - #3 mika
+INFO  22:43:05,957 - #6 [
+INFO  22:43:05,957 - #7 ]
+INFO  22:43:05,957 - #8 ,
+INFO  22:43:05,957 - #3 zika
+INFO  22:43:05,958 - #6 [
+INFO  22:43:05,958 - #7 ]
+INFO  22:43:05,958 - #8 ,
+INFO  22:43:05,958 - #3 ceca
+INFO  22:43:05,958 - #6 [
+INFO  22:43:05,958 - #7 ]
+INFO  22:43:05,958 - #5 ;
+INFO  22:43:05,958 - #3 char
+INFO  22:43:05,958 - #3 perica
+INFO  22:43:05,958 - #5 ;
+INFO  22:43:05,958 - #14 {
+INFO  22:43:05,958 - #16 void
+INFO  22:43:05,959 - #3 main
+INFO  22:43:05,960 - #15 (
+INFO  22:43:05,960 - #17 )
+INFO  22:43:05,961 - #14 {
+INFO  22:43:05,961 - #3 pos
+INFO  22:43:05,962 - #10 =
+INFO  22:43:05,962 - #28 new
+INFO  22:43:05,962 - #3 int
+INFO  22:43:05,963 - #6 [
+INFO  22:43:05,963 - #3 size
+INFO  22:43:05,963 - #7 ]
+INFO  22:43:05,964 - #5 ;
+INFO  22:43:05,964 - #30 read
+INFO  22:43:05,965 - #15 (
+INFO  22:43:05,965 - #3 xabc
+INFO  22:43:05,965 - #17 )
+INFO  22:43:05,965 - #5 ;
+INFO  22:43:05,965 - #3 jovana
+INFO  22:43:05,965 - #10 =
+INFO  22:43:05,965 - #11 3
+INFO  22:43:05,966 - #5 ;
+INFO  22:43:05,966 - #18 print
+INFO  22:43:05,968 - #15 (
+INFO  22:43:05,968 - #3 rsejwkj
+INFO  22:43:05,968 - #17 )
+INFO  22:43:05,968 - #5 ;
+INFO  22:43:05,968 - #3 niz
+INFO  22:43:05,968 - #6 [
+INFO  22:43:05,968 - #3 a
+INFO  22:43:05,968 - #6 [
+INFO  22:43:05,968 - #11 3
+INFO  22:43:05,968 - #7 ]
+INFO  22:43:05,968 - #7 ]
+INFO  22:43:05,969 - #10 =
+INFO  22:43:05,971 - #11 5
+INFO  22:43:05,971 - #35 *
+INFO  22:43:05,971 - #11 3
+INFO  22:43:05,972 - #20 +
+INFO  22:43:05,973 - #11 2
+INFO  22:43:05,974 - #5 ;
+INFO  22:43:05,974 - #4 }
+INFO  22:43:05,974 - #16 void
+INFO  22:43:05,975 - #3 jovana
+INFO  22:43:05,975 - #15 (
+INFO  22:43:05,975 - #17 )
+INFO  22:43:05,975 - #14 {
+INFO  22:43:05,975 - #4 }
+INFO  22:43:05,975 - #4 }
+INFO  22:43:05,977 - Program(
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDecls(
+            PomocnaVarDecl_3(
+              PomocnaVarDecl_2(
+                Type(
+                ) [Type]
+              ) [PomocnaVarDecl_2]
+            ) [PomocnaVarDecl_3]
+          ) [VarDecls]
+        ) [VarDeclarations]
+        ArrayDecl(
+          Type(
+          ) [Type]
+        ) [ArrayDecl]
+      ) [VarDeclarations]
+      ArrayDecls(
+        PomocnaVarDecl_4(
+          PomocnaVarDecl_2(
+            Type(
+            ) [Type]
+          ) [PomocnaVarDecl_2]
+        ) [PomocnaVarDecl_4]
+      ) [ArrayDecls]
+    ) [VarDeclarations]
+    SingleVarDecl(
+      Type(
+      ) [Type]
+    ) [SingleVarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        Void_Povratna(
+        ) [Void_Povratna]
+        NoFormParams(
+        ) [NoFormParams]
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  NoStatements(
+                  ) [NoStatements]
+                  DesignatorStatementSemi(
+                    Assignment(
+                      DesignatorIdentifikator(
+                      ) [DesignatorIdentifikator]
+                      TermWithoutMinus(
+                        Faktor(
+                          FactorNewArray(
+                            Type(
+                            ) [Type]
+                            TermWithoutMinus(
+                              Faktor(
+                                FactorDesignator(
+                                  DesignatorIdentifikator(
+                                  ) [DesignatorIdentifikator]
+                                ) [FactorDesignator]
+                                NoMulopFactors(
+                                ) [NoMulopFactors]
+                              ) [Faktor]
+                              NoAddoptTerm(
+                              ) [NoAddoptTerm]
+                            ) [TermWithoutMinus]
+                          ) [FactorNewArray]
+                          NoMulopFactors(
+                          ) [NoMulopFactors]
+                        ) [Faktor]
+                        NoAddoptTerm(
+                        ) [NoAddoptTerm]
+                      ) [TermWithoutMinus]
+                    ) [Assignment]
+                  ) [DesignatorStatementSemi]
+                ) [Statements]
+                ReadStatement(
+                  DesignatorIdentifikator(
+                  ) [DesignatorIdentifikator]
+                ) [ReadStatement]
+              ) [Statements]
+              DesignatorStatementSemi(
+                Assignment(
+                  DesignatorIdentifikator(
+                  ) [DesignatorIdentifikator]
+                  TermWithoutMinus(
+                    Faktor(
+                      FactorNumber(
+                      ) [FactorNumber]
+                      NoMulopFactors(
+                      ) [NoMulopFactors]
+                    ) [Faktor]
+                    NoAddoptTerm(
+                    ) [NoAddoptTerm]
+                  ) [TermWithoutMinus]
+                ) [Assignment]
+              ) [DesignatorStatementSemi]
+            ) [Statements]
+            PrintStatement(
+              TermWithoutMinus(
+                Faktor(
+                  FactorDesignator(
+                    DesignatorIdentifikator(
+                    ) [DesignatorIdentifikator]
+                  ) [FactorDesignator]
+                  NoMulopFactors(
+                  ) [NoMulopFactors]
+                ) [Faktor]
+                NoAddoptTerm(
+                ) [NoAddoptTerm]
+              ) [TermWithoutMinus]
+            ) [PrintStatement]
+          ) [Statements]
+          DesignatorStatementSemi(
+            Assignment(
+              DesignatorArray(
+                TermWithoutMinus(
+                  Faktor(
+                    FactorDesignator(
+                      DesignatorArray(
+                        TermWithoutMinus(
+                          Faktor(
+                            FactorNumber(
+                            ) [FactorNumber]
+                            NoMulopFactors(
+                            ) [NoMulopFactors]
+                          ) [Faktor]
+                          NoAddoptTerm(
+                          ) [NoAddoptTerm]
+                        ) [TermWithoutMinus]
+                      ) [DesignatorArray]
+                    ) [FactorDesignator]
+                    NoMulopFactors(
+                    ) [NoMulopFactors]
+                  ) [Faktor]
+                  NoAddoptTerm(
+                  ) [NoAddoptTerm]
+                ) [TermWithoutMinus]
+              ) [DesignatorArray]
+              TermWithoutMinus(
+                Faktor(
+                  FactorNumber(
+                  ) [FactorNumber]
+                  MulopFactors(
+                    NoMulopFactors(
+                    ) [NoMulopFactors]
+                    MulOperacija(
+                    ) [MulOperacija]
+                    FactorNumber(
+                    ) [FactorNumber]
+                  ) [MulopFactors]
+                ) [Faktor]
+                AddoptTerm(
+                  NoAddoptTerm(
+                  ) [NoAddoptTerm]
+                  PlusOperacija(
+                  ) [PlusOperacija]
+                  Faktor(
+                    FactorNumber(
+                    ) [FactorNumber]
+                    NoMulopFactors(
+                    ) [NoMulopFactors]
+                  ) [Faktor]
+                ) [AddoptTerm]
+              ) [TermWithoutMinus]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      Void_Povratna(
+      ) [Void_Povratna]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:43:05,977 - ===================================

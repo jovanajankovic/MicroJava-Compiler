@@ -1,0 +1,69 @@
+INFO  16:08:10,812 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:08:10,850 - #2 program
+INFO  16:08:10,851 - #50 MJProgram
+INFO  16:08:10,851 - #50 char
+INFO  16:08:10,852 - #50 jovana
+INFO  16:08:10,853 - #4 ;
+INFO  16:08:10,853 - #50 int
+INFO  16:08:10,853 - #50 pera
+INFO  16:08:10,853 - #4 ;
+INFO  16:08:10,853 - #8 const
+INFO  16:08:10,853 - #50 int
+INFO  16:08:10,854 - #50 pera
+INFO  16:08:10,854 - #9 =
+INFO  16:08:10,854 - #51 5
+INFO  16:08:10,854 - #4 ;
+INFO  16:08:10,854 - #10 {
+INFO  16:08:10,855 - #3 }
+INFO  16:08:10,862 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           pera
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      DodelaVrednosti(
+       pera
+        Number_Const(
+         5
+        ) [Number_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  16:08:10,862 - ===================================
+INFO  16:08:10,864 - Deklarisana promenljiva jovana na liniji 2
+INFO  16:08:10,864 - Deklarisana promenljiva pera na liniji 3
+ERROR 16:08:10,865 - Greska na liniji 4 : ! Konstanta je vec deklarisana
+INFO  16:08:10,865 - ===================================
+ERROR 16:08:10,865 - Parsiranje NIJE uspesno zavrseno!

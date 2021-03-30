@@ -1,0 +1,141 @@
+INFO  21:43:02,224 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:43:02,615 - #2 program
+INFO  21:43:02,615 - #48 MJProgram
+INFO  21:43:02,615 - #48 int
+INFO  21:43:02,616 - #48 niz
+INFO  21:43:02,617 - #5 [
+INFO  21:43:02,617 - #6 ]
+INFO  21:43:02,617 - #7 ,
+INFO  21:43:02,617 - #48 mika
+INFO  21:43:02,618 - #5 [
+INFO  21:43:02,618 - #6 ]
+INFO  21:43:02,618 - #4 ;
+INFO  21:43:02,618 - #10 {
+INFO  21:43:02,618 - #12 void
+INFO  21:43:02,619 - #48 main
+INFO  21:43:02,619 - #11 (
+INFO  21:43:02,620 - #13 )
+INFO  21:43:02,620 - #48 bool
+INFO  21:43:02,621 - #48 jovana
+INFO  21:43:02,621 - #4 ;
+INFO  21:43:02,621 - #10 {
+INFO  21:43:02,622 - #48 niz
+INFO  21:43:02,622 - #9 =
+INFO  21:43:02,622 - #24 new
+INFO  21:43:02,622 - #48 int
+INFO  21:43:02,623 - #5 [
+INFO  21:43:02,623 - #48 mika
+INFO  21:43:02,623 - #5 [
+INFO  21:43:02,623 - #49 4
+INFO  21:43:02,624 - #6 ]
+INFO  21:43:02,624 - #6 ]
+INFO  21:43:02,624 - #4 ;
+INFO  21:43:02,625 - #3 }
+INFO  21:43:02,625 - #3 }
+INFO  21:43:02,634 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarViseDeklaracija(
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           niz
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+        DeoDeklaracijeNiz(
+         mika
+        ) [DeoDeklaracijeNiz]
+      ) [VarViseDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStatementSemi(
+          Assignment(
+            Assign_Designator_Klasa(
+              DesignatorIdentifikator(
+               niz
+              ) [DesignatorIdentifikator]
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorNewArray(
+                      Type(
+                       int
+                      ) [Type]
+                      Expr_obican(
+                        ExprWithoutMinus(
+                          Term_0(
+                            FactorDesignator(
+                              DesignatorArray(
+                                DesignatorArrayName(
+                                 mika
+                                ) [DesignatorArrayName]
+                                Expr_obican(
+                                  ExprWithoutMinus(
+                                    Term_0(
+                                      FactorNumber(
+                                       4
+                                      ) [FactorNumber]
+                                    ) [Term_0]
+                                  ) [ExprWithoutMinus]
+                                ) [Expr_obican]
+                              ) [DesignatorArray]
+                            ) [FactorDesignator]
+                          ) [Term_0]
+                        ) [ExprWithoutMinus]
+                      ) [Expr_obican]
+                    ) [FactorNewArray]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [Assign_Designator_Klasa]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:43:02,634 - ===================================
+INFO  21:43:02,638 - Deklarisana promenljiva niz na liniji 10
+INFO  21:43:02,638 - Deklarisana metoda main na liniji 12
+INFO  21:43:02,638 - Deklarisana promenljiva jovana na liniji 13
+INFO  21:43:02,639 - Detektovana globalna promenljiva niz na liniji 15
+INFO  21:43:02,639 - Detektovana globalna promenljiva mika na liniji 15
+INFO  21:43:02,639 - Izraz dodele uspesno izvrsen na liniji 15
+INFO  21:43:02,639 - Zavrsena obrada metode main na liniji 12
+INFO  21:43:02,639 - ===================================
+INFO  21:43:02,640 - Parsiranje uspesno zavrseno!

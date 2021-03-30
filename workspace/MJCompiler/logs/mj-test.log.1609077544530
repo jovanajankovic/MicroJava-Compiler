@@ -1,0 +1,33 @@
+INFO  14:58:30,744 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:58:30,784 - #2 program
+INFO  14:58:30,785 - #51 MJProgram
+INFO  14:58:30,785 - #51 dobule
+INFO  14:58:30,786 - #51 jovana
+INFO  14:58:30,787 - #4 ;
+INFO  14:58:30,788 - #10 {
+INFO  14:58:30,788 - #3 }
+INFO  14:58:30,797 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       dobule
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         jovana
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  14:58:30,804 - ===================================
+ERROR 14:58:30,807 - Nije pronadjen tip dobule u tabeli simbola! 
+INFO  14:58:30,807 - ===================================
+ERROR 14:58:30,808 - Parsiranje NIJE uspesno zavrseno!

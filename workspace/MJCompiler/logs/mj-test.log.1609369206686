@@ -1,0 +1,154 @@
+INFO  23:51:42,452 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:51:42,489 - #2 program
+INFO  23:51:42,489 - #50 test301
+INFO  23:51:42,489 - #8 const
+INFO  23:51:42,490 - #50 int
+INFO  23:51:42,491 - #50 nula
+INFO  23:51:42,491 - #9 =
+INFO  23:51:42,491 - #51 0
+INFO  23:51:42,491 - #4 ;
+INFO  23:51:42,492 - #8 const
+INFO  23:51:42,492 - #50 int
+INFO  23:51:42,493 - #50 jedan
+INFO  23:51:42,493 - #9 =
+INFO  23:51:42,493 - #51 1
+INFO  23:51:42,493 - #4 ;
+INFO  23:51:42,493 - #8 const
+INFO  23:51:42,493 - #50 int
+INFO  23:51:42,493 - #50 pet
+INFO  23:51:42,493 - #9 =
+INFO  23:51:42,493 - #51 5
+INFO  23:51:42,493 - #4 ;
+INFO  23:51:42,493 - #50 int
+INFO  23:51:42,493 - #50 niz
+INFO  23:51:42,493 - #5 [
+INFO  23:51:42,494 - #6 ]
+INFO  23:51:42,494 - #4 ;
+INFO  23:51:42,494 - #50 char
+INFO  23:51:42,494 - #50 nizch
+INFO  23:51:42,495 - #5 [
+INFO  23:51:42,495 - #6 ]
+INFO  23:51:42,495 - #4 ;
+INFO  23:51:42,495 - #10 {
+INFO  23:51:42,495 - #12 void
+INFO  23:51:42,495 - #50 main
+INFO  23:51:42,496 - #11 (
+INFO  23:51:42,497 - #13 )
+INFO  23:51:42,497 - #10 {
+INFO  23:51:42,498 - #14 print
+INFO  23:51:42,498 - #11 (
+INFO  23:51:42,498 - #51 8
+INFO  23:51:42,498 - #13 )
+INFO  23:51:42,499 - #4 ;
+INFO  23:51:42,499 - #3 }
+INFO  23:51:42,499 - #3 }
+INFO  23:51:42,507 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDecls(
+        ConstDecls(
+          ConstDecls(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              DodelaVrednosti(
+               nula
+                Number_Const(
+                 0
+                ) [Number_Const]
+              ) [DodelaVrednosti]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            DodelaVrednosti(
+             jedan
+              Number_Const(
+               1
+              ) [Number_Const]
+            ) [DodelaVrednosti]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          DodelaVrednosti(
+           pet
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           niz
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       char
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijeNiz(
+         nizch
+        ) [DeoDeklaracijeNiz]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        PrintStatement(
+          Expr_obican(
+            ExprWithoutMinus(
+              Term_0(
+                FactorNumber(
+                 8
+                ) [FactorNumber]
+              ) [Term_0]
+            ) [ExprWithoutMinus]
+          ) [Expr_obican]
+        ) [PrintStatement]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:51:42,507 - ===================================
+INFO  23:51:42,511 - Deklarisana konstanta nula na liniji 5
+INFO  23:51:42,511 - Deklarisana konstanta jedan na liniji 6
+INFO  23:51:42,511 - Deklarisana konstanta pet na liniji 7
+INFO  23:51:42,511 - Deklarisana promenljiva niz na liniji 9
+INFO  23:51:42,511 - Deklarisana promenljiva nizch na liniji 10
+INFO  23:51:42,511 - Deklarisana metoda main na liniji 13
+INFO  23:51:42,512 - Zavrsena obrada metode main na liniji 13
+INFO  23:51:42,512 - ===================================
+INFO  23:51:42,518 - Parsiranje uspesno zavrseno!

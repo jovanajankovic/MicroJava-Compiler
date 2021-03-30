@@ -1,0 +1,167 @@
+INFO  21:26:21,500 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:26:21,542 - #2 program
+INFO  21:26:21,542 - #48 MJProgram
+INFO  21:26:21,542 - #8 const
+INFO  21:26:21,544 - #48 bool
+INFO  21:26:21,544 - #48 car
+INFO  21:26:21,545 - #9 =
+INFO  21:26:21,545 - #49 8
+INFO  21:26:21,545 - #7 ,
+INFO  21:26:21,545 - #48 jovana
+INFO  21:26:21,545 - #9 =
+INFO  21:26:21,545 - #50 0
+INFO  21:26:21,545 - #7 ,
+INFO  21:26:21,546 - #48 fifi
+INFO  21:26:21,546 - #9 =
+INFO  21:26:21,546 - #50 1
+INFO  21:26:21,546 - #7 ,
+INFO  21:26:21,546 - #48 mm
+INFO  21:26:21,546 - #9 =
+INFO  21:26:21,546 - #51 a
+INFO  21:26:21,546 - #7 ,
+INFO  21:26:21,546 - #48 ppp
+INFO  21:26:21,546 - #9 =
+INFO  21:26:21,546 - #50 1
+INFO  21:26:21,546 - #7 ,
+INFO  21:26:21,547 - #48 lik
+INFO  21:26:21,547 - #9 =
+INFO  21:26:21,547 - #51 a
+INFO  21:26:21,547 - #4 ;
+INFO  21:26:21,547 - #8 const
+INFO  21:26:21,548 - #48 int
+INFO  21:26:21,548 - #48 pera
+INFO  21:26:21,548 - #9 =
+INFO  21:26:21,548 - #49 8
+INFO  21:26:21,548 - #4 ;
+INFO  21:26:21,548 - #48 cnst
+INFO  21:26:21,548 - #48 int
+INFO  21:26:21,548 - #48 pppp
+ERROR 21:26:21,548 - 
+Sintaksna greska na liniji 8
+INFO  21:26:21,548 - #9 =
+INFO  21:26:21,548 - #49 9
+INFO  21:26:21,548 - #4 ;
+INFO  21:26:21,549 - #10 {
+INFO  21:26:21,549 - #12 void
+INFO  21:26:21,549 - #48 main
+ERROR 21:26:21,549 - Neispravna definicija globalne promenljive. Izvrsen oporavak od greske
+INFO  21:26:21,551 - #11 (
+INFO  21:26:21,552 - #13 )
+INFO  21:26:21,552 - #48 int
+INFO  21:26:21,553 - #48 jovana
+INFO  21:26:21,553 - #4 ;
+INFO  21:26:21,553 - #10 {
+INFO  21:26:21,553 - #3 }
+INFO  21:26:21,554 - #3 }
+INFO  21:26:21,563 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    ConstDecls(
+      ConstDecls(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDecl(
+          Type(
+           bool
+          ) [Type]
+          DodelaViseVrednosti(
+            DodelaViseVrednosti(
+              DodelaViseVrednosti(
+                DodelaViseVrednosti(
+                  DodelaViseVrednosti(
+                    DodelaVrednosti(
+                     car
+                      Number_Const(
+                       8
+                      ) [Number_Const]
+                    ) [DodelaVrednosti]
+                   jovana
+                    Boolean_Const(
+                     0
+                    ) [Boolean_Const]
+                  ) [DodelaViseVrednosti]
+                 fifi
+                  Boolean_Const(
+                   1
+                  ) [Boolean_Const]
+                ) [DodelaViseVrednosti]
+               mm
+                Character_Const(
+                 a
+                ) [Character_Const]
+              ) [DodelaViseVrednosti]
+             ppp
+              Boolean_Const(
+               1
+              ) [Boolean_Const]
+            ) [DodelaViseVrednosti]
+           lik
+            Character_Const(
+             a
+            ) [Character_Const]
+          ) [DodelaViseVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        DodelaVrednosti(
+         pera
+          Number_Const(
+           8
+          ) [Number_Const]
+        ) [DodelaVrednosti]
+      ) [ConstDecl]
+    ) [ConstDecls]
+    VarDeclOpstaSmena(
+      Type(
+       cnst
+      ) [Type]
+      VarJednaDeklaracija(
+        ErrorStmt_definicija_promenljive(
+        ) [ErrorStmt_definicija_promenljive]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:26:21,564 - ===================================
+ERROR 21:26:21,568 - Greska na liniji 6: Tip konstante car i tip dodeljene vrednosti se ne poklapaju! 
+INFO  21:26:21,568 - Deklarisana simbolicka konstanta jovana na liniji 6
+INFO  21:26:21,568 - Deklarisana simbolicka konstanta fifi na liniji 6
+ERROR 21:26:21,568 - Greska na liniji 6: Tip konstante mm i tip dodeljene vrednosti se ne poklapaju! 
+INFO  21:26:21,569 - Deklarisana simbolicka konstanta ppp na liniji 6
+ERROR 21:26:21,569 - Greska na liniji 6: Tip konstante lik i tip dodeljene vrednosti se ne poklapaju! 
+INFO  21:26:21,569 - Deklarisana simbolicka konstanta pera na liniji 7
+ERROR 21:26:21,569 - Greska na liniji 8: Nije pronadjen tip cnst u tabeli simbola! 

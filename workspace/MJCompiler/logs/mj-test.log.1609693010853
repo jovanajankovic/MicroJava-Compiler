@@ -1,0 +1,114 @@
+INFO  17:55:45,460 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:55:45,497 - #2 program
+INFO  17:55:45,497 - #49 test301
+INFO  17:55:45,497 - #8 const
+INFO  17:55:45,498 - #49 int
+INFO  17:55:45,498 - #49 nula
+INFO  17:55:45,499 - #9 =
+INFO  17:55:45,499 - #50 0
+INFO  17:55:45,499 - #7 ,
+INFO  17:55:45,500 - #49 pera
+INFO  17:55:45,500 - #9 =
+INFO  17:55:45,500 - #50 5
+INFO  17:55:45,500 - #7 ,
+INFO  17:55:45,500 - #49 draza
+INFO  17:55:45,500 - #9 =
+INFO  17:55:45,500 - #50 10
+INFO  17:55:45,500 - #4 ;
+INFO  17:55:45,501 - #8 const
+INFO  17:55:45,501 - #49 char
+INFO  17:55:45,502 - #49 jovana
+INFO  17:55:45,502 - #9 =
+INFO  17:55:45,502 - #51 a
+INFO  17:55:45,502 - #4 ;
+INFO  17:55:45,502 - #10 {
+INFO  17:55:45,502 - #12 void
+INFO  17:55:45,503 - #49 main
+INFO  17:55:45,504 - #11 (
+INFO  17:55:45,504 - #13 )
+INFO  17:55:45,505 - #49 int
+INFO  17:55:45,505 - #49 bodovi
+INFO  17:55:45,505 - #4 ;
+INFO  17:55:45,506 - #10 {
+INFO  17:55:45,506 - #3 }
+INFO  17:55:45,507 - #3 }
+INFO  17:55:45,513 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstDecls(
+    ConstDecls(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        DodelaViseVrednosti(
+          DodelaViseVrednosti(
+            DodelaVrednosti(
+             nula
+              Number_Const(
+               0
+              ) [Number_Const]
+            ) [DodelaVrednosti]
+           pera
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaViseVrednosti]
+         draza
+          Number_Const(
+           10
+          ) [Number_Const]
+        ) [DodelaViseVrednosti]
+      ) [ConstDecl]
+    ) [ConstDecls]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+      DodelaVrednosti(
+       jovana
+        Character_Const(
+         a
+        ) [Character_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bodovi
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:55:45,513 - ===================================
+INFO  17:55:45,517 - Deklarisana metoda main na liniji 8
+INFO  17:55:45,517 - Deklarisana promenljiva bodovi na liniji 9
+INFO  17:55:45,517 - Zavrsena obrada metode main na liniji 8
+INFO  17:55:45,518 - ===================================
+INFO  17:55:45,518 - Parsiranje uspesno zavrseno!

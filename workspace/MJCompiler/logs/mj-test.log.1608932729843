@@ -1,0 +1,395 @@
+INFO  22:43:47,099 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:43:47,131 - #2 program
+INFO  22:43:47,131 - #3 MJProgram
+INFO  22:43:47,132 - #3 int
+INFO  22:43:47,132 - #3 hej
+INFO  22:43:47,133 - #6 [
+INFO  22:43:47,133 - #7 ]
+INFO  22:43:47,133 - #8 ,
+INFO  22:43:47,133 - #3 jovana
+INFO  22:43:47,133 - #8 ,
+INFO  22:43:47,134 - #3 mica
+INFO  22:43:47,134 - #5 ;
+INFO  22:43:47,134 - #3 int
+INFO  22:43:47,134 - #3 pera
+INFO  22:43:47,134 - #6 [
+INFO  22:43:47,134 - #7 ]
+INFO  22:43:47,134 - #5 ;
+INFO  22:43:47,134 - #3 int
+INFO  22:43:47,135 - #3 mika
+INFO  22:43:47,135 - #6 [
+INFO  22:43:47,135 - #7 ]
+INFO  22:43:47,135 - #8 ,
+INFO  22:43:47,135 - #3 zika
+INFO  22:43:47,135 - #6 [
+INFO  22:43:47,135 - #7 ]
+INFO  22:43:47,135 - #8 ,
+INFO  22:43:47,135 - #3 ceca
+INFO  22:43:47,135 - #6 [
+INFO  22:43:47,135 - #7 ]
+INFO  22:43:47,135 - #5 ;
+INFO  22:43:47,136 - #3 char
+INFO  22:43:47,136 - #3 perica
+INFO  22:43:47,136 - #5 ;
+INFO  22:43:47,136 - #14 {
+INFO  22:43:47,136 - #16 void
+INFO  22:43:47,137 - #3 main
+INFO  22:43:47,138 - #15 (
+INFO  22:43:47,138 - #17 )
+INFO  22:43:47,139 - #14 {
+INFO  22:43:47,139 - #3 pos
+INFO  22:43:47,140 - #10 =
+INFO  22:43:47,140 - #28 new
+INFO  22:43:47,140 - #3 int
+INFO  22:43:47,140 - #6 [
+INFO  22:43:47,141 - #3 size
+INFO  22:43:47,141 - #7 ]
+INFO  22:43:47,142 - #5 ;
+INFO  22:43:47,143 - #30 read
+INFO  22:43:47,143 - #15 (
+INFO  22:43:47,143 - #3 xabc
+INFO  22:43:47,143 - #17 )
+INFO  22:43:47,143 - #5 ;
+INFO  22:43:47,143 - #3 jovana
+INFO  22:43:47,143 - #10 =
+INFO  22:43:47,143 - #11 3
+INFO  22:43:47,143 - #5 ;
+INFO  22:43:47,144 - #18 print
+INFO  22:43:47,144 - #15 (
+INFO  22:43:47,144 - #3 rsejwkj
+INFO  22:43:47,144 - #17 )
+INFO  22:43:47,144 - #5 ;
+INFO  22:43:47,145 - #3 niz
+INFO  22:43:47,145 - #6 [
+INFO  22:43:47,145 - #3 a
+INFO  22:43:47,145 - #6 [
+INFO  22:43:47,145 - #3 b
+INFO  22:43:47,145 - #6 [
+INFO  22:43:47,145 - #11 5
+INFO  22:43:47,145 - #7 ]
+INFO  22:43:47,145 - #7 ]
+INFO  22:43:47,146 - #7 ]
+INFO  22:43:47,146 - #10 =
+INFO  22:43:47,146 - #11 5
+INFO  22:43:47,146 - #35 *
+INFO  22:43:47,146 - #11 3
+INFO  22:43:47,147 - #20 +
+INFO  22:43:47,147 - #11 2
+INFO  22:43:47,148 - #5 ;
+INFO  22:43:47,149 - #3 a
+INFO  22:43:47,149 - #10 =
+INFO  22:43:47,149 - #3 b
+INFO  22:43:47,149 - #34 -
+INFO  22:43:47,149 - #3 c
+INFO  22:43:47,149 - #20 +
+INFO  22:43:47,149 - #3 d
+INFO  22:43:47,150 - #34 -
+INFO  22:43:47,150 - #3 a
+INFO  22:43:47,150 - #5 ;
+INFO  22:43:47,150 - #3 a
+INFO  22:43:47,150 - #10 =
+INFO  22:43:47,150 - #34 -
+INFO  22:43:47,150 - #3 a
+INFO  22:43:47,150 - #6 [
+INFO  22:43:47,150 - #3 niz
+INFO  22:43:47,150 - #7 ]
+INFO  22:43:47,150 - #5 ;
+INFO  22:43:47,151 - #4 }
+INFO  22:43:47,151 - #16 void
+INFO  22:43:47,152 - #3 jovana
+INFO  22:43:47,152 - #15 (
+INFO  22:43:47,152 - #17 )
+INFO  22:43:47,152 - #14 {
+INFO  22:43:47,152 - #4 }
+INFO  22:43:47,152 - #4 }
+INFO  22:43:47,155 - Program(
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDecls(
+            PomocnaVarDecl_3(
+              PomocnaVarDecl_2(
+                Type(
+                ) [Type]
+              ) [PomocnaVarDecl_2]
+            ) [PomocnaVarDecl_3]
+          ) [VarDecls]
+        ) [VarDeclarations]
+        ArrayDecl(
+          Type(
+          ) [Type]
+        ) [ArrayDecl]
+      ) [VarDeclarations]
+      ArrayDecls(
+        PomocnaVarDecl_4(
+          PomocnaVarDecl_2(
+            Type(
+            ) [Type]
+          ) [PomocnaVarDecl_2]
+        ) [PomocnaVarDecl_4]
+      ) [ArrayDecls]
+    ) [VarDeclarations]
+    SingleVarDecl(
+      Type(
+      ) [Type]
+    ) [SingleVarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        Void_Povratna(
+        ) [Void_Povratna]
+        NoFormParams(
+        ) [NoFormParams]
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      NoStatements(
+                      ) [NoStatements]
+                      DesignatorStatementSemi(
+                        Assignment(
+                          DesignatorIdentifikator(
+                          ) [DesignatorIdentifikator]
+                          TermWithoutMinus(
+                            Faktor(
+                              FactorNewArray(
+                                Type(
+                                ) [Type]
+                                TermWithoutMinus(
+                                  Faktor(
+                                    FactorDesignator(
+                                      DesignatorIdentifikator(
+                                      ) [DesignatorIdentifikator]
+                                    ) [FactorDesignator]
+                                    NoMulopFactors(
+                                    ) [NoMulopFactors]
+                                  ) [Faktor]
+                                  NoAddoptTerm(
+                                  ) [NoAddoptTerm]
+                                ) [TermWithoutMinus]
+                              ) [FactorNewArray]
+                              NoMulopFactors(
+                              ) [NoMulopFactors]
+                            ) [Faktor]
+                            NoAddoptTerm(
+                            ) [NoAddoptTerm]
+                          ) [TermWithoutMinus]
+                        ) [Assignment]
+                      ) [DesignatorStatementSemi]
+                    ) [Statements]
+                    ReadStatement(
+                      DesignatorIdentifikator(
+                      ) [DesignatorIdentifikator]
+                    ) [ReadStatement]
+                  ) [Statements]
+                  DesignatorStatementSemi(
+                    Assignment(
+                      DesignatorIdentifikator(
+                      ) [DesignatorIdentifikator]
+                      TermWithoutMinus(
+                        Faktor(
+                          FactorNumber(
+                          ) [FactorNumber]
+                          NoMulopFactors(
+                          ) [NoMulopFactors]
+                        ) [Faktor]
+                        NoAddoptTerm(
+                        ) [NoAddoptTerm]
+                      ) [TermWithoutMinus]
+                    ) [Assignment]
+                  ) [DesignatorStatementSemi]
+                ) [Statements]
+                PrintStatement(
+                  TermWithoutMinus(
+                    Faktor(
+                      FactorDesignator(
+                        DesignatorIdentifikator(
+                        ) [DesignatorIdentifikator]
+                      ) [FactorDesignator]
+                      NoMulopFactors(
+                      ) [NoMulopFactors]
+                    ) [Faktor]
+                    NoAddoptTerm(
+                    ) [NoAddoptTerm]
+                  ) [TermWithoutMinus]
+                ) [PrintStatement]
+              ) [Statements]
+              DesignatorStatementSemi(
+                Assignment(
+                  DesignatorArray(
+                    TermWithoutMinus(
+                      Faktor(
+                        FactorDesignator(
+                          DesignatorArray(
+                            TermWithoutMinus(
+                              Faktor(
+                                FactorDesignator(
+                                  DesignatorArray(
+                                    TermWithoutMinus(
+                                      Faktor(
+                                        FactorNumber(
+                                        ) [FactorNumber]
+                                        NoMulopFactors(
+                                        ) [NoMulopFactors]
+                                      ) [Faktor]
+                                      NoAddoptTerm(
+                                      ) [NoAddoptTerm]
+                                    ) [TermWithoutMinus]
+                                  ) [DesignatorArray]
+                                ) [FactorDesignator]
+                                NoMulopFactors(
+                                ) [NoMulopFactors]
+                              ) [Faktor]
+                              NoAddoptTerm(
+                              ) [NoAddoptTerm]
+                            ) [TermWithoutMinus]
+                          ) [DesignatorArray]
+                        ) [FactorDesignator]
+                        NoMulopFactors(
+                        ) [NoMulopFactors]
+                      ) [Faktor]
+                      NoAddoptTerm(
+                      ) [NoAddoptTerm]
+                    ) [TermWithoutMinus]
+                  ) [DesignatorArray]
+                  TermWithoutMinus(
+                    Faktor(
+                      FactorNumber(
+                      ) [FactorNumber]
+                      MulopFactors(
+                        NoMulopFactors(
+                        ) [NoMulopFactors]
+                        MulOperacija(
+                        ) [MulOperacija]
+                        FactorNumber(
+                        ) [FactorNumber]
+                      ) [MulopFactors]
+                    ) [Faktor]
+                    AddoptTerm(
+                      NoAddoptTerm(
+                      ) [NoAddoptTerm]
+                      PlusOperacija(
+                      ) [PlusOperacija]
+                      Faktor(
+                        FactorNumber(
+                        ) [FactorNumber]
+                        NoMulopFactors(
+                        ) [NoMulopFactors]
+                      ) [Faktor]
+                    ) [AddoptTerm]
+                  ) [TermWithoutMinus]
+                ) [Assignment]
+              ) [DesignatorStatementSemi]
+            ) [Statements]
+            DesignatorStatementSemi(
+              Assignment(
+                DesignatorIdentifikator(
+                ) [DesignatorIdentifikator]
+                TermWithoutMinus(
+                  Faktor(
+                    FactorDesignator(
+                      DesignatorIdentifikator(
+                      ) [DesignatorIdentifikator]
+                    ) [FactorDesignator]
+                    NoMulopFactors(
+                    ) [NoMulopFactors]
+                  ) [Faktor]
+                  AddoptTerm(
+                    AddoptTerm(
+                      AddoptTerm(
+                        NoAddoptTerm(
+                        ) [NoAddoptTerm]
+                        MinusOperacija(
+                        ) [MinusOperacija]
+                        Faktor(
+                          FactorDesignator(
+                            DesignatorIdentifikator(
+                            ) [DesignatorIdentifikator]
+                          ) [FactorDesignator]
+                          NoMulopFactors(
+                          ) [NoMulopFactors]
+                        ) [Faktor]
+                      ) [AddoptTerm]
+                      PlusOperacija(
+                      ) [PlusOperacija]
+                      Faktor(
+                        FactorDesignator(
+                          DesignatorIdentifikator(
+                          ) [DesignatorIdentifikator]
+                        ) [FactorDesignator]
+                        NoMulopFactors(
+                        ) [NoMulopFactors]
+                      ) [Faktor]
+                    ) [AddoptTerm]
+                    MinusOperacija(
+                    ) [MinusOperacija]
+                    Faktor(
+                      FactorDesignator(
+                        DesignatorIdentifikator(
+                        ) [DesignatorIdentifikator]
+                      ) [FactorDesignator]
+                      NoMulopFactors(
+                      ) [NoMulopFactors]
+                    ) [Faktor]
+                  ) [AddoptTerm]
+                ) [TermWithoutMinus]
+              ) [Assignment]
+            ) [DesignatorStatementSemi]
+          ) [Statements]
+          DesignatorStatementSemi(
+            Assignment(
+              DesignatorIdentifikator(
+              ) [DesignatorIdentifikator]
+              MinusTerm(
+                Faktor(
+                  FactorDesignator(
+                    DesignatorArray(
+                      TermWithoutMinus(
+                        Faktor(
+                          FactorDesignator(
+                            DesignatorIdentifikator(
+                            ) [DesignatorIdentifikator]
+                          ) [FactorDesignator]
+                          NoMulopFactors(
+                          ) [NoMulopFactors]
+                        ) [Faktor]
+                        NoAddoptTerm(
+                        ) [NoAddoptTerm]
+                      ) [TermWithoutMinus]
+                    ) [DesignatorArray]
+                  ) [FactorDesignator]
+                  NoMulopFactors(
+                  ) [NoMulopFactors]
+                ) [Faktor]
+                NoAddoptTerm(
+                ) [NoAddoptTerm]
+              ) [MinusTerm]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      Void_Povratna(
+      ) [Void_Povratna]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:43:47,156 - ===================================

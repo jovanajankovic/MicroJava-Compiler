@@ -1,0 +1,68 @@
+INFO  16:07:24,002 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:07:24,037 - #2 program
+INFO  16:07:24,037 - #50 MJProgram
+INFO  16:07:24,037 - #50 char
+INFO  16:07:24,039 - #50 jovana
+INFO  16:07:24,039 - #4 ;
+INFO  16:07:24,040 - #50 int
+INFO  16:07:24,040 - #50 pera
+INFO  16:07:24,040 - #4 ;
+INFO  16:07:24,040 - #50 int
+INFO  16:07:24,040 - #50 hello
+INFO  16:07:24,040 - #9 =
+ERROR 16:07:24,041 - 
+Sintaksna greska na liniji 4
+INFO  16:07:24,041 - #48 a
+INFO  16:07:24,041 - #4 ;
+INFO  16:07:24,041 - #10 {
+INFO  16:07:24,041 - #3 }
+ERROR 16:07:24,042 - Neispravna definicija globalne promenljive. Izvrsen oporavak od greske
+INFO  16:07:24,051 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           pera
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        ErrorStmt_definicija_promenljive(
+        ) [ErrorStmt_definicija_promenljive]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  16:07:24,051 - ===================================
+INFO  16:07:24,053 - Deklarisana promenljiva jovana na liniji 2
+INFO  16:07:24,053 - Deklarisana promenljiva pera na liniji 3
+INFO  16:07:24,053 - ===================================
+ERROR 16:07:24,054 - Parsiranje NIJE uspesno zavrseno!

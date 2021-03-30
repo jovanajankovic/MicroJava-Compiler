@@ -1,0 +1,128 @@
+INFO  21:41:59,444 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:41:59,487 - #2 program
+INFO  21:41:59,487 - #48 MJProgram
+INFO  21:41:59,487 - #48 int
+INFO  21:41:59,488 - #48 niz
+INFO  21:41:59,489 - #5 [
+INFO  21:41:59,489 - #6 ]
+INFO  21:41:59,489 - #7 ,
+INFO  21:41:59,489 - #48 mika
+INFO  21:41:59,489 - #5 [
+INFO  21:41:59,489 - #6 ]
+INFO  21:41:59,490 - #4 ;
+INFO  21:41:59,490 - #10 {
+INFO  21:41:59,490 - #12 void
+INFO  21:41:59,491 - #48 main
+INFO  21:41:59,491 - #11 (
+INFO  21:41:59,492 - #13 )
+INFO  21:41:59,492 - #48 bool
+INFO  21:41:59,493 - #48 jovana
+INFO  21:41:59,493 - #4 ;
+INFO  21:41:59,493 - #10 {
+INFO  21:41:59,493 - #48 niz
+INFO  21:41:59,494 - #9 =
+INFO  21:41:59,494 - #24 new
+INFO  21:41:59,494 - #48 int
+INFO  21:41:59,494 - #5 [
+INFO  21:41:59,494 - #48 jovana
+INFO  21:41:59,494 - #6 ]
+INFO  21:41:59,495 - #4 ;
+INFO  21:41:59,496 - #3 }
+INFO  21:41:59,496 - #3 }
+INFO  21:41:59,503 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarViseDeklaracija(
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           niz
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+        DeoDeklaracijeNiz(
+         mika
+        ) [DeoDeklaracijeNiz]
+      ) [VarViseDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStatementSemi(
+          Assignment(
+            Assign_Designator_Klasa(
+              DesignatorIdentifikator(
+               niz
+              ) [DesignatorIdentifikator]
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorNewArray(
+                      Type(
+                       int
+                      ) [Type]
+                      Expr_obican(
+                        ExprWithoutMinus(
+                          Term_0(
+                            FactorDesignator(
+                              DesignatorIdentifikator(
+                               jovana
+                              ) [DesignatorIdentifikator]
+                            ) [FactorDesignator]
+                          ) [Term_0]
+                        ) [ExprWithoutMinus]
+                      ) [Expr_obican]
+                    ) [FactorNewArray]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [Assign_Designator_Klasa]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:41:59,504 - ===================================
+INFO  21:41:59,508 - Deklarisana promenljiva niz na liniji 10
+INFO  21:41:59,508 - Deklarisana metoda main na liniji 12
+INFO  21:41:59,509 - Deklarisana promenljiva jovana na liniji 13
+INFO  21:41:59,509 - Detektovana globalna promenljiva niz na liniji 15
+INFO  21:41:59,509 - Detektovana lokalna promenljiva jovana na liniji 15
+ERROR 21:41:59,509 - Greska na liniji : 15 Tip promenljive koja govori koliko elemenata niza zelimo da alociramo, mora biti tipa INT!
+ERROR 21:41:59,509 - Greska na liniji : 15 Vrednosti nisu kompatibilne pri izrazu dodele!
+INFO  21:41:59,509 - Zavrsena obrada metode main na liniji 12
+INFO  21:41:59,509 - ===================================
+ERROR 21:41:59,510 - Parsiranje NIJE uspesno zavrseno!

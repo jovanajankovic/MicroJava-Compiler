@@ -1,0 +1,267 @@
+package rs.ac.bg.etf.pp1;
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROG, RBRACE, SEMI, LEVA_UGLASTA, DESNA_UGLASTA, COMMA, CONST, ASSIGN;
+terminal LBRACE, LPAREN, VOID, RPAREN, PRINT, PLUS;
+terminal NEW, READ, MINUS, MUL, DIV, PERCENTAGE, EQUAL, NOT_EQUAL, GREATER, GREATER_EQUAL, LESSER, LESSER_EQUAL;
+terminal PLUS_PLUS, MINUS_MINUS, QUESTION_MARK, DVE_TACKE;
+
+terminal String IDENT;
+terminal Integer NUMBER;
+terminal Integer BOOL_CONST;
+terminal Character CHAR_CONST;
+
+nonterminal List, MethodDeclList;
+nonterminal ConstDecl;
+nonterminal VarDecl;
+nonterminal FormPars;
+nonterminal MethodDecl;
+nonterminal VarDeclList;
+nonterminal StatementList;
+nonterminal FormalParamList;
+nonterminal Statement;
+nonterminal DesignatorStatement;
+nonterminal Assign_Designator;
+nonterminal FormalParamDecl;
+nonterminal DveTacke;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj VarDeoDeklaracije,VarPomocnaLista, Mulop, Addop, Relop, Dodela, Vrednost, ProgName, Program, Designator, DesignatorArrayName, MethodDeclName;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Expr1, AddopList, Expr,Type, Povratna, Factor, Term, MulopFactorList;
+
+nonterminal CondFact;
+ 
+
+Program ::= (Program) PROG ProgName:p List LBRACE MethodDeclList RBRACE;
+
+ProgName ::= (ProgName) IDENT:programName;
+
+List ::= (VarDeclarations)List VarDecl
+	 | 
+	 (ConstDecls) List ConstDecl
+	 |
+	 (NoDeclarations)/* epsilon */
+	 ;
+
+VarDecl ::= (VarDeclOpstaSmena)Type:varType VarPomocnaLista SEMI;
+
+VarPomocnaLista::= (VarViseDeklaracija)VarPomocnaLista COMMA VarDeoDeklaracije
+				|
+				(VarJednaDeklaracija)VarDeoDeklaracije
+				;
+
+VarDeoDeklaracije ::= (DeoDeklaracijeNiz)IDENT:varName LEVA_UGLASTA DESNA_UGLASTA
+				  |
+				 (DeoDeklaracijaPromenljiva) IDENT:varName
+				  |
+				  (ErrorStmt_definicija_promenljive) error
+     	   		  {: parser.report_error("Neispravna definicija globalne promenljive! Izvrsen oporavak od greske!", null);  :}
+				  ;
+	
+VarDeclList ::= (VarDeclarationList) VarDeclList VarDecl
+			|
+			(NoVarDeclarationList) /* epsilon */
+			;
+
+ConstDecl ::= (ConstDecl) CONST Type:constType Dodela SEMI;
+
+Dodela ::= (DodelaVrednosti) IDENT:constName ASSIGN Vrednost:vr
+		|
+		(DodelaViseVrednosti) Dodela COMMA IDENT:identifikator ASSIGN Vrednost:vrednost
+		;
+
+Vrednost ::= (Number_Const) NUMBER:broj
+		|
+		(Character_Const) CHAR_CONST:karakter
+		|
+		(Boolean_Const) BOOL_CONST
+		;
+
+MethodDeclList ::= (MethodDeclarations) MethodDeclList MethodDecl
+				|
+				(NoMethodDeclarations) /* epsilon */
+				;
+				
+MethodDecl ::= (MethodDecl) MethodDeclName LPAREN FormPars RPAREN VarDeclList LBRACE StatementList RBRACE;
+
+MethodDeclName ::= (MethodDeclName) Povratna:p IDENT:nazivMetode;
+
+Povratna ::= (Tip_Povratna) Type:tip_povratna
+		 |
+		 (Void_Povratna) VOID:tip_void
+		 ;		
+		 
+FormPars ::= (FormParams)FormalParamList
+		  |
+		  (NoFormParams)/* epsilon */
+		  ;
+		  
+FormalParamList ::= (FormalParamDecls) FormalParamList COMMA FormalParamDecl
+				| 
+				(SingleFormalParamDecl)FormalParamDecl
+				;
+				
+FormalParamDecl ::= (SingleFormalParamDeclIdent)Type IDENT
+				| 
+				(SingleFormalParamDeclArr)Type IDENT LBRACE RBRACE
+				;
+				
+Type ::= (Type)IDENT:tip;		
+
+StatementList ::= (StatementLista)StatementList Statement
+			 	|
+				(NoStatements)/* epsilon */ 
+				;
+				
+Statement ::= (DesignatorStatementSemi) DesignatorStatement SEMI
+		   |
+	 	   (ReadStatement) READ LPAREN Designator:d_read RPAREN SEMI
+		   |
+		   (PrintStatement) PRINT LPAREN Expr:e_print RPAREN SEMI
+		   |
+		   (PrintStatementComma) PRINT LPAREN Expr:e_print_comma COMMA NUMBER:num RPAREN SEMI
+		   ;	
+		  
+DesignatorStatement ::= (Assignment) Assign_Designator
+					|
+					(Increment) Designator:d_increment PLUS_PLUS
+					|
+					(Decrement) Designator:d_decrement MINUS_MINUS
+					;
+					
+Assign_Designator ::= (Assign_Designator_Klasa) Designator:d ASSIGN Expr:expression
+				   |
+				   (ErrorStmt_iskaz_dodele) error
+     	   		   {: parser.report_error("Konstrukcija iskaza dodele nije sintaksno korektna! Izvrsen oporavak od greske!", null);  :}				
+				   ;
+				   
+Expr ::= (Ternarni_operator) CondFact QUESTION_MARK Expr1 DveTacke Expr1
+	  |
+	  (Expr_obican)Expr1
+	  ;
+	  
+DveTacke ::= (DveTacke) DVE_TACKE;
+	  
+CondFact ::= (CondFactBoolean) Expr1
+			|
+			(CondFactRelation) Expr1 Relop Expr1
+			;
+					
+					
+Expr1 ::=(MinusExpr) MINUS Term:t1
+	  |
+	  (MinusExprLista) MINUS Term:t2 AddopList
+	  | 
+	  (ExprWithoutMinus)Term:t3
+	  |
+	  (ExprWithoutMinusLista)Term:t4 AddopList
+	  ;
+	  
+AddopList ::= (AddoptListaViseOperacija) AddopList Addop:op Term:t_vise
+		    |
+			(AddoptListaJednaOperacija) Addop:op Term:t_jedna
+			;	
+	  
+Term ::= (Term_0) Factor:faktor 
+	  |
+	  (ViseTermova)Factor:faktor MulopFactorList:lista	
+	  ;
+	
+MulopFactorList ::= (MulopFactor) Mulop:mul Factor:faktor
+				|
+				(MulopFactorLista)MulopFactorList Mulop:mul Factor:faktor
+				;
+				
+Factor ::= (FactorDesignator)Designator:factorDesignator
+		|
+		(FactorNumber)NUMBER:number
+		|
+		(FactorChar)CHAR_CONST:karakter
+		|
+		(FactorExpr)LPAREN Expr:e RPAREN
+		|
+		(FactorBool)BOOL_CONST
+		|
+		(FactorNewArray)NEW Type:tip LEVA_UGLASTA Expr:expr DESNA_UGLASTA
+		;
+		
+Designator ::= (DesignatorIdentifikator)IDENT:imePromenljive
+			|
+			(DesignatorArray) DesignatorArrayName LEVA_UGLASTA Expr:ex DESNA_UGLASTA 
+	 		;
+	 		
+DesignatorArrayName ::= (DesignatorArrayName) IDENT:imeNiza;
+	 		
+Addop ::=(PlusOperacija)PLUS
+		|
+		(MinusOperacija)MINUS
+		;
+
+Mulop ::=(MulOperacija) MUL
+		|
+		(DivOperacija)DIV
+		|
+		(PercentageOperacija)PERCENTAGE
+	 	;	
+	 	
+Relop ::= (EqOperacija) EQUAL
+		  |
+		  (NeOperacija) NOT_EQUAL
+		  |
+		  (GtOperacija) GREATER
+		  |
+		  (GeOperacija) GREATER_EQUAL
+		  |
+		  (Ltperacija) LESSER
+		  |
+		  (LeOperacija) LESSER_EQUAL
+		  ;

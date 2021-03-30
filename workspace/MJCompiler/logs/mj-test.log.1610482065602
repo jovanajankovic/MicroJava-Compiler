@@ -1,0 +1,164 @@
+INFO  21:07:34,028 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:07:34,533 - #2 program
+INFO  21:07:34,534 - #32 test301
+INFO  21:07:34,534 - #32 int
+INFO  21:07:34,535 - #32 niz
+INFO  21:07:34,535 - #5 [
+INFO  21:07:34,535 - #6 ]
+INFO  21:07:34,535 - #4 ;
+INFO  21:07:34,536 - #32 int
+INFO  21:07:34,536 - #32 broj
+INFO  21:07:34,536 - #4 ;
+INFO  21:07:34,536 - #32 int
+INFO  21:07:34,536 - #32 perica
+INFO  21:07:34,537 - #4 ;
+INFO  21:07:34,537 - #10 {
+INFO  21:07:34,537 - #12 void
+INFO  21:07:34,538 - #32 main
+INFO  21:07:34,540 - #11 (
+INFO  21:07:34,541 - #32 int
+INFO  21:07:34,541 - #32 p
+INFO  21:07:34,542 - #13 )
+INFO  21:07:34,542 - #32 bool
+INFO  21:07:34,543 - #32 flag
+INFO  21:07:34,543 - #4 ;
+INFO  21:07:34,543 - #10 {
+INFO  21:07:34,543 - #17 read
+INFO  21:07:34,544 - #11 (
+INFO  21:07:34,544 - #32 broj
+INFO  21:07:34,544 - #13 )
+INFO  21:07:34,544 - #4 ;
+INFO  21:07:34,544 - #14 print
+INFO  21:07:34,544 - #11 (
+INFO  21:07:34,544 - #32 broj
+INFO  21:07:34,544 - #15 +
+INFO  21:07:34,545 - #33 1
+INFO  21:07:34,546 - #13 )
+INFO  21:07:34,546 - #4 ;
+INFO  21:07:34,546 - #3 }
+INFO  21:07:34,547 - #3 }
+INFO  21:07:34,554 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             niz
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           broj
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         perica
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      FormParams(
+        SingleFormalParamDecl(
+          SingleFormalParamDeclIdent(
+            Type(
+             int
+            ) [Type]
+           p
+          ) [SingleFormalParamDeclIdent]
+        ) [SingleFormalParamDecl]
+      ) [FormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             flag
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        StatementLista(
+          NoStatements(
+          ) [NoStatements]
+          ReadStatement(
+            DesignatorIdentifikator(
+             broj
+            ) [DesignatorIdentifikator]
+          ) [ReadStatement]
+        ) [StatementLista]
+        PrintStatement(
+          Expr_obican(
+            ExprWithoutMinusLista(
+              Term_0(
+                FactorDesignator(
+                  DesignatorIdentifikator(
+                   broj
+                  ) [DesignatorIdentifikator]
+                ) [FactorDesignator]
+              ) [Term_0]
+              AddoptListaJednaOperacija(
+                PlusOperacija(
+                ) [PlusOperacija]
+                Term_0(
+                  FactorNumber(
+                   1
+                  ) [FactorNumber]
+                ) [Term_0]
+              ) [AddoptListaJednaOperacija]
+            ) [ExprWithoutMinusLista]
+          ) [Expr_obican]
+        ) [PrintStatement]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:07:34,554 - ===================================
+INFO  21:07:34,558 - Deklarisana promenljiva niz na liniji 7
+INFO  21:07:34,558 - Deklarisana promenljiva broj na liniji 8
+INFO  21:07:34,558 - Deklarisana promenljiva perica na liniji 9
+INFO  21:07:34,558 - Deklarisana metoda main na liniji 11
+ERROR 21:07:34,558 - Greska na liniji 11: Main metoda ne sme imati parametre! 
+INFO  21:07:34,559 - Deklarisana promenljiva flag na liniji 13
+INFO  21:07:34,559 - Detektovana globalna promenljiva broj na liniji 19
+INFO  21:07:34,559 - Izvrseno citanje promenljive broj
+INFO  21:07:34,559 - Detektovana globalna promenljiva broj na liniji 20
+INFO  21:07:34,559 - Izvrsena operacija sabiranja
+INFO  21:07:34,559 - Zavrsena obrada metode main na liniji 11
+INFO  21:07:34,559 - ===================================
+ERROR 21:07:34,560 - Parsiranje NIJE uspesno zavrseno!

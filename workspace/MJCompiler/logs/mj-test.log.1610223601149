@@ -1,0 +1,168 @@
+INFO  21:18:20,486 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:18:20,527 - #2 program
+INFO  21:18:20,528 - #48 MJProgram
+INFO  21:18:20,528 - #8 const
+INFO  21:18:20,529 - #48 int
+INFO  21:18:20,529 - #48 perica
+INFO  21:18:20,529 - #9 =
+INFO  21:18:20,530 - #51 a
+INFO  21:18:20,530 - #7 ,
+INFO  21:18:20,530 - #48 laza
+INFO  21:18:20,530 - #9 =
+INFO  21:18:20,530 - #50 0
+INFO  21:18:20,530 - #7 ,
+INFO  21:18:20,531 - #48 hej
+INFO  21:18:20,531 - #9 =
+INFO  21:18:20,531 - #49 5
+INFO  21:18:20,531 - #4 ;
+INFO  21:18:20,531 - #8 const
+INFO  21:18:20,532 - #48 char
+INFO  21:18:20,532 - #48 loto
+INFO  21:18:20,532 - #9 =
+INFO  21:18:20,532 - #49 100
+INFO  21:18:20,532 - #7 ,
+INFO  21:18:20,532 - #48 l
+INFO  21:18:20,532 - #9 =
+INFO  21:18:20,532 - #51 a
+INFO  21:18:20,533 - #7 ,
+INFO  21:18:20,533 - #48 micika
+INFO  21:18:20,533 - #9 =
+INFO  21:18:20,533 - #50 0
+INFO  21:18:20,533 - #7 ,
+INFO  21:18:20,533 - #48 ll
+INFO  21:18:20,533 - #9 =
+INFO  21:18:20,533 - #49 9
+INFO  21:18:20,533 - #4 ;
+INFO  21:18:20,534 - #8 const
+INFO  21:18:20,534 - #48 char
+INFO  21:18:20,534 - #48 bubuljica
+INFO  21:18:20,534 - #9 =
+INFO  21:18:20,534 - #51 a
+INFO  21:18:20,534 - #4 ;
+INFO  21:18:20,534 - #10 {
+INFO  21:18:20,534 - #12 void
+INFO  21:18:20,535 - #48 main
+INFO  21:18:20,536 - #11 (
+INFO  21:18:20,536 - #13 )
+INFO  21:18:20,537 - #48 int
+INFO  21:18:20,537 - #48 jovana
+INFO  21:18:20,537 - #4 ;
+INFO  21:18:20,538 - #10 {
+INFO  21:18:20,538 - #3 }
+INFO  21:18:20,539 - #3 }
+INFO  21:18:20,546 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    ConstDecls(
+      ConstDecls(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          DodelaViseVrednosti(
+            DodelaViseVrednosti(
+              DodelaVrednosti(
+               perica
+                Character_Const(
+                 a
+                ) [Character_Const]
+              ) [DodelaVrednosti]
+             laza
+              Boolean_Const(
+               0
+              ) [Boolean_Const]
+            ) [DodelaViseVrednosti]
+           hej
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaViseVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        DodelaViseVrednosti(
+          DodelaViseVrednosti(
+            DodelaViseVrednosti(
+              DodelaVrednosti(
+               loto
+                Number_Const(
+                 100
+                ) [Number_Const]
+              ) [DodelaVrednosti]
+             l
+              Character_Const(
+               a
+              ) [Character_Const]
+            ) [DodelaViseVrednosti]
+           micika
+            Boolean_Const(
+             0
+            ) [Boolean_Const]
+          ) [DodelaViseVrednosti]
+         ll
+          Number_Const(
+           9
+          ) [Number_Const]
+        ) [DodelaViseVrednosti]
+      ) [ConstDecl]
+    ) [ConstDecls]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+      DodelaVrednosti(
+       bubuljica
+        Character_Const(
+         a
+        ) [Character_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:18:20,547 - ===================================
+ERROR 21:18:20,551 - Greska na liniji 3: Tip konstante perica i tip dodeljene vrednosti se ne poklapaju! 
+ERROR 21:18:20,551 - Greska na liniji 3: Tip konstante laza i tip dodeljene vrednosti se ne poklapaju! 
+ERROR 21:18:20,551 - Greska na liniji 4: Tip konstante loto i tip dodeljene vrednosti se ne poklapaju! 
+ERROR 21:18:20,551 - Greska na liniji 4: Tip konstante micika i tip dodeljene vrednosti se ne poklapaju! 
+ERROR 21:18:20,551 - Greska na liniji 4: Tip konstante ll i tip dodeljene vrednosti se ne poklapaju! 
+INFO  21:18:20,551 - Deklarisana metoda main na liniji 7
+INFO  21:18:20,551 - Deklarisana promenljiva jovana na liniji 8
+INFO  21:18:20,551 - Zavrsena obrada metode main na liniji 7
+INFO  21:18:20,551 - ===================================
+ERROR 21:18:20,552 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,131 @@
+INFO  20:45:34,034 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:45:34,088 - #2 program
+INFO  20:45:34,088 - #32 test301
+INFO  20:45:34,088 - #32 int
+INFO  20:45:34,090 - #32 niz
+INFO  20:45:34,091 - #5 [
+INFO  20:45:34,091 - #6 ]
+INFO  20:45:34,091 - #4 ;
+INFO  20:45:34,091 - #32 int
+INFO  20:45:34,091 - #32 broj
+INFO  20:45:34,091 - #4 ;
+INFO  20:45:34,092 - #32 int
+INFO  20:45:34,092 - #32 perica
+INFO  20:45:34,092 - #4 ;
+INFO  20:45:34,092 - #10 {
+INFO  20:45:34,092 - #12 void
+INFO  20:45:34,093 - #32 main
+INFO  20:45:34,093 - #11 (
+INFO  20:45:34,094 - #13 )
+INFO  20:45:34,094 - #10 {
+INFO  20:45:34,095 - #32 broj
+INFO  20:45:34,096 - #9 =
+INFO  20:45:34,096 - #33 0
+INFO  20:45:34,096 - #4 ;
+INFO  20:45:34,097 - #32 broj
+INFO  20:45:34,098 - #28 ++
+INFO  20:45:34,098 - #4 ;
+INFO  20:45:34,098 - #3 }
+INFO  20:45:34,098 - #3 }
+INFO  20:45:34,107 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             niz
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           broj
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         perica
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      StatementLista(
+        StatementLista(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStatementSemi(
+            Assignment(
+              Assign_Designator_Klasa(
+                DesignatorIdentifikator(
+                 broj
+                ) [DesignatorIdentifikator]
+                Expr_obican(
+                  ExprWithoutMinus(
+                    Term_0(
+                      FactorNumber(
+                       0
+                      ) [FactorNumber]
+                    ) [Term_0]
+                  ) [ExprWithoutMinus]
+                ) [Expr_obican]
+              ) [Assign_Designator_Klasa]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [StatementLista]
+        DesignatorStatementSemi(
+          Increment(
+            DesignatorIdentifikator(
+             broj
+            ) [DesignatorIdentifikator]
+          ) [Increment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:45:34,108 - ===================================
+INFO  20:45:34,113 - Deklarisana promenljiva niz na liniji 7
+INFO  20:45:34,113 - Deklarisana promenljiva broj na liniji 8
+INFO  20:45:34,114 - Deklarisana promenljiva perica na liniji 9
+INFO  20:45:34,114 - Deklarisana metoda main na liniji 11
+INFO  20:45:34,114 - Detektovana globalna promenljiva broj na liniji 14
+INFO  20:45:34,114 - Izraz dodele uspesno izvrsen na liniji 14
+INFO  20:45:34,114 - Detektovana globalna promenljiva broj na liniji 15
+INFO  20:45:34,115 - Izvrseno inkrementiranje promenljive broj
+INFO  20:45:34,115 - Zavrsena obrada metode main na liniji 11
+INFO  20:45:34,115 - ===================================
+INFO  20:45:34,116 - Generating bytecode file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  20:45:34,129 - Parsiranje uspesno zavrseno!

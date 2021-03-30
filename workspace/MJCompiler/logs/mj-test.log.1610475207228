@@ -1,0 +1,228 @@
+INFO  19:13:01,752 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:13:01,796 - #2 program
+INFO  19:13:01,796 - #32 test301
+INFO  19:13:01,796 - #8 const
+INFO  19:13:01,797 - #32 int
+INFO  19:13:01,797 - #32 nula
+INFO  19:13:01,798 - #9 =
+INFO  19:13:01,798 - #33 0
+INFO  19:13:01,798 - #4 ;
+INFO  19:13:01,798 - #8 const
+INFO  19:13:01,799 - #32 int
+INFO  19:13:01,799 - #32 jedan
+INFO  19:13:01,799 - #9 =
+INFO  19:13:01,799 - #33 1
+INFO  19:13:01,799 - #4 ;
+INFO  19:13:01,799 - #8 const
+INFO  19:13:01,800 - #32 int
+INFO  19:13:01,800 - #32 pet
+INFO  19:13:01,800 - #9 =
+INFO  19:13:01,800 - #33 5
+INFO  19:13:01,800 - #4 ;
+INFO  19:13:01,800 - #8 const
+INFO  19:13:01,800 - #32 bool
+INFO  19:13:01,800 - #32 flag
+INFO  19:13:01,800 - #9 =
+INFO  19:13:01,800 - #34 1
+INFO  19:13:01,800 - #4 ;
+INFO  19:13:01,800 - #32 int
+INFO  19:13:01,800 - #32 niz
+INFO  19:13:01,800 - #5 [
+INFO  19:13:01,801 - #6 ]
+INFO  19:13:01,801 - #4 ;
+INFO  19:13:01,801 - #32 char
+INFO  19:13:01,801 - #32 nizch
+INFO  19:13:01,801 - #5 [
+INFO  19:13:01,801 - #6 ]
+INFO  19:13:01,801 - #4 ;
+INFO  19:13:01,801 - #32 bool
+INFO  19:13:01,802 - #32 flagovi
+INFO  19:13:01,802 - #5 [
+INFO  19:13:01,802 - #6 ]
+INFO  19:13:01,802 - #4 ;
+INFO  19:13:01,802 - #10 {
+INFO  19:13:01,802 - #12 void
+INFO  19:13:01,803 - #32 main
+INFO  19:13:01,804 - #11 (
+INFO  19:13:01,805 - #13 )
+INFO  19:13:01,805 - #32 int
+INFO  19:13:01,806 - #32 bodovi
+INFO  19:13:01,806 - #4 ;
+INFO  19:13:01,806 - #32 bool
+INFO  19:13:01,806 - #32 bt
+INFO  19:13:01,806 - #4 ;
+INFO  19:13:01,806 - #10 {
+INFO  19:13:01,807 - #14 print
+INFO  19:13:01,807 - #11 (
+INFO  19:13:01,808 - #32 flag
+INFO  19:13:01,808 - #13 )
+INFO  19:13:01,808 - #4 ;
+INFO  19:13:01,808 - #3 }
+INFO  19:13:01,808 - #3 }
+INFO  19:13:01,816 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        ConstDecls(
+          ConstDecls(
+            ConstDecls(
+              ConstDecls(
+                NoDeclarations(
+                ) [NoDeclarations]
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  DodelaVrednosti(
+                   nula
+                    Number_Const(
+                     0
+                    ) [Number_Const]
+                  ) [DodelaVrednosti]
+                ) [ConstDecl]
+              ) [ConstDecls]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                DodelaVrednosti(
+                 jedan
+                  Number_Const(
+                   1
+                  ) [Number_Const]
+                ) [DodelaVrednosti]
+              ) [ConstDecl]
+            ) [ConstDecls]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              DodelaVrednosti(
+               pet
+                Number_Const(
+                 5
+                ) [Number_Const]
+              ) [DodelaVrednosti]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          ConstDecl(
+            Type(
+             bool
+            ) [Type]
+            DodelaVrednosti(
+             flag
+              Boolean_Const(
+               1
+              ) [Boolean_Const]
+            ) [DodelaVrednosti]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             niz
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         char
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           nizch
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       bool
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijeNiz(
+         flagovi
+        ) [DeoDeklaracijeNiz]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        VarDeclarationList(
+          NoVarDeclarationList(
+          ) [NoVarDeclarationList]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               bodovi
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bt
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        PrintStatement(
+          Expr_obican(
+            ExprWithoutMinus(
+              Term_0(
+                FactorDesignator(
+                  DesignatorIdentifikator(
+                   flag
+                  ) [DesignatorIdentifikator]
+                ) [FactorDesignator]
+              ) [Term_0]
+            ) [ExprWithoutMinus]
+          ) [Expr_obican]
+        ) [PrintStatement]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:13:01,818 - ===================================
+INFO  19:13:01,821 - Deklarisana simbolicka konstanta nula na liniji 5
+INFO  19:13:01,821 - Deklarisana simbolicka konstanta jedan na liniji 6
+INFO  19:13:01,822 - Deklarisana simbolicka konstanta pet na liniji 7
+INFO  19:13:01,822 - Deklarisana simbolicka konstanta flag na liniji 9
+INFO  19:13:01,822 - Deklarisana promenljiva niz na liniji 11
+INFO  19:13:01,822 - Deklarisana promenljiva nizch na liniji 12
+INFO  19:13:01,824 - Deklarisana promenljiva flagovi na liniji 13
+INFO  19:13:01,824 - Deklarisana metoda main na liniji 15
+INFO  19:13:01,824 - Deklarisana promenljiva bodovi na liniji 16
+INFO  19:13:01,824 - Deklarisana promenljiva bt na liniji 17
+INFO  19:13:01,824 - Detektovana simbolicka konstanta flag na liniji 19
+INFO  19:13:01,825 - Zavrsena obrada metode main na liniji 15
+INFO  19:13:01,825 - ===================================
+INFO  19:13:01,825 - Generating bytecode file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  19:13:01,837 - Parsiranje uspesno zavrseno!

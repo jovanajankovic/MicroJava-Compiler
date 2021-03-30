@@ -1,0 +1,170 @@
+INFO  22:08:14,830 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:08:14,898 - #2 program
+INFO  22:08:14,898 - #32 test301
+INFO  22:08:14,898 - #32 int
+INFO  22:08:14,899 - #32 niz
+INFO  22:08:14,900 - #5 [
+INFO  22:08:14,900 - #6 ]
+INFO  22:08:14,900 - #4 ;
+INFO  22:08:14,901 - #32 int
+INFO  22:08:14,901 - #32 broj
+INFO  22:08:14,901 - #4 ;
+INFO  22:08:14,901 - #32 int
+INFO  22:08:14,901 - #32 perica
+INFO  22:08:14,901 - #4 ;
+INFO  22:08:14,901 - #8 const
+INFO  22:08:14,901 - #32 int
+INFO  22:08:14,902 - #32 pi
+INFO  22:08:14,902 - #9 =
+INFO  22:08:14,902 - #33 3
+INFO  22:08:14,902 - #4 ;
+INFO  22:08:14,902 - #10 {
+INFO  22:08:14,903 - #12 void
+INFO  22:08:14,903 - #32 main
+INFO  22:08:14,904 - #11 (
+INFO  22:08:14,905 - #13 )
+INFO  22:08:14,905 - #32 bool
+INFO  22:08:14,906 - #32 flag
+INFO  22:08:14,906 - #4 ;
+INFO  22:08:14,906 - #10 {
+INFO  22:08:14,906 - #32 flag
+INFO  22:08:14,907 - #9 =
+INFO  22:08:14,908 - #34 0
+INFO  22:08:14,908 - #4 ;
+INFO  22:08:14,909 - #32 broj
+INFO  22:08:14,910 - #9 =
+INFO  22:08:14,910 - #32 flag
+INFO  22:08:14,910 - #30 ?
+INFO  22:08:14,910 - #33 1
+INFO  22:08:14,910 - #15 +
+INFO  22:08:14,911 - #33 2
+INFO  22:08:14,915 - #15 +
+INFO  22:08:14,915 - #33 3
+INFO  22:08:14,916 - #31 :
+INFO  22:08:14,917 - #33 4
+INFO  22:08:14,920 - #19 *
+INFO  22:08:14,920 - #33 5
+INFO  22:08:14,921 - #18 -
+INFO  22:08:14,921 - #33 6
+INFO  22:08:14,922 - #4 ;
+INFO  22:08:14,922 - #14 print
+INFO  22:08:14,922 - #11 (
+INFO  22:08:14,922 - #32 broj
+INFO  22:08:14,922 - #13 )
+INFO  22:08:14,922 - #4 ;
+INFO  22:08:14,923 - #17 read
+INFO  22:08:14,923 - #11 (
+INFO  22:08:14,923 - #32 nepostoji
+INFO  22:08:14,923 - #13 )
+INFO  22:08:14,923 - #32 niz
+ERROR 22:08:14,923 - 
+Sintaksna greska na liniji 23
+INFO  22:08:14,923 - #9 =
+INFO  22:08:14,923 - #16 new
+INFO  22:08:14,923 - #32 int
+INFO  22:08:14,924 - #5 [
+INFO  22:08:14,924 - #33 100
+INFO  22:08:14,924 - #6 ]
+INFO  22:08:14,924 - #4 ;
+INFO  22:08:14,924 - #32 niz
+INFO  22:08:14,924 - #5 [
+INFO  22:08:14,924 - #33 1
+ERROR 22:08:14,924 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+INFO  22:08:14,930 - #6 ]
+INFO  22:08:14,930 - #9 =
+INFO  22:08:14,930 - #33 10
+INFO  22:08:14,930 - #4 ;
+INFO  22:08:14,930 - #32 niz
+INFO  22:08:14,930 - #5 [
+INFO  22:08:14,930 - #32 niz
+INFO  22:08:14,930 - #5 [
+INFO  22:08:14,930 - #33 1
+INFO  22:08:14,930 - #6 ]
+INFO  22:08:14,930 - #6 ]
+INFO  22:08:14,930 - #9 =
+INFO  22:08:14,931 - #33 30
+INFO  22:08:14,931 - #4 ;
+INFO  22:08:14,931 - #32 niz
+INFO  22:08:14,931 - #5 [
+INFO  22:08:14,931 - #32 flag
+INFO  22:08:14,931 - #30 ?
+INFO  22:08:14,931 - #33 5
+INFO  22:08:14,931 - #31 :
+INFO  22:08:14,931 - #33 6
+INFO  22:08:14,931 - #6 ]
+INFO  22:08:14,931 - #9 =
+INFO  22:08:14,931 - #33 40
+INFO  22:08:14,931 - #4 ;
+INFO  22:08:14,931 - #32 niz
+INFO  22:08:14,931 - #5 [
+INFO  22:08:14,931 - #32 flag
+INFO  22:08:14,932 - #30 ?
+INFO  22:08:14,932 - #33 5
+INFO  22:08:14,932 - #31 :
+INFO  22:08:14,932 - #35 6
+INFO  22:08:14,932 - #6 ]
+INFO  22:08:14,932 - #9 =
+INFO  22:08:14,932 - #33 40
+INFO  22:08:14,932 - #4 ;
+INFO  22:08:14,932 - #32 niz
+INFO  22:08:14,932 - #5 [
+INFO  22:08:14,932 - #32 flag
+INFO  22:08:14,932 - #30 ?
+INFO  22:08:14,932 - #35 5
+INFO  22:08:14,932 - #31 :
+INFO  22:08:14,932 - #35 6
+INFO  22:08:14,932 - #6 ]
+INFO  22:08:14,933 - #9 =
+INFO  22:08:14,933 - #33 40
+INFO  22:08:14,933 - #4 ;
+INFO  22:08:14,933 - #32 int
+INFO  22:08:14,933 - #9 =
+INFO  22:08:14,933 - #32 char
+INFO  22:08:14,933 - #4 ;
+INFO  22:08:14,933 - #32 int
+INFO  22:08:14,933 - #9 =
+INFO  22:08:14,933 - #32 int
+INFO  22:08:14,934 - #4 ;
+INFO  22:08:14,934 - #32 main
+INFO  22:08:14,934 - #9 =
+INFO  22:08:14,934 - #32 main
+INFO  22:08:14,934 - #4 ;
+INFO  22:08:14,934 - #3 }
+INFO  22:08:14,934 - #3 }
+INFO  22:08:14,946 - Parsiranje NIJE uspesno zavrseno! Postoji sintaksna greska!
+INFO  22:08:14,953 - Deklarisana promenljiva niz na liniji 7
+INFO  22:08:14,954 - Deklarisana promenljiva broj na liniji 8
+INFO  22:08:14,954 - Deklarisana promenljiva perica na liniji 9
+INFO  22:08:14,954 - Deklarisana simbolicka konstanta pi na liniji 10
+INFO  22:08:14,954 - Deklarisana metoda main na liniji 12
+INFO  22:08:14,954 - Deklarisana promenljiva flag na liniji 14
+INFO  22:08:14,954 - Detektovana lokalna promenljiva flag na liniji 17
+INFO  22:08:14,954 - Izraz dodele uspesno izvrsen na liniji 17
+INFO  22:08:14,954 - Detektovana globalna promenljiva broj na liniji 18
+INFO  22:08:14,954 - Detektovana lokalna promenljiva flag na liniji 18
+INFO  22:08:14,954 - Izvrsena operacija sabiranja
+INFO  22:08:14,955 - Izvrsena operacija sabiranja
+INFO  22:08:14,955 - Izraz dodele uspesno izvrsen na liniji 18
+INFO  22:08:14,955 - Detektovana globalna promenljiva broj na liniji 19
+INFO  22:08:14,955 - Detektovana globalna promenljiva niz na liniji 25
+INFO  22:08:14,955 - Izraz dodele uspesno izvrsen na liniji 25
+INFO  22:08:14,955 - Detektovana globalna promenljiva niz na liniji 26
+INFO  22:08:14,955 - Detektovana globalna promenljiva niz na liniji 26
+INFO  22:08:14,955 - Izraz dodele uspesno izvrsen na liniji 26
+INFO  22:08:14,955 - Detektovana globalna promenljiva niz na liniji 27
+INFO  22:08:14,955 - Detektovana lokalna promenljiva flag na liniji 27
+INFO  22:08:14,955 - Izraz dodele uspesno izvrsen na liniji 27
+INFO  22:08:14,955 - Detektovana globalna promenljiva niz na liniji 28
+INFO  22:08:14,955 - Detektovana lokalna promenljiva flag na liniji 28
+ERROR 22:08:14,955 - Greska na liniji 28: Izrazi u ternarnom operatoru moraju biti istog tipa!
+INFO  22:08:14,955 - Izraz dodele uspesno izvrsen na liniji 28
+INFO  22:08:14,955 - Detektovana globalna promenljiva niz na liniji 29
+INFO  22:08:14,956 - Detektovana lokalna promenljiva flag na liniji 29
+ERROR 22:08:14,956 - Greska na liniji 29 :  Pristup promenljivoj niz se mora izvrsiti indeksiranjem sa INT tipom!
+INFO  22:08:14,956 - Izraz dodele uspesno izvrsen na liniji 29
+ERROR 22:08:14,956 - Greska na liniji : 31 Ne mozete dodeliti vrednost necemu sto nije promenljiva ni element niza!
+ERROR 22:08:14,956 - Greska na liniji : 32 Ne mozete dodeliti vrednost necemu sto nije promenljiva ni element niza!
+ERROR 22:08:14,956 - Greska na liniji : 33 Ne mozete dodeliti vrednost necemu sto nije promenljiva ni element niza!
+INFO  22:08:14,957 - Zavrsena obrada metode main na liniji 12
+INFO  22:08:14,957 - ===================================
+ERROR 22:08:14,959 - Parsiranje NIJE uspesno zavrseno!

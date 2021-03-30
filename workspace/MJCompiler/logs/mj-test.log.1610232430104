@@ -1,0 +1,191 @@
+INFO  23:46:24,656 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:46:24,699 - #2 program
+INFO  23:46:24,699 - #48 test301
+INFO  23:46:24,700 - #8 const
+INFO  23:46:24,701 - #48 int
+INFO  23:46:24,701 - #48 nula
+INFO  23:46:24,701 - #9 =
+INFO  23:46:24,701 - #49 0
+INFO  23:46:24,702 - #4 ;
+INFO  23:46:24,702 - #8 const
+INFO  23:46:24,702 - #48 int
+INFO  23:46:24,703 - #48 jedan
+INFO  23:46:24,703 - #9 =
+INFO  23:46:24,703 - #49 1
+INFO  23:46:24,703 - #4 ;
+INFO  23:46:24,703 - #8 const
+INFO  23:46:24,703 - #48 int
+INFO  23:46:24,703 - #48 pet
+INFO  23:46:24,703 - #9 =
+INFO  23:46:24,703 - #49 5
+INFO  23:46:24,703 - #4 ;
+INFO  23:46:24,703 - #48 int
+INFO  23:46:24,703 - #48 niz
+INFO  23:46:24,703 - #5 [
+INFO  23:46:24,704 - #6 ]
+INFO  23:46:24,704 - #4 ;
+INFO  23:46:24,704 - #48 char
+INFO  23:46:24,704 - #48 nizch
+INFO  23:46:24,705 - #5 [
+INFO  23:46:24,705 - #6 ]
+INFO  23:46:24,705 - #4 ;
+INFO  23:46:24,705 - #10 {
+INFO  23:46:24,705 - #12 void
+INFO  23:46:24,706 - #48 main
+INFO  23:46:24,706 - #11 (
+INFO  23:46:24,707 - #13 )
+INFO  23:46:24,707 - #48 int
+INFO  23:46:24,708 - #48 bodovi
+INFO  23:46:24,708 - #4 ;
+INFO  23:46:24,708 - #48 bool
+INFO  23:46:24,708 - #48 bt
+INFO  23:46:24,708 - #4 ;
+INFO  23:46:24,708 - #10 {
+INFO  23:46:24,709 - #3 }
+INFO  23:46:24,709 - #12 void
+INFO  23:46:24,710 - #48 main
+INFO  23:46:24,710 - #11 (
+INFO  23:46:24,710 - #13 )
+INFO  23:46:24,710 - #10 {
+INFO  23:46:24,710 - #3 }
+INFO  23:46:24,710 - #3 }
+INFO  23:46:24,717 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDecls(
+        ConstDecls(
+          ConstDecls(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              DodelaVrednosti(
+               nula
+                Number_Const(
+                 0
+                ) [Number_Const]
+              ) [DodelaVrednosti]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            DodelaVrednosti(
+             jedan
+              Number_Const(
+               1
+              ) [Number_Const]
+            ) [DodelaVrednosti]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          DodelaVrednosti(
+           pet
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           niz
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       char
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijeNiz(
+         nizch
+        ) [DeoDeklaracijeNiz]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        MethodDeclName(
+          Void_Povratna(
+          ) [Void_Povratna]
+         main
+        ) [MethodDeclName]
+        NoFormParams(
+        ) [NoFormParams]
+        VarDeclarationList(
+          VarDeclarationList(
+            NoVarDeclarationList(
+            ) [NoVarDeclarationList]
+            VarDeclOpstaSmena(
+              Type(
+               int
+              ) [Type]
+              VarJednaDeklaracija(
+                DeoDeklaracijaPromenljiva(
+                 bodovi
+                ) [DeoDeklaracijaPromenljiva]
+              ) [VarJednaDeklaracija]
+            ) [VarDeclOpstaSmena]
+          ) [VarDeclarationList]
+          VarDeclOpstaSmena(
+            Type(
+             bool
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               bt
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarationList]
+        NoStatements(
+        ) [NoStatements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:46:24,718 - ===================================
+INFO  23:46:24,722 - Deklarisana simbolicka konstanta nula na liniji 5
+INFO  23:46:24,723 - Deklarisana simbolicka konstanta jedan na liniji 6
+INFO  23:46:24,723 - Deklarisana simbolicka konstanta pet na liniji 7
+INFO  23:46:24,723 - Deklarisana promenljiva niz na liniji 9
+INFO  23:46:24,723 - Deklarisana promenljiva nizch na liniji 10
+INFO  23:46:24,723 - Deklarisana metoda main na liniji 13
+INFO  23:46:24,723 - Deklarisana promenljiva bodovi na liniji 14
+INFO  23:46:24,723 - Deklarisana promenljiva bt na liniji 15
+INFO  23:46:24,723 - Zavrsena obrada metode main na liniji 13
+INFO  23:46:24,723 - Deklarisana metoda main na liniji 24
+INFO  23:46:24,723 - Zavrsena obrada metode main na liniji 24
+INFO  23:46:24,723 - ===================================
+INFO  23:46:24,724 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,220 @@
+INFO  18:14:50,274 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:14:50,343 - #2 program
+INFO  18:14:50,343 - #48 MJProgram
+INFO  18:14:50,343 - #48 int
+INFO  18:14:50,345 - #48 jovana
+INFO  18:14:50,346 - #7 ,
+INFO  18:14:50,346 - #48 p
+INFO  18:14:50,346 - #5 [
+INFO  18:14:50,346 - #6 ]
+INFO  18:14:50,346 - #7 ,
+INFO  18:14:50,347 - #48 mika
+INFO  18:14:50,347 - #5 [
+INFO  18:14:50,347 - #6 ]
+INFO  18:14:50,347 - #7 ,
+INFO  18:14:50,347 - #48 c
+INFO  18:14:50,347 - #4 ;
+INFO  18:14:50,347 - #48 int
+INFO  18:14:50,347 - #48 cc
+INFO  18:14:50,347 - #5 [
+INFO  18:14:50,348 - #6 ]
+INFO  18:14:50,348 - #7 ,
+INFO  18:14:50,348 - #48 j
+INFO  18:14:50,348 - #4 ;
+INFO  18:14:50,348 - #48 char
+INFO  18:14:50,348 - #48 jocika
+INFO  18:14:50,348 - #7 ,
+INFO  18:14:50,348 - #48 ppp
+INFO  18:14:50,348 - #4 ;
+INFO  18:14:50,348 - #48 char
+INFO  18:14:50,348 - #48 jjj
+INFO  18:14:50,349 - #5 [
+INFO  18:14:50,349 - #6 ]
+INFO  18:14:50,349 - #7 ,
+INFO  18:14:50,349 - #48 pp
+INFO  18:14:50,349 - #5 [
+INFO  18:14:50,349 - #6 ]
+INFO  18:14:50,349 - #7 ,
+INFO  18:14:50,349 - #48 gg
+INFO  18:14:50,349 - #5 [
+INFO  18:14:50,349 - #6 ]
+INFO  18:14:50,349 - #4 ;
+INFO  18:14:50,349 - #48 char
+INFO  18:14:50,349 - #48 pppp
+INFO  18:14:50,349 - #7 ,
+INFO  18:14:50,350 - #48 j
+INFO  18:14:50,350 - #5 [
+INFO  18:14:50,350 - #6 ]
+INFO  18:14:50,350 - #4 ;
+INFO  18:14:50,350 - #10 {
+INFO  18:14:50,350 - #12 void
+INFO  18:14:50,351 - #48 main
+INFO  18:14:50,352 - #11 (
+INFO  18:14:50,353 - #13 )
+INFO  18:14:50,354 - #48 char
+INFO  18:14:50,355 - #48 p
+INFO  18:14:50,355 - #4 ;
+INFO  18:14:50,355 - #10 {
+INFO  18:14:50,356 - #3 }
+INFO  18:14:50,357 - #3 }
+INFO  18:14:50,366 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          VarDeclarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            VarDeclOpstaSmena(
+              Type(
+               int
+              ) [Type]
+              VarViseDeklaracija(
+                VarViseDeklaracija(
+                  VarViseDeklaracija(
+                    VarJednaDeklaracija(
+                      DeoDeklaracijaPromenljiva(
+                       jovana
+                      ) [DeoDeklaracijaPromenljiva]
+                    ) [VarJednaDeklaracija]
+                    DeoDeklaracijeNiz(
+                     p
+                    ) [DeoDeklaracijeNiz]
+                  ) [VarViseDeklaracija]
+                  DeoDeklaracijeNiz(
+                   mika
+                  ) [DeoDeklaracijeNiz]
+                ) [VarViseDeklaracija]
+                DeoDeklaracijaPromenljiva(
+                 c
+                ) [DeoDeklaracijaPromenljiva]
+              ) [VarViseDeklaracija]
+            ) [VarDeclOpstaSmena]
+          ) [VarDeclarations]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarViseDeklaracija(
+              VarJednaDeklaracija(
+                DeoDeklaracijeNiz(
+                 cc
+                ) [DeoDeklaracijeNiz]
+              ) [VarJednaDeklaracija]
+              DeoDeklaracijaPromenljiva(
+               j
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarViseDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarViseDeklaracija(
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               jocika
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+            DeoDeklaracijaPromenljiva(
+             ppp
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarViseDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         char
+        ) [Type]
+        VarViseDeklaracija(
+          VarViseDeklaracija(
+            VarJednaDeklaracija(
+              DeoDeklaracijeNiz(
+               jjj
+              ) [DeoDeklaracijeNiz]
+            ) [VarJednaDeklaracija]
+            DeoDeklaracijeNiz(
+             pp
+            ) [DeoDeklaracijeNiz]
+          ) [VarViseDeklaracija]
+          DeoDeklaracijeNiz(
+           gg
+          ) [DeoDeklaracijeNiz]
+        ) [VarViseDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       char
+      ) [Type]
+      VarViseDeklaracija(
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           pppp
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+        DeoDeklaracijeNiz(
+         j
+        ) [DeoDeklaracijeNiz]
+      ) [VarViseDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             p
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:14:50,366 - ===================================
+INFO  18:14:50,371 - obicna promeljiva ELSE GRANA
+INFO  18:14:50,371 - nizovna promenljiva
+INFO  18:14:50,372 - nizovna promenljiva
+INFO  18:14:50,372 - usao
+INFO  18:14:50,372 - obicna promeljiva
+INFO  18:14:50,372 - nizovna promenljiva ELSE GRANA
+INFO  18:14:50,372 - usao
+INFO  18:14:50,372 - obicna promeljiva
+INFO  18:14:50,372 - obicna promeljiva ELSE GRANA
+INFO  18:14:50,372 - usao
+INFO  18:14:50,372 - obicna promeljiva
+INFO  18:14:50,372 - nizovna promenljiva ELSE GRANA
+INFO  18:14:50,372 - nizovna promenljiva
+INFO  18:14:50,373 - usao
+INFO  18:14:50,373 - nizovna promenljiva
+INFO  18:14:50,373 - obicna promeljiva ELSE GRANA
+INFO  18:14:50,373 - usao
+ERROR 18:14:50,373 - Greska na liniji 6! Promenljiva j je vec deklarisana u ovom opsegu!
+INFO  18:14:50,373 - Deklarisana metoda main na liniji 8
+INFO  18:14:50,373 - usao
+INFO  18:14:50,373 - obicna promeljiva
+INFO  18:14:50,373 - Zavrsena obrada metode main na liniji 8
+INFO  18:14:50,374 - ===================================
+ERROR 18:14:50,375 - Parsiranje NIJE uspesno zavrseno!

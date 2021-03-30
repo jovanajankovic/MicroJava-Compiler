@@ -1,0 +1,79 @@
+INFO  01:20:40,240 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  01:20:40,260 - #2 program
+INFO  01:20:40,260 - #3 MJProgram
+INFO  01:20:40,260 - #3 int
+INFO  01:20:40,261 - #3 hej
+INFO  01:20:40,261 - #5 ;
+INFO  01:20:40,261 - #3 char
+INFO  01:20:40,262 - #3 jovana
+INFO  01:20:40,262 - #5 ;
+INFO  01:20:40,262 - #3 int
+INFO  01:20:40,262 - #3 hello
+INFO  01:20:40,262 - #5 ;
+INFO  01:20:40,262 - #9 const
+INFO  01:20:40,262 - #3 int
+INFO  01:20:40,262 - #3 hello
+INFO  01:20:40,262 - #10 =
+INFO  01:20:40,263 - #11 5
+INFO  01:20:40,263 - #5 ;
+INFO  01:20:40,264 - #9 const
+INFO  01:20:40,265 - #3 int
+INFO  01:20:40,265 - #3 dosapdosa
+INFO  01:20:40,265 - #10 =
+INFO  01:20:40,265 - #11 0
+INFO  01:20:40,265 - #8 ,
+INFO  01:20:40,266 - #3 dsdksal
+INFO  01:20:40,266 - #10 =
+INFO  01:20:40,266 - #11 5
+INFO  01:20:40,266 - #5 ;
+INFO  01:20:40,266 - #14 {
+INFO  01:20:40,266 - #4 }
+INFO  01:20:40,268 - Program(
+  ConstDecls(
+    ConstDecls(
+      VarDeclarations(
+        VarDeclarations(
+          VarDeclarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            VarDecl(
+              Type(
+              ) [Type]
+            ) [VarDecl]
+          ) [VarDeclarations]
+          VarDecl(
+            Type(
+            ) [Type]
+          ) [VarDecl]
+        ) [VarDeclarations]
+        VarDecl(
+          Type(
+          ) [Type]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      ConstDecl(
+        Type(
+        ) [Type]
+        DodelaVrednosti(
+          Number_Const(
+          ) [Number_Const]
+        ) [DodelaVrednosti]
+      ) [ConstDecl]
+    ) [ConstDecls]
+    ConstDecl(
+      Type(
+      ) [Type]
+      DodeleVrednosti(
+        DodelaVrednosti(
+          Number_Const(
+          ) [Number_Const]
+        ) [DodelaVrednosti]
+        Number_Const(
+        ) [Number_Const]
+      ) [DodeleVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  01:20:40,268 - ===================================

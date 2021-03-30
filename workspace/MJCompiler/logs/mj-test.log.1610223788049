@@ -1,0 +1,70 @@
+INFO  21:22:47,258 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:22:47,299 - #2 program
+INFO  21:22:47,299 - #48 MJProgram
+INFO  21:22:47,299 - #8 const
+INFO  21:22:47,300 - #48 bool
+INFO  21:22:47,300 - #48 jovana
+INFO  21:22:47,301 - #9 =
+INFO  21:22:47,301 - #50 0
+INFO  21:22:47,301 - #4 ;
+INFO  21:22:47,302 - #10 {
+INFO  21:22:47,302 - #12 void
+INFO  21:22:47,303 - #48 main
+INFO  21:22:47,304 - #11 (
+INFO  21:22:47,305 - #13 )
+INFO  21:22:47,305 - #48 int
+INFO  21:22:47,306 - #48 jovana
+INFO  21:22:47,306 - #4 ;
+INFO  21:22:47,306 - #10 {
+INFO  21:22:47,307 - #3 }
+INFO  21:22:47,308 - #3 }
+INFO  21:22:47,310 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      DodelaVrednosti(
+       jovana
+        Boolean_Const(
+         0
+        ) [Boolean_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:22:47,310 - ===================================

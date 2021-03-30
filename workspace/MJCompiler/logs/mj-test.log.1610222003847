@@ -1,0 +1,128 @@
+INFO  20:50:05,190 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:50:05,231 - #2 program
+INFO  20:50:05,231 - #48 MJProgram
+INFO  20:50:05,231 - #8 const
+INFO  20:50:05,232 - #48 int
+INFO  20:50:05,232 - #48 milica
+INFO  20:50:05,233 - #9 =
+INFO  20:50:05,233 - #49 5
+INFO  20:50:05,233 - #7 ,
+INFO  20:50:05,233 - #48 p
+INFO  20:50:05,233 - #9 =
+INFO  20:50:05,233 - #49 10
+INFO  20:50:05,234 - #4 ;
+INFO  20:50:05,234 - #8 const
+INFO  20:50:05,234 - #48 char
+INFO  20:50:05,235 - #48 hej
+INFO  20:50:05,235 - #9 =
+INFO  20:50:05,235 - #51 a
+INFO  20:50:05,235 - #7 ,
+INFO  20:50:05,235 - #48 b
+INFO  20:50:05,235 - #9 =
+INFO  20:50:05,235 - #51 p
+INFO  20:50:05,235 - #4 ;
+INFO  20:50:05,235 - #48 int
+INFO  20:50:05,235 - #48 pera
+INFO  20:50:05,235 - #5 [
+INFO  20:50:05,235 - #6 ]
+INFO  20:50:05,235 - #4 ;
+INFO  20:50:05,236 - #48 int
+INFO  20:50:05,236 - #48 hello
+INFO  20:50:05,236 - #4 ;
+INFO  20:50:05,236 - #48 int
+INFO  20:50:05,236 - #48 jovana
+INFO  20:50:05,236 - #4 ;
+INFO  20:50:05,236 - #10 {
+INFO  20:50:05,236 - #3 }
+INFO  20:50:05,243 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        ConstDecls(
+          ConstDecls(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              DodelaViseVrednosti(
+                DodelaVrednosti(
+                 milica
+                  Number_Const(
+                   5
+                  ) [Number_Const]
+                ) [DodelaVrednosti]
+               p
+                Number_Const(
+                 10
+                ) [Number_Const]
+              ) [DodelaViseVrednosti]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+            DodelaViseVrednosti(
+              DodelaVrednosti(
+               hej
+                Character_Const(
+                 a
+                ) [Character_Const]
+              ) [DodelaVrednosti]
+             b
+              Character_Const(
+               p
+              ) [Character_Const]
+            ) [DodelaViseVrednosti]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             pera
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           hello
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         jovana
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  20:50:05,244 - ===================================
+INFO  20:50:05,248 - Deklarisana simbolicka konstanta milica na liniji 3
+INFO  20:50:05,248 - Deklarisana simbolicka konstanta hej na liniji 4
+INFO  20:50:05,248 - Deklarisana promenljiva pera na liniji 5
+INFO  20:50:05,248 - Deklarisana promenljiva hello na liniji 6
+INFO  20:50:05,248 - Deklarisana promenljiva jovana na liniji 7
+ERROR 20:50:05,248 - Greska na liniji 1 U programu mora postojati main metoda! 
+INFO  20:50:05,249 - ===================================
+ERROR 20:50:05,250 - Parsiranje NIJE uspesno zavrseno!

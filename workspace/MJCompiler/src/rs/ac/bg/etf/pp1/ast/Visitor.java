@@ -1,0 +1,116 @@
+// generated with ast extension for cup
+// version 0.8
+// 18/0/2021 20:48:49
+
+
+package rs.ac.bg.etf.pp1.ast;
+
+public interface Visitor { 
+
+    public void visit(VarDeoDeklaracije VarDeoDeklaracije);
+    public void visit(Assign_Designator Assign_Designator);
+    public void visit(Mulop Mulop);
+    public void visit(Relop Relop);
+    public void visit(MulopFactorList MulopFactorList);
+    public void visit(FormalParamDecl FormalParamDecl);
+    public void visit(StatementList StatementList);
+    public void visit(Addop Addop);
+    public void visit(List List);
+    public void visit(Vrednost Vrednost);
+    public void visit(Factor Factor);
+    public void visit(Designator Designator);
+    public void visit(Term Term);
+    public void visit(VarDeclList VarDeclList);
+    public void visit(FormalParamList FormalParamList);
+    public void visit(Expr Expr);
+    public void visit(Expr1 Expr1);
+    public void visit(AddopList AddopList);
+    public void visit(Povratna Povratna);
+    public void visit(DesignatorStatement DesignatorStatement);
+    public void visit(Dodela Dodela);
+    public void visit(Statement Statement);
+    public void visit(VarDecl VarDecl);
+    public void visit(CondFact CondFact);
+    public void visit(MethodDeclList MethodDeclList);
+    public void visit(VarPomocnaLista VarPomocnaLista);
+    public void visit(FormPars FormPars);
+    public void visit(LeOperacija LeOperacija);
+    public void visit(Ltperacija Ltperacija);
+    public void visit(GeOperacija GeOperacija);
+    public void visit(GtOperacija GtOperacija);
+    public void visit(NeOperacija NeOperacija);
+    public void visit(EqOperacija EqOperacija);
+    public void visit(PercentageOperacija PercentageOperacija);
+    public void visit(DivOperacija DivOperacija);
+    public void visit(MulOperacija MulOperacija);
+    public void visit(MinusOperacija MinusOperacija);
+    public void visit(PlusOperacija PlusOperacija);
+    public void visit(DesignatorArrayName DesignatorArrayName);
+    public void visit(DesignatorArray DesignatorArray);
+    public void visit(DesignatorIdentifikator DesignatorIdentifikator);
+    public void visit(FactorNewArray FactorNewArray);
+    public void visit(FactorBool FactorBool);
+    public void visit(FactorExpr FactorExpr);
+    public void visit(FactorChar FactorChar);
+    public void visit(FactorNumber FactorNumber);
+    public void visit(FactorDesignator FactorDesignator);
+    public void visit(MulopFactorLista MulopFactorLista);
+    public void visit(MulopFactor MulopFactor);
+    public void visit(ViseTermova ViseTermova);
+    public void visit(Term_0 Term_0);
+    public void visit(AddoptListaJednaOperacija AddoptListaJednaOperacija);
+    public void visit(AddoptListaViseOperacija AddoptListaViseOperacija);
+    public void visit(ExprWithoutMinusLista ExprWithoutMinusLista);
+    public void visit(ExprWithoutMinus ExprWithoutMinus);
+    public void visit(MinusExprLista MinusExprLista);
+    public void visit(MinusExpr MinusExpr);
+    public void visit(CondFactRelation CondFactRelation);
+    public void visit(CondFactBoolean CondFactBoolean);
+    public void visit(DveTacke DveTacke);
+    public void visit(Expr_obican Expr_obican);
+    public void visit(Ternarni_operator Ternarni_operator);
+    public void visit(ErrorStmt_iskaz_dodele ErrorStmt_iskaz_dodele);
+    public void visit(Assign_Designator_Klasa Assign_Designator_Klasa);
+    public void visit(Decrement Decrement);
+    public void visit(Increment Increment);
+    public void visit(Assignment Assignment);
+    public void visit(PrintStatementComma PrintStatementComma);
+    public void visit(PrintStatement PrintStatement);
+    public void visit(ReadStatement ReadStatement);
+    public void visit(DesignatorStatementSemi DesignatorStatementSemi);
+    public void visit(NoStatements NoStatements);
+    public void visit(StatementLista StatementLista);
+    public void visit(Type Type);
+    public void visit(SingleFormalParamDeclArr SingleFormalParamDeclArr);
+    public void visit(SingleFormalParamDeclIdent SingleFormalParamDeclIdent);
+    public void visit(SingleFormalParamDecl SingleFormalParamDecl);
+    public void visit(FormalParamDecls FormalParamDecls);
+    public void visit(NoFormParams NoFormParams);
+    public void visit(FormParams FormParams);
+    public void visit(Void_Povratna Void_Povratna);
+    public void visit(Tip_Povratna Tip_Povratna);
+    public void visit(MethodDeclName MethodDeclName);
+    public void visit(MethodDecl MethodDecl);
+    public void visit(NoMethodDeclarations NoMethodDeclarations);
+    public void visit(MethodDeclarations MethodDeclarations);
+    public void visit(Boolean_Const Boolean_Const);
+    public void visit(Character_Const Character_Const);
+    public void visit(Number_Const Number_Const);
+    public void visit(DodelaViseVrednosti DodelaViseVrednosti);
+    public void visit(DodelaVrednosti DodelaVrednosti);
+    public void visit(ConstDecl ConstDecl);
+    public void visit(NoVarDeclarationList NoVarDeclarationList);
+    public void visit(VarDeclarationList VarDeclarationList);
+    public void visit(ErrorStmt_definicija_promenljive ErrorStmt_definicija_promenljive);
+    public void visit(DeoDeklaracijaPromenljiva DeoDeklaracijaPromenljiva);
+    public void visit(DeoDeklaracijeNiz DeoDeklaracijeNiz);
+    public void visit(VarJednaDeklaracija VarJednaDeklaracija);
+    public void visit(VarViseDeklaracija VarViseDeklaracija);
+    public void visit(VarDeclOpstaSmena VarDeclOpstaSmena);
+    public void visit(NoDeclarations NoDeclarations);
+    public void visit(ConstDecls ConstDecls);
+    public void visit(VarDeclarations VarDeclarations);
+    public void visit(ProgName ProgName);
+    public void visit(Program Program);
+
+}

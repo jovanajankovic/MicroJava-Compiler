@@ -1,0 +1,131 @@
+INFO  21:25:41,746 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:25:41,786 - #2 program
+INFO  21:25:41,787 - #48 MJProgram
+INFO  21:25:41,787 - #8 const
+INFO  21:25:41,788 - #48 bool
+INFO  21:25:41,788 - #48 car
+INFO  21:25:41,789 - #9 =
+INFO  21:25:41,789 - #49 8
+INFO  21:25:41,789 - #7 ,
+INFO  21:25:41,789 - #48 jovana
+INFO  21:25:41,789 - #9 =
+INFO  21:25:41,789 - #50 0
+INFO  21:25:41,789 - #7 ,
+INFO  21:25:41,789 - #48 fifi
+INFO  21:25:41,789 - #9 =
+INFO  21:25:41,790 - #50 1
+INFO  21:25:41,790 - #7 ,
+INFO  21:25:41,790 - #48 mm
+INFO  21:25:41,790 - #9 =
+INFO  21:25:41,790 - #51 a
+INFO  21:25:41,790 - #7 ,
+INFO  21:25:41,790 - #48 ppp
+INFO  21:25:41,790 - #9 =
+INFO  21:25:41,790 - #50 1
+INFO  21:25:41,790 - #7 ,
+INFO  21:25:41,790 - #48 lik
+INFO  21:25:41,790 - #9 =
+INFO  21:25:41,790 - #51 a
+INFO  21:25:41,790 - #4 ;
+INFO  21:25:41,791 - #10 {
+INFO  21:25:41,792 - #12 void
+INFO  21:25:41,792 - #48 main
+INFO  21:25:41,793 - #11 (
+INFO  21:25:41,793 - #13 )
+INFO  21:25:41,794 - #48 int
+INFO  21:25:41,795 - #48 jovana
+INFO  21:25:41,795 - #4 ;
+INFO  21:25:41,795 - #10 {
+INFO  21:25:41,795 - #3 }
+INFO  21:25:41,796 - #3 }
+INFO  21:25:41,802 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      DodelaViseVrednosti(
+        DodelaViseVrednosti(
+          DodelaViseVrednosti(
+            DodelaViseVrednosti(
+              DodelaViseVrednosti(
+                DodelaVrednosti(
+                 car
+                  Number_Const(
+                   8
+                  ) [Number_Const]
+                ) [DodelaVrednosti]
+               jovana
+                Boolean_Const(
+                 0
+                ) [Boolean_Const]
+              ) [DodelaViseVrednosti]
+             fifi
+              Boolean_Const(
+               1
+              ) [Boolean_Const]
+            ) [DodelaViseVrednosti]
+           mm
+            Character_Const(
+             a
+            ) [Character_Const]
+          ) [DodelaViseVrednosti]
+         ppp
+          Boolean_Const(
+           1
+          ) [Boolean_Const]
+        ) [DodelaViseVrednosti]
+       lik
+        Character_Const(
+         a
+        ) [Character_Const]
+      ) [DodelaViseVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:25:41,803 - ===================================
+ERROR 21:25:41,806 - Greska na liniji 6: Tip konstante car i tip dodeljene vrednosti se ne poklapaju! 
+INFO  21:25:41,806 - Deklarisana simbolicka konstanta jovana na liniji 6
+INFO  21:25:41,806 - Deklarisana simbolicka konstanta fifi na liniji 6
+ERROR 21:25:41,806 - Greska na liniji 6: Tip konstante mm i tip dodeljene vrednosti se ne poklapaju! 
+INFO  21:25:41,806 - Deklarisana simbolicka konstanta ppp na liniji 6
+ERROR 21:25:41,806 - Greska na liniji 6: Tip konstante lik i tip dodeljene vrednosti se ne poklapaju! 
+INFO  21:25:41,807 - Deklarisana metoda main na liniji 8
+INFO  21:25:41,807 - Deklarisana promenljiva jovana na liniji 9
+INFO  21:25:41,807 - Zavrsena obrada metode main na liniji 8
+INFO  21:25:41,807 - ===================================
+ERROR 21:25:41,808 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,88 @@
+INFO  19:11:21,178 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:11:21,218 - #2 program
+INFO  19:11:21,219 - #48 test301
+INFO  19:11:21,219 - #48 int
+INFO  19:11:21,220 - #48 pera
+INFO  19:11:21,221 - #7 ,
+INFO  19:11:21,221 - #48 laza
+INFO  19:11:21,221 - #7 ,
+INFO  19:11:21,221 - #48 laza
+INFO  19:11:21,221 - #4 ;
+INFO  19:11:21,221 - #10 {
+INFO  19:11:21,222 - #12 void
+INFO  19:11:21,222 - #48 main
+INFO  19:11:21,223 - #11 (
+INFO  19:11:21,223 - #13 )
+INFO  19:11:21,224 - #48 int
+INFO  19:11:21,224 - #48 bodovi
+INFO  19:11:21,224 - #4 ;
+INFO  19:11:21,225 - #10 {
+INFO  19:11:21,225 - #3 }
+INFO  19:11:21,225 - #3 }
+INFO  19:11:21,232 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarViseDeklaracija(
+        VarViseDeklaracija(
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             pera
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+          DeoDeklaracijaPromenljiva(
+           laza
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarViseDeklaracija]
+        DeoDeklaracijaPromenljiva(
+         laza
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarViseDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bodovi
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:11:21,233 - ===================================
+INFO  19:11:21,236 - Deklarisana promenljiva pera na liniji 5
+INFO  19:11:21,236 - Deklarisana promenljiva laza na liniji 5
+ERROR 19:11:21,236 - Greska na liniji 5 :  Promenljiva laza je vec deklarisana
+INFO  19:11:21,236 - Deklarisana metoda main na liniji 7
+INFO  19:11:21,237 - Deklarisana promenljiva bodovi na liniji 8
+INFO  19:11:21,237 - Zavrsena obrada metode main na liniji 7
+INFO  19:11:21,237 - ===================================
+ERROR 19:11:21,238 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,233 @@
+INFO  22:23:14,889 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:23:15,856 - #2 program
+INFO  22:23:15,856 - #48 MJProgram
+INFO  22:23:15,856 - #48 int
+INFO  22:23:15,857 - #48 niz
+INFO  22:23:15,858 - #5 [
+INFO  22:23:15,858 - #6 ]
+INFO  22:23:15,858 - #7 ,
+INFO  22:23:15,858 - #48 mika
+INFO  22:23:15,859 - #5 [
+INFO  22:23:15,859 - #6 ]
+INFO  22:23:15,859 - #4 ;
+INFO  22:23:15,859 - #48 int
+INFO  22:23:15,859 - #48 jocika
+INFO  22:23:15,859 - #4 ;
+INFO  22:23:15,859 - #48 bool
+INFO  22:23:15,859 - #48 maki
+INFO  22:23:15,859 - #4 ;
+INFO  22:23:15,860 - #10 {
+INFO  22:23:15,860 - #12 void
+INFO  22:23:15,860 - #48 main
+INFO  22:23:15,861 - #11 (
+INFO  22:23:15,862 - #13 )
+INFO  22:23:15,863 - #48 bool
+INFO  22:23:15,864 - #48 jovana
+INFO  22:23:15,864 - #4 ;
+INFO  22:23:15,864 - #10 {
+INFO  22:23:15,864 - #48 jocika
+INFO  22:23:15,864 - #9 =
+INFO  22:23:15,865 - #30 -
+INFO  22:23:15,865 - #11 (
+INFO  22:23:15,865 - #48 mika
+INFO  22:23:15,865 - #16 +
+INFO  22:23:15,865 - #49 5
+INFO  22:23:15,866 - #16 +
+INFO  22:23:15,866 - #49 9
+INFO  22:23:15,866 - #16 +
+INFO  22:23:15,866 - #49 4
+INFO  22:23:15,867 - #16 +
+INFO  22:23:15,867 - #48 mika
+INFO  22:23:15,867 - #5 [
+INFO  22:23:15,867 - #49 5
+INFO  22:23:15,867 - #6 ]
+INFO  22:23:15,868 - #16 +
+INFO  22:23:15,868 - #48 niz
+INFO  22:23:15,868 - #13 )
+INFO  22:23:15,868 - #4 ;
+INFO  22:23:15,869 - #3 }
+INFO  22:23:15,869 - #3 }
+INFO  22:23:15,878 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarViseDeklaracija(
+            VarJednaDeklaracija(
+              DeoDeklaracijeNiz(
+               niz
+              ) [DeoDeklaracijeNiz]
+            ) [VarJednaDeklaracija]
+            DeoDeklaracijeNiz(
+             mika
+            ) [DeoDeklaracijeNiz]
+          ) [VarViseDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           jocika
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       bool
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         maki
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStatementSemi(
+          Assignment(
+            Assign_Designator_Klasa(
+              DesignatorIdentifikator(
+               jocika
+              ) [DesignatorIdentifikator]
+              Expr_obican(
+                MinusExpr(
+                  Term_0(
+                    FactorExpr(
+                      Expr_obican(
+                        ExprWithoutMinusLista(
+                          Term_0(
+                            FactorDesignator(
+                              DesignatorIdentifikator(
+                               mika
+                              ) [DesignatorIdentifikator]
+                            ) [FactorDesignator]
+                          ) [Term_0]
+                          AddoptListaViseOperacija(
+                            AddoptListaViseOperacija(
+                              AddoptListaViseOperacija(
+                                AddoptListaViseOperacija(
+                                  AddoptListaJednaOperacija(
+                                    PlusOperacija(
+                                    ) [PlusOperacija]
+                                    Term_0(
+                                      FactorNumber(
+                                       5
+                                      ) [FactorNumber]
+                                    ) [Term_0]
+                                  ) [AddoptListaJednaOperacija]
+                                  PlusOperacija(
+                                  ) [PlusOperacija]
+                                  Term_0(
+                                    FactorNumber(
+                                     9
+                                    ) [FactorNumber]
+                                  ) [Term_0]
+                                ) [AddoptListaViseOperacija]
+                                PlusOperacija(
+                                ) [PlusOperacija]
+                                Term_0(
+                                  FactorNumber(
+                                   4
+                                  ) [FactorNumber]
+                                ) [Term_0]
+                              ) [AddoptListaViseOperacija]
+                              PlusOperacija(
+                              ) [PlusOperacija]
+                              Term_0(
+                                FactorDesignator(
+                                  DesignatorArray(
+                                    DesignatorArrayName(
+                                     mika
+                                    ) [DesignatorArrayName]
+                                    Expr_obican(
+                                      ExprWithoutMinus(
+                                        Term_0(
+                                          FactorNumber(
+                                           5
+                                          ) [FactorNumber]
+                                        ) [Term_0]
+                                      ) [ExprWithoutMinus]
+                                    ) [Expr_obican]
+                                  ) [DesignatorArray]
+                                ) [FactorDesignator]
+                              ) [Term_0]
+                            ) [AddoptListaViseOperacija]
+                            PlusOperacija(
+                            ) [PlusOperacija]
+                            Term_0(
+                              FactorDesignator(
+                                DesignatorIdentifikator(
+                                 niz
+                                ) [DesignatorIdentifikator]
+                              ) [FactorDesignator]
+                            ) [Term_0]
+                          ) [AddoptListaViseOperacija]
+                        ) [ExprWithoutMinusLista]
+                      ) [Expr_obican]
+                    ) [FactorExpr]
+                  ) [Term_0]
+                ) [MinusExpr]
+              ) [Expr_obican]
+            ) [Assign_Designator_Klasa]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:23:15,879 - ===================================
+INFO  22:23:15,884 - Deklarisana promenljiva niz na liniji 10
+INFO  22:23:15,884 - Deklarisana promenljiva jocika na liniji 11
+INFO  22:23:15,884 - Deklarisana promenljiva maki na liniji 12
+INFO  22:23:15,885 - Deklarisana metoda main na liniji 14
+INFO  22:23:15,885 - Deklarisana promenljiva jovana na liniji 15
+INFO  22:23:15,885 - Detektovana globalna promenljiva jocika na liniji 17
+INFO  22:23:15,885 - Detektovana globalna promenljiva mika na liniji 17
+INFO  22:23:15,885 - Detektovana globalna promenljiva mika na liniji 17
+INFO  22:23:15,885 - Detektovana globalna promenljiva niz na liniji 17
+ERROR 22:23:15,885 - Greska na liniji 17 : Operand u izrazu mora biti tipa INT!
+ERROR 22:23:15,885 - Greska na liniji 17 : Operand u izrazu mora biti tipa INT!
+ERROR 22:23:15,885 - Greska na liniji 17 : Operand u izrazu mora biti tipa INT!
+ERROR 22:23:15,885 - Greska na liniji : 17 Vrednosti nisu kompatibilne pri izrazu dodele!
+INFO  22:23:15,885 - Zavrsena obrada metode main na liniji 14
+INFO  22:23:15,886 - ===================================
+ERROR 22:23:15,886 - Parsiranje NIJE uspesno zavrseno!

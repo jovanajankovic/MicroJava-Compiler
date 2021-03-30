@@ -1,0 +1,71 @@
+INFO  01:18:06,674 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  01:18:06,694 - #2 program
+INFO  01:18:06,694 - #3 MJProgram
+INFO  01:18:06,694 - #3 int
+INFO  01:18:06,695 - #3 hej
+INFO  01:18:06,696 - #5 ;
+INFO  01:18:06,696 - #3 char
+INFO  01:18:06,696 - #3 jovana
+INFO  01:18:06,696 - #5 ;
+INFO  01:18:06,696 - #3 int
+INFO  01:18:06,696 - #3 hello
+INFO  01:18:06,696 - #5 ;
+INFO  01:18:06,696 - #9 const
+INFO  01:18:06,697 - #3 int
+INFO  01:18:06,697 - #3 hello
+INFO  01:18:06,697 - #10 =
+INFO  01:18:06,697 - #11 5
+INFO  01:18:06,697 - #8 ,
+INFO  01:18:06,698 - #3 johanna
+INFO  01:18:06,698 - #10 =
+INFO  01:18:06,698 - #11 10
+INFO  01:18:06,698 - #8 ,
+INFO  01:18:06,699 - #3 aca
+INFO  01:18:06,699 - #10 =
+INFO  01:18:06,699 - #11 7
+INFO  01:18:06,699 - #5 ;
+INFO  01:18:06,699 - #14 {
+INFO  01:18:06,700 - #4 }
+INFO  01:18:06,701 - Program(
+  ConstDecls(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDecl(
+            Type(
+            ) [Type]
+          ) [VarDecl]
+        ) [VarDeclarations]
+        VarDecl(
+          Type(
+          ) [Type]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      VarDecl(
+        Type(
+        ) [Type]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+      ) [Type]
+      DodeleVrednosti(
+        DodeleVrednosti(
+          DodelaVrednosti(
+            Number_Const(
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+          Number_Const(
+          ) [Number_Const]
+        ) [DodeleVrednosti]
+        Number_Const(
+        ) [Number_Const]
+      ) [DodeleVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  01:18:06,702 - ===================================

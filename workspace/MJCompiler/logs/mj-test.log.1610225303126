@@ -1,0 +1,128 @@
+INFO  21:46:55,871 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:46:55,917 - #2 program
+INFO  21:46:55,917 - #48 MJProgram
+INFO  21:46:55,917 - #48 int
+INFO  21:46:55,919 - #48 niz
+INFO  21:46:55,920 - #5 [
+INFO  21:46:55,920 - #6 ]
+INFO  21:46:55,920 - #7 ,
+INFO  21:46:55,920 - #48 mika
+INFO  21:46:55,920 - #5 [
+INFO  21:46:55,920 - #6 ]
+INFO  21:46:55,920 - #4 ;
+INFO  21:46:55,921 - #48 int
+INFO  21:46:55,921 - #48 jocika
+INFO  21:46:55,921 - #4 ;
+INFO  21:46:55,921 - #10 {
+INFO  21:46:55,921 - #12 void
+INFO  21:46:55,922 - #48 main
+INFO  21:46:55,922 - #11 (
+INFO  21:46:55,923 - #13 )
+INFO  21:46:55,924 - #48 bool
+INFO  21:46:55,924 - #48 jovana
+INFO  21:46:55,924 - #4 ;
+INFO  21:46:55,924 - #10 {
+INFO  21:46:55,925 - #48 jocika
+INFO  21:46:55,925 - #5 [
+INFO  21:46:55,926 - #49 5
+INFO  21:46:55,926 - #6 ]
+INFO  21:46:55,926 - #42 ++
+INFO  21:46:55,927 - #4 ;
+INFO  21:46:55,927 - #3 }
+INFO  21:46:55,927 - #3 }
+INFO  21:46:55,934 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarViseDeklaracija(
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             niz
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+          DeoDeklaracijeNiz(
+           mika
+          ) [DeoDeklaracijeNiz]
+        ) [VarViseDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         jocika
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStatementSemi(
+          Increment(
+            DesignatorArray(
+              DesignatorArrayName(
+               jocika
+              ) [DesignatorArrayName]
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorNumber(
+                     5
+                    ) [FactorNumber]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [DesignatorArray]
+          ) [Increment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:46:55,935 - ===================================
+INFO  21:46:55,938 - Deklarisana promenljiva niz na liniji 10
+INFO  21:46:55,939 - Deklarisana promenljiva jocika na liniji 11
+INFO  21:46:55,939 - Deklarisana metoda main na liniji 13
+INFO  21:46:55,939 - Deklarisana promenljiva jovana na liniji 14
+INFO  21:46:55,939 - Detektovana globalna promenljiva jocika na liniji 16
+ERROR 21:46:55,939 - Greska na liniji 16 :  Promenljiva jocika mora biti NIZ!
+ERROR 21:46:55,940 - Greska na liniji 16 : Promenljiva jocika mora biti promenljiva ili element niza tipa INT!
+INFO  21:46:55,940 - Zavrsena obrada metode main na liniji 13
+INFO  21:46:55,940 - ===================================
+ERROR 21:46:55,941 - Parsiranje NIJE uspesno zavrseno!

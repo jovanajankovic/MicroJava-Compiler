@@ -1,0 +1,295 @@
+INFO  12:04:50,272 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:04:50,494 - #2 program
+INFO  12:04:50,494 - #32 MJProgram
+INFO  12:04:50,494 - #32 int
+INFO  12:04:50,496 - #32 hej
+INFO  12:04:50,496 - #5 [
+INFO  12:04:50,497 - #6 ]
+INFO  12:04:50,497 - #7 ,
+INFO  12:04:50,497 - #7 ,
+ERROR 12:04:50,497 - 
+Sintaksna greska na liniji 2
+INFO  12:04:50,497 - #32 jovana
+INFO  12:04:50,497 - #7 ,
+INFO  12:04:50,497 - #32 mica
+ERROR 12:04:50,498 - Neispravna definicija globalne promenljive. Izvrsen oporavak od greske
+INFO  12:04:50,499 - #4 ;
+INFO  12:04:50,499 - #32 int
+INFO  12:04:50,499 - #32 pera
+INFO  12:04:50,522 - #5 [
+INFO  12:04:50,522 - #6 ]
+INFO  12:04:50,522 - #4 ;
+INFO  12:04:50,523 - #32 int
+INFO  12:04:50,523 - #32 dsdsa
+INFO  12:04:50,523 - #4 ;
+INFO  12:04:50,523 - #32 int
+INFO  12:04:50,523 - #32 mika
+INFO  12:04:50,523 - #5 [
+INFO  12:04:50,523 - #6 ]
+INFO  12:04:50,523 - #7 ,
+INFO  12:04:50,523 - #32 zika
+INFO  12:04:50,523 - #5 [
+INFO  12:04:50,523 - #6 ]
+INFO  12:04:50,523 - #7 ,
+INFO  12:04:50,523 - #32 ceca
+INFO  12:04:50,523 - #5 [
+INFO  12:04:50,523 - #6 ]
+INFO  12:04:50,523 - #4 ;
+INFO  12:04:50,524 - #10 {
+INFO  12:04:50,524 - #12 void
+INFO  12:04:50,524 - #32 main
+INFO  12:04:50,525 - #11 (
+INFO  12:04:50,526 - #13 )
+INFO  12:04:50,526 - #10 {
+INFO  12:04:50,527 - #32 jovana
+INFO  12:04:50,527 - #9 =
+INFO  12:04:50,527 - #33 3
+INFO  12:04:50,527 - #4 ;
+INFO  12:04:50,528 - #14 print
+INFO  12:04:50,528 - #11 (
+INFO  12:04:50,528 - #32 rsejwkj
+INFO  12:04:50,528 - #13 )
+INFO  12:04:50,528 - #4 ;
+INFO  12:04:50,529 - #32 niz
+INFO  12:04:50,529 - #5 [
+INFO  12:04:50,529 - #32 a
+INFO  12:04:50,529 - #5 [
+INFO  12:04:50,529 - #32 b
+INFO  12:04:50,530 - #5 [
+INFO  12:04:50,530 - #33 5
+INFO  12:04:50,530 - #6 ]
+INFO  12:04:50,530 - #6 ]
+INFO  12:04:50,530 - #6 ]
+INFO  12:04:50,530 - #9 =
+INFO  12:04:50,530 - #33 5
+INFO  12:04:50,530 - #19 *
+INFO  12:04:50,530 - #33 3
+INFO  12:04:50,531 - #15 +
+INFO  12:04:50,532 - #33 2
+INFO  12:04:50,532 - #4 ;
+INFO  12:04:50,533 - #3 }
+INFO  12:04:50,535 - #3 }
+INFO  12:04:50,541 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarViseDeklaracija(
+              VarViseDeklaracija(
+                VarViseDeklaracija(
+                  VarJednaDeklaracija(
+                    DeoDeklaracijeNiz(
+                     hej
+                    ) [DeoDeklaracijeNiz]
+                  ) [VarJednaDeklaracija]
+                  ErrorStmt_definicija_promenljive(
+                  ) [ErrorStmt_definicija_promenljive]
+                ) [VarViseDeklaracija]
+                DeoDeklaracijaPromenljiva(
+                 jovana
+                ) [DeoDeklaracijaPromenljiva]
+              ) [VarViseDeklaracija]
+              DeoDeklaracijaPromenljiva(
+               mica
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarViseDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             pera
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           dsdsa
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarViseDeklaracija(
+        VarViseDeklaracija(
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             mika
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+          DeoDeklaracijeNiz(
+           zika
+          ) [DeoDeklaracijeNiz]
+        ) [VarViseDeklaracija]
+        DeoDeklaracijeNiz(
+         ceca
+        ) [DeoDeklaracijeNiz]
+      ) [VarViseDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      StatementLista(
+        StatementLista(
+          StatementLista(
+            NoStatements(
+            ) [NoStatements]
+            DesignatorStatementSemi(
+              Assignment(
+                Assign_Designator_Klasa(
+                  DesignatorIdentifikator(
+                   jovana
+                  ) [DesignatorIdentifikator]
+                  Expr_obican(
+                    ExprWithoutMinus(
+                      Term_0(
+                        FactorNumber(
+                         3
+                        ) [FactorNumber]
+                      ) [Term_0]
+                    ) [ExprWithoutMinus]
+                  ) [Expr_obican]
+                ) [Assign_Designator_Klasa]
+              ) [Assignment]
+            ) [DesignatorStatementSemi]
+          ) [StatementLista]
+          PrintStatement(
+            Expr_obican(
+              ExprWithoutMinus(
+                Term_0(
+                  FactorDesignator(
+                    DesignatorIdentifikator(
+                     rsejwkj
+                    ) [DesignatorIdentifikator]
+                  ) [FactorDesignator]
+                ) [Term_0]
+              ) [ExprWithoutMinus]
+            ) [Expr_obican]
+          ) [PrintStatement]
+        ) [StatementLista]
+        DesignatorStatementSemi(
+          Assignment(
+            Assign_Designator_Klasa(
+              DesignatorArray(
+                DesignatorArrayName(
+                 niz
+                ) [DesignatorArrayName]
+                Expr_obican(
+                  ExprWithoutMinus(
+                    Term_0(
+                      FactorDesignator(
+                        DesignatorArray(
+                          DesignatorArrayName(
+                           a
+                          ) [DesignatorArrayName]
+                          Expr_obican(
+                            ExprWithoutMinus(
+                              Term_0(
+                                FactorDesignator(
+                                  DesignatorArray(
+                                    DesignatorArrayName(
+                                     b
+                                    ) [DesignatorArrayName]
+                                    Expr_obican(
+                                      ExprWithoutMinus(
+                                        Term_0(
+                                          FactorNumber(
+                                           5
+                                          ) [FactorNumber]
+                                        ) [Term_0]
+                                      ) [ExprWithoutMinus]
+                                    ) [Expr_obican]
+                                  ) [DesignatorArray]
+                                ) [FactorDesignator]
+                              ) [Term_0]
+                            ) [ExprWithoutMinus]
+                          ) [Expr_obican]
+                        ) [DesignatorArray]
+                      ) [FactorDesignator]
+                    ) [Term_0]
+                  ) [ExprWithoutMinus]
+                ) [Expr_obican]
+              ) [DesignatorArray]
+              Expr_obican(
+                ExprWithoutMinusLista(
+                  ViseTermova(
+                    FactorNumber(
+                     5
+                    ) [FactorNumber]
+                    MulopFactor(
+                      MulOperacija(
+                      ) [MulOperacija]
+                      FactorNumber(
+                       3
+                      ) [FactorNumber]
+                    ) [MulopFactor]
+                  ) [ViseTermova]
+                  AddoptListaJednaOperacija(
+                    PlusOperacija(
+                    ) [PlusOperacija]
+                    Term_0(
+                      FactorNumber(
+                       2
+                      ) [FactorNumber]
+                    ) [Term_0]
+                  ) [AddoptListaJednaOperacija]
+                ) [ExprWithoutMinusLista]
+              ) [Expr_obican]
+            ) [Assign_Designator_Klasa]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:04:50,542 - ===================================
+INFO  12:04:50,545 - Deklarisana promenljiva hej na liniji 2
+INFO  12:04:50,546 - Deklarisana promenljiva jovana na liniji 2
+INFO  12:04:50,546 - Deklarisana promenljiva mica na liniji 2
+INFO  12:04:50,546 - Deklarisana promenljiva pera na liniji 3
+INFO  12:04:50,546 - Deklarisana promenljiva dsdsa na liniji 4
+INFO  12:04:50,546 - Deklarisana promenljiva mika na liniji 5
+INFO  12:04:50,546 - Deklarisana promenljiva zika na liniji 5
+INFO  12:04:50,546 - Deklarisana promenljiva ceca na liniji 5
+INFO  12:04:50,546 - Deklarisana metoda main na liniji 9
+INFO  12:04:50,546 - Detektovana globalna promenljiva jovana na liniji 11
+INFO  12:04:50,546 - Izraz dodele uspesno izvrsen na liniji 11
+ERROR 12:04:50,546 - Greska na liniji 12 :  Promenljiva rsejwkj nije deklarisana!
+ERROR 12:04:50,546 - Greska na liniji 12 : Argument instrukcije print mora biti promenljiva ili element niza tipa INT, CHAR ILI BOOL!
+ERROR 12:04:50,546 - Greska na liniji 13: Promenljiva niz nije deklarisanja!
+ERROR 12:04:50,547 - Greska na liniji 13: Promenljiva a nije deklarisanja!
+ERROR 12:04:50,547 - Greska na liniji 13: Promenljiva b nije deklarisanja!
+ERROR 12:04:50,547 - Greska na liniji 13 :  Pristup promenljivoj noObj se mora izvrsiti indeksiranjem sa INT tipom!
+ERROR 12:04:50,547 - Greska na liniji 13 :  Pristup promenljivoj noObj se mora izvrsiti indeksiranjem sa INT tipom!
+INFO  12:04:50,547 - Izvrsena operacija sabiranja

@@ -1,0 +1,171 @@
+INFO  22:39:03,703 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:39:03,737 - #2 program
+INFO  22:39:03,737 - #3 MJProgram
+INFO  22:39:03,737 - #3 int
+INFO  22:39:03,738 - #3 hej
+INFO  22:39:03,739 - #6 [
+INFO  22:39:03,739 - #7 ]
+INFO  22:39:03,739 - #8 ,
+INFO  22:39:03,739 - #3 jovana
+INFO  22:39:03,739 - #8 ,
+INFO  22:39:03,740 - #3 mica
+INFO  22:39:03,740 - #5 ;
+INFO  22:39:03,740 - #3 int
+INFO  22:39:03,740 - #3 pera
+INFO  22:39:03,740 - #6 [
+INFO  22:39:03,740 - #7 ]
+INFO  22:39:03,740 - #5 ;
+INFO  22:39:03,740 - #3 int
+INFO  22:39:03,740 - #3 mika
+INFO  22:39:03,740 - #6 [
+INFO  22:39:03,741 - #7 ]
+INFO  22:39:03,741 - #8 ,
+INFO  22:39:03,741 - #3 zika
+INFO  22:39:03,741 - #6 [
+INFO  22:39:03,741 - #7 ]
+INFO  22:39:03,741 - #8 ,
+INFO  22:39:03,741 - #3 ceca
+INFO  22:39:03,741 - #6 [
+INFO  22:39:03,741 - #7 ]
+INFO  22:39:03,741 - #5 ;
+INFO  22:39:03,741 - #3 char
+INFO  22:39:03,741 - #3 perica
+INFO  22:39:03,741 - #5 ;
+INFO  22:39:03,741 - #14 {
+INFO  22:39:03,742 - #16 void
+INFO  22:39:03,742 - #3 main
+INFO  22:39:03,743 - #15 (
+INFO  22:39:03,743 - #17 )
+INFO  22:39:03,744 - #14 {
+INFO  22:39:03,744 - #3 a
+INFO  22:39:03,745 - #46 ++
+INFO  22:39:03,745 - #5 ;
+INFO  22:39:03,745 - #3 a
+INFO  22:39:03,746 - #6 [
+INFO  22:39:03,746 - #11 5
+INFO  22:39:03,746 - #7 ]
+INFO  22:39:03,748 - #46 ++
+INFO  22:39:03,748 - #5 ;
+INFO  22:39:03,748 - #3 a
+INFO  22:39:03,748 - #6 [
+INFO  22:39:03,748 - #3 pera
+INFO  22:39:03,748 - #7 ]
+INFO  22:39:03,748 - #46 ++
+INFO  22:39:03,748 - #5 ;
+INFO  22:39:03,749 - #4 }
+INFO  22:39:03,749 - #16 void
+INFO  22:39:03,750 - #3 jovana
+INFO  22:39:03,750 - #15 (
+INFO  22:39:03,750 - #17 )
+INFO  22:39:03,750 - #14 {
+INFO  22:39:03,750 - #4 }
+INFO  22:39:03,750 - #4 }
+INFO  22:39:03,753 - Program(
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDecls(
+            PomocnaVarDecl_3(
+              PomocnaVarDecl_2(
+                Type(
+                ) [Type]
+              ) [PomocnaVarDecl_2]
+            ) [PomocnaVarDecl_3]
+          ) [VarDecls]
+        ) [VarDeclarations]
+        ArrayDecl(
+          Type(
+          ) [Type]
+        ) [ArrayDecl]
+      ) [VarDeclarations]
+      ArrayDecls(
+        PomocnaVarDecl_4(
+          PomocnaVarDecl_2(
+            Type(
+            ) [Type]
+          ) [PomocnaVarDecl_2]
+        ) [PomocnaVarDecl_4]
+      ) [ArrayDecls]
+    ) [VarDeclarations]
+    SingleVarDecl(
+      Type(
+      ) [Type]
+    ) [SingleVarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        Void_Povratna(
+        ) [Void_Povratna]
+        NoFormParams(
+        ) [NoFormParams]
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        Statements(
+          Statements(
+            Statements(
+              NoStatements(
+              ) [NoStatements]
+              DesignatorStatementSemi(
+                Increment(
+                  DesignatorIdentifikator(
+                  ) [DesignatorIdentifikator]
+                ) [Increment]
+              ) [DesignatorStatementSemi]
+            ) [Statements]
+            DesignatorStatementSemi(
+              Increment(
+                DesignatorArray(
+                  TermWithoutMinus(
+                    Faktor(
+                      FactorNumber(
+                      ) [FactorNumber]
+                      NoMulopFactors(
+                      ) [NoMulopFactors]
+                    ) [Faktor]
+                    NoAddoptTerm(
+                    ) [NoAddoptTerm]
+                  ) [TermWithoutMinus]
+                ) [DesignatorArray]
+              ) [Increment]
+            ) [DesignatorStatementSemi]
+          ) [Statements]
+          DesignatorStatementSemi(
+            Increment(
+              DesignatorArray(
+                TermWithoutMinus(
+                  Faktor(
+                    FactorDesignator(
+                      DesignatorIdentifikator(
+                      ) [DesignatorIdentifikator]
+                    ) [FactorDesignator]
+                    NoMulopFactors(
+                    ) [NoMulopFactors]
+                  ) [Faktor]
+                  NoAddoptTerm(
+                  ) [NoAddoptTerm]
+                ) [TermWithoutMinus]
+              ) [DesignatorArray]
+            ) [Increment]
+          ) [DesignatorStatementSemi]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      Void_Povratna(
+      ) [Void_Povratna]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:39:03,753 - ===================================

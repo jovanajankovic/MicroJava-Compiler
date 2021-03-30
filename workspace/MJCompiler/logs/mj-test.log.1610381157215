@@ -1,0 +1,168 @@
+INFO  17:05:18,639 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:05:18,679 - #2 program
+INFO  17:05:18,680 - #32 test301
+INFO  17:05:18,680 - #32 int
+INFO  17:05:18,681 - #32 niz
+INFO  17:05:18,682 - #5 [
+INFO  17:05:18,682 - #6 ]
+INFO  17:05:18,682 - #4 ;
+INFO  17:05:18,682 - #32 char
+INFO  17:05:18,682 - #32 nizch
+INFO  17:05:18,682 - #5 [
+INFO  17:05:18,682 - #6 ]
+INFO  17:05:18,683 - #4 ;
+INFO  17:05:18,683 - #32 int
+INFO  17:05:18,683 - #32 m
+INFO  17:05:18,683 - #4 ;
+INFO  17:05:18,683 - #10 {
+INFO  17:05:18,683 - #12 void
+INFO  17:05:18,684 - #32 main
+INFO  17:05:18,685 - #11 (
+INFO  17:05:18,685 - #13 )
+INFO  17:05:18,686 - #32 int
+INFO  17:05:18,687 - #32 bodovi
+INFO  17:05:18,687 - #4 ;
+INFO  17:05:18,687 - #10 {
+INFO  17:05:18,687 - #32 nizch
+INFO  17:05:18,687 - #9 =
+INFO  17:05:18,688 - #16 new
+INFO  17:05:18,688 - #32 char
+INFO  17:05:18,688 - #5 [
+INFO  17:05:18,688 - #6 ]
+ERROR 17:05:18,688 - 
+Sintaksna greska na liniji 12
+INFO  17:05:18,688 - #5 [
+INFO  17:05:18,688 - #6 ]
+INFO  17:05:18,688 - #4 ;
+INFO  17:05:18,689 - #32 bodovi
+INFO  17:05:18,689 - #28 ++
+INFO  17:05:18,689 - #15 +
+ERROR 17:05:18,689 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+ERROR 17:05:18,690 - 
+Sintaksna greska na liniji 13
+INFO  17:05:18,690 - #4 ;
+INFO  17:05:18,690 - #32 bodovi
+INFO  17:05:18,690 - #29 --
+INFO  17:05:18,690 - #18 -
+ERROR 17:05:18,691 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+ERROR 17:05:18,691 - 
+Sintaksna greska na liniji 14
+INFO  17:05:18,691 - #4 ;
+INFO  17:05:18,691 - #32 m
+INFO  17:05:18,691 - #9 =
+INFO  17:05:18,691 - #33 5
+ERROR 17:05:18,691 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+INFO  17:05:18,691 - #15 +
+INFO  17:05:18,691 - #33 10
+INFO  17:05:18,693 - #15 +
+INFO  17:05:18,693 - #4 ;
+ERROR 17:05:18,693 - 
+Sintaksna greska na liniji 15
+INFO  17:05:18,693 - #3 }
+INFO  17:05:18,693 - #3 }
+ERROR 17:05:18,693 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+INFO  17:05:18,697 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             niz
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         char
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           nizch
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         m
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bodovi
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        StatementLista(
+          StatementLista(
+            StatementLista(
+              NoStatements(
+              ) [NoStatements]
+              DesignatorStatementSemi(
+                Assignment(
+                  ErrorStmt_iskaz_dodele(
+                  ) [ErrorStmt_iskaz_dodele]
+                ) [Assignment]
+              ) [DesignatorStatementSemi]
+            ) [StatementLista]
+            DesignatorStatementSemi(
+              Assignment(
+                ErrorStmt_iskaz_dodele(
+                ) [ErrorStmt_iskaz_dodele]
+              ) [Assignment]
+            ) [DesignatorStatementSemi]
+          ) [StatementLista]
+          DesignatorStatementSemi(
+            Assignment(
+              ErrorStmt_iskaz_dodele(
+              ) [ErrorStmt_iskaz_dodele]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [StatementLista]
+        DesignatorStatementSemi(
+          Assignment(
+            ErrorStmt_iskaz_dodele(
+            ) [ErrorStmt_iskaz_dodele]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:05:18,697 - ===================================

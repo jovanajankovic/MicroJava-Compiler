@@ -1,0 +1,188 @@
+INFO  21:48:23,132 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:48:23,173 - #2 program
+INFO  21:48:23,173 - #48 MJProgram
+INFO  21:48:23,173 - #48 int
+INFO  21:48:23,174 - #48 niz
+INFO  21:48:23,175 - #5 [
+INFO  21:48:23,175 - #6 ]
+INFO  21:48:23,175 - #7 ,
+INFO  21:48:23,175 - #48 mika
+INFO  21:48:23,176 - #5 [
+INFO  21:48:23,176 - #6 ]
+INFO  21:48:23,176 - #4 ;
+INFO  21:48:23,176 - #48 int
+INFO  21:48:23,176 - #48 jocika
+INFO  21:48:23,176 - #4 ;
+INFO  21:48:23,176 - #48 bool
+INFO  21:48:23,176 - #48 maki
+INFO  21:48:23,177 - #4 ;
+INFO  21:48:23,177 - #10 {
+INFO  21:48:23,177 - #12 void
+INFO  21:48:23,177 - #48 main
+INFO  21:48:23,178 - #11 (
+INFO  21:48:23,179 - #13 )
+INFO  21:48:23,179 - #48 bool
+INFO  21:48:23,180 - #48 jovana
+INFO  21:48:23,180 - #4 ;
+INFO  21:48:23,180 - #10 {
+INFO  21:48:23,180 - #48 jovana
+INFO  21:48:23,181 - #9 =
+INFO  21:48:23,181 - #48 maki
+INFO  21:48:23,181 - #5 [
+INFO  21:48:23,181 - #49 2
+INFO  21:48:23,182 - #6 ]
+INFO  21:48:23,182 - #4 ;
+INFO  21:48:23,182 - #48 jocika
+INFO  21:48:23,183 - #5 [
+INFO  21:48:23,183 - #49 5
+INFO  21:48:23,183 - #6 ]
+INFO  21:48:23,183 - #42 ++
+INFO  21:48:23,183 - #4 ;
+INFO  21:48:23,183 - #3 }
+INFO  21:48:23,183 - #3 }
+INFO  21:48:23,192 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarViseDeklaracija(
+            VarJednaDeklaracija(
+              DeoDeklaracijeNiz(
+               niz
+              ) [DeoDeklaracijeNiz]
+            ) [VarJednaDeklaracija]
+            DeoDeklaracijeNiz(
+             mika
+            ) [DeoDeklaracijeNiz]
+          ) [VarViseDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           jocika
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       bool
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         maki
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        StatementLista(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStatementSemi(
+            Assignment(
+              Assign_Designator_Klasa(
+                DesignatorIdentifikator(
+                 jovana
+                ) [DesignatorIdentifikator]
+                Expr_obican(
+                  ExprWithoutMinus(
+                    Term_0(
+                      FactorDesignator(
+                        DesignatorArray(
+                          DesignatorArrayName(
+                           maki
+                          ) [DesignatorArrayName]
+                          Expr_obican(
+                            ExprWithoutMinus(
+                              Term_0(
+                                FactorNumber(
+                                 2
+                                ) [FactorNumber]
+                              ) [Term_0]
+                            ) [ExprWithoutMinus]
+                          ) [Expr_obican]
+                        ) [DesignatorArray]
+                      ) [FactorDesignator]
+                    ) [Term_0]
+                  ) [ExprWithoutMinus]
+                ) [Expr_obican]
+              ) [Assign_Designator_Klasa]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [StatementLista]
+        DesignatorStatementSemi(
+          Increment(
+            DesignatorArray(
+              DesignatorArrayName(
+               jocika
+              ) [DesignatorArrayName]
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorNumber(
+                     5
+                    ) [FactorNumber]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [DesignatorArray]
+          ) [Increment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:48:23,193 - ===================================
+INFO  21:48:23,198 - Deklarisana promenljiva niz na liniji 10
+INFO  21:48:23,199 - Deklarisana promenljiva jocika na liniji 11
+INFO  21:48:23,199 - Deklarisana promenljiva maki na liniji 12
+INFO  21:48:23,199 - Deklarisana metoda main na liniji 14
+INFO  21:48:23,199 - Deklarisana promenljiva jovana na liniji 15
+INFO  21:48:23,199 - Detektovana lokalna promenljiva jovana na liniji 17
+INFO  21:48:23,199 - Detektovana globalna promenljiva maki na liniji 17
+ERROR 21:48:23,199 - Greska na liniji 17 :  Promenljiva maki mora biti NIZ!
+ERROR 21:48:23,199 - Greska na liniji : 17 Vrednosti nisu kompatibilne pri izrazu dodele!
+INFO  21:48:23,199 - Detektovana globalna promenljiva jocika na liniji 18
+ERROR 21:48:23,199 - Greska na liniji 18 :  Promenljiva jocika mora biti NIZ!
+ERROR 21:48:23,199 - Greska na liniji 18 : Promenljiva jocika mora biti promenljiva ili element niza tipa INT!
+INFO  21:48:23,200 - Zavrsena obrada metode main na liniji 14
+INFO  21:48:23,200 - ===================================
+ERROR 21:48:23,201 - Parsiranje NIJE uspesno zavrseno!

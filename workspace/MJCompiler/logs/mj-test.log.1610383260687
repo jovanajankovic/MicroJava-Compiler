@@ -1,0 +1,348 @@
+INFO  17:29:36,172 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:29:36,235 - #2 program
+INFO  17:29:36,235 - #32 test301
+INFO  17:29:36,235 - #8 const
+INFO  17:29:36,236 - #32 int
+INFO  17:29:36,237 - #32 nula
+INFO  17:29:36,237 - #9 =
+INFO  17:29:36,238 - #33 0
+INFO  17:29:36,238 - #4 ;
+INFO  17:29:36,238 - #8 const
+INFO  17:29:36,239 - #32 int
+INFO  17:29:36,239 - #32 jedan
+INFO  17:29:36,239 - #9 =
+INFO  17:29:36,239 - #33 1
+INFO  17:29:36,239 - #4 ;
+INFO  17:29:36,240 - #8 const
+INFO  17:29:36,240 - #32 int
+INFO  17:29:36,240 - #32 pet
+INFO  17:29:36,240 - #9 =
+INFO  17:29:36,240 - #33 5
+INFO  17:29:36,240 - #4 ;
+INFO  17:29:36,240 - #32 int
+INFO  17:29:36,240 - #32 niz
+INFO  17:29:36,240 - #5 [
+INFO  17:29:36,241 - #6 ]
+INFO  17:29:36,241 - #4 ;
+INFO  17:29:36,241 - #32 char
+INFO  17:29:36,241 - #32 nizch
+INFO  17:29:36,241 - #5 [
+INFO  17:29:36,241 - #6 ]
+INFO  17:29:36,242 - #4 ;
+INFO  17:29:36,242 - #10 {
+INFO  17:29:36,242 - #12 void
+INFO  17:29:36,242 - #32 main
+INFO  17:29:36,243 - #11 (
+INFO  17:29:36,245 - #13 )
+INFO  17:29:36,246 - #32 int
+INFO  17:29:36,247 - #32 bodovi
+INFO  17:29:36,247 - #4 ;
+INFO  17:29:36,247 - #32 bool
+INFO  17:29:36,247 - #32 bt
+INFO  17:29:36,247 - #4 ;
+INFO  17:29:36,247 - #10 {
+INFO  17:29:36,248 - #32 bodovi
+INFO  17:29:36,249 - #9 =
+INFO  17:29:36,249 - #33 0
+INFO  17:29:36,249 - #4 ;
+INFO  17:29:36,250 - #32 bodovi
+INFO  17:29:36,250 - #28 ++
+INFO  17:29:36,250 - #15 +
+ERROR 17:29:36,250 - 
+Sintaksna greska na liniji 18
+INFO  17:29:36,251 - #4 ;
+INFO  17:29:36,251 - #32 bodovi
+INFO  17:29:36,251 - #9 =
+INFO  17:29:36,251 - #32 bodovi
+ERROR 17:29:36,252 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+INFO  17:29:36,253 - #15 +
+INFO  17:29:36,253 - #32 jedan
+INFO  17:29:36,255 - #4 ;
+INFO  17:29:36,255 - #32 bodovi
+INFO  17:29:36,256 - #9 =
+INFO  17:29:36,256 - #32 bodovi
+INFO  17:29:36,256 - #19 *
+INFO  17:29:36,256 - #32 pet
+INFO  17:29:36,258 - #4 ;
+INFO  17:29:36,258 - #32 bodovi
+INFO  17:29:36,258 - #29 --
+INFO  17:29:36,258 - #4 ;
+INFO  17:29:36,259 - #14 print
+INFO  17:29:36,261 - #11 (
+INFO  17:29:36,261 - #32 bodovi
+INFO  17:29:36,261 - #13 )
+INFO  17:29:36,261 - #4 ;
+INFO  17:29:36,261 - #32 niz
+INFO  17:29:36,262 - #9 =
+INFO  17:29:36,262 - #16 new
+INFO  17:29:36,262 - #32 int
+INFO  17:29:36,262 - #5 [
+INFO  17:29:36,262 - #33 3
+INFO  17:29:36,262 - #6 ]
+INFO  17:29:36,262 - #4 ;
+INFO  17:29:36,262 - #32 niz
+INFO  17:29:36,262 - #5 [
+INFO  17:29:36,263 - #32 nula
+INFO  17:29:36,264 - #6 ]
+INFO  17:29:36,264 - #9 =
+INFO  17:29:36,264 - #32 jedan
+INFO  17:29:36,264 - #4 ;
+INFO  17:29:36,265 - #32 niz
+INFO  17:29:36,265 - #5 [
+INFO  17:29:36,265 - #33 1
+INFO  17:29:36,265 - #6 ]
+INFO  17:29:36,265 - #9 =
+INFO  17:29:36,265 - #33 2
+INFO  17:29:36,265 - #4 ;
+INFO  17:29:36,265 - #32 niz
+INFO  17:29:36,265 - #5 [
+INFO  17:29:36,265 - #32 niz
+INFO  17:29:36,266 - #5 [
+INFO  17:29:36,266 - #32 jedan
+INFO  17:29:36,266 - #6 ]
+INFO  17:29:36,266 - #6 ]
+INFO  17:29:36,266 - #9 =
+INFO  17:29:36,266 - #32 niz
+INFO  17:29:36,266 - #5 [
+INFO  17:29:36,266 - #32 niz
+INFO  17:29:36,266 - #5 [
+INFO  17:29:36,266 - #33 0
+INFO  17:29:36,266 - #6 ]
+INFO  17:29:36,266 - #6 ]
+INFO  17:29:36,266 - #19 *
+INFO  17:29:36,267 - #33 3
+INFO  17:29:36,267 - #4 ;
+INFO  17:29:36,267 - #32 bodovi
+INFO  17:29:36,267 - #9 =
+INFO  17:29:36,267 - #32 niz
+INFO  17:29:36,267 - #5 [
+INFO  17:29:36,267 - #33 2
+INFO  17:29:36,267 - #6 ]
+INFO  17:29:36,267 - #20 /
+INFO  17:29:36,267 - #32 niz
+INFO  17:29:36,268 - #5 [
+INFO  17:29:36,268 - #33 0
+INFO  17:29:36,269 - #6 ]
+INFO  17:29:36,269 - #4 ;
+INFO  17:29:36,269 - #14 print
+INFO  17:29:36,269 - #11 (
+INFO  17:29:36,269 - #32 bodovi
+INFO  17:29:36,269 - #13 )
+INFO  17:29:36,269 - #4 ;
+INFO  17:29:36,269 - #14 print
+INFO  17:29:36,269 - #11 (
+INFO  17:29:36,269 - #32 niz
+INFO  17:29:36,270 - #5 [
+INFO  17:29:36,270 - #33 2
+INFO  17:29:36,270 - #6 ]
+INFO  17:29:36,270 - #13 )
+INFO  17:29:36,270 - #4 ;
+INFO  17:29:36,270 - #32 nizch
+INFO  17:29:36,270 - #9 =
+INFO  17:29:36,270 - #16 new
+INFO  17:29:36,270 - #32 char
+INFO  17:29:36,270 - #5 [
+INFO  17:29:36,270 - #33 3
+INFO  17:29:36,270 - #6 ]
+INFO  17:29:36,270 - #4 ;
+INFO  17:29:36,270 - #32 nizch
+INFO  17:29:36,270 - #5 [
+INFO  17:29:36,270 - #33 0
+INFO  17:29:36,270 - #6 ]
+INFO  17:29:36,270 - #9 =
+INFO  17:29:36,271 - #35 a
+INFO  17:29:36,271 - #4 ;
+INFO  17:29:36,271 - #32 nizch
+INFO  17:29:36,271 - #5 [
+INFO  17:29:36,271 - #32 jedan
+INFO  17:29:36,271 - #6 ]
+INFO  17:29:36,271 - #9 =
+INFO  17:29:36,271 - #35 b
+INFO  17:29:36,271 - #4 ;
+INFO  17:29:36,271 - #32 nizch
+INFO  17:29:36,271 - #5 [
+INFO  17:29:36,271 - #32 pet
+INFO  17:29:36,271 - #18 -
+INFO  17:29:36,271 - #33 3
+INFO  17:29:36,272 - #6 ]
+INFO  17:29:36,272 - #9 =
+INFO  17:29:36,272 - #35 c
+INFO  17:29:36,272 - #4 ;
+INFO  17:29:36,272 - #14 print
+INFO  17:29:36,272 - #11 (
+INFO  17:29:36,273 - #32 nizch
+INFO  17:29:36,273 - #5 [
+INFO  17:29:36,273 - #33 1
+INFO  17:29:36,273 - #6 ]
+INFO  17:29:36,273 - #13 )
+INFO  17:29:36,273 - #4 ;
+INFO  17:29:36,273 - #14 print
+INFO  17:29:36,273 - #11 (
+INFO  17:29:36,273 - #32 nizch
+INFO  17:29:36,273 - #5 [
+INFO  17:29:36,273 - #32 jedan
+INFO  17:29:36,273 - #19 *
+INFO  17:29:36,273 - #33 2
+INFO  17:29:36,274 - #6 ]
+INFO  17:29:36,274 - #13 )
+INFO  17:29:36,274 - #4 ;
+INFO  17:29:36,274 - #32 bodovi
+INFO  17:29:36,274 - #9 =
+INFO  17:29:36,274 - #32 bodovi
+INFO  17:29:36,274 - #15 +
+INFO  17:29:36,274 - #11 (
+INFO  17:29:36,274 - #32 pet
+INFO  17:29:36,274 - #19 *
+INFO  17:29:36,274 - #32 jedan
+INFO  17:29:36,274 - #18 -
+INFO  17:29:36,274 - #33 1
+INFO  17:29:36,274 - #13 )
+INFO  17:29:36,275 - #19 *
+INFO  17:29:36,275 - #32 bodovi
+INFO  17:29:36,275 - #18 -
+INFO  17:29:36,275 - #11 (
+INFO  17:29:36,275 - #33 3
+INFO  17:29:36,275 - #21 %
+INFO  17:29:36,275 - #33 2
+INFO  17:29:36,276 - #15 +
+INFO  17:29:36,276 - #33 3
+INFO  17:29:36,276 - #19 *
+INFO  17:29:36,276 - #33 2
+INFO  17:29:36,276 - #18 -
+INFO  17:29:36,276 - #33 3
+INFO  17:29:36,277 - #13 )
+INFO  17:29:36,277 - #4 ;
+INFO  17:29:36,277 - #14 print
+INFO  17:29:36,277 - #11 (
+INFO  17:29:36,277 - #32 bodovi
+INFO  17:29:36,277 - #13 )
+INFO  17:29:36,277 - #4 ;
+INFO  17:29:36,277 - #17 read
+INFO  17:29:36,277 - #11 (
+INFO  17:29:36,277 - #32 bodovi
+INFO  17:29:36,277 - #13 )
+INFO  17:29:36,278 - #4 ;
+INFO  17:29:36,278 - #32 bt
+INFO  17:29:36,278 - #9 =
+INFO  17:29:36,278 - #34 1
+INFO  17:29:36,278 - #4 ;
+INFO  17:29:36,278 - #14 print
+INFO  17:29:36,278 - #11 (
+INFO  17:29:36,278 - #32 bt
+INFO  17:29:36,278 - #30 ?
+INFO  17:29:36,279 - #32 bodovi
+INFO  17:29:36,279 - #31 :
+INFO  17:29:36,279 - #32 bodovi
+INFO  17:29:36,280 - #15 +
+INFO  17:29:36,280 - #33 10
+INFO  17:29:36,280 - #13 )
+INFO  17:29:36,280 - #4 ;
+INFO  17:29:36,281 - #14 print
+INFO  17:29:36,281 - #11 (
+INFO  17:29:36,281 - #34 0
+INFO  17:29:36,281 - #30 ?
+INFO  17:29:36,281 - #32 bodovi
+INFO  17:29:36,281 - #15 +
+INFO  17:29:36,281 - #33 20
+INFO  17:29:36,281 - #31 :
+INFO  17:29:36,281 - #32 bodovi
+INFO  17:29:36,281 - #15 +
+INFO  17:29:36,281 - #33 30
+INFO  17:29:36,281 - #13 )
+INFO  17:29:36,281 - #4 ;
+INFO  17:29:36,281 - #14 print
+INFO  17:29:36,281 - #11 (
+INFO  17:29:36,281 - #32 bodovi
+INFO  17:29:36,281 - #24 >
+INFO  17:29:36,282 - #33 10
+INFO  17:29:36,283 - #30 ?
+INFO  17:29:36,284 - #35 +
+INFO  17:29:36,284 - #31 :
+INFO  17:29:36,284 - #35 -
+INFO  17:29:36,284 - #13 )
+INFO  17:29:36,284 - #4 ;
+INFO  17:29:36,284 - #3 }
+INFO  17:29:36,284 - #3 }
+INFO  17:29:36,293 - Parsiranje NIJE uspesno zavrseno!
+INFO  17:29:36,296 - Deklarisana simbolicka konstanta nula na liniji 5
+INFO  17:29:36,296 - Deklarisana simbolicka konstanta jedan na liniji 6
+INFO  17:29:36,296 - Deklarisana simbolicka konstanta pet na liniji 7
+INFO  17:29:36,296 - Deklarisana promenljiva niz na liniji 9
+INFO  17:29:36,296 - Deklarisana promenljiva nizch na liniji 10
+INFO  17:29:36,296 - Deklarisana metoda main na liniji 13
+INFO  17:29:36,296 - Deklarisana promenljiva bodovi na liniji 14
+INFO  17:29:36,296 - Deklarisana promenljiva bt na liniji 15
+INFO  17:29:36,296 - Detektovana lokalna promenljiva bodovi na liniji 17
+INFO  17:29:36,296 - Izraz dodele uspesno izvrsen na liniji 17
+INFO  17:29:36,296 - Detektovana lokalna promenljiva bodovi na liniji 19
+INFO  17:29:36,296 - Detektovana lokalna promenljiva bodovi na liniji 19
+INFO  17:29:36,297 - Detektovana simbolicka konstanta jedan na liniji 19
+INFO  17:29:36,297 - Izvrsena operacija sabiranja
+INFO  17:29:36,297 - Izraz dodele uspesno izvrsen na liniji 19
+INFO  17:29:36,297 - Detektovana lokalna promenljiva bodovi na liniji 20
+INFO  17:29:36,297 - Detektovana lokalna promenljiva bodovi na liniji 20
+INFO  17:29:36,297 - Detektovana simbolicka konstanta pet na liniji 20
+INFO  17:29:36,297 - Izraz dodele uspesno izvrsen na liniji 20
+INFO  17:29:36,297 - Detektovana lokalna promenljiva bodovi na liniji 21
+INFO  17:29:36,297 - Izvrseno dekrementiranje promenljive bodovi
+INFO  17:29:36,297 - Detektovana lokalna promenljiva bodovi na liniji 22
+INFO  17:29:36,297 - Detektovana globalna promenljiva niz na liniji 25
+INFO  17:29:36,297 - Izraz dodele uspesno izvrsen na liniji 25
+INFO  17:29:36,297 - Detektovana globalna promenljiva niz na liniji 26
+INFO  17:29:36,297 - Detektovana simbolicka konstanta nula na liniji 26
+INFO  17:29:36,297 - Detektovana simbolicka konstanta jedan na liniji 26
+INFO  17:29:36,297 - Izraz dodele uspesno izvrsen na liniji 26
+INFO  17:29:36,297 - Detektovana globalna promenljiva niz na liniji 27
+INFO  17:29:36,297 - Izraz dodele uspesno izvrsen na liniji 27
+INFO  17:29:36,297 - Detektovana globalna promenljiva niz na liniji 28
+INFO  17:29:36,297 - Detektovana globalna promenljiva niz na liniji 28
+INFO  17:29:36,297 - Detektovana simbolicka konstanta jedan na liniji 28
+INFO  17:29:36,298 - Detektovana globalna promenljiva niz na liniji 28
+INFO  17:29:36,298 - Detektovana globalna promenljiva niz na liniji 28
+INFO  17:29:36,298 - Izraz dodele uspesno izvrsen na liniji 28
+INFO  17:29:36,298 - Detektovana lokalna promenljiva bodovi na liniji 29
+INFO  17:29:36,298 - Detektovana globalna promenljiva niz na liniji 29
+INFO  17:29:36,298 - Detektovana globalna promenljiva niz na liniji 29
+INFO  17:29:36,298 - Izraz dodele uspesno izvrsen na liniji 29
+INFO  17:29:36,298 - Detektovana lokalna promenljiva bodovi na liniji 30
+INFO  17:29:36,298 - Detektovana globalna promenljiva niz na liniji 31
+INFO  17:29:36,298 - Detektovana globalna promenljiva nizch na liniji 34
+INFO  17:29:36,298 - Izraz dodele uspesno izvrsen na liniji 34
+INFO  17:29:36,298 - Detektovana globalna promenljiva nizch na liniji 35
+INFO  17:29:36,298 - Izraz dodele uspesno izvrsen na liniji 35
+INFO  17:29:36,298 - Detektovana globalna promenljiva nizch na liniji 36
+INFO  17:29:36,298 - Detektovana simbolicka konstanta jedan na liniji 36
+INFO  17:29:36,298 - Izraz dodele uspesno izvrsen na liniji 36
+INFO  17:29:36,298 - Detektovana globalna promenljiva nizch na liniji 37
+INFO  17:29:36,298 - Detektovana simbolicka konstanta pet na liniji 37
+INFO  17:29:36,298 - Izvrsena operacija sabiranja
+INFO  17:29:36,298 - Izraz dodele uspesno izvrsen na liniji 37
+INFO  17:29:36,298 - Detektovana globalna promenljiva nizch na liniji 38
+INFO  17:29:36,298 - Detektovana globalna promenljiva nizch na liniji 39
+INFO  17:29:36,299 - Detektovana simbolicka konstanta jedan na liniji 39
+INFO  17:29:36,299 - Detektovana lokalna promenljiva bodovi na liniji 42
+INFO  17:29:36,299 - Detektovana lokalna promenljiva bodovi na liniji 42
+INFO  17:29:36,299 - Detektovana simbolicka konstanta pet na liniji 42
+INFO  17:29:36,299 - Detektovana simbolicka konstanta jedan na liniji 42
+INFO  17:29:36,299 - Izvrsena operacija sabiranja
+INFO  17:29:36,299 - Detektovana lokalna promenljiva bodovi na liniji 42
+INFO  17:29:36,299 - Izvrsena operacija sabiranja
+INFO  17:29:36,299 - Izvrsena operacija sabiranja
+INFO  17:29:36,299 - Izraz dodele uspesno izvrsen na liniji 42
+INFO  17:29:36,299 - Detektovana lokalna promenljiva bodovi na liniji 43
+INFO  17:29:36,299 - Detektovana lokalna promenljiva bodovi na liniji 45
+INFO  17:29:36,299 - Izvrseno citanje promenljive bodovi
+INFO  17:29:36,299 - Detektovana lokalna promenljiva bt na liniji 46
+INFO  17:29:36,299 - Izraz dodele uspesno izvrsen na liniji 46
+INFO  17:29:36,299 - Detektovana lokalna promenljiva bt na liniji 48
+INFO  17:29:36,299 - Detektovana lokalna promenljiva bodovi na liniji 48
+INFO  17:29:36,299 - Detektovana lokalna promenljiva bodovi na liniji 48
+INFO  17:29:36,299 - Izvrsena operacija sabiranja
+INFO  17:29:36,299 - Detektovana lokalna promenljiva bodovi na liniji 49
+INFO  17:29:36,300 - Izvrsena operacija sabiranja
+INFO  17:29:36,300 - Detektovana lokalna promenljiva bodovi na liniji 49
+INFO  17:29:36,300 - Izvrsena operacija sabiranja
+INFO  17:29:36,300 - Detektovana lokalna promenljiva bodovi na liniji 50
+INFO  17:29:36,300 - Zavrsena obrada metode main na liniji 13
+INFO  17:29:36,300 - ===================================
+ERROR 17:29:36,301 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,158 @@
+INFO  00:04:37,380 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  00:04:37,419 - #2 program
+INFO  00:04:37,419 - #50 test301
+INFO  00:04:37,419 - #8 const
+INFO  00:04:37,421 - #50 int
+INFO  00:04:37,421 - #50 nula
+INFO  00:04:37,421 - #9 =
+INFO  00:04:37,421 - #51 0
+INFO  00:04:37,422 - #4 ;
+INFO  00:04:37,422 - #8 const
+INFO  00:04:37,423 - #50 int
+INFO  00:04:37,423 - #50 jedan
+INFO  00:04:37,423 - #9 =
+INFO  00:04:37,423 - #51 1
+INFO  00:04:37,423 - #4 ;
+INFO  00:04:37,423 - #8 const
+INFO  00:04:37,423 - #50 int
+INFO  00:04:37,423 - #50 pet
+INFO  00:04:37,423 - #9 =
+INFO  00:04:37,423 - #51 5
+INFO  00:04:37,423 - #4 ;
+INFO  00:04:37,423 - #50 int
+INFO  00:04:37,424 - #50 niz
+INFO  00:04:37,424 - #5 [
+INFO  00:04:37,424 - #6 ]
+INFO  00:04:37,424 - #4 ;
+INFO  00:04:37,424 - #50 char
+INFO  00:04:37,424 - #50 nizch
+INFO  00:04:37,424 - #5 [
+INFO  00:04:37,424 - #6 ]
+INFO  00:04:37,424 - #4 ;
+INFO  00:04:37,424 - #10 {
+INFO  00:04:37,424 - #12 void
+INFO  00:04:37,425 - #50 main
+INFO  00:04:37,426 - #11 (
+INFO  00:04:37,426 - #13 )
+INFO  00:04:37,427 - #10 {
+INFO  00:04:37,427 - #14 print
+INFO  00:04:37,428 - #11 (
+INFO  00:04:37,428 - #51 8
+INFO  00:04:37,428 - #13 )
+INFO  00:04:37,428 - #4 ;
+INFO  00:04:37,428 - #3 }
+INFO  00:04:37,429 - #3 }
+INFO  00:04:37,435 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDecls(
+        ConstDecls(
+          ConstDecls(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              DodelaVrednosti(
+               nula
+                Number_Const(
+                 0
+                ) [Number_Const]
+              ) [DodelaVrednosti]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            DodelaVrednosti(
+             jedan
+              Number_Const(
+               1
+              ) [Number_Const]
+            ) [DodelaVrednosti]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          DodelaVrednosti(
+           pet
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           niz
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       char
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijeNiz(
+         nizch
+        ) [DeoDeklaracijeNiz]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        PrintStatement(
+          Expr_obican(
+            ExprWithoutMinus(
+              Term_0(
+                FactorNumber(
+                 8
+                ) [FactorNumber]
+              ) [Term_0]
+            ) [ExprWithoutMinus]
+          ) [Expr_obican]
+        ) [PrintStatement]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:04:37,436 - ===================================
+INFO  00:04:37,441 - Deklarisana konstanta nula na liniji 5
+INFO  00:04:37,441 - Deklarisana konstanta jedan na liniji 6
+INFO  00:04:37,441 - Deklarisana konstanta pet na liniji 7
+INFO  00:04:37,441 - Deklarisana promenljiva niz na liniji 9
+INFO  00:04:37,441 - Deklarisana promenljiva nizch na liniji 10
+INFO  00:04:37,441 - Deklarisana metoda main na liniji 13
+INFO  00:04:37,442 - Zavrsena obrada metode main na liniji 13
+INFO  00:04:37,442 - ===================================
+INFO  00:04:37,451 - Roditelj class rs.ac.bg.etf.pp1.ast.MethodDecl
+INFO  00:04:37,453 - Roditelj za Factor je class rs.ac.bg.etf.pp1.ast.Term_0
+INFO  00:04:37,453 - Roditelj za PrintStatement class rs.ac.bg.etf.pp1.ast.StatementLista
+INFO  00:04:37,453 - Roditelj za Expr iz PrintStatementa je class rs.ac.bg.etf.pp1.ast.PrintStatement
+INFO  00:04:37,454 - Parsiranje uspesno zavrseno!

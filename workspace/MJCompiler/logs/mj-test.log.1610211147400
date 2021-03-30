@@ -1,0 +1,83 @@
+INFO  17:49:10,488 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:49:10,532 - #2 program
+INFO  17:49:10,532 - #48 MJProgram
+INFO  17:49:10,532 - #48 int
+INFO  17:49:10,533 - #48 pera
+INFO  17:49:10,534 - #7 ,
+INFO  17:49:10,534 - #48 mika
+INFO  17:49:10,534 - #7 ,
+INFO  17:49:10,535 - #48 laza
+INFO  17:49:10,535 - #7 ,
+INFO  17:49:10,535 - #48 jocika
+INFO  17:49:10,535 - #5 [
+INFO  17:49:10,535 - #6 ]
+INFO  17:49:10,535 - #4 ;
+INFO  17:49:10,535 - #10 {
+INFO  17:49:10,535 - #12 void
+INFO  17:49:10,536 - #48 main
+INFO  17:49:10,537 - #11 (
+INFO  17:49:10,538 - #13 )
+INFO  17:49:10,538 - #10 {
+INFO  17:49:10,539 - #3 }
+INFO  17:49:10,539 - #3 }
+INFO  17:49:10,548 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarViseDeklaracija(
+        VarViseDeklaracija(
+          VarViseDeklaracija(
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               pera
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+            DeoDeklaracijaPromenljiva(
+             mika
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarViseDeklaracija]
+          DeoDeklaracijaPromenljiva(
+           laza
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarViseDeklaracija]
+        DeoDeklaracijeNiz(
+         jocika
+        ) [DeoDeklaracijeNiz]
+      ) [VarViseDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:49:10,548 - ===================================
+INFO  17:49:10,552 - obicna promeljiva ELSE GRANA
+INFO  17:49:10,552 - SAMOJ SEBI SAM RODITELJ
+INFO  17:49:10,552 - SAMOJ SEBI SAM RODITELJ
+INFO  17:49:10,552 - usao
+INFO  17:49:10,552 - nizovna promenljiva
+INFO  17:49:10,552 - Deklarisana metoda main na liniji 5
+INFO  17:49:10,552 - Zavrsena obrada metode main na liniji 5
+INFO  17:49:10,552 - ===================================
+INFO  17:49:10,553 - Parsiranje uspesno zavrseno!

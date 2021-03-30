@@ -1,0 +1,107 @@
+INFO  21:29:59,293 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:29:59,334 - #2 program
+INFO  21:29:59,335 - #48 MJProgram
+INFO  21:29:59,335 - #8 const
+INFO  21:29:59,336 - #48 int
+INFO  21:29:59,336 - #48 casa
+INFO  21:29:59,337 - #9 =
+INFO  21:29:59,337 - #49 9
+INFO  21:29:59,337 - #7 ,
+INFO  21:29:59,337 - #48 uros
+INFO  21:29:59,337 - #9 =
+INFO  21:29:59,337 - #51 a
+INFO  21:29:59,337 - #4 ;
+INFO  21:29:59,337 - #8 const
+INFO  21:29:59,338 - #48 int
+INFO  21:29:59,338 - #48 jovana
+INFO  21:29:59,338 - #9 =
+INFO  21:29:59,339 - #50 0
+INFO  21:29:59,339 - #4 ;
+INFO  21:29:59,339 - #10 {
+INFO  21:29:59,339 - #12 void
+INFO  21:29:59,340 - #48 main
+INFO  21:29:59,340 - #11 (
+INFO  21:29:59,341 - #13 )
+INFO  21:29:59,342 - #48 int
+INFO  21:29:59,342 - #48 jovana
+INFO  21:29:59,342 - #4 ;
+INFO  21:29:59,343 - #10 {
+INFO  21:29:59,343 - #3 }
+INFO  21:29:59,344 - #3 }
+INFO  21:29:59,351 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    ConstDecls(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        DodelaViseVrednosti(
+          DodelaVrednosti(
+           casa
+            Number_Const(
+             9
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+         uros
+          Character_Const(
+           a
+          ) [Character_Const]
+        ) [DodelaViseVrednosti]
+      ) [ConstDecl]
+    ) [ConstDecls]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      DodelaVrednosti(
+       jovana
+        Boolean_Const(
+         0
+        ) [Boolean_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:29:59,352 - ===================================
+INFO  21:29:59,355 - Deklarisana simbolicka konstanta casa na liniji 8
+ERROR 21:29:59,355 - Greska na liniji 8: Tip konstante uros i tip dodeljene vrednosti se ne poklapaju! 
+ERROR 21:29:59,355 - Greska na liniji 9: Tip konstante jovana i tip dodeljene vrednosti se ne poklapaju! 
+INFO  21:29:59,355 - Deklarisana metoda main na liniji 11
+INFO  21:29:59,355 - Deklarisana promenljiva jovana na liniji 12
+INFO  21:29:59,355 - Zavrsena obrada metode main na liniji 11
+INFO  21:29:59,355 - ===================================
+ERROR 21:29:59,356 - Parsiranje NIJE uspesno zavrseno!

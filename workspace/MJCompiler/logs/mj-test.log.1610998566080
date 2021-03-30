@@ -1,0 +1,204 @@
+INFO  20:35:54,059 - Compiling source file: C:\Users\Marina\Desktop\proba123\workspace\MJCompiler\test\program.mj
+INFO  20:35:54,102 - #2 program
+INFO  20:35:54,102 - #32 test301
+INFO  20:35:54,102 - #8 const
+INFO  20:35:54,103 - #32 int
+INFO  20:35:54,103 - #32 nula
+INFO  20:35:54,104 - #9 =
+INFO  20:35:54,104 - #33 0
+INFO  20:35:54,104 - #4 ;
+INFO  20:35:54,104 - #8 const
+INFO  20:35:54,105 - #32 int
+INFO  20:35:54,105 - #32 jedan
+INFO  20:35:54,105 - #9 =
+INFO  20:35:54,105 - #33 1
+INFO  20:35:54,105 - #4 ;
+INFO  20:35:54,105 - #8 const
+INFO  20:35:54,106 - #32 int
+INFO  20:35:54,106 - #32 pet
+INFO  20:35:54,106 - #9 =
+INFO  20:35:54,106 - #33 5
+INFO  20:35:54,106 - #4 ;
+INFO  20:35:54,106 - #32 int
+INFO  20:35:54,106 - #32 niz
+INFO  20:35:54,106 - #5 [
+INFO  20:35:54,106 - #6 ]
+INFO  20:35:54,106 - #4 ;
+INFO  20:35:54,107 - #32 char
+INFO  20:35:54,107 - #32 nizch
+INFO  20:35:54,107 - #5 [
+INFO  20:35:54,107 - #6 ]
+INFO  20:35:54,108 - #4 ;
+INFO  20:35:54,108 - #10 {
+INFO  20:35:54,108 - #12 void
+INFO  20:35:54,108 - #32 main
+INFO  20:35:54,109 - #11 (
+INFO  20:35:54,110 - #13 )
+INFO  20:35:54,110 - #32 int
+INFO  20:35:54,111 - #32 bodovi
+INFO  20:35:54,111 - #4 ;
+INFO  20:35:54,111 - #32 bool
+INFO  20:35:54,111 - #32 bt
+INFO  20:35:54,111 - #4 ;
+INFO  20:35:54,111 - #10 {
+INFO  20:35:54,111 - #17 read
+INFO  20:35:54,112 - #11 (
+INFO  20:35:54,112 - #32 bt
+INFO  20:35:54,112 - #13 )
+INFO  20:35:54,113 - #4 ;
+INFO  20:35:54,113 - #14 print
+INFO  20:35:54,113 - #11 (
+INFO  20:35:54,113 - #32 bt
+INFO  20:35:54,113 - #13 )
+INFO  20:35:54,114 - #4 ;
+INFO  20:35:54,114 - #3 }
+INFO  20:35:54,114 - #3 }
+INFO  20:35:54,121 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDecls(
+        ConstDecls(
+          ConstDecls(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              DodelaVrednosti(
+               nula
+                Number_Const(
+                 0
+                ) [Number_Const]
+              ) [DodelaVrednosti]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            DodelaVrednosti(
+             jedan
+              Number_Const(
+               1
+              ) [Number_Const]
+            ) [DodelaVrednosti]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          DodelaVrednosti(
+           pet
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           niz
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       char
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijeNiz(
+         nizch
+        ) [DeoDeklaracijeNiz]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        VarDeclarationList(
+          NoVarDeclarationList(
+          ) [NoVarDeclarationList]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               bodovi
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bt
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        StatementLista(
+          NoStatements(
+          ) [NoStatements]
+          ReadStatement(
+            DesignatorIdentifikator(
+             bt
+            ) [DesignatorIdentifikator]
+          ) [ReadStatement]
+        ) [StatementLista]
+        PrintStatement(
+          Expr_obican(
+            ExprWithoutMinus(
+              Term_0(
+                FactorDesignator(
+                  DesignatorIdentifikator(
+                   bt
+                  ) [DesignatorIdentifikator]
+                ) [FactorDesignator]
+              ) [Term_0]
+            ) [ExprWithoutMinus]
+          ) [Expr_obican]
+        ) [PrintStatement]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:35:54,121 - ===================================
+INFO  20:35:54,124 - Deklarisana simbolicka konstanta nula na liniji 5
+INFO  20:35:54,124 - Deklarisana simbolicka konstanta jedan na liniji 6
+INFO  20:35:54,124 - Deklarisana simbolicka konstanta pet na liniji 7
+INFO  20:35:54,124 - Deklarisana promenljiva niz na liniji 9
+INFO  20:35:54,125 - Deklarisana promenljiva nizch na liniji 10
+INFO  20:35:54,125 - Deklarisana metoda main na liniji 13
+INFO  20:35:54,125 - Deklarisana promenljiva bodovi na liniji 14
+INFO  20:35:54,125 - Deklarisana promenljiva bt na liniji 15
+INFO  20:35:54,125 - Detektovana lokalna promenljiva bt na liniji 17
+INFO  20:35:54,125 - Izvrseno citanje promenljive bt
+INFO  20:35:54,125 - Detektovana lokalna promenljiva bt na liniji 18
+INFO  20:35:54,125 - Zavrsena obrada metode main na liniji 13
+INFO  20:35:54,128 - ===================================
+INFO  20:35:54,129 - Generating bytecode file: C:\Users\Marina\Desktop\proba123\workspace\MJCompiler\test\program.obj
+INFO  20:35:54,142 - Parsiranje uspesno zavrseno!

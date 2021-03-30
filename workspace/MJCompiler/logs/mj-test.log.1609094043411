@@ -1,0 +1,221 @@
+INFO  19:33:27,912 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:33:27,954 - #2 program
+INFO  19:33:27,954 - #50 MJProgram
+INFO  19:33:27,954 - #50 char
+INFO  19:33:27,955 - #50 jovana
+INFO  19:33:27,956 - #4 ;
+INFO  19:33:27,956 - #50 int
+INFO  19:33:27,956 - #50 pera
+INFO  19:33:27,956 - #7 ,
+INFO  19:33:27,956 - #50 zdera
+INFO  19:33:27,957 - #4 ;
+INFO  19:33:27,957 - #8 const
+INFO  19:33:27,957 - #50 char
+INFO  19:33:27,957 - #50 jocika
+INFO  19:33:27,957 - #9 =
+INFO  19:33:27,957 - #48 a
+INFO  19:33:27,957 - #7 ,
+INFO  19:33:27,958 - #50 fifi
+INFO  19:33:27,958 - #9 =
+INFO  19:33:27,958 - #48 5
+INFO  19:33:27,958 - #7 ,
+INFO  19:33:27,959 - #50 aca
+INFO  19:33:27,959 - #9 =
+INFO  19:33:27,959 - #48 1
+INFO  19:33:27,959 - #7 ,
+INFO  19:33:27,959 - #50 mama
+INFO  19:33:27,959 - #9 =
+INFO  19:33:27,959 - #48 c
+INFO  19:33:27,959 - #4 ;
+INFO  19:33:27,959 - #10 {
+INFO  19:33:27,960 - #12 void
+INFO  19:33:27,960 - #50 main
+INFO  19:33:27,961 - #11 (
+INFO  19:33:27,961 - #13 )
+INFO  19:33:27,962 - #50 int
+INFO  19:33:27,962 - #50 caka
+INFO  19:33:27,963 - #5 [
+INFO  19:33:27,963 - #6 ]
+INFO  19:33:27,963 - #7 ,
+INFO  19:33:27,963 - #50 kit
+INFO  19:33:27,963 - #5 [
+INFO  19:33:27,963 - #6 ]
+INFO  19:33:27,963 - #7 ,
+INFO  19:33:27,963 - #50 laza
+INFO  19:33:27,963 - #4 ;
+INFO  19:33:27,963 - #50 char
+INFO  19:33:27,963 - #50 omg
+INFO  19:33:27,963 - #7 ,
+INFO  19:33:27,963 - #50 r
+INFO  19:33:27,963 - #5 [
+INFO  19:33:27,963 - #6 ]
+INFO  19:33:27,964 - #4 ;
+INFO  19:33:27,964 - #10 {
+INFO  19:33:27,964 - #50 pera
+INFO  19:33:27,964 - #42 ++
+INFO  19:33:27,965 - #16 +
+ERROR 19:33:27,965 - 
+Sintaksna greska na liniji 12
+INFO  19:33:27,966 - #4 ;
+INFO  19:33:27,966 - #50 zdera
+INFO  19:33:27,966 - #43 --
+INFO  19:33:27,966 - #30 -
+ERROR 19:33:27,966 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+ERROR 19:33:27,967 - 
+Sintaksna greska na liniji 13
+INFO  19:33:27,968 - #4 ;
+INFO  19:33:27,970 - #3 }
+INFO  19:33:27,970 - #3 }
+ERROR 19:33:27,970 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+INFO  19:33:27,983 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarViseDeklaracija(
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             pera
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+          DeoDeklaracijaPromenljiva(
+           zdera
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarViseDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+      DodelaViseVrednosti(
+        DodelaViseVrednosti(
+          DodelaViseVrednosti(
+            DodelaVrednosti(
+             jocika
+              Character_Const(
+              ) [Character_Const]
+            ) [DodelaVrednosti]
+           fifi
+            Character_Const(
+            ) [Character_Const]
+          ) [DodelaViseVrednosti]
+         aca
+          Character_Const(
+          ) [Character_Const]
+        ) [DodelaViseVrednosti]
+       mama
+        Character_Const(
+        ) [Character_Const]
+      ) [DodelaViseVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        VarDeclarationList(
+          NoVarDeclarationList(
+          ) [NoVarDeclarationList]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarViseDeklaracija(
+              VarViseDeklaracija(
+                VarJednaDeklaracija(
+                  DeoDeklaracijeNiz(
+                   caka
+                  ) [DeoDeklaracijeNiz]
+                ) [VarJednaDeklaracija]
+                DeoDeklaracijeNiz(
+                 kit
+                ) [DeoDeklaracijeNiz]
+              ) [VarViseDeklaracija]
+              DeoDeklaracijaPromenljiva(
+               laza
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarViseDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarViseDeklaracija(
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               omg
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+            DeoDeklaracijeNiz(
+             r
+            ) [DeoDeklaracijeNiz]
+          ) [VarViseDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        StatementLista(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStatementSemi(
+            Assignment(
+              ErrorStmt_iskaz_dodele(
+              ) [ErrorStmt_iskaz_dodele]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [StatementLista]
+        DesignatorStatementSemi(
+          Assignment(
+            ErrorStmt_iskaz_dodele(
+            ) [ErrorStmt_iskaz_dodele]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:33:27,986 - ===================================
+INFO  19:33:27,989 - Deklarisana promenljiva jovana na liniji 2
+INFO  19:33:27,990 - Deklarisana promenljiva pera na liniji 3
+INFO  19:33:27,990 - Deklarisana promenljiva zdera na liniji 3
+INFO  19:33:27,990 - Deklarisana konstanta jocika na liniji 4
+INFO  19:33:27,990 - Deklarisana konstanta fifi na liniji 4
+INFO  19:33:27,990 - Deklarisana konstanta aca na liniji 4
+INFO  19:33:27,990 - Deklarisana konstanta mama na liniji 4
+INFO  19:33:27,990 - Deklarisana metoda main na liniji 7
+INFO  19:33:27,990 - Deklarisana promenljiva laza na liniji 8
+INFO  19:33:27,990 - Deklarisana promenljiva caka na liniji 8
+INFO  19:33:27,990 - Deklarisana promenljiva kit na liniji 8
+INFO  19:33:27,990 - Deklarisana promenljiva omg na liniji 9
+INFO  19:33:27,990 - Deklarisana promenljiva r na liniji 9
+INFO  19:33:27,991 - Zavrsena obrada metode main na liniji 7
+INFO  19:33:27,991 - ===================================
+ERROR 19:33:27,991 - Parsiranje NIJE uspesno zavrseno!

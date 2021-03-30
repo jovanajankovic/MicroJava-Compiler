@@ -1,0 +1,256 @@
+INFO  00:39:43,171 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  00:39:43,208 - #2 program
+INFO  00:39:43,208 - #50 test301
+INFO  00:39:43,208 - #8 const
+INFO  00:39:43,209 - #50 int
+INFO  00:39:43,209 - #50 jedan
+INFO  00:39:43,210 - #9 =
+INFO  00:39:43,210 - #51 1
+INFO  00:39:43,210 - #4 ;
+INFO  00:39:43,211 - #8 const
+INFO  00:39:43,212 - #50 int
+INFO  00:39:43,212 - #50 pet
+INFO  00:39:43,212 - #9 =
+INFO  00:39:43,212 - #51 5
+INFO  00:39:43,212 - #4 ;
+INFO  00:39:43,212 - #50 int
+INFO  00:39:43,213 - #50 niz
+INFO  00:39:43,213 - #5 [
+INFO  00:39:43,213 - #6 ]
+INFO  00:39:43,213 - #4 ;
+INFO  00:39:43,213 - #50 char
+INFO  00:39:43,214 - #50 nizch
+INFO  00:39:43,214 - #5 [
+INFO  00:39:43,214 - #6 ]
+INFO  00:39:43,214 - #4 ;
+INFO  00:39:43,214 - #50 int
+INFO  00:39:43,214 - #50 pp1
+INFO  00:39:43,214 - #4 ;
+INFO  00:39:43,214 - #10 {
+INFO  00:39:43,214 - #12 void
+INFO  00:39:43,215 - #50 main
+INFO  00:39:43,216 - #11 (
+INFO  00:39:43,216 - #13 )
+INFO  00:39:43,217 - #50 int
+INFO  00:39:43,217 - #50 laza
+INFO  00:39:43,217 - #4 ;
+INFO  00:39:43,217 - #50 int
+INFO  00:39:43,218 - #50 pera
+INFO  00:39:43,218 - #5 [
+INFO  00:39:43,218 - #6 ]
+INFO  00:39:43,218 - #4 ;
+INFO  00:39:43,218 - #10 {
+INFO  00:39:43,218 - #50 pera
+INFO  00:39:43,218 - #9 =
+INFO  00:39:43,219 - #24 new
+INFO  00:39:43,219 - #50 int
+INFO  00:39:43,219 - #5 [
+INFO  00:39:43,219 - #50 pet
+INFO  00:39:43,219 - #6 ]
+INFO  00:39:43,219 - #4 ;
+INFO  00:39:43,220 - #50 pera
+INFO  00:39:43,220 - #5 [
+INFO  00:39:43,220 - #51 2
+INFO  00:39:43,220 - #6 ]
+INFO  00:39:43,220 - #9 =
+INFO  00:39:43,220 - #50 pet
+INFO  00:39:43,221 - #4 ;
+INFO  00:39:43,221 - #3 }
+INFO  00:39:43,221 - #3 }
+INFO  00:39:43,229 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        ConstDecls(
+          ConstDecls(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              DodelaVrednosti(
+               jedan
+                Number_Const(
+                 1
+                ) [Number_Const]
+              ) [DodelaVrednosti]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            DodelaVrednosti(
+             pet
+              Number_Const(
+               5
+              ) [Number_Const]
+            ) [DodelaVrednosti]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             niz
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         char
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           nizch
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         pp1
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        VarDeclarationList(
+          NoVarDeclarationList(
+          ) [NoVarDeclarationList]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               laza
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             pera
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        StatementLista(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStatementSemi(
+            Assignment(
+              Assign_Designator_Klasa(
+                DesignatorIdentifikator(
+                 pera
+                ) [DesignatorIdentifikator]
+                Expr_obican(
+                  ExprWithoutMinus(
+                    Term_0(
+                      FactorNewArray(
+                        Type(
+                         int
+                        ) [Type]
+                        Expr_obican(
+                          ExprWithoutMinus(
+                            Term_0(
+                              FactorDesignator(
+                                DesignatorIdentifikator(
+                                 pet
+                                ) [DesignatorIdentifikator]
+                              ) [FactorDesignator]
+                            ) [Term_0]
+                          ) [ExprWithoutMinus]
+                        ) [Expr_obican]
+                      ) [FactorNewArray]
+                    ) [Term_0]
+                  ) [ExprWithoutMinus]
+                ) [Expr_obican]
+              ) [Assign_Designator_Klasa]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [StatementLista]
+        DesignatorStatementSemi(
+          Assignment(
+            Assign_Designator_Klasa(
+              DesignatorArray(
+               pera
+                Expr_obican(
+                  ExprWithoutMinus(
+                    Term_0(
+                      FactorNumber(
+                       2
+                      ) [FactorNumber]
+                    ) [Term_0]
+                  ) [ExprWithoutMinus]
+                ) [Expr_obican]
+              ) [DesignatorArray]
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorDesignator(
+                      DesignatorIdentifikator(
+                       pet
+                      ) [DesignatorIdentifikator]
+                    ) [FactorDesignator]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [Assign_Designator_Klasa]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:39:43,230 - ===================================
+INFO  00:39:43,235 - Deklarisana promenljiva niz na liniji 8
+INFO  00:39:43,235 - Deklarisana promenljiva nizch na liniji 9
+INFO  00:39:43,235 - Deklarisana promenljiva pp1 na liniji 10
+INFO  00:39:43,235 - Deklarisana metoda main na liniji 12
+INFO  00:39:43,235 - Deklarisana promenljiva laza na liniji 13
+INFO  00:39:43,236 - Deklarisana promenljiva pera na liniji 14
+INFO  00:39:43,236 - Detektovana lokalna promenljiva pera na liniji 17
+INFO  00:39:43,236 - Detektovana simbolicka konstanta pet na liniji 17
+INFO  00:39:43,236 - Niz je uspesno alociran na liniji 17!
+INFO  00:39:43,236 - Izraz dodele uspesno izvrsen na liniji 17
+INFO  00:39:43,236 - Detektovana lokalna promenljiva pera na liniji 18
+INFO  00:39:43,236 - Detektovana simbolicka konstanta pet na liniji 18
+INFO  00:39:43,236 - Izraz dodele uspesno izvrsen na liniji 18
+INFO  00:39:43,237 - Zavrsena obrada metode main na liniji 12
+INFO  00:39:43,237 - ===================================
+INFO  00:39:43,248 - Napravio novi niz
+INFO  00:39:43,248 - Usao u assign_designator_klasu da dodeli vrednost
+INFO  00:39:43,248 - Designator je pera i adresa je 1
+INFO  00:39:43,248 - Postavio duzinu niza
+INFO  00:39:43,248 - Usao u assign_designator_klasu da dodeli vrednost
+INFO  00:39:43,248 - Designator je pera i adresa je 1
+INFO  00:39:43,249 - Parsiranje uspesno zavrseno!

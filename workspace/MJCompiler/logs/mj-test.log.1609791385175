@@ -1,0 +1,385 @@
+INFO  20:59:44,141 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:59:44,199 - #2 program
+INFO  20:59:44,199 - #48 test301
+INFO  20:59:44,199 - #8 const
+INFO  20:59:44,203 - #48 int
+INFO  20:59:44,204 - #48 nula
+INFO  20:59:44,205 - #9 =
+INFO  20:59:44,205 - #49 0
+INFO  20:59:44,206 - #4 ;
+INFO  20:59:44,206 - #8 const
+INFO  20:59:44,207 - #48 int
+INFO  20:59:44,207 - #48 jedan
+INFO  20:59:44,207 - #9 =
+INFO  20:59:44,208 - #49 1
+INFO  20:59:44,208 - #4 ;
+INFO  20:59:44,208 - #8 const
+INFO  20:59:44,208 - #48 int
+INFO  20:59:44,208 - #48 pet
+INFO  20:59:44,208 - #9 =
+INFO  20:59:44,208 - #49 5
+INFO  20:59:44,208 - #4 ;
+INFO  20:59:44,208 - #48 int
+INFO  20:59:44,208 - #48 niz
+INFO  20:59:44,208 - #5 [
+INFO  20:59:44,208 - #6 ]
+INFO  20:59:44,208 - #4 ;
+INFO  20:59:44,209 - #48 char
+INFO  20:59:44,209 - #48 nizch
+INFO  20:59:44,210 - #5 [
+INFO  20:59:44,210 - #6 ]
+INFO  20:59:44,210 - #4 ;
+INFO  20:59:44,210 - #10 {
+INFO  20:59:44,210 - #12 void
+INFO  20:59:44,211 - #48 main
+INFO  20:59:44,212 - #11 (
+INFO  20:59:44,214 - #13 )
+INFO  20:59:44,215 - #48 int
+INFO  20:59:44,216 - #48 bodovi
+INFO  20:59:44,217 - #4 ;
+INFO  20:59:44,217 - #48 bool
+INFO  20:59:44,217 - #48 bt
+INFO  20:59:44,217 - #4 ;
+INFO  20:59:44,218 - #10 {
+INFO  20:59:44,218 - #48 bt
+INFO  20:59:44,219 - #9 =
+INFO  20:59:44,220 - #50 1
+INFO  20:59:44,220 - #4 ;
+INFO  20:59:44,222 - #48 bodovi
+INFO  20:59:44,223 - #9 =
+INFO  20:59:44,223 - #49 0
+INFO  20:59:44,223 - #4 ;
+INFO  20:59:44,223 - #48 bodovi
+INFO  20:59:44,223 - #9 =
+INFO  20:59:44,223 - #48 bt
+INFO  20:59:44,223 - #45 ?
+INFO  20:59:44,224 - #49 1
+INFO  20:59:44,224 - #16 +
+INFO  20:59:44,224 - #49 2
+INFO  20:59:44,226 - #16 +
+INFO  20:59:44,226 - #11 (
+INFO  20:59:44,226 - #48 bt
+INFO  20:59:44,226 - #34 ==
+INFO  20:59:44,226 - #50 0
+INFO  20:59:44,228 - #45 ?
+INFO  20:59:44,229 - #49 30
+INFO  20:59:44,230 - #46 :
+INFO  20:59:44,230 - #49 40
+INFO  20:59:44,232 - #13 )
+INFO  20:59:44,233 - #46 :
+INFO  20:59:44,238 - #49 6
+INFO  20:59:44,238 - #31 *
+INFO  20:59:44,238 - #49 7
+INFO  20:59:44,240 - #31 *
+INFO  20:59:44,240 - #49 8
+INFO  20:59:44,240 - #4 ;
+INFO  20:59:44,241 - #14 print
+INFO  20:59:44,241 - #11 (
+INFO  20:59:44,241 - #48 bodovi
+INFO  20:59:44,241 - #13 )
+INFO  20:59:44,241 - #4 ;
+INFO  20:59:44,241 - #3 }
+INFO  20:59:44,241 - #3 }
+INFO  20:59:44,259 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDecls(
+        ConstDecls(
+          ConstDecls(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              DodelaVrednosti(
+               nula
+                Number_Const(
+                 0
+                ) [Number_Const]
+              ) [DodelaVrednosti]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            DodelaVrednosti(
+             jedan
+              Number_Const(
+               1
+              ) [Number_Const]
+            ) [DodelaVrednosti]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          DodelaVrednosti(
+           pet
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           niz
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       char
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijeNiz(
+         nizch
+        ) [DeoDeklaracijeNiz]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        VarDeclarationList(
+          NoVarDeclarationList(
+          ) [NoVarDeclarationList]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               bodovi
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bt
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        StatementLista(
+          StatementLista(
+            StatementLista(
+              NoStatements(
+              ) [NoStatements]
+              DesignatorStatementSemi(
+                Assignment(
+                  Assign_Designator_Klasa(
+                    DesignatorIdentifikator(
+                     bt
+                    ) [DesignatorIdentifikator]
+                    Expr_obican(
+                      ExprWithoutMinus(
+                        Term_0(
+                          FactorBool(
+                           1
+                          ) [FactorBool]
+                        ) [Term_0]
+                      ) [ExprWithoutMinus]
+                    ) [Expr_obican]
+                  ) [Assign_Designator_Klasa]
+                ) [Assignment]
+              ) [DesignatorStatementSemi]
+            ) [StatementLista]
+            DesignatorStatementSemi(
+              Assignment(
+                Assign_Designator_Klasa(
+                  DesignatorIdentifikator(
+                   bodovi
+                  ) [DesignatorIdentifikator]
+                  Expr_obican(
+                    ExprWithoutMinus(
+                      Term_0(
+                        FactorNumber(
+                         0
+                        ) [FactorNumber]
+                      ) [Term_0]
+                    ) [ExprWithoutMinus]
+                  ) [Expr_obican]
+                ) [Assign_Designator_Klasa]
+              ) [Assignment]
+            ) [DesignatorStatementSemi]
+          ) [StatementLista]
+          DesignatorStatementSemi(
+            Assignment(
+              Assign_Designator_Klasa(
+                DesignatorIdentifikator(
+                 bodovi
+                ) [DesignatorIdentifikator]
+                Ternarni_operator(
+                  CondFactBoolean(
+                    ExprWithoutMinus(
+                      Term_0(
+                        FactorDesignator(
+                          DesignatorIdentifikator(
+                           bt
+                          ) [DesignatorIdentifikator]
+                        ) [FactorDesignator]
+                      ) [Term_0]
+                    ) [ExprWithoutMinus]
+                  ) [CondFactBoolean]
+                  ExprWithoutMinusLista(
+                    Term_0(
+                      FactorNumber(
+                       1
+                      ) [FactorNumber]
+                    ) [Term_0]
+                    AddoptListaViseOperacija(
+                      AddoptListaJednaOperacija(
+                        PlusOperacija(
+                        ) [PlusOperacija]
+                        Term_0(
+                          FactorNumber(
+                           2
+                          ) [FactorNumber]
+                        ) [Term_0]
+                      ) [AddoptListaJednaOperacija]
+                      PlusOperacija(
+                      ) [PlusOperacija]
+                      Term_0(
+                        FactorExpr(
+                          Ternarni_operator(
+                            CondFactRelation(
+                              ExprWithoutMinus(
+                                Term_0(
+                                  FactorDesignator(
+                                    DesignatorIdentifikator(
+                                     bt
+                                    ) [DesignatorIdentifikator]
+                                  ) [FactorDesignator]
+                                ) [Term_0]
+                              ) [ExprWithoutMinus]
+                              EqOperacija(
+                              ) [EqOperacija]
+                              ExprWithoutMinus(
+                                Term_0(
+                                  FactorBool(
+                                   0
+                                  ) [FactorBool]
+                                ) [Term_0]
+                              ) [ExprWithoutMinus]
+                            ) [CondFactRelation]
+                            ExprWithoutMinus(
+                              Term_0(
+                                FactorNumber(
+                                 30
+                                ) [FactorNumber]
+                              ) [Term_0]
+                            ) [ExprWithoutMinus]
+                            DveTacke(
+                            ) [DveTacke]
+                            ExprWithoutMinus(
+                              Term_0(
+                                FactorNumber(
+                                 40
+                                ) [FactorNumber]
+                              ) [Term_0]
+                            ) [ExprWithoutMinus]
+                          ) [Ternarni_operator]
+                        ) [FactorExpr]
+                      ) [Term_0]
+                    ) [AddoptListaViseOperacija]
+                  ) [ExprWithoutMinusLista]
+                  DveTacke(
+                  ) [DveTacke]
+                  ExprWithoutMinus(
+                    ViseTermova(
+                      FactorNumber(
+                       6
+                      ) [FactorNumber]
+                      MulopFactorLista(
+                        MulopFactor(
+                          MulOperacija(
+                          ) [MulOperacija]
+                          FactorNumber(
+                           7
+                          ) [FactorNumber]
+                        ) [MulopFactor]
+                        MulOperacija(
+                        ) [MulOperacija]
+                        FactorNumber(
+                         8
+                        ) [FactorNumber]
+                      ) [MulopFactorLista]
+                    ) [ViseTermova]
+                  ) [ExprWithoutMinus]
+                ) [Ternarni_operator]
+              ) [Assign_Designator_Klasa]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [StatementLista]
+        PrintStatement(
+          Expr_obican(
+            ExprWithoutMinus(
+              Term_0(
+                FactorDesignator(
+                  DesignatorIdentifikator(
+                   bodovi
+                  ) [DesignatorIdentifikator]
+                ) [FactorDesignator]
+              ) [Term_0]
+            ) [ExprWithoutMinus]
+          ) [Expr_obican]
+        ) [PrintStatement]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:59:44,260 - ===================================
+INFO  20:59:44,266 - Deklarisana promenljiva niz na liniji 9
+INFO  20:59:44,266 - Deklarisana promenljiva nizch na liniji 10
+INFO  20:59:44,267 - Deklarisana metoda main na liniji 13
+INFO  20:59:44,267 - Deklarisana promenljiva bodovi na liniji 14
+INFO  20:59:44,267 - Deklarisana promenljiva bt na liniji 15
+INFO  20:59:44,267 - Detektovana lokalna promenljiva bt na liniji 17
+INFO  20:59:44,267 - Cetvrti if17
+INFO  20:59:44,267 - Izraz dodele uspesno izvrsen na liniji 17
+INFO  20:59:44,267 - Detektovana lokalna promenljiva bodovi na liniji 18
+INFO  20:59:44,267 - Cetvrti if18
+INFO  20:59:44,268 - Izraz dodele uspesno izvrsen na liniji 18
+INFO  20:59:44,268 - Detektovana lokalna promenljiva bodovi na liniji 19
+INFO  20:59:44,268 - Detektovana lokalna promenljiva bt na liniji 19
+INFO  20:59:44,268 - Detektovana lokalna promenljiva bt na liniji 19
+INFO  20:59:44,268 - Izvrsena operacija sabiranja
+INFO  20:59:44,268 - Cetvrti if19
+INFO  20:59:44,268 - Izraz dodele uspesno izvrsen na liniji 19
+INFO  20:59:44,268 - Detektovana lokalna promenljiva bodovi na liniji 20
+INFO  20:59:44,268 - Zavrsena obrada metode main na liniji 13
+INFO  20:59:44,269 - ===================================
+INFO  20:59:44,279 - Usao u assign_designator_klasu da dodeli vrednost
+INFO  20:59:44,280 - Designator je bt i adresa je 1
+INFO  20:59:44,280 - Usao u assign_designator_klasu da dodeli vrednost
+INFO  20:59:44,280 - Designator je bodovi i adresa je 0
+INFO  20:59:44,280 - Usao u assign_designator_klasu da dodeli vrednost
+INFO  20:59:44,280 - Designator je bodovi i adresa je 0
+INFO  20:59:44,283 - Parsiranje uspesno zavrseno!

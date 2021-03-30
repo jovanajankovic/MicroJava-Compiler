@@ -1,0 +1,70 @@
+INFO  16:06:44,716 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:06:44,750 - #2 program
+INFO  16:06:44,750 - #50 MJProgram
+INFO  16:06:44,750 - #50 char
+INFO  16:06:44,751 - #50 jovana
+INFO  16:06:44,752 - #4 ;
+INFO  16:06:44,752 - #50 int
+INFO  16:06:44,753 - #50 pera
+INFO  16:06:44,753 - #4 ;
+INFO  16:06:44,753 - #8 const
+INFO  16:06:44,753 - #50 boolean
+INFO  16:06:44,753 - #50 hello
+INFO  16:06:44,753 - #9 =
+INFO  16:06:44,753 - #51 5
+INFO  16:06:44,753 - #4 ;
+INFO  16:06:44,754 - #10 {
+INFO  16:06:44,754 - #3 }
+INFO  16:06:44,761 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           pera
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       boolean
+      ) [Type]
+      DodelaVrednosti(
+       hello
+        Number_Const(
+         5
+        ) [Number_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  16:06:44,762 - ===================================
+INFO  16:06:44,764 - Deklarisana promenljiva jovana na liniji 2
+INFO  16:06:44,764 - Deklarisana promenljiva pera na liniji 3
+ERROR 16:06:44,764 - Nije pronadjen tip boolean u tabeli simbola! 
+ERROR 16:06:44,764 - Tip konstante hello i tip dodeljene vrednosti se ne poklapaju! 
+INFO  16:06:44,764 - ===================================
+ERROR 16:06:44,765 - Parsiranje NIJE uspesno zavrseno!

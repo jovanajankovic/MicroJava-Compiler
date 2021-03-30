@@ -1,0 +1,604 @@
+INFO  21:51:15,534 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:51:15,590 - #2 program
+INFO  21:51:15,590 - #32 test301
+INFO  21:51:15,590 - #32 int
+INFO  21:51:15,592 - #32 niz
+INFO  21:51:15,592 - #5 [
+INFO  21:51:15,592 - #6 ]
+INFO  21:51:15,592 - #4 ;
+INFO  21:51:15,593 - #32 int
+INFO  21:51:15,593 - #32 broj
+INFO  21:51:15,593 - #4 ;
+INFO  21:51:15,593 - #32 int
+INFO  21:51:15,593 - #32 perica
+INFO  21:51:15,593 - #4 ;
+INFO  21:51:15,593 - #8 const
+INFO  21:51:15,594 - #32 int
+INFO  21:51:15,594 - #32 pi
+INFO  21:51:15,594 - #9 =
+INFO  21:51:15,594 - #33 3
+INFO  21:51:15,594 - #4 ;
+INFO  21:51:15,594 - #10 {
+INFO  21:51:15,596 - #12 void
+INFO  21:51:15,596 - #32 main
+INFO  21:51:15,597 - #11 (
+INFO  21:51:15,598 - #13 )
+INFO  21:51:15,599 - #32 bool
+INFO  21:51:15,600 - #32 flag
+INFO  21:51:15,600 - #4 ;
+INFO  21:51:15,600 - #10 {
+INFO  21:51:15,600 - #32 flag
+INFO  21:51:15,601 - #9 =
+INFO  21:51:15,602 - #34 0
+INFO  21:51:15,602 - #4 ;
+INFO  21:51:15,602 - #32 broj
+INFO  21:51:15,603 - #9 =
+INFO  21:51:15,603 - #32 flag
+INFO  21:51:15,603 - #30 ?
+INFO  21:51:15,603 - #33 1
+INFO  21:51:15,603 - #15 +
+INFO  21:51:15,603 - #33 2
+INFO  21:51:15,605 - #15 +
+INFO  21:51:15,605 - #33 3
+INFO  21:51:15,605 - #31 :
+INFO  21:51:15,605 - #33 4
+INFO  21:51:15,606 - #19 *
+INFO  21:51:15,607 - #33 5
+INFO  21:51:15,608 - #18 -
+INFO  21:51:15,608 - #33 6
+INFO  21:51:15,608 - #4 ;
+INFO  21:51:15,609 - #14 print
+INFO  21:51:15,609 - #11 (
+INFO  21:51:15,609 - #32 broj
+INFO  21:51:15,609 - #13 )
+INFO  21:51:15,609 - #4 ;
+INFO  21:51:15,609 - #32 niz
+INFO  21:51:15,609 - #9 =
+INFO  21:51:15,609 - #16 new
+INFO  21:51:15,609 - #32 int
+INFO  21:51:15,609 - #5 [
+INFO  21:51:15,609 - #33 100
+INFO  21:51:15,609 - #6 ]
+INFO  21:51:15,610 - #4 ;
+INFO  21:51:15,610 - #32 niz
+INFO  21:51:15,610 - #5 [
+INFO  21:51:15,611 - #33 1
+INFO  21:51:15,611 - #6 ]
+INFO  21:51:15,612 - #9 =
+INFO  21:51:15,612 - #33 10
+INFO  21:51:15,625 - #4 ;
+INFO  21:51:15,628 - #32 niz
+INFO  21:51:15,628 - #5 [
+INFO  21:51:15,628 - #32 niz
+INFO  21:51:15,628 - #5 [
+INFO  21:51:15,629 - #33 1
+INFO  21:51:15,629 - #6 ]
+INFO  21:51:15,629 - #6 ]
+INFO  21:51:15,629 - #9 =
+INFO  21:51:15,629 - #33 30
+INFO  21:51:15,629 - #4 ;
+INFO  21:51:15,629 - #32 niz
+INFO  21:51:15,629 - #5 [
+INFO  21:51:15,629 - #32 flag
+INFO  21:51:15,629 - #30 ?
+INFO  21:51:15,630 - #33 5
+INFO  21:51:15,630 - #31 :
+INFO  21:51:15,630 - #33 6
+INFO  21:51:15,630 - #6 ]
+INFO  21:51:15,630 - #9 =
+INFO  21:51:15,630 - #33 40
+INFO  21:51:15,630 - #4 ;
+INFO  21:51:15,630 - #32 niz
+INFO  21:51:15,630 - #5 [
+INFO  21:51:15,630 - #32 flag
+INFO  21:51:15,630 - #30 ?
+INFO  21:51:15,630 - #35 5
+INFO  21:51:15,631 - #31 :
+INFO  21:51:15,631 - #33 6
+INFO  21:51:15,631 - #6 ]
+INFO  21:51:15,631 - #9 =
+INFO  21:51:15,631 - #33 40
+INFO  21:51:15,631 - #4 ;
+INFO  21:51:15,631 - #32 niz
+INFO  21:51:15,631 - #5 [
+INFO  21:51:15,631 - #32 flag
+INFO  21:51:15,631 - #30 ?
+INFO  21:51:15,631 - #35 5
+INFO  21:51:15,631 - #31 :
+INFO  21:51:15,631 - #35 6
+INFO  21:51:15,631 - #6 ]
+INFO  21:51:15,632 - #9 =
+INFO  21:51:15,632 - #33 40
+INFO  21:51:15,632 - #4 ;
+INFO  21:51:15,632 - #3 }
+INFO  21:51:15,632 - #3 }
+INFO  21:51:15,642 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstDecls(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijeNiz(
+               niz
+              ) [DeoDeklaracijeNiz]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             broj
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           perica
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      DodelaVrednosti(
+       pi
+        Number_Const(
+         3
+        ) [Number_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             flag
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        StatementLista(
+          StatementLista(
+            StatementLista(
+              StatementLista(
+                StatementLista(
+                  StatementLista(
+                    StatementLista(
+                      StatementLista(
+                        NoStatements(
+                        ) [NoStatements]
+                        DesignatorStatementSemi(
+                          Assignment(
+                            Assign_Designator_Klasa(
+                              DesignatorIdentifikator(
+                               flag
+                              ) [DesignatorIdentifikator]
+                              Expr_obican(
+                                ExprWithoutMinus(
+                                  Term_0(
+                                    FactorBool(
+                                     0
+                                    ) [FactorBool]
+                                  ) [Term_0]
+                                ) [ExprWithoutMinus]
+                              ) [Expr_obican]
+                            ) [Assign_Designator_Klasa]
+                          ) [Assignment]
+                        ) [DesignatorStatementSemi]
+                      ) [StatementLista]
+                      DesignatorStatementSemi(
+                        Assignment(
+                          Assign_Designator_Klasa(
+                            DesignatorIdentifikator(
+                             broj
+                            ) [DesignatorIdentifikator]
+                            Ternarni_operator(
+                              CondFactBoolean(
+                                ExprWithoutMinus(
+                                  Term_0(
+                                    FactorDesignator(
+                                      DesignatorIdentifikator(
+                                       flag
+                                      ) [DesignatorIdentifikator]
+                                    ) [FactorDesignator]
+                                  ) [Term_0]
+                                ) [ExprWithoutMinus]
+                              ) [CondFactBoolean]
+                              ExprWithoutMinusLista(
+                                Term_0(
+                                  FactorNumber(
+                                   1
+                                  ) [FactorNumber]
+                                ) [Term_0]
+                                AddoptListaViseOperacija(
+                                  AddoptListaJednaOperacija(
+                                    PlusOperacija(
+                                    ) [PlusOperacija]
+                                    Term_0(
+                                      FactorNumber(
+                                       2
+                                      ) [FactorNumber]
+                                    ) [Term_0]
+                                  ) [AddoptListaJednaOperacija]
+                                  PlusOperacija(
+                                  ) [PlusOperacija]
+                                  Term_0(
+                                    FactorNumber(
+                                     3
+                                    ) [FactorNumber]
+                                  ) [Term_0]
+                                ) [AddoptListaViseOperacija]
+                              ) [ExprWithoutMinusLista]
+                              DveTacke(
+                              ) [DveTacke]
+                              ExprWithoutMinusLista(
+                                ViseTermova(
+                                  FactorNumber(
+                                   4
+                                  ) [FactorNumber]
+                                  MulopFactor(
+                                    MulOperacija(
+                                    ) [MulOperacija]
+                                    FactorNumber(
+                                     5
+                                    ) [FactorNumber]
+                                  ) [MulopFactor]
+                                ) [ViseTermova]
+                                AddoptListaJednaOperacija(
+                                  MinusOperacija(
+                                  ) [MinusOperacija]
+                                  Term_0(
+                                    FactorNumber(
+                                     6
+                                    ) [FactorNumber]
+                                  ) [Term_0]
+                                ) [AddoptListaJednaOperacija]
+                              ) [ExprWithoutMinusLista]
+                            ) [Ternarni_operator]
+                          ) [Assign_Designator_Klasa]
+                        ) [Assignment]
+                      ) [DesignatorStatementSemi]
+                    ) [StatementLista]
+                    PrintStatement(
+                      Expr_obican(
+                        ExprWithoutMinus(
+                          Term_0(
+                            FactorDesignator(
+                              DesignatorIdentifikator(
+                               broj
+                              ) [DesignatorIdentifikator]
+                            ) [FactorDesignator]
+                          ) [Term_0]
+                        ) [ExprWithoutMinus]
+                      ) [Expr_obican]
+                    ) [PrintStatement]
+                  ) [StatementLista]
+                  DesignatorStatementSemi(
+                    Assignment(
+                      Assign_Designator_Klasa(
+                        DesignatorIdentifikator(
+                         niz
+                        ) [DesignatorIdentifikator]
+                        Expr_obican(
+                          ExprWithoutMinus(
+                            Term_0(
+                              FactorNewArray(
+                                Type(
+                                 int
+                                ) [Type]
+                                Expr_obican(
+                                  ExprWithoutMinus(
+                                    Term_0(
+                                      FactorNumber(
+                                       100
+                                      ) [FactorNumber]
+                                    ) [Term_0]
+                                  ) [ExprWithoutMinus]
+                                ) [Expr_obican]
+                              ) [FactorNewArray]
+                            ) [Term_0]
+                          ) [ExprWithoutMinus]
+                        ) [Expr_obican]
+                      ) [Assign_Designator_Klasa]
+                    ) [Assignment]
+                  ) [DesignatorStatementSemi]
+                ) [StatementLista]
+                DesignatorStatementSemi(
+                  Assignment(
+                    Assign_Designator_Klasa(
+                      DesignatorArray(
+                        DesignatorArrayName(
+                         niz
+                        ) [DesignatorArrayName]
+                        Expr_obican(
+                          ExprWithoutMinus(
+                            Term_0(
+                              FactorNumber(
+                               1
+                              ) [FactorNumber]
+                            ) [Term_0]
+                          ) [ExprWithoutMinus]
+                        ) [Expr_obican]
+                      ) [DesignatorArray]
+                      Expr_obican(
+                        ExprWithoutMinus(
+                          Term_0(
+                            FactorNumber(
+                             10
+                            ) [FactorNumber]
+                          ) [Term_0]
+                        ) [ExprWithoutMinus]
+                      ) [Expr_obican]
+                    ) [Assign_Designator_Klasa]
+                  ) [Assignment]
+                ) [DesignatorStatementSemi]
+              ) [StatementLista]
+              DesignatorStatementSemi(
+                Assignment(
+                  Assign_Designator_Klasa(
+                    DesignatorArray(
+                      DesignatorArrayName(
+                       niz
+                      ) [DesignatorArrayName]
+                      Expr_obican(
+                        ExprWithoutMinus(
+                          Term_0(
+                            FactorDesignator(
+                              DesignatorArray(
+                                DesignatorArrayName(
+                                 niz
+                                ) [DesignatorArrayName]
+                                Expr_obican(
+                                  ExprWithoutMinus(
+                                    Term_0(
+                                      FactorNumber(
+                                       1
+                                      ) [FactorNumber]
+                                    ) [Term_0]
+                                  ) [ExprWithoutMinus]
+                                ) [Expr_obican]
+                              ) [DesignatorArray]
+                            ) [FactorDesignator]
+                          ) [Term_0]
+                        ) [ExprWithoutMinus]
+                      ) [Expr_obican]
+                    ) [DesignatorArray]
+                    Expr_obican(
+                      ExprWithoutMinus(
+                        Term_0(
+                          FactorNumber(
+                           30
+                          ) [FactorNumber]
+                        ) [Term_0]
+                      ) [ExprWithoutMinus]
+                    ) [Expr_obican]
+                  ) [Assign_Designator_Klasa]
+                ) [Assignment]
+              ) [DesignatorStatementSemi]
+            ) [StatementLista]
+            DesignatorStatementSemi(
+              Assignment(
+                Assign_Designator_Klasa(
+                  DesignatorArray(
+                    DesignatorArrayName(
+                     niz
+                    ) [DesignatorArrayName]
+                    Ternarni_operator(
+                      CondFactBoolean(
+                        ExprWithoutMinus(
+                          Term_0(
+                            FactorDesignator(
+                              DesignatorIdentifikator(
+                               flag
+                              ) [DesignatorIdentifikator]
+                            ) [FactorDesignator]
+                          ) [Term_0]
+                        ) [ExprWithoutMinus]
+                      ) [CondFactBoolean]
+                      ExprWithoutMinus(
+                        Term_0(
+                          FactorNumber(
+                           5
+                          ) [FactorNumber]
+                        ) [Term_0]
+                      ) [ExprWithoutMinus]
+                      DveTacke(
+                      ) [DveTacke]
+                      ExprWithoutMinus(
+                        Term_0(
+                          FactorNumber(
+                           6
+                          ) [FactorNumber]
+                        ) [Term_0]
+                      ) [ExprWithoutMinus]
+                    ) [Ternarni_operator]
+                  ) [DesignatorArray]
+                  Expr_obican(
+                    ExprWithoutMinus(
+                      Term_0(
+                        FactorNumber(
+                         40
+                        ) [FactorNumber]
+                      ) [Term_0]
+                    ) [ExprWithoutMinus]
+                  ) [Expr_obican]
+                ) [Assign_Designator_Klasa]
+              ) [Assignment]
+            ) [DesignatorStatementSemi]
+          ) [StatementLista]
+          DesignatorStatementSemi(
+            Assignment(
+              Assign_Designator_Klasa(
+                DesignatorArray(
+                  DesignatorArrayName(
+                   niz
+                  ) [DesignatorArrayName]
+                  Ternarni_operator(
+                    CondFactBoolean(
+                      ExprWithoutMinus(
+                        Term_0(
+                          FactorDesignator(
+                            DesignatorIdentifikator(
+                             flag
+                            ) [DesignatorIdentifikator]
+                          ) [FactorDesignator]
+                        ) [Term_0]
+                      ) [ExprWithoutMinus]
+                    ) [CondFactBoolean]
+                    ExprWithoutMinus(
+                      Term_0(
+                        FactorChar(
+                         5
+                        ) [FactorChar]
+                      ) [Term_0]
+                    ) [ExprWithoutMinus]
+                    DveTacke(
+                    ) [DveTacke]
+                    ExprWithoutMinus(
+                      Term_0(
+                        FactorNumber(
+                         6
+                        ) [FactorNumber]
+                      ) [Term_0]
+                    ) [ExprWithoutMinus]
+                  ) [Ternarni_operator]
+                ) [DesignatorArray]
+                Expr_obican(
+                  ExprWithoutMinus(
+                    Term_0(
+                      FactorNumber(
+                       40
+                      ) [FactorNumber]
+                    ) [Term_0]
+                  ) [ExprWithoutMinus]
+                ) [Expr_obican]
+              ) [Assign_Designator_Klasa]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [StatementLista]
+        DesignatorStatementSemi(
+          Assignment(
+            Assign_Designator_Klasa(
+              DesignatorArray(
+                DesignatorArrayName(
+                 niz
+                ) [DesignatorArrayName]
+                Ternarni_operator(
+                  CondFactBoolean(
+                    ExprWithoutMinus(
+                      Term_0(
+                        FactorDesignator(
+                          DesignatorIdentifikator(
+                           flag
+                          ) [DesignatorIdentifikator]
+                        ) [FactorDesignator]
+                      ) [Term_0]
+                    ) [ExprWithoutMinus]
+                  ) [CondFactBoolean]
+                  ExprWithoutMinus(
+                    Term_0(
+                      FactorChar(
+                       5
+                      ) [FactorChar]
+                    ) [Term_0]
+                  ) [ExprWithoutMinus]
+                  DveTacke(
+                  ) [DveTacke]
+                  ExprWithoutMinus(
+                    Term_0(
+                      FactorChar(
+                       6
+                      ) [FactorChar]
+                    ) [Term_0]
+                  ) [ExprWithoutMinus]
+                ) [Ternarni_operator]
+              ) [DesignatorArray]
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorNumber(
+                     40
+                    ) [FactorNumber]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [Assign_Designator_Klasa]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:51:15,643 - ===================================
+INFO  21:51:15,649 - Deklarisana promenljiva niz na liniji 7
+INFO  21:51:15,649 - Deklarisana promenljiva broj na liniji 8
+INFO  21:51:15,649 - Deklarisana promenljiva perica na liniji 9
+INFO  21:51:15,650 - Deklarisana simbolicka konstanta pi na liniji 10
+INFO  21:51:15,650 - Deklarisana metoda main na liniji 12
+INFO  21:51:15,650 - Deklarisana promenljiva flag na liniji 14
+INFO  21:51:15,650 - Detektovana lokalna promenljiva flag na liniji 17
+INFO  21:51:15,650 - Izraz dodele uspesno izvrsen na liniji 17
+INFO  21:51:15,650 - Detektovana globalna promenljiva broj na liniji 18
+INFO  21:51:15,650 - Detektovana lokalna promenljiva flag na liniji 18
+INFO  21:51:15,651 - Izvrsena operacija sabiranja
+INFO  21:51:15,651 - Izvrsena operacija sabiranja
+INFO  21:51:15,651 - Izraz dodele uspesno izvrsen na liniji 18
+INFO  21:51:15,651 - Detektovana globalna promenljiva broj na liniji 19
+INFO  21:51:15,651 - Detektovana globalna promenljiva niz na liniji 21
+INFO  21:51:15,651 - Izraz dodele uspesno izvrsen na liniji 21
+INFO  21:51:15,651 - Detektovana globalna promenljiva niz na liniji 23
+INFO  21:51:15,651 - Izraz dodele uspesno izvrsen na liniji 23
+INFO  21:51:15,651 - Detektovana globalna promenljiva niz na liniji 24
+INFO  21:51:15,652 - Detektovana globalna promenljiva niz na liniji 24
+INFO  21:51:15,652 - Izraz dodele uspesno izvrsen na liniji 24
+INFO  21:51:15,652 - Detektovana globalna promenljiva niz na liniji 25
+INFO  21:51:15,652 - Detektovana lokalna promenljiva flag na liniji 25
+INFO  21:51:15,652 - Izraz dodele uspesno izvrsen na liniji 25
+INFO  21:51:15,652 - Detektovana globalna promenljiva niz na liniji 26
+INFO  21:51:15,652 - Detektovana lokalna promenljiva flag na liniji 26
+ERROR 21:51:15,652 - Greska na liniji 26: Izrazi u ternarnom operatoru moraju biti istog tipa!
+ERROR 21:51:15,652 - Greska na liniji 26 :  Pristup promenljivoj niz se mora izvrsiti indeksiranjem sa INT tipom!
+INFO  21:51:15,652 - Izraz dodele uspesno izvrsen na liniji 26
+INFO  21:51:15,652 - Detektovana globalna promenljiva niz na liniji 27
+INFO  21:51:15,652 - Detektovana lokalna promenljiva flag na liniji 27
+ERROR 21:51:15,652 - Greska na liniji 27 :  Pristup promenljivoj niz se mora izvrsiti indeksiranjem sa INT tipom!
+INFO  21:51:15,652 - Izraz dodele uspesno izvrsen na liniji 27
+INFO  21:51:15,652 - Zavrsena obrada metode main na liniji 12
+INFO  21:51:15,653 - ===================================
+ERROR 21:51:15,654 - Parsiranje NIJE uspesno zavrseno!

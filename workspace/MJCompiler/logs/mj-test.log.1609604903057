@@ -1,0 +1,266 @@
+INFO  17:27:52,015 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:27:52,055 - #2 program
+INFO  17:27:52,055 - #50 test301
+INFO  17:27:52,055 - #8 const
+INFO  17:27:52,056 - #50 int
+INFO  17:27:52,056 - #50 jedan
+INFO  17:27:52,057 - #9 =
+INFO  17:27:52,057 - #51 1
+INFO  17:27:52,057 - #4 ;
+INFO  17:27:52,057 - #8 const
+INFO  17:27:52,058 - #50 int
+INFO  17:27:52,058 - #50 pet
+INFO  17:27:52,058 - #9 =
+INFO  17:27:52,059 - #51 5
+INFO  17:27:52,059 - #4 ;
+INFO  17:27:52,059 - #50 int
+INFO  17:27:52,059 - #50 niz
+INFO  17:27:52,059 - #5 [
+INFO  17:27:52,059 - #6 ]
+INFO  17:27:52,059 - #4 ;
+INFO  17:27:52,059 - #50 char
+INFO  17:27:52,943 - #50 nizch
+INFO  17:27:52,955 - #5 [
+INFO  17:27:52,955 - #6 ]
+INFO  17:27:52,955 - #4 ;
+INFO  17:27:52,955 - #10 {
+INFO  17:27:52,955 - #12 void
+INFO  17:27:52,956 - #50 main
+INFO  17:27:52,956 - #11 (
+INFO  17:27:52,957 - #13 )
+INFO  17:27:52,958 - #50 int
+INFO  17:27:52,958 - #50 pera
+INFO  17:27:52,958 - #4 ;
+INFO  17:27:52,958 - #50 int
+INFO  17:27:52,958 - #50 laza
+INFO  17:27:52,958 - #4 ;
+INFO  17:27:52,959 - #50 int
+INFO  17:27:52,959 - #50 jovana
+INFO  17:27:52,959 - #5 [
+INFO  17:27:52,959 - #6 ]
+INFO  17:27:52,959 - #4 ;
+INFO  17:27:52,959 - #50 int
+INFO  17:27:52,959 - #50 perica
+INFO  17:27:52,959 - #5 [
+INFO  17:27:52,959 - #6 ]
+INFO  17:27:52,959 - #4 ;
+INFO  17:27:52,959 - #10 {
+INFO  17:27:52,959 - #50 jovana
+INFO  17:27:52,960 - #9 =
+INFO  17:27:52,961 - #24 new
+INFO  17:27:52,961 - #50 int
+INFO  17:27:52,961 - #5 [
+INFO  17:27:52,961 - #51 10
+INFO  17:27:52,961 - #6 ]
+INFO  17:27:52,961 - #4 ;
+INFO  17:27:52,962 - #50 perica
+INFO  17:27:52,962 - #9 =
+INFO  17:27:52,962 - #24 new
+INFO  17:27:52,963 - #50 int
+INFO  17:27:52,963 - #5 [
+INFO  17:27:52,963 - #51 50
+INFO  17:27:52,963 - #6 ]
+INFO  17:27:52,963 - #4 ;
+INFO  17:27:52,963 - #3 }
+INFO  17:27:52,963 - #3 }
+INFO  17:27:52,971 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDecls(
+        ConstDecls(
+          NoDeclarations(
+          ) [NoDeclarations]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            DodelaVrednosti(
+             jedan
+              Number_Const(
+               1
+              ) [Number_Const]
+            ) [DodelaVrednosti]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          DodelaVrednosti(
+           pet
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           niz
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       char
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijeNiz(
+         nizch
+        ) [DeoDeklaracijeNiz]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        VarDeclarationList(
+          VarDeclarationList(
+            VarDeclarationList(
+              NoVarDeclarationList(
+              ) [NoVarDeclarationList]
+              VarDeclOpstaSmena(
+                Type(
+                 int
+                ) [Type]
+                VarJednaDeklaracija(
+                  DeoDeklaracijaPromenljiva(
+                   pera
+                  ) [DeoDeklaracijaPromenljiva]
+                ) [VarJednaDeklaracija]
+              ) [VarDeclOpstaSmena]
+            ) [VarDeclarationList]
+            VarDeclOpstaSmena(
+              Type(
+               int
+              ) [Type]
+              VarJednaDeklaracija(
+                DeoDeklaracijaPromenljiva(
+                 laza
+                ) [DeoDeklaracijaPromenljiva]
+              ) [VarJednaDeklaracija]
+            ) [VarDeclOpstaSmena]
+          ) [VarDeclarationList]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijeNiz(
+               jovana
+              ) [DeoDeklaracijeNiz]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             perica
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        StatementLista(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStatementSemi(
+            Assignment(
+              Assign_Designator_Klasa(
+                DesignatorIdentifikator(
+                 jovana
+                ) [DesignatorIdentifikator]
+                Expr_obican(
+                  ExprWithoutMinus(
+                    Term_0(
+                      FactorNewArray(
+                        Type(
+                         int
+                        ) [Type]
+                        Expr_obican(
+                          ExprWithoutMinus(
+                            Term_0(
+                              FactorNumber(
+                               10
+                              ) [FactorNumber]
+                            ) [Term_0]
+                          ) [ExprWithoutMinus]
+                        ) [Expr_obican]
+                      ) [FactorNewArray]
+                    ) [Term_0]
+                  ) [ExprWithoutMinus]
+                ) [Expr_obican]
+              ) [Assign_Designator_Klasa]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [StatementLista]
+        DesignatorStatementSemi(
+          Assignment(
+            Assign_Designator_Klasa(
+              DesignatorIdentifikator(
+               perica
+              ) [DesignatorIdentifikator]
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorNewArray(
+                      Type(
+                       int
+                      ) [Type]
+                      Expr_obican(
+                        ExprWithoutMinus(
+                          Term_0(
+                            FactorNumber(
+                             50
+                            ) [FactorNumber]
+                          ) [Term_0]
+                        ) [ExprWithoutMinus]
+                      ) [Expr_obican]
+                    ) [FactorNewArray]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [Assign_Designator_Klasa]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:27:52,972 - ===================================
+INFO  17:27:52,977 - Deklarisana promenljiva niz na liniji 8
+INFO  17:27:52,979 - Deklarisana promenljiva nizch na liniji 9
+INFO  17:27:52,980 - Deklarisana metoda main na liniji 12
+INFO  17:27:52,980 - Deklarisana promenljiva pera na liniji 13
+INFO  17:27:52,980 - Deklarisana promenljiva laza na liniji 14
+INFO  17:27:52,980 - Deklarisana promenljiva jovana na liniji 15
+INFO  17:27:52,980 - Deklarisana promenljiva perica na liniji 16
+INFO  17:27:52,980 - Detektovana lokalna promenljiva jovana na liniji 18
+INFO  17:27:52,980 - Niz je uspesno alociran na liniji 18!
+INFO  17:27:52,980 - Izraz dodele uspesno izvrsen na liniji 18
+INFO  17:27:52,980 - Detektovana lokalna promenljiva perica na liniji 19
+INFO  17:27:52,981 - Niz je uspesno alociran na liniji 19!
+INFO  17:27:52,981 - Izraz dodele uspesno izvrsen na liniji 19
+INFO  17:27:52,981 - Zavrsena obrada metode main na liniji 12
+INFO  17:27:52,981 - ===================================
+INFO  17:27:52,993 - Parsiranje uspesno zavrseno!

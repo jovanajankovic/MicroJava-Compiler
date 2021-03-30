@@ -1,0 +1,160 @@
+INFO  17:23:25,613 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:23:25,666 - #2 program
+INFO  17:23:25,666 - #48 MJProgram
+INFO  17:23:25,667 - #48 int
+INFO  17:23:25,668 - #48 pera
+INFO  17:23:25,669 - #4 ;
+INFO  17:23:25,669 - #48 int
+INFO  17:23:25,669 - #48 mika
+INFO  17:23:25,670 - #4 ;
+INFO  17:23:25,670 - #48 int
+INFO  17:23:25,670 - #48 jovana
+INFO  17:23:25,670 - #5 [
+INFO  17:23:25,670 - #6 ]
+INFO  17:23:25,670 - #7 ,
+INFO  17:23:25,670 - #48 pp
+INFO  17:23:25,670 - #7 ,
+INFO  17:23:25,670 - #48 perica
+INFO  17:23:25,670 - #5 [
+INFO  17:23:25,670 - #6 ]
+INFO  17:23:25,671 - #7 ,
+INFO  17:23:25,671 - #48 mikaa
+INFO  17:23:25,671 - #5 [
+INFO  17:23:25,671 - #6 ]
+INFO  17:23:25,671 - #4 ;
+INFO  17:23:25,671 - #48 char
+INFO  17:23:25,671 - #48 peric
+INFO  17:23:25,671 - #4 ;
+INFO  17:23:25,671 - #48 char
+INFO  17:23:25,671 - #48 m
+INFO  17:23:25,671 - #5 [
+INFO  17:23:25,671 - #6 ]
+INFO  17:23:25,671 - #7 ,
+INFO  17:23:25,671 - #48 k
+INFO  17:23:25,671 - #5 [
+INFO  17:23:25,671 - #6 ]
+INFO  17:23:25,671 - #7 ,
+INFO  17:23:25,672 - #48 k
+INFO  17:23:25,672 - #4 ;
+INFO  17:23:25,672 - #10 {
+INFO  17:23:25,672 - #12 void
+INFO  17:23:25,673 - #48 main
+INFO  17:23:25,674 - #11 (
+INFO  17:23:25,675 - #13 )
+INFO  17:23:25,676 - #10 {
+INFO  17:23:25,677 - #3 }
+INFO  17:23:25,678 - #3 }
+INFO  17:23:25,688 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          VarDeclarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            VarDeclOpstaSmena(
+              Type(
+               int
+              ) [Type]
+              VarJednaDeklaracija(
+                DeoDeklaracijaPromenljiva(
+                 pera
+                ) [DeoDeklaracijaPromenljiva]
+              ) [VarJednaDeklaracija]
+            ) [VarDeclOpstaSmena]
+          ) [VarDeclarations]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               mika
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarViseDeklaracija(
+            VarViseDeklaracija(
+              VarViseDeklaracija(
+                VarJednaDeklaracija(
+                  DeoDeklaracijeNiz(
+                   jovana
+                  ) [DeoDeklaracijeNiz]
+                ) [VarJednaDeklaracija]
+                DeoDeklaracijaPromenljiva(
+                 pp
+                ) [DeoDeklaracijaPromenljiva]
+              ) [VarViseDeklaracija]
+              DeoDeklaracijeNiz(
+               perica
+              ) [DeoDeklaracijeNiz]
+            ) [VarViseDeklaracija]
+            DeoDeklaracijeNiz(
+             mikaa
+            ) [DeoDeklaracijeNiz]
+          ) [VarViseDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         char
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           peric
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       char
+      ) [Type]
+      VarViseDeklaracija(
+        VarViseDeklaracija(
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             m
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+          DeoDeklaracijeNiz(
+           k
+          ) [DeoDeklaracijeNiz]
+        ) [VarViseDeklaracija]
+        DeoDeklaracijaPromenljiva(
+         k
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarViseDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:23:25,689 - ===================================
+INFO  17:23:25,694 - usao
+INFO  17:23:25,694 - obicna promeljiva
+INFO  17:23:25,695 - usao
+INFO  17:23:25,695 - obicna promeljiva

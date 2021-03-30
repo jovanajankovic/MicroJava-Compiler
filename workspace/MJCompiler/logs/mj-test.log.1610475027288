@@ -1,0 +1,215 @@
+INFO  19:10:06,852 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:10:07,562 - #2 program
+INFO  19:10:07,563 - #32 test301
+INFO  19:10:07,563 - #8 const
+INFO  19:10:07,564 - #32 int
+INFO  19:10:07,564 - #32 nula
+INFO  19:10:07,565 - #9 =
+INFO  19:10:07,565 - #33 0
+INFO  19:10:07,565 - #4 ;
+INFO  19:10:07,565 - #8 const
+INFO  19:10:07,566 - #32 int
+INFO  19:10:07,566 - #32 jedan
+INFO  19:10:07,566 - #9 =
+INFO  19:10:07,566 - #33 1
+INFO  19:10:07,566 - #4 ;
+INFO  19:10:07,566 - #8 const
+INFO  19:10:07,566 - #32 int
+INFO  19:10:07,566 - #32 pet
+INFO  19:10:07,566 - #9 =
+INFO  19:10:07,566 - #33 5
+INFO  19:10:07,567 - #4 ;
+INFO  19:10:07,567 - #32 int
+INFO  19:10:07,567 - #32 niz
+INFO  19:10:07,567 - #5 [
+INFO  19:10:07,567 - #6 ]
+INFO  19:10:07,567 - #4 ;
+INFO  19:10:07,567 - #32 char
+INFO  19:10:07,567 - #32 nizch
+INFO  19:10:07,567 - #5 [
+INFO  19:10:07,567 - #6 ]
+INFO  19:10:07,568 - #4 ;
+INFO  19:10:07,568 - #32 bool
+INFO  19:10:07,568 - #32 flagovi
+INFO  19:10:07,568 - #5 [
+INFO  19:10:07,568 - #6 ]
+INFO  19:10:07,568 - #4 ;
+INFO  19:10:07,568 - #10 {
+INFO  19:10:07,568 - #12 void
+INFO  19:10:07,569 - #32 main
+INFO  19:10:07,569 - #11 (
+INFO  19:10:07,570 - #13 )
+INFO  19:10:07,571 - #32 int
+INFO  19:10:07,571 - #32 bodovi
+INFO  19:10:07,571 - #4 ;
+INFO  19:10:07,571 - #32 bool
+INFO  19:10:07,572 - #32 bt
+INFO  19:10:07,572 - #4 ;
+INFO  19:10:07,572 - #10 {
+INFO  19:10:07,572 - #32 bt
+INFO  19:10:07,572 - #5 [
+INFO  19:10:07,573 - #33 5
+INFO  19:10:07,573 - #6 ]
+INFO  19:10:07,573 - #28 ++
+INFO  19:10:07,574 - #4 ;
+INFO  19:10:07,574 - #3 }
+INFO  19:10:07,574 - #3 }
+INFO  19:10:07,580 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        ConstDecls(
+          ConstDecls(
+            ConstDecls(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                DodelaVrednosti(
+                 nula
+                  Number_Const(
+                   0
+                  ) [Number_Const]
+                ) [DodelaVrednosti]
+              ) [ConstDecl]
+            ) [ConstDecls]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              DodelaVrednosti(
+               jedan
+                Number_Const(
+                 1
+                ) [Number_Const]
+              ) [DodelaVrednosti]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            DodelaVrednosti(
+             pet
+              Number_Const(
+               5
+              ) [Number_Const]
+            ) [DodelaVrednosti]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             niz
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         char
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           nizch
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       bool
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijeNiz(
+         flagovi
+        ) [DeoDeklaracijeNiz]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        VarDeclarationList(
+          NoVarDeclarationList(
+          ) [NoVarDeclarationList]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               bodovi
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bt
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStatementSemi(
+          Increment(
+            DesignatorArray(
+              DesignatorArrayName(
+               bt
+              ) [DesignatorArrayName]
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorNumber(
+                     5
+                    ) [FactorNumber]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [DesignatorArray]
+          ) [Increment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:10:07,581 - ===================================
+INFO  19:10:07,586 - Deklarisana simbolicka konstanta nula na liniji 5
+INFO  19:10:07,586 - Deklarisana simbolicka konstanta jedan na liniji 6
+INFO  19:10:07,586 - Deklarisana simbolicka konstanta pet na liniji 7
+INFO  19:10:07,586 - Deklarisana promenljiva niz na liniji 9
+INFO  19:10:07,586 - Deklarisana promenljiva nizch na liniji 10
+INFO  19:10:07,586 - Deklarisana promenljiva flagovi na liniji 11
+INFO  19:10:07,587 - Deklarisana metoda main na liniji 13
+INFO  19:10:07,587 - Deklarisana promenljiva bodovi na liniji 14
+INFO  19:10:07,587 - Deklarisana promenljiva bt na liniji 15
+INFO  19:10:07,587 - Detektovana lokalna promenljiva bt na liniji 17
+ERROR 19:10:07,587 - Greska na liniji 17 :  Promenljiva bt mora biti NIZ!
+ERROR 19:10:07,589 - Greska na liniji 17 : Promenljiva bt mora biti promenljiva ili element niza tipa INT!
+INFO  19:10:07,589 - Zavrsena obrada metode main na liniji 13
+INFO  19:10:07,589 - ===================================
+ERROR 19:10:07,590 - Parsiranje NIJE uspesno zavrseno!

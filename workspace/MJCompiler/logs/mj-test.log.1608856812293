@@ -1,0 +1,183 @@
+INFO  01:39:35,912 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  01:39:35,932 - #2 program
+INFO  01:39:35,932 - #3 MJProgram
+INFO  01:39:35,932 - #3 int
+INFO  01:39:35,933 - #3 hej
+INFO  01:39:35,934 - #5 ;
+INFO  01:39:35,934 - #3 char
+INFO  01:39:35,935 - #3 jovana
+INFO  01:39:35,935 - #5 ;
+INFO  01:39:35,935 - #3 int
+INFO  01:39:35,935 - #3 hello
+INFO  01:39:35,935 - #5 ;
+INFO  01:39:35,935 - #9 const
+INFO  01:39:35,935 - #3 int
+INFO  01:39:35,936 - #3 hello
+INFO  01:39:35,936 - #10 =
+INFO  01:39:35,936 - #11 5
+INFO  01:39:35,936 - #5 ;
+INFO  01:39:35,938 - #9 const
+INFO  01:39:35,939 - #3 int
+INFO  01:39:35,939 - #3 dosapdosa
+INFO  01:39:35,939 - #10 =
+INFO  01:39:35,939 - #11 0
+INFO  01:39:35,939 - #8 ,
+INFO  01:39:35,939 - #3 dsdksal
+INFO  01:39:35,939 - #10 =
+INFO  01:39:35,939 - #11 5
+INFO  01:39:35,939 - #8 ,
+INFO  01:39:35,940 - #3 perica
+INFO  01:39:35,940 - #10 =
+INFO  01:39:35,940 - #11 9
+INFO  01:39:35,940 - #8 ,
+INFO  01:39:35,940 - #3 mars
+INFO  01:39:35,940 - #10 =
+INFO  01:39:35,940 - #11 10
+INFO  01:39:35,940 - #8 ,
+INFO  01:39:35,940 - #3 bagra
+INFO  01:39:35,940 - #10 =
+INFO  01:39:35,940 - #11 7
+INFO  01:39:35,940 - #5 ;
+INFO  01:39:35,940 - #9 const
+INFO  01:39:35,940 - #3 int
+INFO  01:39:35,940 - #3 nemacka
+INFO  01:39:35,941 - #10 =
+INFO  01:39:35,941 - #11 8
+INFO  01:39:35,941 - #8 ,
+INFO  01:39:35,941 - #3 cale
+INFO  01:39:35,941 - #10 =
+INFO  01:39:35,941 - #11 9
+INFO  01:39:35,941 - #5 ;
+INFO  01:39:35,941 - #9 const
+INFO  01:39:35,941 - #3 char
+INFO  01:39:35,941 - #3 jocika
+INFO  01:39:35,941 - #10 =
+INFO  01:39:35,941 - #12 t
+INFO  01:39:35,941 - #8 ,
+INFO  01:39:35,942 - #3 tuti
+INFO  01:39:35,942 - #10 =
+INFO  01:39:35,942 - #12 b
+INFO  01:39:35,942 - #5 ;
+INFO  01:39:35,943 - #9 const
+INFO  01:39:35,943 - #3 double
+INFO  01:39:35,943 - #3 c
+INFO  01:39:35,943 - #10 =
+INFO  01:39:35,943 - #11 5
+INFO  01:39:35,943 - #5 ;
+INFO  01:39:35,943 - #9 const
+INFO  01:39:35,943 - #3 petar
+INFO  01:39:35,943 - #3 pera
+INFO  01:39:35,943 - #10 =
+INFO  01:39:35,943 - #11 5
+INFO  01:39:35,943 - #5 ;
+INFO  01:39:35,943 - #14 {
+INFO  01:39:35,943 - #4 }
+INFO  01:39:35,946 - Program(
+  ConstDecls(
+    ConstDecls(
+      ConstDecls(
+        ConstDecls(
+          ConstDecls(
+            ConstDecls(
+              VarDeclarations(
+                VarDeclarations(
+                  VarDeclarations(
+                    NoDeclarations(
+                    ) [NoDeclarations]
+                    VarDecl(
+                      Type(
+                      ) [Type]
+                    ) [VarDecl]
+                  ) [VarDeclarations]
+                  VarDecl(
+                    Type(
+                    ) [Type]
+                  ) [VarDecl]
+                ) [VarDeclarations]
+                VarDecl(
+                  Type(
+                  ) [Type]
+                ) [VarDecl]
+              ) [VarDeclarations]
+              ConstDecl(
+                Type(
+                ) [Type]
+                DodelaVrednosti(
+                  Number_Const(
+                  ) [Number_Const]
+                ) [DodelaVrednosti]
+              ) [ConstDecl]
+            ) [ConstDecls]
+            ConstDecl(
+              Type(
+              ) [Type]
+              DodeleVrednosti(
+                DodeleVrednosti(
+                  DodeleVrednosti(
+                    DodeleVrednosti(
+                      DodelaVrednosti(
+                        Number_Const(
+                        ) [Number_Const]
+                      ) [DodelaVrednosti]
+                      Number_Const(
+                      ) [Number_Const]
+                    ) [DodeleVrednosti]
+                    Number_Const(
+                    ) [Number_Const]
+                  ) [DodeleVrednosti]
+                  Number_Const(
+                  ) [Number_Const]
+                ) [DodeleVrednosti]
+                Number_Const(
+                ) [Number_Const]
+              ) [DodeleVrednosti]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          ConstDecl(
+            Type(
+            ) [Type]
+            DodeleVrednosti(
+              DodelaVrednosti(
+                Number_Const(
+                ) [Number_Const]
+              ) [DodelaVrednosti]
+              Number_Const(
+              ) [Number_Const]
+            ) [DodeleVrednosti]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        ConstDecl(
+          Type(
+          ) [Type]
+          DodeleVrednosti(
+            DodelaVrednosti(
+              Character_Const(
+              ) [Character_Const]
+            ) [DodelaVrednosti]
+            Character_Const(
+            ) [Character_Const]
+          ) [DodeleVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      ConstDecl(
+        Type(
+        ) [Type]
+        DodelaVrednosti(
+          Number_Const(
+          ) [Number_Const]
+        ) [DodelaVrednosti]
+      ) [ConstDecl]
+    ) [ConstDecls]
+    ConstDecl(
+      Type(
+      ) [Type]
+      DodelaVrednosti(
+        Number_Const(
+        ) [Number_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  01:39:35,946 - ===================================

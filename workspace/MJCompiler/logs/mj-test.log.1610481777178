@@ -1,0 +1,110 @@
+INFO  20:59:53,242 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:59:53,293 - #2 program
+INFO  20:59:53,293 - #32 test301
+INFO  20:59:53,293 - #32 int
+INFO  20:59:53,294 - #32 niz
+INFO  20:59:53,295 - #5 [
+INFO  20:59:53,295 - #6 ]
+INFO  20:59:53,295 - #4 ;
+INFO  20:59:53,295 - #32 int
+INFO  20:59:53,296 - #32 broj
+INFO  20:59:53,296 - #4 ;
+INFO  20:59:53,296 - #32 int
+INFO  20:59:53,296 - #32 perica
+INFO  20:59:53,296 - #4 ;
+INFO  20:59:53,296 - #10 {
+INFO  20:59:53,296 - #32 int
+INFO  20:59:53,297 - #32 main
+INFO  20:59:53,297 - #11 (
+INFO  20:59:53,298 - #13 )
+INFO  20:59:53,298 - #32 bool
+INFO  20:59:53,299 - #32 flag
+INFO  20:59:53,299 - #4 ;
+INFO  20:59:53,299 - #10 {
+INFO  20:59:53,300 - #3 }
+INFO  20:59:53,300 - #3 }
+INFO  20:59:53,309 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             niz
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           broj
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         perica
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Tip_Povratna(
+          Type(
+           int
+          ) [Type]
+        ) [Tip_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             flag
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:59:53,310 - ===================================
+INFO  20:59:53,314 - Deklarisana promenljiva niz na liniji 7
+INFO  20:59:53,314 - Deklarisana promenljiva broj na liniji 8
+INFO  20:59:53,314 - Deklarisana promenljiva perica na liniji 9
+ERROR 20:59:53,314 - Greska na liniji 11: Main metoda mora imati povratnu vrednost VOID! 
+INFO  20:59:53,314 - Deklarisana promenljiva flag na liniji 13
+INFO  20:59:53,314 - Zavrsena obrada metode main na liniji 11
+ERROR 20:59:53,314 - Greska na liniji 3 U programu mora postojati main metoda! 
+INFO  20:59:53,314 - ===================================
+ERROR 20:59:53,315 - Parsiranje NIJE uspesno zavrseno!

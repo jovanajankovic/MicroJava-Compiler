@@ -1,0 +1,125 @@
+INFO  21:42:44,997 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:42:45,041 - #2 program
+INFO  21:42:45,041 - #48 MJProgram
+INFO  21:42:45,041 - #48 int
+INFO  21:42:45,042 - #48 niz
+INFO  21:42:45,043 - #5 [
+INFO  21:42:45,043 - #6 ]
+INFO  21:42:45,043 - #7 ,
+INFO  21:42:45,043 - #48 mika
+INFO  21:42:45,043 - #5 [
+INFO  21:42:45,043 - #6 ]
+INFO  21:42:45,043 - #4 ;
+INFO  21:42:45,044 - #10 {
+INFO  21:42:45,044 - #12 void
+INFO  21:42:45,045 - #48 main
+INFO  21:42:45,045 - #11 (
+INFO  21:42:45,046 - #13 )
+INFO  21:42:45,046 - #48 bool
+INFO  21:42:45,047 - #48 jovana
+INFO  21:42:45,047 - #4 ;
+INFO  21:42:45,047 - #10 {
+INFO  21:42:45,048 - #48 niz
+INFO  21:42:45,048 - #9 =
+INFO  21:42:45,049 - #24 new
+INFO  21:42:45,049 - #48 int
+INFO  21:42:45,049 - #5 [
+INFO  21:42:45,049 - #51 a
+INFO  21:42:45,049 - #6 ]
+INFO  21:42:45,049 - #4 ;
+INFO  21:42:45,050 - #3 }
+INFO  21:42:45,050 - #3 }
+INFO  21:42:45,059 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarViseDeklaracija(
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           niz
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+        DeoDeklaracijeNiz(
+         mika
+        ) [DeoDeklaracijeNiz]
+      ) [VarViseDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStatementSemi(
+          Assignment(
+            Assign_Designator_Klasa(
+              DesignatorIdentifikator(
+               niz
+              ) [DesignatorIdentifikator]
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorNewArray(
+                      Type(
+                       int
+                      ) [Type]
+                      Expr_obican(
+                        ExprWithoutMinus(
+                          Term_0(
+                            FactorChar(
+                             a
+                            ) [FactorChar]
+                          ) [Term_0]
+                        ) [ExprWithoutMinus]
+                      ) [Expr_obican]
+                    ) [FactorNewArray]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [Assign_Designator_Klasa]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:42:45,060 - ===================================
+INFO  21:42:45,064 - Deklarisana promenljiva niz na liniji 10
+INFO  21:42:45,065 - Deklarisana metoda main na liniji 12
+INFO  21:42:45,065 - Deklarisana promenljiva jovana na liniji 13
+INFO  21:42:45,065 - Detektovana globalna promenljiva niz na liniji 15
+ERROR 21:42:45,065 - Greska na liniji : 15 Tip promenljive koja govori koliko elemenata niza zelimo da alociramo, mora biti tipa INT!
+ERROR 21:42:45,065 - Greska na liniji : 15 Vrednosti nisu kompatibilne pri izrazu dodele!
+INFO  21:42:45,065 - Zavrsena obrada metode main na liniji 12
+INFO  21:42:45,066 - ===================================
+ERROR 21:42:45,067 - Parsiranje NIJE uspesno zavrseno!

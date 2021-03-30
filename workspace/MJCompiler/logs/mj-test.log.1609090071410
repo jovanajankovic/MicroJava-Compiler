@@ -1,0 +1,153 @@
+INFO  18:27:39,935 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:27:39,980 - #2 program
+INFO  18:27:39,980 - #50 MJProgram
+INFO  18:27:39,980 - #50 char
+INFO  18:27:39,981 - #50 jovana
+INFO  18:27:39,982 - #4 ;
+INFO  18:27:39,983 - #50 int
+INFO  18:27:39,983 - #50 pera
+INFO  18:27:39,983 - #7 ,
+INFO  18:27:39,983 - #50 zdera
+INFO  18:27:39,983 - #4 ;
+INFO  18:27:39,984 - #8 const
+INFO  18:27:39,984 - #50 char
+INFO  18:27:39,984 - #50 jocika
+INFO  18:27:39,984 - #9 =
+INFO  18:27:39,984 - #48 a
+INFO  18:27:39,984 - #7 ,
+INFO  18:27:39,985 - #50 fifi
+INFO  18:27:39,985 - #9 =
+INFO  18:27:39,985 - #48 5
+INFO  18:27:39,985 - #7 ,
+INFO  18:27:39,985 - #50 aca
+INFO  18:27:39,985 - #9 =
+INFO  18:27:39,986 - #48 1
+INFO  18:27:39,986 - #7 ,
+INFO  18:27:39,986 - #50 mama
+INFO  18:27:39,986 - #9 =
+INFO  18:27:39,986 - #48 c
+INFO  18:27:39,986 - #4 ;
+INFO  18:27:39,986 - #10 {
+INFO  18:27:39,987 - #12 void
+INFO  18:27:39,988 - #50 main
+INFO  18:27:39,989 - #11 (
+INFO  18:27:39,989 - #13 )
+INFO  18:27:39,990 - #50 char
+INFO  18:27:39,990 - #50 tipic
+INFO  18:27:39,991 - #7 ,
+INFO  18:27:39,991 - #50 pticica
+INFO  18:27:39,991 - #4 ;
+INFO  18:27:39,991 - #10 {
+INFO  18:27:39,991 - #3 }
+INFO  18:27:39,992 - #3 }
+INFO  18:27:40,001 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarViseDeklaracija(
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             pera
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+          DeoDeklaracijaPromenljiva(
+           zdera
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarViseDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+      DodelaViseVrednosti(
+        DodelaViseVrednosti(
+          DodelaViseVrednosti(
+            DodelaVrednosti(
+             jocika
+              Character_Const(
+              ) [Character_Const]
+            ) [DodelaVrednosti]
+           fifi
+            Character_Const(
+            ) [Character_Const]
+          ) [DodelaViseVrednosti]
+         aca
+          Character_Const(
+          ) [Character_Const]
+        ) [DodelaViseVrednosti]
+       mama
+        Character_Const(
+        ) [Character_Const]
+      ) [DodelaViseVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarViseDeklaracija(
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               tipic
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+            DeoDeklaracijaPromenljiva(
+             pticica
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarViseDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:27:40,002 - ===================================
+INFO  18:27:40,006 - Deklarisana promenljiva jovana na liniji 2
+INFO  18:27:40,006 - Deklarisana promenljiva pera na liniji 3
+INFO  18:27:40,007 - Deklarisana promenljiva zdera na liniji 3
+INFO  18:27:40,007 - Deklarisana konstanta jocika na liniji 4
+INFO  18:27:40,007 - Deklarisana konstanta fifi na liniji 4
+INFO  18:27:40,007 - Deklarisana konstanta aca na liniji 4
+INFO  18:27:40,007 - Deklarisana konstanta mama na liniji 4
+INFO  18:27:40,007 - Deklarisana metoda main na liniji 6
+INFO  18:27:40,008 - Deklarisana promenljiva tipic na liniji 7
+INFO  18:27:40,008 - Deklarisana promenljiva pticica na liniji 7
+INFO  18:27:40,008 - Zavrsena obrada metode main na liniji 6
+INFO  18:27:40,008 - ===================================
+INFO  18:27:40,009 - Parsiranje uspesno zavrseno!

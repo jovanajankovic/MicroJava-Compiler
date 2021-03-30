@@ -1,0 +1,68 @@
+INFO  16:04:17,963 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:04:18,000 - #2 program
+INFO  16:04:18,000 - #50 MJProgram
+INFO  16:04:18,000 - #50 char
+INFO  16:04:18,001 - #50 jovana
+INFO  16:04:18,002 - #4 ;
+INFO  16:04:18,002 - #50 int
+INFO  16:04:18,003 - #50 pera
+INFO  16:04:18,003 - #4 ;
+INFO  16:04:18,003 - #8 const
+INFO  16:04:18,003 - #50 char
+INFO  16:04:18,003 - #50 hello
+INFO  16:04:18,003 - #9 =
+INFO  16:04:18,003 - #51 5
+INFO  16:04:18,003 - #4 ;
+INFO  16:04:18,003 - #10 {
+INFO  16:04:18,004 - #3 }
+INFO  16:04:18,011 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           pera
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+      DodelaVrednosti(
+       hello
+        Number_Const(
+         5
+        ) [Number_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  16:04:18,011 - ===================================
+INFO  16:04:18,023 - Deklarisana promenljiva jovana na liniji 2
+INFO  16:04:18,024 - Deklarisana promenljiva pera na liniji 3
+INFO  16:04:18,024 - ===================================
+INFO  16:04:18,024 - Parsiranje uspesno zavrseno!

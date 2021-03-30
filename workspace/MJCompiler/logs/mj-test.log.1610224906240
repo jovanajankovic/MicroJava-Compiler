@@ -1,0 +1,140 @@
+INFO  21:41:22,960 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:41:23,003 - #2 program
+INFO  21:41:23,003 - #48 MJProgram
+INFO  21:41:23,004 - #48 int
+INFO  21:41:23,005 - #48 niz
+INFO  21:41:23,005 - #5 [
+INFO  21:41:23,006 - #6 ]
+INFO  21:41:23,006 - #7 ,
+INFO  21:41:23,006 - #48 mika
+INFO  21:41:23,006 - #5 [
+INFO  21:41:23,006 - #6 ]
+INFO  21:41:23,006 - #4 ;
+INFO  21:41:23,006 - #10 {
+INFO  21:41:23,007 - #12 void
+INFO  21:41:23,007 - #48 main
+INFO  21:41:23,008 - #11 (
+INFO  21:41:23,008 - #13 )
+INFO  21:41:23,009 - #48 int
+INFO  21:41:23,009 - #48 jovana
+INFO  21:41:23,009 - #4 ;
+INFO  21:41:23,010 - #10 {
+INFO  21:41:23,010 - #48 niz
+INFO  21:41:23,010 - #9 =
+INFO  21:41:23,011 - #24 new
+INFO  21:41:23,011 - #48 int
+INFO  21:41:23,011 - #5 [
+INFO  21:41:23,011 - #24 new
+INFO  21:41:23,011 - #48 int
+INFO  21:41:23,011 - #5 [
+INFO  21:41:23,011 - #49 5
+INFO  21:41:23,011 - #6 ]
+INFO  21:41:23,012 - #6 ]
+INFO  21:41:23,012 - #4 ;
+INFO  21:41:23,012 - #3 }
+INFO  21:41:23,012 - #3 }
+INFO  21:41:23,020 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarViseDeklaracija(
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           niz
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+        DeoDeklaracijeNiz(
+         mika
+        ) [DeoDeklaracijeNiz]
+      ) [VarViseDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStatementSemi(
+          Assignment(
+            Assign_Designator_Klasa(
+              DesignatorIdentifikator(
+               niz
+              ) [DesignatorIdentifikator]
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorNewArray(
+                      Type(
+                       int
+                      ) [Type]
+                      Expr_obican(
+                        ExprWithoutMinus(
+                          Term_0(
+                            FactorNewArray(
+                              Type(
+                               int
+                              ) [Type]
+                              Expr_obican(
+                                ExprWithoutMinus(
+                                  Term_0(
+                                    FactorNumber(
+                                     5
+                                    ) [FactorNumber]
+                                  ) [Term_0]
+                                ) [ExprWithoutMinus]
+                              ) [Expr_obican]
+                            ) [FactorNewArray]
+                          ) [Term_0]
+                        ) [ExprWithoutMinus]
+                      ) [Expr_obican]
+                    ) [FactorNewArray]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [Assign_Designator_Klasa]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:41:23,021 - ===================================
+INFO  21:41:23,025 - Deklarisana promenljiva niz na liniji 10
+INFO  21:41:23,025 - Deklarisana metoda main na liniji 12
+INFO  21:41:23,025 - Deklarisana promenljiva jovana na liniji 13
+INFO  21:41:23,025 - Detektovana globalna promenljiva niz na liniji 15
+ERROR 21:41:23,025 - Greska na liniji : 15 Tip promenljive koja govori koliko elemenata niza zelimo da alociramo, mora biti tipa INT!
+ERROR 21:41:23,026 - Greska na liniji : 15 Vrednosti nisu kompatibilne pri izrazu dodele!
+INFO  21:41:23,026 - Zavrsena obrada metode main na liniji 12
+INFO  21:41:23,026 - ===================================
+ERROR 21:41:23,027 - Parsiranje NIJE uspesno zavrseno!

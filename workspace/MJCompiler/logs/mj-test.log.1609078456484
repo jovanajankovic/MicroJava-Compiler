@@ -1,0 +1,49 @@
+INFO  15:14:01,406 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:14:01,441 - #2 program
+INFO  15:14:01,441 - #51 MJProgram
+INFO  15:14:01,441 - #51 char
+INFO  15:14:01,442 - #51 jovana
+INFO  15:14:01,443 - #4 ;
+INFO  15:14:01,443 - #51 int
+INFO  15:14:01,444 - #51 jovana
+INFO  15:14:01,444 - #4 ;
+INFO  15:14:01,444 - #10 {
+INFO  15:14:01,444 - #3 }
+INFO  15:14:01,450 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         char
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           jovana
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         jovana
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  15:14:01,451 - ===================================
+INFO  15:14:01,453 - Deklarisana promenljiva jovana na liniji 2
+ERROR 15:14:01,453 - Greska na liniji 3 : ! Promenljiva je vec deklarisana
+INFO  15:14:01,453 - ===================================
+ERROR 15:14:01,454 - Parsiranje NIJE uspesno zavrseno!

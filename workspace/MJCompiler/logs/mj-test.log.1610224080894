@@ -1,0 +1,182 @@
+INFO  21:27:44,365 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:27:44,412 - #2 program
+INFO  21:27:44,412 - #48 MJProgram
+INFO  21:27:44,412 - #8 const
+INFO  21:27:44,414 - #48 bool
+INFO  21:27:44,414 - #48 car
+INFO  21:27:44,414 - #9 =
+INFO  21:27:44,415 - #49 8
+INFO  21:27:44,415 - #7 ,
+INFO  21:27:44,415 - #48 jovana
+INFO  21:27:44,415 - #9 =
+INFO  21:27:44,415 - #50 0
+INFO  21:27:44,415 - #7 ,
+INFO  21:27:44,415 - #48 fifi
+INFO  21:27:44,415 - #9 =
+INFO  21:27:44,415 - #50 1
+INFO  21:27:44,416 - #7 ,
+INFO  21:27:44,416 - #48 mm
+INFO  21:27:44,416 - #9 =
+INFO  21:27:44,416 - #51 a
+INFO  21:27:44,416 - #7 ,
+INFO  21:27:44,416 - #48 ppp
+INFO  21:27:44,416 - #9 =
+INFO  21:27:44,416 - #50 1
+INFO  21:27:44,416 - #7 ,
+INFO  21:27:44,416 - #48 lik
+INFO  21:27:44,416 - #9 =
+INFO  21:27:44,416 - #51 a
+INFO  21:27:44,416 - #4 ;
+INFO  21:27:44,416 - #8 const
+INFO  21:27:44,417 - #48 int
+INFO  21:27:44,417 - #48 pera
+INFO  21:27:44,418 - #9 =
+INFO  21:27:44,418 - #49 8
+INFO  21:27:44,418 - #4 ;
+INFO  21:27:44,418 - #8 const
+INFO  21:27:44,418 - #48 int
+INFO  21:27:44,418 - #48 casa
+INFO  21:27:44,418 - #9 =
+INFO  21:27:44,418 - #49 9
+INFO  21:27:44,418 - #7 ,
+INFO  21:27:44,418 - #48 uros
+INFO  21:27:44,418 - #9 =
+INFO  21:27:44,418 - #51 a
+INFO  21:27:44,418 - #4 ;
+INFO  21:27:44,418 - #10 {
+INFO  21:27:44,418 - #12 void
+INFO  21:27:44,419 - #48 main
+INFO  21:27:44,420 - #11 (
+INFO  21:27:44,420 - #13 )
+INFO  21:27:44,421 - #48 int
+INFO  21:27:44,422 - #48 jovana
+INFO  21:27:44,422 - #4 ;
+INFO  21:27:44,422 - #10 {
+INFO  21:27:44,422 - #3 }
+INFO  21:27:44,423 - #3 }
+INFO  21:27:44,430 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    ConstDecls(
+      ConstDecls(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDecl(
+          Type(
+           bool
+          ) [Type]
+          DodelaViseVrednosti(
+            DodelaViseVrednosti(
+              DodelaViseVrednosti(
+                DodelaViseVrednosti(
+                  DodelaViseVrednosti(
+                    DodelaVrednosti(
+                     car
+                      Number_Const(
+                       8
+                      ) [Number_Const]
+                    ) [DodelaVrednosti]
+                   jovana
+                    Boolean_Const(
+                     0
+                    ) [Boolean_Const]
+                  ) [DodelaViseVrednosti]
+                 fifi
+                  Boolean_Const(
+                   1
+                  ) [Boolean_Const]
+                ) [DodelaViseVrednosti]
+               mm
+                Character_Const(
+                 a
+                ) [Character_Const]
+              ) [DodelaViseVrednosti]
+             ppp
+              Boolean_Const(
+               1
+              ) [Boolean_Const]
+            ) [DodelaViseVrednosti]
+           lik
+            Character_Const(
+             a
+            ) [Character_Const]
+          ) [DodelaViseVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        DodelaVrednosti(
+         pera
+          Number_Const(
+           8
+          ) [Number_Const]
+        ) [DodelaVrednosti]
+      ) [ConstDecl]
+    ) [ConstDecls]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      DodelaViseVrednosti(
+        DodelaVrednosti(
+         casa
+          Number_Const(
+           9
+          ) [Number_Const]
+        ) [DodelaVrednosti]
+       uros
+        Character_Const(
+         a
+        ) [Character_Const]
+      ) [DodelaViseVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:27:44,431 - ===================================
+ERROR 21:27:44,434 - Greska na liniji 6: Tip konstante car i tip dodeljene vrednosti se ne poklapaju! 
+INFO  21:27:44,434 - Deklarisana simbolicka konstanta jovana na liniji 6
+INFO  21:27:44,434 - Deklarisana simbolicka konstanta fifi na liniji 6
+ERROR 21:27:44,435 - Greska na liniji 6: Tip konstante mm i tip dodeljene vrednosti se ne poklapaju! 
+INFO  21:27:44,435 - Deklarisana simbolicka konstanta ppp na liniji 6
+ERROR 21:27:44,435 - Greska na liniji 6: Tip konstante lik i tip dodeljene vrednosti se ne poklapaju! 
+INFO  21:27:44,435 - Deklarisana simbolicka konstanta pera na liniji 7
+INFO  21:27:44,435 - Deklarisana simbolicka konstanta casa na liniji 8
+ERROR 21:27:44,435 - Greska na liniji 8: Tip konstante uros i tip dodeljene vrednosti se ne poklapaju! 
+INFO  21:27:44,435 - Deklarisana metoda main na liniji 10
+INFO  21:27:44,435 - Deklarisana promenljiva jovana na liniji 11
+INFO  21:27:44,435 - Zavrsena obrada metode main na liniji 10
+INFO  21:27:44,435 - ===================================
+ERROR 21:27:44,438 - Parsiranje NIJE uspesno zavrseno!

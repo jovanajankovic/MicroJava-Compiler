@@ -1,0 +1,81 @@
+// Test301
+
+program test301
+
+	int pera, laza, mica;
+	int j[], m[], g[];
+	char dekana, jocika;
+	char milan[];
+	const int konstanta = 5;
+	int niz[];
+	int a;
+{
+	void main()	
+		int hello;
+		int petnaest;
+	{
+		//a = 5;
+		//j = new int[a];
+		//j[2] = 10;
+		//print(j[2]);
+		//print(j[0]);
+		
+		//milan = new char[10];
+		//milan[4] = 'j';
+		//print(milan[4]);
+		//dekana = milan[4];
+		//print(dekana);
+		
+		a=20;
+		j = new int[20];
+		hello = 15;
+		j[5] = 10;
+		a=5;
+		//print(j[a]);
+		g = new int[20];
+		g[hello] = 99;
+		//print(g[5*3*(1-1)+15]);
+		m = new int[17];
+		m[15] = 60;
+		laza = 100;
+		pera = 9;
+		
+		//radi super ovo
+		//j[hello] = -j[konstanta]*(g[hello] * m[hello] - laza/pera);
+		//print(j[hello]);
+		
+		//radi super i ovo
+		//g[10] = 9;
+		//m[g[j[5]]] = hello;
+		//pera = m[9] + 1;
+		//print(pera);
+		//print(m[g[j[5]]]);
+		
+		//radi i ovaj deo super
+		//g[10] = 9;
+		//mica = 5;
+		//pera = m[15] + 1;
+		//m[5] = 9;
+		//g[9] = 80;
+		//m[g[j[5]]] = hello * (konstanta * (laza + mica - pera* g[m[konstanta]]));
+		//print(m[9]);
+		
+		//radi i ovo vrh
+		//mica = 5;
+		//m[5] = 9;
+		//g[9] = 80;
+		//j[hello * pera/(mica*mica + pera)] = -g[m[mica]]*(konstanta-4*200)-mica;
+		//print(j[3]);
+		//print(j[4]);
+		
+		//niz = new int[22];
+		//niz[3] = 15;
+		//petnaest = 15;  
+		//niz[petnaest] = 20;
+		//niz[20] = 90;
+		//niz[niz[niz[3]]]--;
+		//print(niz[20]);
+	}
+}
+
+

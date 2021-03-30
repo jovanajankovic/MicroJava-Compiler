@@ -1,0 +1,55 @@
+INFO  01:17:49,849 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  01:17:49,873 - #2 program
+INFO  01:17:49,874 - #3 MJProgram
+INFO  01:17:49,874 - #3 int
+INFO  01:17:49,874 - #3 hej
+INFO  01:17:49,875 - #5 ;
+INFO  01:17:49,875 - #3 char
+INFO  01:17:49,875 - #3 jovana
+INFO  01:17:49,875 - #5 ;
+INFO  01:17:49,876 - #3 int
+INFO  01:17:49,876 - #3 hello
+INFO  01:17:49,876 - #5 ;
+INFO  01:17:49,876 - #9 const
+INFO  01:17:49,876 - #3 int
+INFO  01:17:49,876 - #3 hello
+INFO  01:17:49,876 - #10 =
+INFO  01:17:49,876 - #11 5
+INFO  01:17:49,876 - #5 ;
+INFO  01:17:49,877 - #14 {
+INFO  01:17:49,878 - #4 }
+INFO  01:17:49,880 - Program(
+  ConstDecls(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDecl(
+            Type(
+            ) [Type]
+          ) [VarDecl]
+        ) [VarDeclarations]
+        VarDecl(
+          Type(
+          ) [Type]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      VarDecl(
+        Type(
+        ) [Type]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+      ) [Type]
+      DodelaVrednosti(
+        Number_Const(
+        ) [Number_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  01:17:49,880 - ===================================

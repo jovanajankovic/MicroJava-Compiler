@@ -1,0 +1,73 @@
+INFO  19:02:33,235 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:02:33,278 - #2 program
+INFO  19:02:33,278 - #32 test301
+INFO  19:02:33,278 - #8 const
+INFO  19:02:33,280 - #32 int
+INFO  19:02:33,280 - #32 nula
+INFO  19:02:33,280 - #9 =
+INFO  19:02:33,280 - #33 0
+INFO  19:02:33,280 - #4 ;
+INFO  19:02:33,281 - #8 const
+INFO  19:02:33,281 - #32 int
+INFO  19:02:33,281 - #32 jedan
+INFO  19:02:33,282 - #9 =
+INFO  19:02:33,282 - #33 1
+INFO  19:02:33,282 - #4 ;
+INFO  19:02:33,282 - #8 const
+INFO  19:02:33,282 - #32 int
+INFO  19:02:33,282 - #32 pet
+INFO  19:02:33,282 - #9 =
+INFO  19:02:33,282 - #33 5
+INFO  19:02:33,282 - #4 ;
+INFO  19:02:33,282 - #32 int
+INFO  19:02:33,282 - #32 niz
+INFO  19:02:33,282 - #5 [
+INFO  19:02:33,282 - #6 ]
+INFO  19:02:33,282 - #4 ;
+INFO  19:02:33,283 - #32 char
+INFO  19:02:33,283 - #32 nizch
+INFO  19:02:33,283 - #5 [
+INFO  19:02:33,283 - #6 ]
+INFO  19:02:33,283 - #4 ;
+INFO  19:02:33,283 - #32 bool
+INFO  19:02:33,283 - #32 flagovi
+INFO  19:02:33,283 - #5 [
+INFO  19:02:33,283 - #6 ]
+INFO  19:02:33,283 - #4 ;
+INFO  19:02:33,283 - #10 {
+INFO  19:02:33,284 - #12 void
+INFO  19:02:33,284 - #32 main
+INFO  19:02:33,285 - #11 (
+INFO  19:02:33,285 - #13 )
+INFO  19:02:33,286 - #32 int
+INFO  19:02:33,286 - #32 bodovi
+INFO  19:02:33,287 - #4 ;
+INFO  19:02:33,287 - #32 bool
+INFO  19:02:33,287 - #32 bt
+INFO  19:02:33,287 - #4 ;
+INFO  19:02:33,287 - #10 {
+INFO  19:02:33,287 - #32 flagovi
+INFO  19:02:33,288 - #9 =
+INFO  19:02:33,288 - #16 new
+INFO  19:02:33,288 - #32 int
+INFO  19:02:33,288 - #5 [
+INFO  19:02:33,288 - #6 ]
+ERROR 19:02:33,288 - 
+Sintaksna greska na liniji 18
+INFO  19:02:33,288 - #4 ;
+INFO  19:02:33,288 - #3 }
+INFO  19:02:33,288 - #3 }
+ERROR 19:02:33,289 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+INFO  19:02:33,297 - Parsiranje NIJE uspesno zavrseno! Postoji sintaksna greska!
+INFO  19:02:33,300 - Deklarisana simbolicka konstanta nula na liniji 5
+INFO  19:02:33,300 - Deklarisana simbolicka konstanta jedan na liniji 6
+INFO  19:02:33,300 - Deklarisana simbolicka konstanta pet na liniji 7
+INFO  19:02:33,300 - Deklarisana promenljiva niz na liniji 9
+INFO  19:02:33,300 - Deklarisana promenljiva nizch na liniji 10
+INFO  19:02:33,301 - Deklarisana promenljiva flagovi na liniji 11
+INFO  19:02:33,301 - Deklarisana metoda main na liniji 14
+INFO  19:02:33,301 - Deklarisana promenljiva bodovi na liniji 15
+INFO  19:02:33,301 - Deklarisana promenljiva bt na liniji 16
+INFO  19:02:33,301 - Zavrsena obrada metode main na liniji 14
+INFO  19:02:33,301 - ===================================
+ERROR 19:02:33,303 - Parsiranje NIJE uspesno zavrseno!

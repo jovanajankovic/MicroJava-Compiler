@@ -1,0 +1,188 @@
+INFO  18:46:41,337 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:46:41,380 - #2 program
+INFO  18:46:41,380 - #32 test301
+INFO  18:46:41,380 - #32 int
+INFO  18:46:41,381 - #32 niz
+INFO  18:46:41,382 - #5 [
+INFO  18:46:41,382 - #6 ]
+INFO  18:46:41,382 - #4 ;
+INFO  18:46:41,382 - #32 char
+INFO  18:46:41,383 - #32 nizch
+INFO  18:46:41,383 - #5 [
+INFO  18:46:41,383 - #6 ]
+INFO  18:46:41,383 - #7 ,
+INFO  18:46:41,383 - #32 jovana
+INFO  18:46:41,383 - #7 ,
+INFO  18:46:41,383 - #32 micika
+INFO  18:46:41,383 - #7 ,
+INFO  18:46:41,383 - #32 perica
+INFO  18:46:41,383 - #4 ;
+INFO  18:46:41,383 - #32 int
+INFO  18:46:41,384 - #32 kk
+INFO  18:46:41,384 - #7 ,
+INFO  18:46:41,384 - #32 pp
+INFO  18:46:41,384 - #7 ,
+INFO  18:46:41,384 - #32 cc
+INFO  18:46:41,384 - #4 ;
+INFO  18:46:41,384 - #32 int
+INFO  18:46:41,384 - #32 l
+INFO  18:46:41,384 - #7 ,
+INFO  18:46:41,384 - #4 ;
+ERROR 18:46:41,384 - 
+Sintaksna greska na liniji 8
+INFO  18:46:41,384 - #10 {
+INFO  18:46:41,384 - #12 void
+INFO  18:46:41,384 - #32 main
+ERROR 18:46:41,385 - Neispravna definicija globalne promenljive. Izvrsen oporavak od greske
+INFO  18:46:41,387 - #11 (
+INFO  18:46:41,387 - #13 )
+INFO  18:46:41,388 - #32 int
+INFO  18:46:41,389 - #32 bodovi
+INFO  18:46:41,389 - #4 ;
+INFO  18:46:41,389 - #32 bool
+INFO  18:46:41,389 - #32 bt
+INFO  18:46:41,389 - #4 ;
+INFO  18:46:41,389 - #10 {
+INFO  18:46:41,389 - #3 }
+INFO  18:46:41,390 - #3 }
+INFO  18:46:41,399 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijeNiz(
+               niz
+              ) [DeoDeklaracijeNiz]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarViseDeklaracija(
+            VarViseDeklaracija(
+              VarViseDeklaracija(
+                VarJednaDeklaracija(
+                  DeoDeklaracijeNiz(
+                   nizch
+                  ) [DeoDeklaracijeNiz]
+                ) [VarJednaDeklaracija]
+                DeoDeklaracijaPromenljiva(
+                 jovana
+                ) [DeoDeklaracijaPromenljiva]
+              ) [VarViseDeklaracija]
+              DeoDeklaracijaPromenljiva(
+               micika
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarViseDeklaracija]
+            DeoDeklaracijaPromenljiva(
+             perica
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarViseDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarViseDeklaracija(
+          VarViseDeklaracija(
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               kk
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+            DeoDeklaracijaPromenljiva(
+             pp
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarViseDeklaracija]
+          DeoDeklaracijaPromenljiva(
+           cc
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarViseDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarViseDeklaracija(
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           l
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+        ErrorStmt_definicija_promenljive(
+        ) [ErrorStmt_definicija_promenljive]
+      ) [VarViseDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        VarDeclarationList(
+          NoVarDeclarationList(
+          ) [NoVarDeclarationList]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               bodovi
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bt
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:46:41,399 - ===================================
+INFO  18:46:41,403 - Deklarisana promenljiva niz na liniji 5
+INFO  18:46:41,403 - Deklarisana promenljiva nizch na liniji 6
+INFO  18:46:41,403 - Deklarisana promenljiva jovana na liniji 6
+INFO  18:46:41,403 - Deklarisana promenljiva micika na liniji 6
+INFO  18:46:41,403 - Deklarisana promenljiva perica na liniji 6
+INFO  18:46:41,403 - Deklarisana promenljiva kk na liniji 7
+INFO  18:46:41,403 - Deklarisana promenljiva pp na liniji 7
+INFO  18:46:41,403 - Deklarisana promenljiva cc na liniji 7
+INFO  18:46:41,403 - Deklarisana promenljiva l na liniji 8
+INFO  18:46:41,404 - Deklarisana metoda main na liniji 11
+INFO  18:46:41,404 - Deklarisana promenljiva bodovi na liniji 12
+INFO  18:46:41,404 - Deklarisana promenljiva bt na liniji 13
+INFO  18:46:41,404 - Zavrsena obrada metode main na liniji 11
+INFO  18:46:41,404 - ===================================
+ERROR 18:46:41,405 - Parsiranje NIJE uspesno zavrseno!

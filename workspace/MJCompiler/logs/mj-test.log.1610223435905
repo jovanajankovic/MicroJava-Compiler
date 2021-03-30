@@ -1,0 +1,97 @@
+INFO  21:16:59,778 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:16:59,819 - #2 program
+INFO  21:16:59,819 - #48 MJProgram
+INFO  21:16:59,819 - #8 const
+INFO  21:16:59,820 - #48 int
+INFO  21:16:59,820 - #48 hej
+INFO  21:16:59,821 - #9 =
+INFO  21:16:59,821 - #49 5
+INFO  21:16:59,821 - #7 ,
+INFO  21:16:59,821 - #48 perica
+INFO  21:16:59,821 - #9 =
+INFO  21:16:59,822 - #51 a
+INFO  21:16:59,822 - #7 ,
+INFO  21:16:59,822 - #48 laza
+INFO  21:16:59,822 - #9 =
+INFO  21:16:59,822 - #50 0
+INFO  21:16:59,822 - #4 ;
+INFO  21:16:59,822 - #10 {
+INFO  21:16:59,824 - #12 void
+INFO  21:16:59,825 - #48 main
+INFO  21:16:59,825 - #11 (
+INFO  21:16:59,826 - #13 )
+INFO  21:16:59,827 - #48 int
+INFO  21:16:59,827 - #48 jovana
+INFO  21:16:59,827 - #4 ;
+INFO  21:16:59,828 - #10 {
+INFO  21:16:59,828 - #3 }
+INFO  21:16:59,829 - #3 }
+INFO  21:16:59,836 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      DodelaViseVrednosti(
+        DodelaViseVrednosti(
+          DodelaVrednosti(
+           hej
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+         perica
+          Character_Const(
+           a
+          ) [Character_Const]
+        ) [DodelaViseVrednosti]
+       laza
+        Boolean_Const(
+         0
+        ) [Boolean_Const]
+      ) [DodelaViseVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:16:59,837 - ===================================
+ERROR 21:16:59,840 - Greska na liniji 3: Tip konstante perica i tip dodeljene vrednosti se ne poklapaju! 
+ERROR 21:16:59,840 - Greska na liniji 3: Tip konstante laza i tip dodeljene vrednosti se ne poklapaju! 
+INFO  21:16:59,840 - Deklarisana metoda main na liniji 5
+INFO  21:16:59,840 - Deklarisana promenljiva jovana na liniji 6
+INFO  21:16:59,841 - Zavrsena obrada metode main na liniji 5
+INFO  21:16:59,841 - ===================================
+ERROR 21:16:59,841 - Parsiranje NIJE uspesno zavrseno!

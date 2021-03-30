@@ -1,0 +1,87 @@
+INFO  21:29:32,636 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:29:32,683 - #2 program
+INFO  21:29:32,684 - #48 MJProgram
+INFO  21:29:32,684 - #8 const
+INFO  21:29:32,685 - #48 int
+INFO  21:29:32,685 - #48 casa
+INFO  21:29:32,685 - #9 =
+INFO  21:29:32,686 - #49 9
+INFO  21:29:32,686 - #7 ,
+INFO  21:29:32,686 - #48 uros
+INFO  21:29:32,686 - #9 =
+INFO  21:29:32,686 - #51 a
+INFO  21:29:32,686 - #4 ;
+INFO  21:29:32,686 - #10 {
+INFO  21:29:32,687 - #12 void
+INFO  21:29:32,688 - #48 main
+INFO  21:29:32,689 - #11 (
+INFO  21:29:32,689 - #13 )
+INFO  21:29:32,690 - #48 int
+INFO  21:29:32,690 - #48 jovana
+INFO  21:29:32,691 - #4 ;
+INFO  21:29:32,691 - #10 {
+INFO  21:29:32,691 - #3 }
+INFO  21:29:32,692 - #3 }
+INFO  21:29:32,700 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      DodelaViseVrednosti(
+        DodelaVrednosti(
+         casa
+          Number_Const(
+           9
+          ) [Number_Const]
+        ) [DodelaVrednosti]
+       uros
+        Character_Const(
+         a
+        ) [Character_Const]
+      ) [DodelaViseVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:29:32,700 - ===================================
+INFO  21:29:32,703 - Deklarisana simbolicka konstanta casa na liniji 8
+ERROR 21:29:32,703 - Greska na liniji 8: Tip konstante uros i tip dodeljene vrednosti se ne poklapaju! 
+INFO  21:29:32,703 - Deklarisana metoda main na liniji 10
+INFO  21:29:32,703 - Deklarisana promenljiva jovana na liniji 11
+INFO  21:29:32,704 - Zavrsena obrada metode main na liniji 10
+INFO  21:29:32,704 - ===================================
+ERROR 21:29:32,704 - Parsiranje NIJE uspesno zavrseno!

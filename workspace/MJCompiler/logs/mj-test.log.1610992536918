@@ -1,0 +1,244 @@
+INFO  18:55:07,437 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:55:07,485 - #2 program
+INFO  18:55:07,485 - #32 test301
+INFO  18:55:07,485 - #32 int
+INFO  18:55:07,486 - #32 pera
+INFO  18:55:07,487 - #7 ,
+INFO  18:55:07,487 - #32 laza
+INFO  18:55:07,487 - #7 ,
+INFO  18:55:07,487 - #32 mica
+INFO  18:55:07,487 - #4 ;
+INFO  18:55:07,487 - #32 int
+INFO  18:55:07,487 - #32 j
+INFO  18:55:07,488 - #5 [
+INFO  18:55:07,488 - #6 ]
+INFO  18:55:07,488 - #7 ,
+INFO  18:55:07,488 - #32 m
+INFO  18:55:07,488 - #5 [
+INFO  18:55:07,488 - #6 ]
+INFO  18:55:07,488 - #7 ,
+INFO  18:55:07,488 - #32 g
+INFO  18:55:07,488 - #5 [
+INFO  18:55:07,488 - #6 ]
+INFO  18:55:07,488 - #4 ;
+INFO  18:55:07,488 - #32 char
+INFO  18:55:07,489 - #32 dekana
+INFO  18:55:07,489 - #7 ,
+INFO  18:55:07,489 - #32 jocika
+INFO  18:55:07,489 - #4 ;
+INFO  18:55:07,489 - #32 char
+INFO  18:55:07,489 - #32 milan
+INFO  18:55:07,489 - #5 [
+INFO  18:55:07,489 - #6 ]
+INFO  18:55:07,489 - #4 ;
+INFO  18:55:07,489 - #8 const
+INFO  18:55:07,489 - #32 int
+INFO  18:55:07,490 - #32 konstanta
+INFO  18:55:07,490 - #9 =
+INFO  18:55:07,490 - #33 5
+INFO  18:55:07,490 - #4 ;
+INFO  18:55:07,491 - #32 int
+INFO  18:55:07,492 - #32 niz
+INFO  18:55:07,492 - #5 [
+INFO  18:55:07,492 - #6 ]
+INFO  18:55:07,492 - #4 ;
+INFO  18:55:07,492 - #32 int
+INFO  18:55:07,492 - #32 a
+INFO  18:55:07,492 - #4 ;
+INFO  18:55:07,492 - #10 {
+INFO  18:55:07,492 - #12 void
+INFO  18:55:07,493 - #32 main
+INFO  18:55:07,494 - #11 (
+INFO  18:55:07,495 - #13 )
+INFO  18:55:07,495 - #32 int
+INFO  18:55:07,496 - #32 hello
+INFO  18:55:07,496 - #4 ;
+INFO  18:55:07,496 - #10 {
+INFO  18:55:07,496 - #32 a
+INFO  18:55:07,497 - #9 =
+INFO  18:55:07,497 - #33 5
+INFO  18:55:07,497 - #32 j
+ERROR 18:55:07,497 - 
+Sintaksna greska na liniji 17
+INFO  18:55:07,497 - #9 =
+INFO  18:55:07,497 - #16 new
+INFO  18:55:07,497 - #32 int
+INFO  18:55:07,498 - #5 [
+INFO  18:55:07,498 - #32 a
+INFO  18:55:07,498 - #6 ]
+INFO  18:55:07,498 - #4 ;
+INFO  18:55:07,499 - #3 }
+INFO  18:55:07,499 - #3 }
+ERROR 18:55:07,499 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+INFO  18:55:07,508 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDecls(
+        VarDeclarations(
+          VarDeclarations(
+            VarDeclarations(
+              VarDeclarations(
+                NoDeclarations(
+                ) [NoDeclarations]
+                VarDeclOpstaSmena(
+                  Type(
+                   int
+                  ) [Type]
+                  VarViseDeklaracija(
+                    VarViseDeklaracija(
+                      VarJednaDeklaracija(
+                        DeoDeklaracijaPromenljiva(
+                         pera
+                        ) [DeoDeklaracijaPromenljiva]
+                      ) [VarJednaDeklaracija]
+                      DeoDeklaracijaPromenljiva(
+                       laza
+                      ) [DeoDeklaracijaPromenljiva]
+                    ) [VarViseDeklaracija]
+                    DeoDeklaracijaPromenljiva(
+                     mica
+                    ) [DeoDeklaracijaPromenljiva]
+                  ) [VarViseDeklaracija]
+                ) [VarDeclOpstaSmena]
+              ) [VarDeclarations]
+              VarDeclOpstaSmena(
+                Type(
+                 int
+                ) [Type]
+                VarViseDeklaracija(
+                  VarViseDeklaracija(
+                    VarJednaDeklaracija(
+                      DeoDeklaracijeNiz(
+                       j
+                      ) [DeoDeklaracijeNiz]
+                    ) [VarJednaDeklaracija]
+                    DeoDeklaracijeNiz(
+                     m
+                    ) [DeoDeklaracijeNiz]
+                  ) [VarViseDeklaracija]
+                  DeoDeklaracijeNiz(
+                   g
+                  ) [DeoDeklaracijeNiz]
+                ) [VarViseDeklaracija]
+              ) [VarDeclOpstaSmena]
+            ) [VarDeclarations]
+            VarDeclOpstaSmena(
+              Type(
+               char
+              ) [Type]
+              VarViseDeklaracija(
+                VarJednaDeklaracija(
+                  DeoDeklaracijaPromenljiva(
+                   dekana
+                  ) [DeoDeklaracijaPromenljiva]
+                ) [VarJednaDeklaracija]
+                DeoDeklaracijaPromenljiva(
+                 jocika
+                ) [DeoDeklaracijaPromenljiva]
+              ) [VarViseDeklaracija]
+            ) [VarDeclOpstaSmena]
+          ) [VarDeclarations]
+          VarDeclOpstaSmena(
+            Type(
+             char
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijeNiz(
+               milan
+              ) [DeoDeklaracijeNiz]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarations]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          DodelaVrednosti(
+           konstanta
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           niz
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         a
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             hello
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStatementSemi(
+          Assignment(
+            ErrorStmt_iskaz_dodele(
+            ) [ErrorStmt_iskaz_dodele]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:55:07,508 - ===================================
+INFO  18:55:07,512 - Deklarisana promenljiva pera na liniji 5
+INFO  18:55:07,512 - Deklarisana promenljiva laza na liniji 5
+INFO  18:55:07,512 - Deklarisana promenljiva mica na liniji 5
+INFO  18:55:07,512 - Deklarisana promenljiva j na liniji 6
+INFO  18:55:07,512 - Deklarisana promenljiva m na liniji 6
+INFO  18:55:07,512 - Deklarisana promenljiva g na liniji 6
+INFO  18:55:07,512 - Deklarisana promenljiva dekana na liniji 7
+INFO  18:55:07,512 - Deklarisana promenljiva jocika na liniji 7
+INFO  18:55:07,512 - Deklarisana promenljiva milan na liniji 8
+INFO  18:55:07,512 - Deklarisana simbolicka konstanta konstanta na liniji 9
+INFO  18:55:07,512 - Deklarisana promenljiva niz na liniji 10
+INFO  18:55:07,512 - Deklarisana promenljiva a na liniji 11
+INFO  18:55:07,512 - Deklarisana metoda main na liniji 13
+INFO  18:55:07,513 - Deklarisana promenljiva hello na liniji 14
+INFO  18:55:07,513 - Zavrsena obrada metode main na liniji 13
+INFO  18:55:07,513 - ===================================
+ERROR 18:55:07,514 - Parsiranje NIJE uspesno zavrseno!

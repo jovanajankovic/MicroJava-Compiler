@@ -1,0 +1,84 @@
+INFO  01:08:01,285 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  01:08:01,306 - #2 program
+INFO  01:08:01,307 - #3 MJProgram
+INFO  01:08:01,307 - #9 const
+INFO  01:08:01,308 - #3 int
+INFO  01:08:01,308 - #3 jovana
+INFO  01:08:01,308 - #10 =
+INFO  01:08:01,308 - #11 6
+INFO  01:08:01,308 - #8 ,
+INFO  01:08:01,310 - #3 pera
+INFO  01:08:01,310 - #10 =
+INFO  01:08:01,310 - #11 10
+INFO  01:08:01,310 - #5 ;
+INFO  01:08:01,310 - #9 const
+INFO  01:08:01,311 - #3 int
+INFO  01:08:01,311 - #3 zika
+INFO  01:08:01,311 - #10 =
+INFO  01:08:01,311 - #11 10
+INFO  01:08:01,311 - #8 ,
+INFO  01:08:01,311 - #3 aca
+INFO  01:08:01,311 - #10 =
+INFO  01:08:01,312 - #11 5
+INFO  01:08:01,312 - #8 ,
+INFO  01:08:01,312 - #3 jocika
+INFO  01:08:01,312 - #10 =
+INFO  01:08:01,312 - #11 11
+INFO  01:08:01,312 - #5 ;
+INFO  01:08:01,312 - #9 const
+INFO  01:08:01,312 - #3 int
+INFO  01:08:01,312 - #3 hej
+INFO  01:08:01,312 - #10 =
+INFO  01:08:01,312 - #11 5
+INFO  01:08:01,313 - #5 ;
+INFO  01:08:01,313 - #14 {
+INFO  01:08:01,313 - #4 }
+INFO  01:08:01,315 - Program(
+  ConstDecls(
+    ConstDecls(
+      ConstDecls(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDecl(
+          Type(
+          ) [Type]
+          DodeleVrednosti(
+            DodelaVrednosti(
+              Number_Const(
+              ) [Number_Const]
+            ) [DodelaVrednosti]
+            Number_Const(
+            ) [Number_Const]
+          ) [DodeleVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      ConstDecl(
+        Type(
+        ) [Type]
+        DodeleVrednosti(
+          DodeleVrednosti(
+            DodelaVrednosti(
+              Number_Const(
+              ) [Number_Const]
+            ) [DodelaVrednosti]
+            Number_Const(
+            ) [Number_Const]
+          ) [DodeleVrednosti]
+          Number_Const(
+          ) [Number_Const]
+        ) [DodeleVrednosti]
+      ) [ConstDecl]
+    ) [ConstDecls]
+    ConstDecl(
+      Type(
+      ) [Type]
+      DodelaVrednosti(
+        Number_Const(
+        ) [Number_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  01:08:01,315 - ===================================

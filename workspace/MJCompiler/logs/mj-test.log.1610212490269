@@ -1,0 +1,76 @@
+INFO  18:05:15,767 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:05:15,860 - #2 program
+INFO  18:05:15,860 - #48 MJProgram
+INFO  18:05:15,860 - #8 const
+INFO  18:05:15,861 - #48 int
+INFO  18:05:15,861 - #48 jovana
+INFO  18:05:15,862 - #9 =
+INFO  18:05:15,862 - #49 5
+INFO  18:05:15,862 - #4 ;
+INFO  18:05:15,862 - #10 {
+INFO  18:05:15,863 - #12 void
+INFO  18:05:15,863 - #48 main
+INFO  18:05:15,864 - #11 (
+INFO  18:05:15,864 - #13 )
+INFO  18:05:15,865 - #48 char
+INFO  18:05:15,866 - #48 jovana
+INFO  18:05:15,866 - #4 ;
+INFO  18:05:15,866 - #10 {
+INFO  18:05:15,867 - #3 }
+INFO  18:05:15,867 - #3 }
+INFO  18:05:15,875 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      DodelaVrednosti(
+       jovana
+        Number_Const(
+         5
+        ) [Number_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:05:15,875 - ===================================
+INFO  18:05:15,878 - Deklarisana metoda main na liniji 4
+INFO  18:05:15,878 - usao
+INFO  18:05:15,878 - obicna promeljiva
+INFO  18:05:15,879 - Zavrsena obrada metode main na liniji 4
+INFO  18:05:15,879 - ===================================
+INFO  18:05:15,880 - Parsiranje uspesno zavrseno!

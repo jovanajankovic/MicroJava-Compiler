@@ -1,0 +1,149 @@
+INFO  15:30:40,784 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:30:41,280 - #2 program
+INFO  15:30:41,281 - #50 test301
+INFO  15:30:41,281 - #8 const
+INFO  15:30:41,293 - #50 int
+INFO  15:30:41,293 - #50 nula
+INFO  15:30:41,313 - #9 =
+INFO  15:30:41,314 - #51 0
+INFO  15:30:41,314 - #4 ;
+INFO  15:30:41,314 - #8 const
+INFO  15:30:41,315 - #50 int
+INFO  15:30:41,315 - #50 jedan
+INFO  15:30:41,315 - #9 =
+INFO  15:30:41,315 - #51 1
+INFO  15:30:41,316 - #4 ;
+INFO  15:30:41,316 - #8 const
+INFO  15:30:41,316 - #50 int
+INFO  15:30:41,316 - #50 pet
+INFO  15:30:41,316 - #9 =
+INFO  15:30:41,316 - #51 5
+INFO  15:30:41,316 - #4 ;
+INFO  15:30:41,316 - #50 int
+INFO  15:30:41,316 - #50 niz
+INFO  15:30:41,316 - #5 [
+INFO  15:30:41,316 - #6 ]
+INFO  15:30:41,316 - #4 ;
+INFO  15:30:41,317 - #50 char
+INFO  15:30:41,317 - #50 nizch
+INFO  15:30:41,317 - #5 [
+INFO  15:30:41,317 - #6 ]
+INFO  15:30:41,317 - #4 ;
+INFO  15:30:41,317 - #10 {
+INFO  15:30:41,317 - #12 void
+INFO  15:30:41,318 - #50 main
+INFO  15:30:41,319 - #11 (
+INFO  15:30:41,320 - #13 )
+INFO  15:30:41,322 - #50 int
+INFO  15:30:41,323 - #50 bodovi
+INFO  15:30:41,323 - #4 ;
+INFO  15:30:41,323 - #10 {
+INFO  15:30:41,323 - #3 }
+INFO  15:30:41,361 - #3 }
+INFO  15:30:41,426 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDecls(
+        ConstDecls(
+          ConstDecls(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              DodelaVrednosti(
+               nula
+                Number_Const(
+                 0
+                ) [Number_Const]
+              ) [DodelaVrednosti]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            DodelaVrednosti(
+             jedan
+              Number_Const(
+               1
+              ) [Number_Const]
+            ) [DodelaVrednosti]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          DodelaVrednosti(
+           pet
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           niz
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       char
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijeNiz(
+         nizch
+        ) [DeoDeklaracijeNiz]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bodovi
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:30:41,427 - ===================================
+INFO  15:30:41,524 - Deklarisana promenljiva niz na liniji 9
+INFO  15:30:41,524 - Deklarisana promenljiva nizch na liniji 10
+INFO  15:30:41,524 - Deklarisana metoda main na liniji 13
+INFO  15:30:41,524 - Deklarisana promenljiva bodovi na liniji 14
+INFO  15:30:41,524 - Zavrsena obrada metode main na liniji 13
+INFO  15:30:41,524 - ===================================
+INFO  15:30:41,558 - Parsiranje uspesno zavrseno!

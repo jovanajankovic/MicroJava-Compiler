@@ -1,0 +1,139 @@
+INFO  18:13:52,402 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:13:52,434 - #2 program
+INFO  18:13:52,435 - #50 MJProgram
+INFO  18:13:52,435 - #50 char
+INFO  18:13:52,436 - #50 jovana
+INFO  18:13:52,437 - #4 ;
+INFO  18:13:52,437 - #50 int
+INFO  18:13:52,437 - #50 pera
+INFO  18:13:52,437 - #7 ,
+INFO  18:13:52,437 - #50 zdera
+INFO  18:13:52,438 - #4 ;
+INFO  18:13:52,438 - #8 const
+INFO  18:13:52,438 - #50 char
+INFO  18:13:52,438 - #50 jocika
+INFO  18:13:52,438 - #9 =
+INFO  18:13:52,438 - #48 a
+INFO  18:13:52,438 - #7 ,
+INFO  18:13:52,439 - #50 fifi
+INFO  18:13:52,439 - #9 =
+INFO  18:13:52,439 - #48 5
+INFO  18:13:52,439 - #7 ,
+INFO  18:13:52,440 - #50 aca
+INFO  18:13:52,440 - #9 =
+INFO  18:13:52,440 - #48 1
+INFO  18:13:52,440 - #7 ,
+INFO  18:13:52,440 - #50 mama
+INFO  18:13:52,440 - #9 =
+INFO  18:13:52,440 - #48 c
+INFO  18:13:52,440 - #4 ;
+INFO  18:13:52,440 - #10 {
+INFO  18:13:52,441 - #12 void
+INFO  18:13:52,441 - #50 main
+INFO  18:13:52,442 - #11 (
+INFO  18:13:52,443 - #50 int
+INFO  18:13:52,443 - #50 pera
+INFO  18:13:52,443 - #13 )
+INFO  18:13:52,443 - #10 {
+INFO  18:13:52,444 - #3 }
+INFO  18:13:52,444 - #3 }
+INFO  18:13:52,452 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarViseDeklaracija(
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             pera
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+          DeoDeklaracijaPromenljiva(
+           zdera
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarViseDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+      DodelaViseVrednosti(
+        DodelaViseVrednosti(
+          DodelaViseVrednosti(
+            DodelaVrednosti(
+             jocika
+              Character_Const(
+              ) [Character_Const]
+            ) [DodelaVrednosti]
+           fifi
+            Character_Const(
+            ) [Character_Const]
+          ) [DodelaViseVrednosti]
+         aca
+          Character_Const(
+          ) [Character_Const]
+        ) [DodelaViseVrednosti]
+       mama
+        Character_Const(
+        ) [Character_Const]
+      ) [DodelaViseVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      FormParams(
+        SingleFormalParamDecl(
+          SingleFormalParamDeclIdent(
+            Type(
+             int
+            ) [Type]
+           pera
+          ) [SingleFormalParamDeclIdent]
+        ) [SingleFormalParamDecl]
+      ) [FormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:13:52,452 - ===================================
+INFO  18:13:52,455 - Deklarisana promenljiva jovana na liniji 2
+INFO  18:13:52,455 - Deklarisana promenljiva pera na liniji 3
+INFO  18:13:52,455 - Deklarisana promenljiva zdera na liniji 3
+INFO  18:13:52,456 - Deklarisana konstanta jocika na liniji 4
+INFO  18:13:52,456 - Deklarisana konstanta fifi na liniji 4
+INFO  18:13:52,456 - Deklarisana konstanta aca na liniji 4
+INFO  18:13:52,456 - Deklarisana konstanta mama na liniji 4
+INFO  18:13:52,456 - Deklarisana metoda main na liniji 6
+ERROR 18:13:52,456 - Main metoda ne sme imati parametre! 
+INFO  18:13:52,456 - ===================================
+ERROR 18:13:52,459 - Parsiranje NIJE uspesno zavrseno!

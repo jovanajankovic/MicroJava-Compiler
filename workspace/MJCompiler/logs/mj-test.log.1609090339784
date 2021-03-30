@@ -1,0 +1,172 @@
+INFO  18:30:09,193 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:30:09,244 - #2 program
+INFO  18:30:09,244 - #50 MJProgram
+INFO  18:30:09,244 - #50 char
+INFO  18:30:09,245 - #50 jovana
+INFO  18:30:09,246 - #4 ;
+INFO  18:30:09,246 - #50 int
+INFO  18:30:09,246 - #50 pera
+INFO  18:30:09,247 - #7 ,
+INFO  18:30:09,247 - #50 zdera
+INFO  18:30:09,247 - #4 ;
+INFO  18:30:09,247 - #8 const
+INFO  18:30:09,247 - #50 char
+INFO  18:30:09,247 - #50 jocika
+INFO  18:30:09,247 - #9 =
+INFO  18:30:09,247 - #48 a
+INFO  18:30:09,247 - #7 ,
+INFO  18:30:09,248 - #50 fifi
+INFO  18:30:09,248 - #9 =
+INFO  18:30:09,248 - #48 5
+INFO  18:30:09,248 - #7 ,
+INFO  18:30:09,249 - #50 aca
+INFO  18:30:09,249 - #9 =
+INFO  18:30:09,249 - #48 1
+INFO  18:30:09,249 - #7 ,
+INFO  18:30:09,249 - #50 mama
+INFO  18:30:09,249 - #9 =
+INFO  18:30:09,249 - #48 c
+INFO  18:30:09,249 - #4 ;
+INFO  18:30:09,249 - #10 {
+INFO  18:30:09,250 - #12 void
+INFO  18:30:09,251 - #50 main
+INFO  18:30:09,251 - #11 (
+INFO  18:30:09,252 - #13 )
+INFO  18:30:09,253 - #50 char
+INFO  18:30:09,253 - #50 tipic
+INFO  18:30:09,253 - #9 =
+ERROR 18:30:09,253 - 
+Sintaksna greska na liniji 7
+INFO  18:30:09,254 - #51 5
+INFO  18:30:09,254 - #7 ,
+INFO  18:30:09,254 - #50 pticica
+INFO  18:30:09,254 - #4 ;
+INFO  18:30:09,254 - #50 int
+ERROR 18:30:09,255 - Neispravna definicija globalne promenljive. Izvrsen oporavak od greske
+INFO  18:30:09,255 - #50 siprazje
+INFO  18:30:09,255 - #4 ;
+INFO  18:30:09,256 - #10 {
+INFO  18:30:09,256 - #3 }
+INFO  18:30:09,256 - #3 }
+INFO  18:30:09,267 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarViseDeklaracija(
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             pera
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+          DeoDeklaracijaPromenljiva(
+           zdera
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarViseDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+      DodelaViseVrednosti(
+        DodelaViseVrednosti(
+          DodelaViseVrednosti(
+            DodelaVrednosti(
+             jocika
+              Character_Const(
+              ) [Character_Const]
+            ) [DodelaVrednosti]
+           fifi
+            Character_Const(
+            ) [Character_Const]
+          ) [DodelaViseVrednosti]
+         aca
+          Character_Const(
+          ) [Character_Const]
+        ) [DodelaViseVrednosti]
+       mama
+        Character_Const(
+        ) [Character_Const]
+      ) [DodelaViseVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        VarDeclarationList(
+          NoVarDeclarationList(
+          ) [NoVarDeclarationList]
+          VarDeclOpstaSmena(
+            Type(
+             char
+            ) [Type]
+            VarViseDeklaracija(
+              VarJednaDeklaracija(
+                ErrorStmt_definicija_promenljive(
+                ) [ErrorStmt_definicija_promenljive]
+              ) [VarJednaDeklaracija]
+              DeoDeklaracijaPromenljiva(
+               pticica
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarViseDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             siprazje
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:30:09,267 - ===================================
+INFO  18:30:09,271 - Deklarisana promenljiva jovana na liniji 2
+INFO  18:30:09,271 - Deklarisana promenljiva pera na liniji 3
+INFO  18:30:09,271 - Deklarisana promenljiva zdera na liniji 3
+INFO  18:30:09,271 - Deklarisana konstanta jocika na liniji 4
+INFO  18:30:09,272 - Deklarisana konstanta fifi na liniji 4
+INFO  18:30:09,272 - Deklarisana konstanta aca na liniji 4
+INFO  18:30:09,272 - Deklarisana konstanta mama na liniji 4
+INFO  18:30:09,272 - Deklarisana metoda main na liniji 6
+INFO  18:30:09,272 - Deklarisana promenljiva pticica na liniji 7
+INFO  18:30:09,272 - Deklarisana promenljiva siprazje na liniji 8
+INFO  18:30:09,272 - Zavrsena obrada metode main na liniji 6
+INFO  18:30:09,272 - ===================================
+ERROR 18:30:09,274 - Parsiranje NIJE uspesno zavrseno!

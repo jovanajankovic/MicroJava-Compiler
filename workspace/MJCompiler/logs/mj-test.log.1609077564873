@@ -1,0 +1,32 @@
+INFO  14:59:15,831 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:59:15,865 - #2 program
+INFO  14:59:15,865 - #51 MJProgram
+INFO  14:59:15,865 - #51 int
+INFO  14:59:15,866 - #51 jovana
+INFO  14:59:15,867 - #4 ;
+INFO  14:59:15,868 - #10 {
+INFO  14:59:15,868 - #3 }
+INFO  14:59:15,874 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         jovana
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  14:59:15,874 - ===================================
+INFO  14:59:15,876 - ===================================
+INFO  14:59:15,877 - Parsiranje uspesno zavrseno!

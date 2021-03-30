@@ -1,0 +1,154 @@
+INFO  12:03:17,656 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:03:17,699 - #2 program
+INFO  12:03:17,699 - #32 MJProgram
+INFO  12:03:17,699 - #32 int
+INFO  12:03:17,700 - #32 hej
+INFO  12:03:17,701 - #5 [
+INFO  12:03:17,701 - #6 ]
+INFO  12:03:17,701 - #7 ,
+INFO  12:03:17,701 - #7 ,
+ERROR 12:03:17,701 - 
+Sintaksna greska na liniji 2
+INFO  12:03:17,701 - #32 jovana
+INFO  12:03:17,701 - #7 ,
+INFO  12:03:17,701 - #32 mica
+ERROR 12:03:17,702 - Neispravna definicija globalne promenljive. Izvrsen oporavak od greske
+INFO  12:03:17,703 - #4 ;
+INFO  12:03:17,703 - #32 int
+INFO  12:03:17,703 - #32 pera
+INFO  12:03:17,703 - #5 [
+INFO  12:03:17,703 - #6 ]
+INFO  12:03:17,703 - #4 ;
+INFO  12:03:17,703 - #32 int
+INFO  12:03:17,703 - #32 dsdsa
+INFO  12:03:17,703 - #4 ;
+INFO  12:03:17,704 - #32 int
+INFO  12:03:17,704 - #32 mika
+INFO  12:03:17,704 - #5 [
+INFO  12:03:17,704 - #6 ]
+INFO  12:03:17,704 - #7 ,
+INFO  12:03:17,704 - #32 zika
+INFO  12:03:17,704 - #5 [
+INFO  12:03:17,704 - #6 ]
+INFO  12:03:17,704 - #7 ,
+INFO  12:03:17,704 - #32 ceca
+INFO  12:03:17,704 - #5 [
+INFO  12:03:17,704 - #6 ]
+INFO  12:03:17,704 - #4 ;
+INFO  12:03:17,704 - #10 {
+INFO  12:03:17,704 - #12 void
+INFO  12:03:17,706 - #32 main
+INFO  12:03:17,706 - #11 (
+INFO  12:03:17,707 - #13 )
+INFO  12:03:17,708 - #10 {
+INFO  12:03:17,708 - #3 }
+INFO  12:03:17,709 - #3 }
+INFO  12:03:17,717 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarViseDeklaracija(
+              VarViseDeklaracija(
+                VarViseDeklaracija(
+                  VarJednaDeklaracija(
+                    DeoDeklaracijeNiz(
+                     hej
+                    ) [DeoDeklaracijeNiz]
+                  ) [VarJednaDeklaracija]
+                  ErrorStmt_definicija_promenljive(
+                  ) [ErrorStmt_definicija_promenljive]
+                ) [VarViseDeklaracija]
+                DeoDeklaracijaPromenljiva(
+                 jovana
+                ) [DeoDeklaracijaPromenljiva]
+              ) [VarViseDeklaracija]
+              DeoDeklaracijaPromenljiva(
+               mica
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarViseDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             pera
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           dsdsa
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarViseDeklaracija(
+        VarViseDeklaracija(
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             mika
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+          DeoDeklaracijeNiz(
+           zika
+          ) [DeoDeklaracijeNiz]
+        ) [VarViseDeklaracija]
+        DeoDeklaracijeNiz(
+         ceca
+        ) [DeoDeklaracijeNiz]
+      ) [VarViseDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:03:17,718 - ===================================
+INFO  12:03:17,721 - Deklarisana promenljiva hej na liniji 2
+INFO  12:03:17,722 - Deklarisana promenljiva jovana na liniji 2
+INFO  12:03:17,722 - Deklarisana promenljiva mica na liniji 2
+INFO  12:03:17,722 - Deklarisana promenljiva pera na liniji 3
+INFO  12:03:17,722 - Deklarisana promenljiva dsdsa na liniji 4
+INFO  12:03:17,722 - Deklarisana promenljiva mika na liniji 5
+INFO  12:03:17,722 - Deklarisana promenljiva zika na liniji 5
+INFO  12:03:17,722 - Deklarisana promenljiva ceca na liniji 5
+INFO  12:03:17,722 - Deklarisana metoda main na liniji 9
+INFO  12:03:17,722 - Zavrsena obrada metode main na liniji 9
+INFO  12:03:17,723 - ===================================
+ERROR 12:03:17,724 - Parsiranje NIJE uspesno zavrseno!

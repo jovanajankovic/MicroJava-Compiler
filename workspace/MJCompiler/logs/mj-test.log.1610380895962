@@ -1,0 +1,181 @@
+INFO  17:01:21,732 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:01:21,771 - #2 program
+INFO  17:01:21,772 - #32 test301
+INFO  17:01:21,772 - #8 const
+INFO  17:01:21,773 - #32 int
+INFO  17:01:21,773 - #32 nula
+INFO  17:01:21,774 - #9 =
+INFO  17:01:21,774 - #33 0
+INFO  17:01:21,774 - #4 ;
+INFO  17:01:21,774 - #8 const
+INFO  17:01:21,775 - #32 int
+INFO  17:01:21,775 - #32 jedan
+INFO  17:01:21,775 - #9 =
+INFO  17:01:21,775 - #33 1
+INFO  17:01:21,775 - #4 ;
+INFO  17:01:21,775 - #8 const
+INFO  17:01:21,775 - #32 int
+INFO  17:01:21,775 - #32 pet
+INFO  17:01:21,775 - #9 =
+INFO  17:01:21,775 - #33 5
+INFO  17:01:21,775 - #4 ;
+INFO  17:01:21,776 - #32 int
+INFO  17:01:21,776 - #32 niz
+INFO  17:01:21,776 - #5 [
+INFO  17:01:21,776 - #6 ]
+INFO  17:01:21,776 - #4 ;
+INFO  17:01:21,776 - #32 char
+INFO  17:01:21,776 - #32 nizch
+INFO  17:01:21,776 - #5 [
+INFO  17:01:21,777 - #6 ]
+INFO  17:01:21,777 - #4 ;
+INFO  17:01:21,777 - #10 {
+INFO  17:01:21,777 - #12 void
+INFO  17:01:21,777 - #32 main
+INFO  17:01:21,778 - #11 (
+INFO  17:01:21,778 - #13 )
+INFO  17:01:21,779 - #32 int
+INFO  17:01:21,780 - #32 bodovi
+INFO  17:01:21,780 - #4 ;
+INFO  17:01:21,780 - #32 bool
+INFO  17:01:21,780 - #32 bt
+INFO  17:01:21,780 - #4 ;
+INFO  17:01:21,780 - #10 {
+INFO  17:01:21,780 - #32 niz
+INFO  17:01:21,781 - #9 =
+INFO  17:01:21,781 - #33 5
+INFO  17:01:21,781 - #4 ;
+INFO  17:01:21,782 - #3 }
+INFO  17:01:21,782 - #3 }
+INFO  17:01:21,784 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDecls(
+        ConstDecls(
+          ConstDecls(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              DodelaVrednosti(
+               nula
+                Number_Const(
+                 0
+                ) [Number_Const]
+              ) [DodelaVrednosti]
+            ) [ConstDecl]
+          ) [ConstDecls]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            DodelaVrednosti(
+             jedan
+              Number_Const(
+               1
+              ) [Number_Const]
+            ) [DodelaVrednosti]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          DodelaVrednosti(
+           pet
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           niz
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       char
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijeNiz(
+         nizch
+        ) [DeoDeklaracijeNiz]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        VarDeclarationList(
+          NoVarDeclarationList(
+          ) [NoVarDeclarationList]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               bodovi
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bt
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStatementSemi(
+          Assignment(
+            Assign_Designator_Klasa(
+              DesignatorIdentifikator(
+               niz
+              ) [DesignatorIdentifikator]
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorNumber(
+                     5
+                    ) [FactorNumber]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [Assign_Designator_Klasa]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:01:21,785 - ===================================

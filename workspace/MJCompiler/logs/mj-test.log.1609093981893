@@ -1,0 +1,204 @@
+INFO  19:32:48,610 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:32:48,646 - #2 program
+INFO  19:32:48,646 - #50 MJProgram
+INFO  19:32:48,647 - #50 char
+INFO  19:32:48,648 - #50 jovana
+INFO  19:32:48,649 - #4 ;
+INFO  19:32:48,649 - #50 int
+INFO  19:32:48,650 - #50 pera
+INFO  19:32:48,650 - #7 ,
+INFO  19:32:48,650 - #50 zdera
+INFO  19:32:48,650 - #4 ;
+INFO  19:32:48,650 - #8 const
+INFO  19:32:48,651 - #50 char
+INFO  19:32:48,651 - #50 jocika
+INFO  19:32:48,651 - #9 =
+INFO  19:32:48,651 - #48 a
+INFO  19:32:48,651 - #7 ,
+INFO  19:32:48,652 - #50 fifi
+INFO  19:32:48,652 - #9 =
+INFO  19:32:48,652 - #48 5
+INFO  19:32:48,653 - #7 ,
+INFO  19:32:48,653 - #50 aca
+INFO  19:32:48,653 - #9 =
+INFO  19:32:48,653 - #48 1
+INFO  19:32:48,653 - #7 ,
+INFO  19:32:48,653 - #50 mama
+INFO  19:32:48,653 - #9 =
+INFO  19:32:48,653 - #48 c
+INFO  19:32:48,653 - #4 ;
+INFO  19:32:48,654 - #10 {
+INFO  19:32:48,655 - #12 void
+INFO  19:32:48,656 - #50 main
+INFO  19:32:48,657 - #11 (
+INFO  19:32:48,658 - #13 )
+INFO  19:32:48,658 - #50 int
+INFO  19:32:48,659 - #50 caka
+INFO  19:32:48,659 - #5 [
+INFO  19:32:48,659 - #6 ]
+INFO  19:32:48,659 - #7 ,
+INFO  19:32:48,660 - #50 kit
+INFO  19:32:48,660 - #5 [
+INFO  19:32:48,660 - #6 ]
+INFO  19:32:48,660 - #7 ,
+INFO  19:32:48,660 - #50 laza
+INFO  19:32:48,660 - #4 ;
+INFO  19:32:48,660 - #50 char
+INFO  19:32:48,660 - #50 omg
+INFO  19:32:48,661 - #7 ,
+INFO  19:32:48,661 - #50 r
+INFO  19:32:48,661 - #5 [
+INFO  19:32:48,661 - #6 ]
+INFO  19:32:48,661 - #4 ;
+INFO  19:32:48,661 - #10 {
+INFO  19:32:48,661 - #50 laza
+INFO  19:32:48,662 - #42 ++
+INFO  19:32:48,662 - #4 ;
+INFO  19:32:48,662 - #3 }
+INFO  19:32:48,662 - #3 }
+INFO  19:32:48,671 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarViseDeklaracija(
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             pera
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+          DeoDeklaracijaPromenljiva(
+           zdera
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarViseDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       char
+      ) [Type]
+      DodelaViseVrednosti(
+        DodelaViseVrednosti(
+          DodelaViseVrednosti(
+            DodelaVrednosti(
+             jocika
+              Character_Const(
+              ) [Character_Const]
+            ) [DodelaVrednosti]
+           fifi
+            Character_Const(
+            ) [Character_Const]
+          ) [DodelaViseVrednosti]
+         aca
+          Character_Const(
+          ) [Character_Const]
+        ) [DodelaViseVrednosti]
+       mama
+        Character_Const(
+        ) [Character_Const]
+      ) [DodelaViseVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        VarDeclarationList(
+          NoVarDeclarationList(
+          ) [NoVarDeclarationList]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarViseDeklaracija(
+              VarViseDeklaracija(
+                VarJednaDeklaracija(
+                  DeoDeklaracijeNiz(
+                   caka
+                  ) [DeoDeklaracijeNiz]
+                ) [VarJednaDeklaracija]
+                DeoDeklaracijeNiz(
+                 kit
+                ) [DeoDeklaracijeNiz]
+              ) [VarViseDeklaracija]
+              DeoDeklaracijaPromenljiva(
+               laza
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarViseDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarViseDeklaracija(
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               omg
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+            DeoDeklaracijeNiz(
+             r
+            ) [DeoDeklaracijeNiz]
+          ) [VarViseDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStatementSemi(
+          Increment(
+            DesignatorIdentifikator(
+             laza
+            ) [DesignatorIdentifikator]
+          ) [Increment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:32:48,671 - ===================================
+INFO  19:32:48,678 - Deklarisana promenljiva jovana na liniji 2
+INFO  19:32:48,678 - Deklarisana promenljiva pera na liniji 3
+INFO  19:32:48,678 - Deklarisana promenljiva zdera na liniji 3
+INFO  19:32:48,678 - Deklarisana konstanta jocika na liniji 4
+INFO  19:32:48,679 - Deklarisana konstanta fifi na liniji 4
+INFO  19:32:48,679 - Deklarisana konstanta aca na liniji 4
+INFO  19:32:48,679 - Deklarisana konstanta mama na liniji 4
+INFO  19:32:48,679 - Deklarisana metoda main na liniji 7
+INFO  19:32:48,680 - Deklarisana promenljiva laza na liniji 8
+INFO  19:32:48,680 - Deklarisana promenljiva caka na liniji 8
+INFO  19:32:48,680 - Deklarisana promenljiva kit na liniji 8
+INFO  19:32:48,680 - Deklarisana promenljiva omg na liniji 9
+INFO  19:32:48,680 - Deklarisana promenljiva r na liniji 9
+INFO  19:32:48,680 - Izvrseno inkrementiranje promenljive laza
+INFO  19:32:48,680 - Zavrsena obrada metode main na liniji 7
+INFO  19:32:48,680 - ===================================
+INFO  19:32:48,682 - Parsiranje uspesno zavrseno!

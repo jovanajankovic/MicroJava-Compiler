@@ -1,0 +1,33 @@
+INFO  14:59:04,536 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:59:04,570 - #2 program
+INFO  14:59:04,570 - #51 MJProgram
+INFO  14:59:04,570 - #51 double
+INFO  14:59:04,572 - #51 jovana
+INFO  14:59:04,573 - #4 ;
+INFO  14:59:04,573 - #10 {
+INFO  14:59:04,573 - #3 }
+INFO  14:59:04,579 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       double
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         jovana
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  14:59:04,580 - ===================================
+ERROR 14:59:04,582 - Nije pronadjen tip double u tabeli simbola! 
+INFO  14:59:04,583 - ===================================
+ERROR 14:59:04,584 - Parsiranje NIJE uspesno zavrseno!

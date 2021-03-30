@@ -1,0 +1,69 @@
+INFO  16:08:29,073 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:08:29,104 - #2 program
+INFO  16:08:29,105 - #50 MJProgram
+INFO  16:08:29,105 - #50 char
+INFO  16:08:29,106 - #50 jovana
+INFO  16:08:29,107 - #4 ;
+INFO  16:08:29,107 - #50 int
+INFO  16:08:29,107 - #50 pera
+INFO  16:08:29,107 - #4 ;
+INFO  16:08:29,107 - #8 const
+INFO  16:08:29,107 - #50 int
+INFO  16:08:29,108 - #50 hello
+INFO  16:08:29,108 - #9 =
+INFO  16:08:29,108 - #51 5
+INFO  16:08:29,108 - #4 ;
+INFO  16:08:29,108 - #10 {
+INFO  16:08:29,109 - #3 }
+INFO  16:08:29,115 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           char
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           pera
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      DodelaVrednosti(
+       hello
+        Number_Const(
+         5
+        ) [Number_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  16:08:29,115 - ===================================
+INFO  16:08:29,118 - Deklarisana promenljiva jovana na liniji 2
+INFO  16:08:29,118 - Deklarisana promenljiva pera na liniji 3
+INFO  16:08:29,118 - Deklarisana konstanta hello na liniji 4
+INFO  16:08:29,118 - ===================================
+INFO  16:08:29,120 - Parsiranje uspesno zavrseno!

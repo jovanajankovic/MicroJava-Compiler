@@ -1,0 +1,95 @@
+INFO  18:41:38,183 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:41:38,228 - #2 program
+INFO  18:41:38,228 - #48 test301
+INFO  18:41:38,228 - #8 const
+INFO  18:41:38,229 - #48 int
+INFO  18:41:38,229 - #48 nula
+INFO  18:41:38,230 - #9 =
+INFO  18:41:38,230 - #49 0
+INFO  18:41:38,230 - #7 ,
+INFO  18:41:38,231 - #48 pera
+INFO  18:41:38,231 - #9 =
+INFO  18:41:38,231 - #49 5
+INFO  18:41:38,231 - #7 ,
+INFO  18:41:38,231 - #48 draza
+INFO  18:41:38,231 - #9 =
+INFO  18:41:38,231 - #49 10
+INFO  18:41:38,231 - #4 ;
+INFO  18:41:38,231 - #10 {
+INFO  18:41:38,233 - #12 void
+INFO  18:41:38,234 - #48 main
+INFO  18:41:38,234 - #11 (
+INFO  18:41:38,235 - #13 )
+INFO  18:41:38,236 - #48 int
+INFO  18:41:38,236 - #48 bodovi
+INFO  18:41:38,236 - #4 ;
+INFO  18:41:38,236 - #10 {
+INFO  18:41:38,237 - #3 }
+INFO  18:41:38,237 - #3 }
+INFO  18:41:38,247 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstDecls(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      DodelaViseVrednosti(
+        DodelaViseVrednosti(
+          DodelaVrednosti(
+           nula
+            Number_Const(
+             0
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+         pera
+          Number_Const(
+           5
+          ) [Number_Const]
+        ) [DodelaViseVrednosti]
+       draza
+        Number_Const(
+         10
+        ) [Number_Const]
+      ) [DodelaViseVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bodovi
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:41:38,248 - ===================================
+INFO  18:41:38,253 - Deklarisana metoda main na liniji 7
+INFO  18:41:38,254 - Deklarisana promenljiva bodovi na liniji 8
+INFO  18:41:38,254 - Zavrsena obrada metode main na liniji 7
+INFO  18:41:38,254 - ===================================
+INFO  18:41:38,255 - Parsiranje uspesno zavrseno!

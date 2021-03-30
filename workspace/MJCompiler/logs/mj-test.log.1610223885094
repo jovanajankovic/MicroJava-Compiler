@@ -1,0 +1,76 @@
+INFO  21:23:10,363 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:23:10,405 - #2 program
+INFO  21:23:10,405 - #48 MJProgram
+INFO  21:23:10,405 - #8 const
+INFO  21:23:10,407 - #48 bool
+INFO  21:23:10,407 - #48 jovana
+INFO  21:23:10,407 - #9 =
+INFO  21:23:10,407 - #50 0
+INFO  21:23:10,407 - #4 ;
+INFO  21:23:10,408 - #10 {
+INFO  21:23:10,408 - #12 void
+INFO  21:23:10,409 - #48 main
+INFO  21:23:10,409 - #11 (
+INFO  21:23:10,410 - #13 )
+INFO  21:23:10,411 - #48 int
+INFO  21:23:10,411 - #48 jovana
+INFO  21:23:10,411 - #4 ;
+INFO  21:23:10,411 - #10 {
+INFO  21:23:10,412 - #3 }
+INFO  21:23:10,412 - #3 }
+INFO  21:23:10,420 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      DodelaVrednosti(
+       jovana
+        Boolean_Const(
+         0
+        ) [Boolean_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:23:10,421 - ===================================
+INFO  21:23:10,424 - Deklarisana simbolicka konstanta jovana na liniji 6
+INFO  21:23:10,424 - Deklarisana metoda main na liniji 8
+INFO  21:23:10,424 - Deklarisana promenljiva jovana na liniji 9
+INFO  21:23:10,424 - Zavrsena obrada metode main na liniji 8
+INFO  21:23:10,424 - ===================================
+INFO  21:23:10,425 - Parsiranje uspesno zavrseno!

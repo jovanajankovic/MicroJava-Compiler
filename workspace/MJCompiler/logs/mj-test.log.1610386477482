@@ -1,0 +1,58 @@
+INFO  18:33:46,580 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:33:46,621 - #2 program
+INFO  18:33:46,622 - #32 test301
+INFO  18:33:46,622 - #32 const
+INFO  18:33:46,623 - #32 int
+INFO  18:33:46,623 - #32 nula
+ERROR 18:33:46,624 - 
+Sintaksna greska na liniji 5
+INFO  18:33:46,624 - #22 =
+INFO  18:33:46,624 - #33 0
+INFO  18:33:46,624 - #4 ;
+INFO  18:33:46,624 - #32 const
+INFO  18:33:46,624 - #32 int
+INFO  18:33:46,624 - #32 jedan
+ERROR 18:33:46,625 - Neispravna definicija globalne promenljive. Izvrsen oporavak od greske
+ERROR 18:33:46,625 - 
+Sintaksna greska na liniji 6
+INFO  18:33:46,625 - #22 =
+INFO  18:33:46,626 - #33 1
+INFO  18:33:46,626 - #4 ;
+INFO  18:33:46,626 - #32 const
+INFO  18:33:46,626 - #32 int
+INFO  18:33:46,626 - #32 pet
+ERROR 18:33:46,626 - Neispravna definicija globalne promenljive. Izvrsen oporavak od greske
+ERROR 18:33:46,626 - 
+Sintaksna greska na liniji 7
+INFO  18:33:46,626 - #22 =
+INFO  18:33:46,626 - #33 5
+INFO  18:33:46,626 - #4 ;
+INFO  18:33:46,626 - #32 int
+INFO  18:33:46,626 - #32 niz
+INFO  18:33:46,627 - #4 ;
+ERROR 18:33:46,627 - Neispravna definicija globalne promenljive. Izvrsen oporavak od greske
+INFO  18:33:46,627 - #32 char
+INFO  18:33:46,627 - #32 nizch
+INFO  18:33:46,627 - #4 ;
+INFO  18:33:46,627 - #10 {
+INFO  18:33:46,627 - #12 void
+INFO  18:33:46,628 - #32 main
+INFO  18:33:46,629 - #11 (
+INFO  18:33:46,630 - #13 )
+INFO  18:33:46,630 - #32 int
+INFO  18:33:46,631 - #32 bodovi
+INFO  18:33:46,631 - #4 ;
+INFO  18:33:46,631 - #32 bool
+INFO  18:33:46,631 - #32 bt
+INFO  18:33:46,631 - #4 ;
+INFO  18:33:46,631 - #10 {
+INFO  18:33:46,632 - #32 bodovi
+INFO  18:33:46,632 - #22 =
+ERROR 18:33:46,633 - 
+Sintaksna greska na liniji 17
+INFO  18:33:46,633 - #33 100
+INFO  18:33:46,633 - #4 ;
+INFO  18:33:46,633 - #3 }
+INFO  18:33:46,633 - #3 }
+ERROR 18:33:46,633 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+ERROR 18:33:46,648 - Greska na liniji 5: Nije pronadjen tip const u tabeli simbola! 

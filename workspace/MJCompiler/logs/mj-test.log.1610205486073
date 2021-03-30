@@ -1,0 +1,126 @@
+INFO  16:17:26,396 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:17:26,445 - #2 program
+INFO  16:17:26,445 - #48 test301
+INFO  16:17:26,446 - #48 int
+INFO  16:17:26,447 - #48 pera
+INFO  16:17:26,448 - #7 ,
+INFO  16:17:26,448 - #48 laza
+INFO  16:17:26,448 - #7 ,
+INFO  16:17:26,448 - #48 mica
+INFO  16:17:26,449 - #4 ;
+INFO  16:17:26,449 - #48 int
+INFO  16:17:26,449 - #48 j
+INFO  16:17:26,449 - #5 [
+INFO  16:17:26,449 - #6 ]
+INFO  16:17:26,449 - #7 ,
+INFO  16:17:26,449 - #48 m
+INFO  16:17:26,449 - #5 [
+INFO  16:17:26,449 - #6 ]
+INFO  16:17:26,449 - #7 ,
+INFO  16:17:26,449 - #48 g
+INFO  16:17:26,450 - #5 [
+INFO  16:17:26,450 - #6 ]
+INFO  16:17:26,450 - #4 ;
+INFO  16:17:26,450 - #10 {
+INFO  16:17:26,450 - #12 void
+INFO  16:17:26,451 - #48 main
+INFO  16:17:26,451 - #11 (
+INFO  16:17:26,452 - #13 )
+INFO  16:17:26,453 - #48 int
+INFO  16:17:26,453 - #48 hello
+INFO  16:17:26,453 - #4 ;
+INFO  16:17:26,453 - #10 {
+INFO  16:17:26,454 - #3 }
+INFO  16:17:26,454 - #3 }
+INFO  16:17:26,465 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarViseDeklaracija(
+          VarViseDeklaracija(
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               pera
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+            DeoDeklaracijaPromenljiva(
+             laza
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarViseDeklaracija]
+          DeoDeklaracijaPromenljiva(
+           mica
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarViseDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarViseDeklaracija(
+        VarViseDeklaracija(
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             j
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+          DeoDeklaracijeNiz(
+           m
+          ) [DeoDeklaracijeNiz]
+        ) [VarViseDeklaracija]
+        DeoDeklaracijeNiz(
+         g
+        ) [DeoDeklaracijeNiz]
+      ) [VarViseDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             hello
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:17:26,465 - ===================================
+INFO  16:17:26,471 - Deklarisana promenljiva pera na liniji 5
+INFO  16:17:26,471 - Deklarisana promenljiva laza na liniji 5
+INFO  16:17:26,471 - Deklarisana promenljiva mica na liniji 5
+INFO  16:17:26,472 - Deklarisana promenljiva j na liniji 6
+INFO  16:17:26,472 - Deklarisana promenljiva m na liniji 6
+INFO  16:17:26,472 - Deklarisana promenljiva g na liniji 6
+INFO  16:17:26,472 - Deklarisana metoda main na liniji 9
+INFO  16:17:26,472 - Deklarisana promenljiva hello na liniji 10
+INFO  16:17:26,473 - Zavrsena obrada metode main na liniji 9
+INFO  16:17:26,473 - ===================================
+INFO  16:17:26,475 - Parsiranje uspesno zavrseno!

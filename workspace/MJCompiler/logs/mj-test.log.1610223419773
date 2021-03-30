@@ -1,0 +1,194 @@
+INFO  21:16:05,986 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:16:06,028 - #2 program
+INFO  21:16:06,028 - #48 MJProgram
+INFO  21:16:06,028 - #8 const
+INFO  21:16:06,029 - #48 int
+INFO  21:16:06,029 - #48 hej
+INFO  21:16:06,030 - #9 =
+INFO  21:16:06,030 - #49 5
+INFO  21:16:06,030 - #7 ,
+INFO  21:16:06,030 - #48 perica
+INFO  21:16:06,031 - #9 =
+INFO  21:16:06,031 - #51 a
+INFO  21:16:06,031 - #7 ,
+INFO  21:16:06,031 - #48 laza
+INFO  21:16:06,031 - #9 =
+INFO  21:16:06,031 - #50 0
+INFO  21:16:06,031 - #4 ;
+INFO  21:16:06,032 - #10 {
+INFO  21:16:06,033 - #12 void
+INFO  21:16:06,034 - #48 main
+INFO  21:16:06,035 - #11 (
+INFO  21:16:06,035 - #13 )
+INFO  21:16:06,036 - #48 int
+INFO  21:16:06,037 - #48 jovana
+INFO  21:16:06,037 - #4 ;
+INFO  21:16:06,037 - #10 {
+INFO  21:16:06,037 - #14 print
+INFO  21:16:06,038 - #11 (
+INFO  21:16:06,038 - #48 milica
+INFO  21:16:06,038 - #13 )
+INFO  21:16:06,039 - #4 ;
+INFO  21:16:06,039 - #48 hello
+INFO  21:16:06,039 - #9 =
+INFO  21:16:06,039 - #48 pera
+INFO  21:16:06,039 - #5 [
+INFO  21:16:06,040 - #48 hello
+INFO  21:16:06,040 - #6 ]
+INFO  21:16:06,040 - #4 ;
+INFO  21:16:06,040 - #48 pera
+INFO  21:16:06,041 - #5 [
+INFO  21:16:06,041 - #49 9
+INFO  21:16:06,041 - #6 ]
+INFO  21:16:06,041 - #43 --
+INFO  21:16:06,041 - #4 ;
+INFO  21:16:06,041 - #3 }
+INFO  21:16:06,041 - #3 }
+INFO  21:16:06,050 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      DodelaViseVrednosti(
+        DodelaViseVrednosti(
+          DodelaVrednosti(
+           hej
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+         perica
+          Character_Const(
+           a
+          ) [Character_Const]
+        ) [DodelaViseVrednosti]
+       laza
+        Boolean_Const(
+         0
+        ) [Boolean_Const]
+      ) [DodelaViseVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        StatementLista(
+          StatementLista(
+            NoStatements(
+            ) [NoStatements]
+            PrintStatement(
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorDesignator(
+                      DesignatorIdentifikator(
+                       milica
+                      ) [DesignatorIdentifikator]
+                    ) [FactorDesignator]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [PrintStatement]
+          ) [StatementLista]
+          DesignatorStatementSemi(
+            Assignment(
+              Assign_Designator_Klasa(
+                DesignatorIdentifikator(
+                 hello
+                ) [DesignatorIdentifikator]
+                Expr_obican(
+                  ExprWithoutMinus(
+                    Term_0(
+                      FactorDesignator(
+                        DesignatorArray(
+                          DesignatorArrayName(
+                           pera
+                          ) [DesignatorArrayName]
+                          Expr_obican(
+                            ExprWithoutMinus(
+                              Term_0(
+                                FactorDesignator(
+                                  DesignatorIdentifikator(
+                                   hello
+                                  ) [DesignatorIdentifikator]
+                                ) [FactorDesignator]
+                              ) [Term_0]
+                            ) [ExprWithoutMinus]
+                          ) [Expr_obican]
+                        ) [DesignatorArray]
+                      ) [FactorDesignator]
+                    ) [Term_0]
+                  ) [ExprWithoutMinus]
+                ) [Expr_obican]
+              ) [Assign_Designator_Klasa]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [StatementLista]
+        DesignatorStatementSemi(
+          Decrement(
+            DesignatorArray(
+              DesignatorArrayName(
+               pera
+              ) [DesignatorArrayName]
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorNumber(
+                     9
+                    ) [FactorNumber]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [DesignatorArray]
+          ) [Decrement]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:16:06,051 - ===================================
+ERROR 21:16:06,054 - Greska na liniji 3: Tip konstante perica i tip dodeljene vrednosti se ne poklapaju! 
+ERROR 21:16:06,055 - Greska na liniji 3: Tip konstante laza i tip dodeljene vrednosti se ne poklapaju! 
+INFO  21:16:06,055 - Deklarisana metoda main na liniji 5
+INFO  21:16:06,055 - Deklarisana promenljiva jovana na liniji 6
+ERROR 21:16:06,055 - Greska na liniji 8 :  Promenljiva milica nije deklarisana!
+ERROR 21:16:06,055 - Greska na liniji 8 : Argument instrukcije print mora biti promenljiva ili element niza tipa INT, CHAR ILI BOOL!
+ERROR 21:16:06,056 - Greska na liniji 9 :  Promenljiva hello nije deklarisana!
+ERROR 21:16:06,056 - Greska na liniji 9: Promenljiva pera nije deklarisanja!
+ERROR 21:16:06,056 - Greska na liniji 9 :  Promenljiva hello nije deklarisana!
+ERROR 21:16:06,056 - Greska na liniji 9 :  Pristup promenljivoj noObj se mora izvrsiti indeksiranjem sa INT tipom!
+ERROR 21:16:06,056 - Greska na liniji : 9 Vrednosti nisu kompatibilne pri izrazu dodele!
+ERROR 21:16:06,056 - Greska na liniji 10: Promenljiva pera nije deklarisanja!
+ERROR 21:16:06,056 - Greska na liniji 10 : Promenljiva noObj mora biti promenljiva ili element niza tipa INT!
+INFO  21:16:06,057 - Zavrsena obrada metode main na liniji 5
+INFO  21:16:06,057 - ===================================
+ERROR 21:16:06,058 - Parsiranje NIJE uspesno zavrseno!

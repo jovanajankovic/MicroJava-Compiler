@@ -1,0 +1,139 @@
+INFO  18:43:36,339 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:43:36,380 - #2 program
+INFO  18:43:36,380 - #48 MJProgram
+INFO  18:43:36,380 - #8 const
+INFO  18:43:36,381 - #48 int
+INFO  18:43:36,381 - #48 milica
+INFO  18:43:36,382 - #9 =
+INFO  18:43:36,382 - #49 5
+INFO  18:43:36,382 - #4 ;
+INFO  18:43:36,383 - #48 int
+INFO  18:43:36,383 - #48 pera
+INFO  18:43:36,383 - #5 [
+INFO  18:43:36,383 - #6 ]
+INFO  18:43:36,383 - #4 ;
+INFO  18:43:36,384 - #48 int
+INFO  18:43:36,384 - #48 hello
+INFO  18:43:36,384 - #4 ;
+INFO  18:43:36,384 - #10 {
+INFO  18:43:36,384 - #12 void
+INFO  18:43:36,385 - #48 main
+INFO  18:43:36,386 - #11 (
+INFO  18:43:36,386 - #13 )
+INFO  18:43:36,387 - #10 {
+INFO  18:43:36,388 - #48 hello
+INFO  18:43:36,388 - #9 =
+INFO  18:43:36,388 - #48 pera
+INFO  18:43:36,388 - #5 [
+INFO  18:43:36,389 - #48 hello
+INFO  18:43:36,389 - #6 ]
+INFO  18:43:36,389 - #4 ;
+INFO  18:43:36,390 - #3 }
+INFO  18:43:36,390 - #3 }
+INFO  18:43:36,397 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      ConstDecls(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          DodelaVrednosti(
+           milica
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           pera
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         hello
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStatementSemi(
+          Assignment(
+            Assign_Designator_Klasa(
+              DesignatorIdentifikator(
+               hello
+              ) [DesignatorIdentifikator]
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorDesignator(
+                      DesignatorArray(
+                        DesignatorArrayName(
+                         pera
+                        ) [DesignatorArrayName]
+                        Expr_obican(
+                          ExprWithoutMinus(
+                            Term_0(
+                              FactorDesignator(
+                                DesignatorIdentifikator(
+                                 hello
+                                ) [DesignatorIdentifikator]
+                              ) [FactorDesignator]
+                            ) [Term_0]
+                          ) [ExprWithoutMinus]
+                        ) [Expr_obican]
+                      ) [DesignatorArray]
+                    ) [FactorDesignator]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [Assign_Designator_Klasa]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:43:36,398 - ===================================
+INFO  18:43:36,401 - Deklarisana promenljiva pera na liniji 4
+INFO  18:43:36,401 - Deklarisana promenljiva hello na liniji 5
+INFO  18:43:36,401 - Deklarisana metoda main na liniji 7
+INFO  18:43:36,401 - Detektovana globalna promenljiva hello na liniji 9
+INFO  18:43:36,401 - Detektovana globalna promenljiva pera na liniji 9
+INFO  18:43:36,402 - Detektovana globalna promenljiva hello na liniji 9
+INFO  18:43:36,402 - Izraz dodele uspesno izvrsen na liniji 9
+INFO  18:43:36,402 - Zavrsena obrada metode main na liniji 7
+INFO  18:43:36,402 - ===================================
+INFO  18:43:36,403 - Parsiranje uspesno zavrseno!

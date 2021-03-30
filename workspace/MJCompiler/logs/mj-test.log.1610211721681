@@ -1,0 +1,136 @@
+INFO  18:01:08,106 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:01:08,539 - #2 program
+INFO  18:01:08,539 - #48 MJProgram
+INFO  18:01:08,539 - #48 int
+INFO  18:01:08,541 - #48 pera
+INFO  18:01:08,541 - #5 [
+INFO  18:01:08,542 - #6 ]
+INFO  18:01:08,542 - #7 ,
+INFO  18:01:08,542 - #48 mika
+INFO  18:01:08,542 - #7 ,
+INFO  18:01:08,542 - #48 laza
+INFO  18:01:08,542 - #4 ;
+INFO  18:01:08,542 - #48 int
+INFO  18:01:08,543 - #48 jovana
+INFO  18:01:08,543 - #7 ,
+INFO  18:01:08,543 - #48 perica
+INFO  18:01:08,543 - #5 [
+INFO  18:01:08,543 - #6 ]
+INFO  18:01:08,543 - #4 ;
+INFO  18:01:08,543 - #10 {
+INFO  18:01:08,543 - #12 void
+INFO  18:01:08,544 - #48 main
+INFO  18:01:08,545 - #11 (
+INFO  18:01:08,545 - #13 )
+INFO  18:01:08,546 - #48 char
+INFO  18:01:08,546 - #48 laza
+INFO  18:01:08,546 - #4 ;
+INFO  18:01:08,547 - #48 int
+INFO  18:01:08,547 - #48 laza
+INFO  18:01:08,547 - #4 ;
+INFO  18:01:08,547 - #10 {
+INFO  18:01:08,547 - #3 }
+INFO  18:01:08,548 - #3 }
+INFO  18:01:08,556 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarViseDeklaracija(
+          VarViseDeklaracija(
+            VarJednaDeklaracija(
+              DeoDeklaracijeNiz(
+               pera
+              ) [DeoDeklaracijeNiz]
+            ) [VarJednaDeklaracija]
+            DeoDeklaracijaPromenljiva(
+             mika
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarViseDeklaracija]
+          DeoDeklaracijaPromenljiva(
+           laza
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarViseDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarViseDeklaracija(
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           jovana
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+        DeoDeklaracijeNiz(
+         perica
+        ) [DeoDeklaracijeNiz]
+      ) [VarViseDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        VarDeclarationList(
+          NoVarDeclarationList(
+          ) [NoVarDeclarationList]
+          VarDeclOpstaSmena(
+            Type(
+             char
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijaPromenljiva(
+               laza
+              ) [DeoDeklaracijaPromenljiva]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             laza
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:01:08,556 - ===================================
+INFO  18:01:08,560 - nizovna promenljiva ELSE GRANA
+INFO  18:01:08,560 - obicna promeljiva
+INFO  18:01:08,560 - usao
+INFO  18:01:08,560 - obicna promeljiva
+INFO  18:01:08,561 - obicna promeljiva ELSE GRANA
+INFO  18:01:08,561 - usao
+INFO  18:01:08,561 - nizovna promenljiva
+INFO  18:01:08,561 - Deklarisana metoda main na liniji 6
+INFO  18:01:08,561 - usao
+INFO  18:01:08,561 - obicna promeljiva
+INFO  18:01:08,562 - usao
+ERROR 18:01:08,562 - Greska na liniji 8! Promenljiva laza je vec deklarisana u ovom opsegu!
+INFO  18:01:08,562 - Zavrsena obrada metode main na liniji 6
+INFO  18:01:08,562 - ===================================
+ERROR 18:01:08,563 - Parsiranje NIJE uspesno zavrseno!

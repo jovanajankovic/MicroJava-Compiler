@@ -1,0 +1,124 @@
+INFO  21:41:46,247 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:41:46,296 - #2 program
+INFO  21:41:46,297 - #48 MJProgram
+INFO  21:41:46,297 - #48 int
+INFO  21:41:46,298 - #48 niz
+INFO  21:41:46,299 - #5 [
+INFO  21:41:46,299 - #6 ]
+INFO  21:41:46,299 - #7 ,
+INFO  21:41:46,299 - #48 mika
+INFO  21:41:46,299 - #5 [
+INFO  21:41:46,299 - #6 ]
+INFO  21:41:46,299 - #4 ;
+INFO  21:41:46,299 - #10 {
+INFO  21:41:46,300 - #12 void
+INFO  21:41:46,300 - #48 main
+INFO  21:41:46,301 - #11 (
+INFO  21:41:46,301 - #13 )
+INFO  21:41:46,302 - #48 int
+INFO  21:41:46,303 - #48 jovana
+INFO  21:41:46,303 - #4 ;
+INFO  21:41:46,303 - #10 {
+INFO  21:41:46,303 - #48 niz
+INFO  21:41:46,304 - #9 =
+INFO  21:41:46,304 - #24 new
+INFO  21:41:46,304 - #48 int
+INFO  21:41:46,304 - #5 [
+INFO  21:41:46,304 - #49 5
+INFO  21:41:46,304 - #6 ]
+INFO  21:41:46,305 - #4 ;
+INFO  21:41:46,305 - #3 }
+INFO  21:41:46,306 - #3 }
+INFO  21:41:46,313 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarViseDeklaracija(
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           niz
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+        DeoDeklaracijeNiz(
+         mika
+        ) [DeoDeklaracijeNiz]
+      ) [VarViseDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             jovana
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStatementSemi(
+          Assignment(
+            Assign_Designator_Klasa(
+              DesignatorIdentifikator(
+               niz
+              ) [DesignatorIdentifikator]
+              Expr_obican(
+                ExprWithoutMinus(
+                  Term_0(
+                    FactorNewArray(
+                      Type(
+                       int
+                      ) [Type]
+                      Expr_obican(
+                        ExprWithoutMinus(
+                          Term_0(
+                            FactorNumber(
+                             5
+                            ) [FactorNumber]
+                          ) [Term_0]
+                        ) [ExprWithoutMinus]
+                      ) [Expr_obican]
+                    ) [FactorNewArray]
+                  ) [Term_0]
+                ) [ExprWithoutMinus]
+              ) [Expr_obican]
+            ) [Assign_Designator_Klasa]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:41:46,314 - ===================================
+INFO  21:41:46,319 - Deklarisana promenljiva niz na liniji 10
+INFO  21:41:46,319 - Deklarisana metoda main na liniji 12
+INFO  21:41:46,319 - Deklarisana promenljiva jovana na liniji 13
+INFO  21:41:46,319 - Detektovana globalna promenljiva niz na liniji 15
+INFO  21:41:46,319 - Izraz dodele uspesno izvrsen na liniji 15
+INFO  21:41:46,319 - Zavrsena obrada metode main na liniji 12
+INFO  21:41:46,319 - ===================================
+INFO  21:41:46,320 - Parsiranje uspesno zavrseno!

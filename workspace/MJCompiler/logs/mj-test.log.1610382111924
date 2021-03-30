@@ -1,0 +1,161 @@
+INFO  17:17:15,378 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:17:15,417 - #2 program
+INFO  17:17:15,417 - #32 test301
+INFO  17:17:15,417 - #32 int
+INFO  17:17:15,419 - #32 niz
+INFO  17:17:15,420 - #5 [
+INFO  17:17:15,420 - #6 ]
+INFO  17:17:15,420 - #4 ;
+INFO  17:17:15,420 - #32 char
+INFO  17:17:15,420 - #32 nizch
+INFO  17:17:15,420 - #5 [
+INFO  17:17:15,421 - #6 ]
+INFO  17:17:15,421 - #4 ;
+INFO  17:17:15,421 - #32 int
+INFO  17:17:15,421 - #32 m
+INFO  17:17:15,421 - #4 ;
+INFO  17:17:15,421 - #10 {
+INFO  17:17:15,421 - #12 void
+INFO  17:17:15,422 - #32 main
+INFO  17:17:15,422 - #11 (
+INFO  17:17:15,423 - #13 )
+INFO  17:17:15,424 - #32 int
+INFO  17:17:15,424 - #32 bodovi
+INFO  17:17:15,424 - #4 ;
+INFO  17:17:15,425 - #10 {
+INFO  17:17:15,425 - #32 nizch
+INFO  17:17:15,425 - #9 =
+INFO  17:17:15,425 - #16 new
+INFO  17:17:15,426 - #32 char
+INFO  17:17:15,426 - #5 [
+INFO  17:17:15,426 - #6 ]
+ERROR 17:17:15,426 - 
+Sintaksna greska na liniji 15
+INFO  17:17:15,426 - #5 [
+INFO  17:17:15,426 - #6 ]
+INFO  17:17:15,426 - #4 ;
+INFO  17:17:15,426 - #32 m
+INFO  17:17:15,426 - #9 =
+INFO  17:17:15,427 - #33 5
+ERROR 17:17:15,427 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+INFO  17:17:15,428 - #15 +
+INFO  17:17:15,428 - #33 10
+INFO  17:17:15,429 - #15 +
+INFO  17:17:15,430 - #4 ;
+ERROR 17:17:15,430 - 
+Sintaksna greska na liniji 19
+INFO  17:17:15,430 - #32 m
+INFO  17:17:15,430 - #9 =
+INFO  17:17:15,430 - #19 *
+ERROR 17:17:15,430 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+ERROR 17:17:15,430 - 
+Sintaksna greska na liniji 20
+INFO  17:17:15,430 - #32 bodovi
+INFO  17:17:15,430 - #19 *
+INFO  17:17:15,430 - #32 bodovi
+INFO  17:17:15,430 - #19 *
+INFO  17:17:15,430 - #11 (
+INFO  17:17:15,430 - #32 m
+INFO  17:17:15,430 - #13 )
+INFO  17:17:15,430 - #15 +
+INFO  17:17:15,430 - #4 ;
+INFO  17:17:15,431 - #3 }
+INFO  17:17:15,431 - #3 }
+ERROR 17:17:15,431 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+INFO  17:17:15,433 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijeNiz(
+             niz
+            ) [DeoDeklaracijeNiz]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         char
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijeNiz(
+           nizch
+          ) [DeoDeklaracijeNiz]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijaPromenljiva(
+         m
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bodovi
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        StatementLista(
+          StatementLista(
+            NoStatements(
+            ) [NoStatements]
+            DesignatorStatementSemi(
+              Assignment(
+                ErrorStmt_iskaz_dodele(
+                ) [ErrorStmt_iskaz_dodele]
+              ) [Assignment]
+            ) [DesignatorStatementSemi]
+          ) [StatementLista]
+          DesignatorStatementSemi(
+            Assignment(
+              ErrorStmt_iskaz_dodele(
+              ) [ErrorStmt_iskaz_dodele]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [StatementLista]
+        DesignatorStatementSemi(
+          Assignment(
+            ErrorStmt_iskaz_dodele(
+            ) [ErrorStmt_iskaz_dodele]
+          ) [Assignment]
+        ) [DesignatorStatementSemi]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:17:15,433 - ===================================

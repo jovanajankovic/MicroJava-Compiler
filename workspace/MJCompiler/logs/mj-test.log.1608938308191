@@ -1,0 +1,958 @@
+INFO  00:18:06,843 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  00:18:06,879 - #2 program
+INFO  00:18:06,879 - #3 MJProgram
+INFO  00:18:06,879 - #3 int
+INFO  00:18:06,880 - #3 hej
+INFO  00:18:06,881 - #6 [
+INFO  00:18:06,881 - #7 ]
+INFO  00:18:06,881 - #8 ,
+INFO  00:18:06,881 - #3 jovana
+INFO  00:18:06,881 - #8 ,
+INFO  00:18:06,881 - #8 ,
+ERROR 00:18:06,881 - 
+Sintaksna greska na liniji 2
+INFO  00:18:06,881 - #3 mica
+INFO  00:18:06,882 - #5 ;
+INFO  00:18:06,882 - #3 int
+ERROR 00:18:06,882 - Definicija globalne promenljive nije korektna. Izvrsen oporavak od greske
+INFO  00:18:06,953 - #3 pera
+INFO  00:18:06,953 - #6 [
+INFO  00:18:06,953 - #7 ]
+INFO  00:18:06,953 - #5 ;
+INFO  00:18:06,953 - #3 int
+INFO  00:18:06,953 - #3 mika
+INFO  00:18:06,953 - #6 [
+INFO  00:18:06,953 - #7 ]
+INFO  00:18:06,953 - #8 ,
+INFO  00:18:06,953 - #3 zika
+INFO  00:18:06,953 - #6 [
+INFO  00:18:06,953 - #7 ]
+INFO  00:18:06,953 - #8 ,
+INFO  00:18:06,954 - #3 ceca
+INFO  00:18:06,954 - #6 [
+INFO  00:18:06,954 - #7 ]
+INFO  00:18:06,954 - #5 ;
+INFO  00:18:06,954 - #3 int
+INFO  00:18:06,954 - #3 jovana
+INFO  00:18:06,954 - #3 char
+ERROR 00:18:06,954 - 
+Sintaksna greska na liniji 6
+INFO  00:18:06,954 - #3 perica
+INFO  00:18:06,954 - #5 ;
+INFO  00:18:06,955 - #3 char
+INFO  00:18:06,955 - #3 perica
+INFO  00:18:06,955 - #5 ;
+ERROR 00:18:06,955 - Definicija globalne promenljive nije korektna. Izvrsen oporavak od greske
+INFO  00:18:07,005 - #14 {
+INFO  00:18:07,005 - #16 void
+INFO  00:18:07,006 - #3 main
+INFO  00:18:07,006 - #15 (
+INFO  00:18:07,006 - #17 )
+INFO  00:18:07,007 - #14 {
+INFO  00:18:07,008 - #3 mika
+INFO  00:18:07,008 - #10 =
+INFO  00:18:07,009 - #3 mika
+INFO  00:18:07,009 - #46 ++
+ERROR 00:18:07,009 - 
+Sintaksna greska na liniji 12
+INFO  00:18:07,009 - #5 ;
+INFO  00:18:07,009 - #3 mika
+INFO  00:18:07,009 - #46 ++
+INFO  00:18:07,009 - #20 +
+ERROR 00:18:07,009 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+ERROR 00:18:07,010 - 
+Sintaksna greska na liniji 13
+INFO  00:18:07,010 - #5 ;
+INFO  00:18:07,010 - #3 pos
+INFO  00:18:07,010 - #10 =
+INFO  00:18:07,010 - #28 new
+ERROR 00:18:07,011 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+INFO  00:18:07,011 - #3 int
+INFO  00:18:07,011 - #6 [
+INFO  00:18:07,011 - #3 size
+INFO  00:18:07,011 - #7 ]
+INFO  00:18:07,013 - #5 ;
+INFO  00:18:07,013 - #30 read
+INFO  00:18:07,013 - #15 (
+INFO  00:18:07,014 - #3 xabc
+INFO  00:18:07,014 - #17 )
+INFO  00:18:07,014 - #5 ;
+INFO  00:18:07,014 - #30 read
+INFO  00:18:07,014 - #15 (
+INFO  00:18:07,014 - #3 x
+INFO  00:18:07,014 - #8 ,
+ERROR 00:18:07,014 - 
+Sintaksna greska na liniji 16
+INFO  00:18:07,014 - #3 a
+INFO  00:18:07,014 - #17 )
+INFO  00:18:07,015 - #5 ;
+INFO  00:18:07,015 - #3 jovana
+INFO  00:18:07,015 - #10 =
+INFO  00:18:07,015 - #11 3
+ERROR 00:18:07,015 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+INFO  00:18:07,015 - #5 ;
+INFO  00:18:07,016 - #18 print
+INFO  00:18:07,016 - #15 (
+INFO  00:18:07,016 - #3 rsejwkj
+INFO  00:18:07,016 - #17 )
+INFO  00:18:07,016 - #5 ;
+INFO  00:18:07,016 - #3 niz
+INFO  00:18:07,017 - #6 [
+INFO  00:18:07,017 - #3 a
+INFO  00:18:07,017 - #6 [
+INFO  00:18:07,017 - #3 b
+INFO  00:18:07,017 - #6 [
+INFO  00:18:07,017 - #11 5
+INFO  00:18:07,017 - #7 ]
+INFO  00:18:07,017 - #7 ]
+INFO  00:18:07,017 - #7 ]
+INFO  00:18:07,018 - #10 =
+INFO  00:18:07,018 - #11 5
+INFO  00:18:07,018 - #35 *
+INFO  00:18:07,018 - #11 3
+INFO  00:18:07,019 - #20 +
+INFO  00:18:07,019 - #11 2
+INFO  00:18:07,021 - #5 ;
+INFO  00:18:07,021 - #3 a
+INFO  00:18:07,021 - #10 =
+INFO  00:18:07,021 - #3 b
+INFO  00:18:07,021 - #34 -
+INFO  00:18:07,021 - #3 c
+INFO  00:18:07,022 - #20 +
+INFO  00:18:07,022 - #3 d
+INFO  00:18:07,022 - #34 -
+INFO  00:18:07,022 - #3 a
+INFO  00:18:07,022 - #20 +
+INFO  00:18:07,023 - #5 ;
+ERROR 00:18:07,023 - 
+Sintaksna greska na liniji 20
+INFO  00:18:07,023 - #3 a
+INFO  00:18:07,023 - #10 =
+INFO  00:18:07,023 - #34 -
+ERROR 00:18:07,023 - Konstrukcija iskaza dodele nije sintaksno korektna. Izvrsen oporavak od greske
+INFO  00:18:07,023 - #3 a
+INFO  00:18:07,023 - #6 [
+INFO  00:18:07,023 - #3 niz
+INFO  00:18:07,023 - #7 ]
+INFO  00:18:07,023 - #5 ;
+INFO  00:18:07,023 - #3 b
+INFO  00:18:07,023 - #47 --
+INFO  00:18:07,026 - #5 ;
+INFO  00:18:07,026 - #3 pera
+INFO  00:18:07,026 - #10 =
+INFO  00:18:07,026 - #34 -
+INFO  00:18:07,026 - #3 a
+INFO  00:18:07,026 - #6 [
+INFO  00:18:07,026 - #3 zika
+INFO  00:18:07,026 - #7 ]
+INFO  00:18:07,026 - #5 ;
+INFO  00:18:07,026 - #3 pera
+INFO  00:18:07,026 - #10 =
+INFO  00:18:07,026 - #34 -
+INFO  00:18:07,027 - #11 150
+INFO  00:18:07,027 - #5 ;
+INFO  00:18:07,027 - #3 pera
+INFO  00:18:07,027 - #10 =
+INFO  00:18:07,027 - #12 A
+INFO  00:18:07,027 - #5 ;
+INFO  00:18:07,027 - #3 pera
+INFO  00:18:07,027 - #10 =
+INFO  00:18:07,028 - #34 -
+INFO  00:18:07,028 - #12 A
+INFO  00:18:07,028 - #5 ;
+INFO  00:18:07,028 - #3 pera
+INFO  00:18:07,028 - #10 =
+INFO  00:18:07,028 - #34 -
+INFO  00:18:07,028 - #15 (
+INFO  00:18:07,028 - #34 -
+INFO  00:18:07,028 - #15 (
+INFO  00:18:07,028 - #11 10
+INFO  00:18:07,028 - #17 )
+INFO  00:18:07,028 - #17 )
+INFO  00:18:07,028 - #5 ;
+INFO  00:18:07,029 - #3 pera
+INFO  00:18:07,029 - #10 =
+INFO  00:18:07,029 - #13 true
+INFO  00:18:07,029 - #5 ;
+INFO  00:18:07,030 - #3 pera
+INFO  00:18:07,030 - #10 =
+INFO  00:18:07,030 - #34 -
+INFO  00:18:07,030 - #15 (
+INFO  00:18:07,030 - #15 (
+INFO  00:18:07,030 - #15 (
+INFO  00:18:07,030 - #11 10
+INFO  00:18:07,030 - #17 )
+INFO  00:18:07,030 - #17 )
+INFO  00:18:07,031 - #17 )
+INFO  00:18:07,031 - #5 ;
+INFO  00:18:07,031 - #3 pera
+INFO  00:18:07,031 - #10 =
+INFO  00:18:07,031 - #28 new
+INFO  00:18:07,031 - #3 int
+INFO  00:18:07,031 - #6 [
+INFO  00:18:07,031 - #34 -
+INFO  00:18:07,031 - #15 (
+INFO  00:18:07,031 - #11 5
+INFO  00:18:07,031 - #20 +
+INFO  00:18:07,031 - #11 10
+INFO  00:18:07,031 - #17 )
+INFO  00:18:07,032 - #36 /
+INFO  00:18:07,032 - #11 2
+INFO  00:18:07,032 - #37 %
+INFO  00:18:07,033 - #3 pera
+INFO  00:18:07,033 - #7 ]
+INFO  00:18:07,033 - #5 ;
+INFO  00:18:07,033 - #3 pera
+INFO  00:18:07,033 - #10 =
+INFO  00:18:07,033 - #3 pera
+INFO  00:18:07,033 - #37 %
+INFO  00:18:07,034 - #3 pera
+INFO  00:18:07,034 - #36 /
+INFO  00:18:07,034 - #11 10
+INFO  00:18:07,034 - #20 +
+INFO  00:18:07,034 - #11 8
+INFO  00:18:07,034 - #20 +
+INFO  00:18:07,034 - #11 8
+INFO  00:18:07,034 - #35 *
+INFO  00:18:07,034 - #11 10
+INFO  00:18:07,034 - #5 ;
+INFO  00:18:07,034 - #3 niz
+INFO  00:18:07,034 - #6 [
+INFO  00:18:07,034 - #3 a
+INFO  00:18:07,034 - #6 [
+INFO  00:18:07,034 - #3 b
+INFO  00:18:07,034 - #6 [
+INFO  00:18:07,034 - #11 5
+INFO  00:18:07,034 - #20 +
+INFO  00:18:07,034 - #11 3
+INFO  00:18:07,034 - #20 +
+INFO  00:18:07,035 - #3 c
+INFO  00:18:07,035 - #7 ]
+INFO  00:18:07,035 - #7 ]
+INFO  00:18:07,035 - #7 ]
+INFO  00:18:07,035 - #10 =
+INFO  00:18:07,035 - #11 5
+INFO  00:18:07,035 - #5 ;
+INFO  00:18:07,035 - #3 a
+INFO  00:18:07,035 - #10 =
+INFO  00:18:07,035 - #11 5
+INFO  00:18:07,035 - #5 ;
+INFO  00:18:07,035 - #4 }
+INFO  00:18:07,035 - #16 void
+INFO  00:18:07,036 - #3 jovana
+INFO  00:18:07,036 - #15 (
+INFO  00:18:07,036 - #17 )
+INFO  00:18:07,036 - #14 {
+INFO  00:18:07,036 - #4 }
+INFO  00:18:07,037 - #4 }
+INFO  00:18:07,043 - Program(
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          VarDeclarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            VarDecls(
+              ErrorStmt1(
+              ) [ErrorStmt1]
+            ) [VarDecls]
+          ) [VarDeclarations]
+          ArrayDecl(
+            Type(
+            ) [Type]
+          ) [ArrayDecl]
+        ) [VarDeclarations]
+        ArrayDecls(
+          PomocnaVarDecl_4(
+            PomocnaVarDecl_2(
+              Type(
+              ) [Type]
+            ) [PomocnaVarDecl_2]
+          ) [PomocnaVarDecl_4]
+        ) [ArrayDecls]
+      ) [VarDeclarations]
+      ErrorStmt2(
+      ) [ErrorStmt2]
+    ) [VarDeclarations]
+    SingleVarDecl(
+      Type(
+      ) [Type]
+    ) [SingleVarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        Void_Povratna(
+        ) [Void_Povratna]
+        NoFormParams(
+        ) [NoFormParams]
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  Statements(
+                                                    NoStatements(
+                                                    ) [NoStatements]
+                                                    DesignatorStatementSemi(
+                                                      Assignment(
+                                                        ErrorStmt(
+                                                        ) [ErrorStmt]
+                                                      ) [Assignment]
+                                                    ) [DesignatorStatementSemi]
+                                                  ) [Statements]
+                                                  DesignatorStatementSemi(
+                                                    Assignment(
+                                                      ErrorStmt(
+                                                      ) [ErrorStmt]
+                                                    ) [Assignment]
+                                                  ) [DesignatorStatementSemi]
+                                                ) [Statements]
+                                                DesignatorStatementSemi(
+                                                  Assignment(
+                                                    Assign_Designator_Klasa(
+                                                      DesignatorIdentifikator(
+                                                      ) [DesignatorIdentifikator]
+                                                      TermWithoutMinus(
+                                                        Faktor(
+                                                          FactorNewArray(
+                                                            Type(
+                                                            ) [Type]
+                                                            TermWithoutMinus(
+                                                              Faktor(
+                                                                FactorDesignator(
+                                                                  DesignatorIdentifikator(
+                                                                  ) [DesignatorIdentifikator]
+                                                                ) [FactorDesignator]
+                                                                NoMulopFactors(
+                                                                ) [NoMulopFactors]
+                                                              ) [Faktor]
+                                                              NoAddoptTerm(
+                                                              ) [NoAddoptTerm]
+                                                            ) [TermWithoutMinus]
+                                                          ) [FactorNewArray]
+                                                          NoMulopFactors(
+                                                          ) [NoMulopFactors]
+                                                        ) [Faktor]
+                                                        NoAddoptTerm(
+                                                        ) [NoAddoptTerm]
+                                                      ) [TermWithoutMinus]
+                                                    ) [Assign_Designator_Klasa]
+                                                  ) [Assignment]
+                                                ) [DesignatorStatementSemi]
+                                              ) [Statements]
+                                              ReadStatement(
+                                                DesignatorIdentifikator(
+                                                ) [DesignatorIdentifikator]
+                                              ) [ReadStatement]
+                                            ) [Statements]
+                                            DesignatorStatementSemi(
+                                              Assignment(
+                                                ErrorStmt(
+                                                ) [ErrorStmt]
+                                              ) [Assignment]
+                                            ) [DesignatorStatementSemi]
+                                          ) [Statements]
+                                          DesignatorStatementSemi(
+                                            Assignment(
+                                              Assign_Designator_Klasa(
+                                                DesignatorIdentifikator(
+                                                ) [DesignatorIdentifikator]
+                                                TermWithoutMinus(
+                                                  Faktor(
+                                                    FactorNumber(
+                                                    ) [FactorNumber]
+                                                    NoMulopFactors(
+                                                    ) [NoMulopFactors]
+                                                  ) [Faktor]
+                                                  NoAddoptTerm(
+                                                  ) [NoAddoptTerm]
+                                                ) [TermWithoutMinus]
+                                              ) [Assign_Designator_Klasa]
+                                            ) [Assignment]
+                                          ) [DesignatorStatementSemi]
+                                        ) [Statements]
+                                        PrintStatement(
+                                          TermWithoutMinus(
+                                            Faktor(
+                                              FactorDesignator(
+                                                DesignatorIdentifikator(
+                                                ) [DesignatorIdentifikator]
+                                              ) [FactorDesignator]
+                                              NoMulopFactors(
+                                              ) [NoMulopFactors]
+                                            ) [Faktor]
+                                            NoAddoptTerm(
+                                            ) [NoAddoptTerm]
+                                          ) [TermWithoutMinus]
+                                        ) [PrintStatement]
+                                      ) [Statements]
+                                      DesignatorStatementSemi(
+                                        Assignment(
+                                          Assign_Designator_Klasa(
+                                            DesignatorArray(
+                                              TermWithoutMinus(
+                                                Faktor(
+                                                  FactorDesignator(
+                                                    DesignatorArray(
+                                                      TermWithoutMinus(
+                                                        Faktor(
+                                                          FactorDesignator(
+                                                            DesignatorArray(
+                                                              TermWithoutMinus(
+                                                                Faktor(
+                                                                  FactorNumber(
+                                                                  ) [FactorNumber]
+                                                                  NoMulopFactors(
+                                                                  ) [NoMulopFactors]
+                                                                ) [Faktor]
+                                                                NoAddoptTerm(
+                                                                ) [NoAddoptTerm]
+                                                              ) [TermWithoutMinus]
+                                                            ) [DesignatorArray]
+                                                          ) [FactorDesignator]
+                                                          NoMulopFactors(
+                                                          ) [NoMulopFactors]
+                                                        ) [Faktor]
+                                                        NoAddoptTerm(
+                                                        ) [NoAddoptTerm]
+                                                      ) [TermWithoutMinus]
+                                                    ) [DesignatorArray]
+                                                  ) [FactorDesignator]
+                                                  NoMulopFactors(
+                                                  ) [NoMulopFactors]
+                                                ) [Faktor]
+                                                NoAddoptTerm(
+                                                ) [NoAddoptTerm]
+                                              ) [TermWithoutMinus]
+                                            ) [DesignatorArray]
+                                            TermWithoutMinus(
+                                              Faktor(
+                                                FactorNumber(
+                                                ) [FactorNumber]
+                                                MulopFactors(
+                                                  NoMulopFactors(
+                                                  ) [NoMulopFactors]
+                                                  MulOperacija(
+                                                  ) [MulOperacija]
+                                                  FactorNumber(
+                                                  ) [FactorNumber]
+                                                ) [MulopFactors]
+                                              ) [Faktor]
+                                              AddoptTerm(
+                                                NoAddoptTerm(
+                                                ) [NoAddoptTerm]
+                                                PlusOperacija(
+                                                ) [PlusOperacija]
+                                                Faktor(
+                                                  FactorNumber(
+                                                  ) [FactorNumber]
+                                                  NoMulopFactors(
+                                                  ) [NoMulopFactors]
+                                                ) [Faktor]
+                                              ) [AddoptTerm]
+                                            ) [TermWithoutMinus]
+                                          ) [Assign_Designator_Klasa]
+                                        ) [Assignment]
+                                      ) [DesignatorStatementSemi]
+                                    ) [Statements]
+                                    DesignatorStatementSemi(
+                                      Assignment(
+                                        ErrorStmt(
+                                        ) [ErrorStmt]
+                                      ) [Assignment]
+                                    ) [DesignatorStatementSemi]
+                                  ) [Statements]
+                                  DesignatorStatementSemi(
+                                    Assignment(
+                                      Assign_Designator_Klasa(
+                                        DesignatorIdentifikator(
+                                        ) [DesignatorIdentifikator]
+                                        MinusTerm(
+                                          Faktor(
+                                            FactorDesignator(
+                                              DesignatorArray(
+                                                TermWithoutMinus(
+                                                  Faktor(
+                                                    FactorDesignator(
+                                                      DesignatorIdentifikator(
+                                                      ) [DesignatorIdentifikator]
+                                                    ) [FactorDesignator]
+                                                    NoMulopFactors(
+                                                    ) [NoMulopFactors]
+                                                  ) [Faktor]
+                                                  NoAddoptTerm(
+                                                  ) [NoAddoptTerm]
+                                                ) [TermWithoutMinus]
+                                              ) [DesignatorArray]
+                                            ) [FactorDesignator]
+                                            NoMulopFactors(
+                                            ) [NoMulopFactors]
+                                          ) [Faktor]
+                                          NoAddoptTerm(
+                                          ) [NoAddoptTerm]
+                                        ) [MinusTerm]
+                                      ) [Assign_Designator_Klasa]
+                                    ) [Assignment]
+                                  ) [DesignatorStatementSemi]
+                                ) [Statements]
+                                DesignatorStatementSemi(
+                                  Decrement(
+                                    DesignatorIdentifikator(
+                                    ) [DesignatorIdentifikator]
+                                  ) [Decrement]
+                                ) [DesignatorStatementSemi]
+                              ) [Statements]
+                              DesignatorStatementSemi(
+                                Assignment(
+                                  Assign_Designator_Klasa(
+                                    DesignatorIdentifikator(
+                                    ) [DesignatorIdentifikator]
+                                    MinusTerm(
+                                      Faktor(
+                                        FactorDesignator(
+                                          DesignatorArray(
+                                            TermWithoutMinus(
+                                              Faktor(
+                                                FactorDesignator(
+                                                  DesignatorIdentifikator(
+                                                  ) [DesignatorIdentifikator]
+                                                ) [FactorDesignator]
+                                                NoMulopFactors(
+                                                ) [NoMulopFactors]
+                                              ) [Faktor]
+                                              NoAddoptTerm(
+                                              ) [NoAddoptTerm]
+                                            ) [TermWithoutMinus]
+                                          ) [DesignatorArray]
+                                        ) [FactorDesignator]
+                                        NoMulopFactors(
+                                        ) [NoMulopFactors]
+                                      ) [Faktor]
+                                      NoAddoptTerm(
+                                      ) [NoAddoptTerm]
+                                    ) [MinusTerm]
+                                  ) [Assign_Designator_Klasa]
+                                ) [Assignment]
+                              ) [DesignatorStatementSemi]
+                            ) [Statements]
+                            DesignatorStatementSemi(
+                              Assignment(
+                                Assign_Designator_Klasa(
+                                  DesignatorIdentifikator(
+                                  ) [DesignatorIdentifikator]
+                                  MinusTerm(
+                                    Faktor(
+                                      FactorNumber(
+                                      ) [FactorNumber]
+                                      NoMulopFactors(
+                                      ) [NoMulopFactors]
+                                    ) [Faktor]
+                                    NoAddoptTerm(
+                                    ) [NoAddoptTerm]
+                                  ) [MinusTerm]
+                                ) [Assign_Designator_Klasa]
+                              ) [Assignment]
+                            ) [DesignatorStatementSemi]
+                          ) [Statements]
+                          DesignatorStatementSemi(
+                            Assignment(
+                              Assign_Designator_Klasa(
+                                DesignatorIdentifikator(
+                                ) [DesignatorIdentifikator]
+                                TermWithoutMinus(
+                                  Faktor(
+                                    FactorChar(
+                                    ) [FactorChar]
+                                    NoMulopFactors(
+                                    ) [NoMulopFactors]
+                                  ) [Faktor]
+                                  NoAddoptTerm(
+                                  ) [NoAddoptTerm]
+                                ) [TermWithoutMinus]
+                              ) [Assign_Designator_Klasa]
+                            ) [Assignment]
+                          ) [DesignatorStatementSemi]
+                        ) [Statements]
+                        DesignatorStatementSemi(
+                          Assignment(
+                            Assign_Designator_Klasa(
+                              DesignatorIdentifikator(
+                              ) [DesignatorIdentifikator]
+                              MinusTerm(
+                                Faktor(
+                                  FactorChar(
+                                  ) [FactorChar]
+                                  NoMulopFactors(
+                                  ) [NoMulopFactors]
+                                ) [Faktor]
+                                NoAddoptTerm(
+                                ) [NoAddoptTerm]
+                              ) [MinusTerm]
+                            ) [Assign_Designator_Klasa]
+                          ) [Assignment]
+                        ) [DesignatorStatementSemi]
+                      ) [Statements]
+                      DesignatorStatementSemi(
+                        Assignment(
+                          Assign_Designator_Klasa(
+                            DesignatorIdentifikator(
+                            ) [DesignatorIdentifikator]
+                            MinusTerm(
+                              Faktor(
+                                FactorExpr(
+                                  MinusTerm(
+                                    Faktor(
+                                      FactorExpr(
+                                        TermWithoutMinus(
+                                          Faktor(
+                                            FactorNumber(
+                                            ) [FactorNumber]
+                                            NoMulopFactors(
+                                            ) [NoMulopFactors]
+                                          ) [Faktor]
+                                          NoAddoptTerm(
+                                          ) [NoAddoptTerm]
+                                        ) [TermWithoutMinus]
+                                      ) [FactorExpr]
+                                      NoMulopFactors(
+                                      ) [NoMulopFactors]
+                                    ) [Faktor]
+                                    NoAddoptTerm(
+                                    ) [NoAddoptTerm]
+                                  ) [MinusTerm]
+                                ) [FactorExpr]
+                                NoMulopFactors(
+                                ) [NoMulopFactors]
+                              ) [Faktor]
+                              NoAddoptTerm(
+                              ) [NoAddoptTerm]
+                            ) [MinusTerm]
+                          ) [Assign_Designator_Klasa]
+                        ) [Assignment]
+                      ) [DesignatorStatementSemi]
+                    ) [Statements]
+                    DesignatorStatementSemi(
+                      Assignment(
+                        Assign_Designator_Klasa(
+                          DesignatorIdentifikator(
+                          ) [DesignatorIdentifikator]
+                          TermWithoutMinus(
+                            Faktor(
+                              FactorBool(
+                              ) [FactorBool]
+                              NoMulopFactors(
+                              ) [NoMulopFactors]
+                            ) [Faktor]
+                            NoAddoptTerm(
+                            ) [NoAddoptTerm]
+                          ) [TermWithoutMinus]
+                        ) [Assign_Designator_Klasa]
+                      ) [Assignment]
+                    ) [DesignatorStatementSemi]
+                  ) [Statements]
+                  DesignatorStatementSemi(
+                    Assignment(
+                      Assign_Designator_Klasa(
+                        DesignatorIdentifikator(
+                        ) [DesignatorIdentifikator]
+                        MinusTerm(
+                          Faktor(
+                            FactorExpr(
+                              TermWithoutMinus(
+                                Faktor(
+                                  FactorExpr(
+                                    TermWithoutMinus(
+                                      Faktor(
+                                        FactorExpr(
+                                          TermWithoutMinus(
+                                            Faktor(
+                                              FactorNumber(
+                                              ) [FactorNumber]
+                                              NoMulopFactors(
+                                              ) [NoMulopFactors]
+                                            ) [Faktor]
+                                            NoAddoptTerm(
+                                            ) [NoAddoptTerm]
+                                          ) [TermWithoutMinus]
+                                        ) [FactorExpr]
+                                        NoMulopFactors(
+                                        ) [NoMulopFactors]
+                                      ) [Faktor]
+                                      NoAddoptTerm(
+                                      ) [NoAddoptTerm]
+                                    ) [TermWithoutMinus]
+                                  ) [FactorExpr]
+                                  NoMulopFactors(
+                                  ) [NoMulopFactors]
+                                ) [Faktor]
+                                NoAddoptTerm(
+                                ) [NoAddoptTerm]
+                              ) [TermWithoutMinus]
+                            ) [FactorExpr]
+                            NoMulopFactors(
+                            ) [NoMulopFactors]
+                          ) [Faktor]
+                          NoAddoptTerm(
+                          ) [NoAddoptTerm]
+                        ) [MinusTerm]
+                      ) [Assign_Designator_Klasa]
+                    ) [Assignment]
+                  ) [DesignatorStatementSemi]
+                ) [Statements]
+                DesignatorStatementSemi(
+                  Assignment(
+                    Assign_Designator_Klasa(
+                      DesignatorIdentifikator(
+                      ) [DesignatorIdentifikator]
+                      TermWithoutMinus(
+                        Faktor(
+                          FactorNewArray(
+                            Type(
+                            ) [Type]
+                            MinusTerm(
+                              Faktor(
+                                FactorExpr(
+                                  TermWithoutMinus(
+                                    Faktor(
+                                      FactorNumber(
+                                      ) [FactorNumber]
+                                      NoMulopFactors(
+                                      ) [NoMulopFactors]
+                                    ) [Faktor]
+                                    AddoptTerm(
+                                      NoAddoptTerm(
+                                      ) [NoAddoptTerm]
+                                      PlusOperacija(
+                                      ) [PlusOperacija]
+                                      Faktor(
+                                        FactorNumber(
+                                        ) [FactorNumber]
+                                        NoMulopFactors(
+                                        ) [NoMulopFactors]
+                                      ) [Faktor]
+                                    ) [AddoptTerm]
+                                  ) [TermWithoutMinus]
+                                ) [FactorExpr]
+                                MulopFactors(
+                                  MulopFactors(
+                                    NoMulopFactors(
+                                    ) [NoMulopFactors]
+                                    DivOperacija(
+                                    ) [DivOperacija]
+                                    FactorNumber(
+                                    ) [FactorNumber]
+                                  ) [MulopFactors]
+                                  PercentageOperacija(
+                                  ) [PercentageOperacija]
+                                  FactorDesignator(
+                                    DesignatorIdentifikator(
+                                    ) [DesignatorIdentifikator]
+                                  ) [FactorDesignator]
+                                ) [MulopFactors]
+                              ) [Faktor]
+                              NoAddoptTerm(
+                              ) [NoAddoptTerm]
+                            ) [MinusTerm]
+                          ) [FactorNewArray]
+                          NoMulopFactors(
+                          ) [NoMulopFactors]
+                        ) [Faktor]
+                        NoAddoptTerm(
+                        ) [NoAddoptTerm]
+                      ) [TermWithoutMinus]
+                    ) [Assign_Designator_Klasa]
+                  ) [Assignment]
+                ) [DesignatorStatementSemi]
+              ) [Statements]
+              DesignatorStatementSemi(
+                Assignment(
+                  Assign_Designator_Klasa(
+                    DesignatorIdentifikator(
+                    ) [DesignatorIdentifikator]
+                    TermWithoutMinus(
+                      Faktor(
+                        FactorDesignator(
+                          DesignatorIdentifikator(
+                          ) [DesignatorIdentifikator]
+                        ) [FactorDesignator]
+                        MulopFactors(
+                          MulopFactors(
+                            NoMulopFactors(
+                            ) [NoMulopFactors]
+                            PercentageOperacija(
+                            ) [PercentageOperacija]
+                            FactorDesignator(
+                              DesignatorIdentifikator(
+                              ) [DesignatorIdentifikator]
+                            ) [FactorDesignator]
+                          ) [MulopFactors]
+                          DivOperacija(
+                          ) [DivOperacija]
+                          FactorNumber(
+                          ) [FactorNumber]
+                        ) [MulopFactors]
+                      ) [Faktor]
+                      AddoptTerm(
+                        AddoptTerm(
+                          NoAddoptTerm(
+                          ) [NoAddoptTerm]
+                          PlusOperacija(
+                          ) [PlusOperacija]
+                          Faktor(
+                            FactorNumber(
+                            ) [FactorNumber]
+                            NoMulopFactors(
+                            ) [NoMulopFactors]
+                          ) [Faktor]
+                        ) [AddoptTerm]
+                        PlusOperacija(
+                        ) [PlusOperacija]
+                        Faktor(
+                          FactorNumber(
+                          ) [FactorNumber]
+                          MulopFactors(
+                            NoMulopFactors(
+                            ) [NoMulopFactors]
+                            MulOperacija(
+                            ) [MulOperacija]
+                            FactorNumber(
+                            ) [FactorNumber]
+                          ) [MulopFactors]
+                        ) [Faktor]
+                      ) [AddoptTerm]
+                    ) [TermWithoutMinus]
+                  ) [Assign_Designator_Klasa]
+                ) [Assignment]
+              ) [DesignatorStatementSemi]
+            ) [Statements]
+            DesignatorStatementSemi(
+              Assignment(
+                Assign_Designator_Klasa(
+                  DesignatorArray(
+                    TermWithoutMinus(
+                      Faktor(
+                        FactorDesignator(
+                          DesignatorArray(
+                            TermWithoutMinus(
+                              Faktor(
+                                FactorDesignator(
+                                  DesignatorArray(
+                                    TermWithoutMinus(
+                                      Faktor(
+                                        FactorNumber(
+                                        ) [FactorNumber]
+                                        NoMulopFactors(
+                                        ) [NoMulopFactors]
+                                      ) [Faktor]
+                                      AddoptTerm(
+                                        AddoptTerm(
+                                          NoAddoptTerm(
+                                          ) [NoAddoptTerm]
+                                          PlusOperacija(
+                                          ) [PlusOperacija]
+                                          Faktor(
+                                            FactorNumber(
+                                            ) [FactorNumber]
+                                            NoMulopFactors(
+                                            ) [NoMulopFactors]
+                                          ) [Faktor]
+                                        ) [AddoptTerm]
+                                        PlusOperacija(
+                                        ) [PlusOperacija]
+                                        Faktor(
+                                          FactorDesignator(
+                                            DesignatorIdentifikator(
+                                            ) [DesignatorIdentifikator]
+                                          ) [FactorDesignator]
+                                          NoMulopFactors(
+                                          ) [NoMulopFactors]
+                                        ) [Faktor]
+                                      ) [AddoptTerm]
+                                    ) [TermWithoutMinus]
+                                  ) [DesignatorArray]
+                                ) [FactorDesignator]
+                                NoMulopFactors(
+                                ) [NoMulopFactors]
+                              ) [Faktor]
+                              NoAddoptTerm(
+                              ) [NoAddoptTerm]
+                            ) [TermWithoutMinus]
+                          ) [DesignatorArray]
+                        ) [FactorDesignator]
+                        NoMulopFactors(
+                        ) [NoMulopFactors]
+                      ) [Faktor]
+                      NoAddoptTerm(
+                      ) [NoAddoptTerm]
+                    ) [TermWithoutMinus]
+                  ) [DesignatorArray]
+                  TermWithoutMinus(
+                    Faktor(
+                      FactorNumber(
+                      ) [FactorNumber]
+                      NoMulopFactors(
+                      ) [NoMulopFactors]
+                    ) [Faktor]
+                    NoAddoptTerm(
+                    ) [NoAddoptTerm]
+                  ) [TermWithoutMinus]
+                ) [Assign_Designator_Klasa]
+              ) [Assignment]
+            ) [DesignatorStatementSemi]
+          ) [Statements]
+          DesignatorStatementSemi(
+            Assignment(
+              Assign_Designator_Klasa(
+                DesignatorIdentifikator(
+                ) [DesignatorIdentifikator]
+                TermWithoutMinus(
+                  Faktor(
+                    FactorNumber(
+                    ) [FactorNumber]
+                    NoMulopFactors(
+                    ) [NoMulopFactors]
+                  ) [Faktor]
+                  NoAddoptTerm(
+                  ) [NoAddoptTerm]
+                ) [TermWithoutMinus]
+              ) [Assign_Designator_Klasa]
+            ) [Assignment]
+          ) [DesignatorStatementSemi]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      Void_Povratna(
+      ) [Void_Povratna]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:18:07,046 - ===================================

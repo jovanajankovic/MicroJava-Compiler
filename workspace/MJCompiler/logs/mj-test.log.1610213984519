@@ -1,0 +1,76 @@
+INFO  18:39:23,909 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:39:23,954 - #2 program
+INFO  18:39:23,954 - #48 MJProgram
+INFO  18:39:23,954 - #8 const
+INFO  18:39:23,955 - #48 int
+INFO  18:39:23,955 - #48 milica
+INFO  18:39:23,956 - #9 =
+INFO  18:39:23,956 - #49 5
+INFO  18:39:23,956 - #4 ;
+INFO  18:39:23,956 - #48 int
+INFO  18:39:23,957 - #48 pera
+INFO  18:39:23,957 - #5 [
+INFO  18:39:23,957 - #6 ]
+INFO  18:39:23,957 - #4 ;
+INFO  18:39:23,957 - #10 {
+INFO  18:39:23,958 - #12 void
+INFO  18:39:23,958 - #48 main
+INFO  18:39:23,959 - #11 (
+INFO  18:39:23,959 - #13 )
+INFO  18:39:23,960 - #10 {
+INFO  18:39:23,960 - #3 }
+INFO  18:39:23,961 - #3 }
+INFO  18:39:23,968 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    ConstDecls(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        DodelaVrednosti(
+         milica
+          Number_Const(
+           5
+          ) [Number_Const]
+        ) [DodelaVrednosti]
+      ) [ConstDecl]
+    ) [ConstDecls]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarJednaDeklaracija(
+        DeoDeklaracijeNiz(
+         pera
+        ) [DeoDeklaracijeNiz]
+      ) [VarJednaDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:39:23,968 - ===================================
+INFO  18:39:23,972 - Deklarisana metoda main na liniji 6
+INFO  18:39:23,972 - Zavrsena obrada metode main na liniji 6
+INFO  18:39:23,972 - ===================================
+INFO  18:39:23,973 - Parsiranje uspesno zavrseno!

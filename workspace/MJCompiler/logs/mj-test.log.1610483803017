@@ -1,0 +1,177 @@
+INFO  21:11:22,438 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:11:22,504 - #2 program
+INFO  21:11:22,504 - #32 test301
+INFO  21:11:22,505 - #32 int
+INFO  21:11:22,506 - #32 niz
+INFO  21:11:22,508 - #5 [
+INFO  21:11:22,508 - #6 ]
+INFO  21:11:22,508 - #4 ;
+INFO  21:11:22,509 - #32 int
+INFO  21:11:22,509 - #32 broj
+INFO  21:11:22,509 - #4 ;
+INFO  21:11:22,510 - #32 int
+INFO  21:11:22,510 - #32 perica
+INFO  21:11:22,510 - #4 ;
+INFO  21:11:22,510 - #8 const
+INFO  21:11:22,510 - #32 int
+INFO  21:11:22,510 - #32 pi
+INFO  21:11:22,510 - #9 =
+INFO  21:11:22,511 - #33 3
+INFO  21:11:22,511 - #4 ;
+INFO  21:11:22,511 - #10 {
+INFO  21:11:22,514 - #12 void
+INFO  21:11:22,515 - #32 main
+INFO  21:11:22,515 - #11 (
+INFO  21:11:22,516 - #13 )
+INFO  21:11:22,516 - #32 bool
+INFO  21:11:22,517 - #32 flag
+INFO  21:11:22,517 - #4 ;
+INFO  21:11:22,517 - #10 {
+INFO  21:11:22,517 - #17 read
+INFO  21:11:22,518 - #11 (
+INFO  21:11:22,518 - #32 broj
+INFO  21:11:22,518 - #13 )
+INFO  21:11:22,518 - #4 ;
+INFO  21:11:22,518 - #14 print
+INFO  21:11:22,519 - #11 (
+INFO  21:11:22,519 - #32 broj
+INFO  21:11:22,519 - #15 +
+INFO  21:11:22,519 - #32 pi
+INFO  21:11:22,521 - #13 )
+INFO  21:11:22,521 - #4 ;
+INFO  21:11:22,521 - #3 }
+INFO  21:11:22,522 - #3 }
+INFO  21:11:22,534 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstDecls(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclOpstaSmena(
+            Type(
+             int
+            ) [Type]
+            VarJednaDeklaracija(
+              DeoDeklaracijeNiz(
+               niz
+              ) [DeoDeklaracijeNiz]
+            ) [VarJednaDeklaracija]
+          ) [VarDeclOpstaSmena]
+        ) [VarDeclarations]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             broj
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           perica
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      DodelaVrednosti(
+       pi
+        Number_Const(
+         3
+        ) [Number_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           bool
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             flag
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      StatementLista(
+        StatementLista(
+          NoStatements(
+          ) [NoStatements]
+          ReadStatement(
+            DesignatorIdentifikator(
+             broj
+            ) [DesignatorIdentifikator]
+          ) [ReadStatement]
+        ) [StatementLista]
+        PrintStatement(
+          Expr_obican(
+            ExprWithoutMinusLista(
+              Term_0(
+                FactorDesignator(
+                  DesignatorIdentifikator(
+                   broj
+                  ) [DesignatorIdentifikator]
+                ) [FactorDesignator]
+              ) [Term_0]
+              AddoptListaJednaOperacija(
+                PlusOperacija(
+                ) [PlusOperacija]
+                Term_0(
+                  FactorDesignator(
+                    DesignatorIdentifikator(
+                     pi
+                    ) [DesignatorIdentifikator]
+                  ) [FactorDesignator]
+                ) [Term_0]
+              ) [AddoptListaJednaOperacija]
+            ) [ExprWithoutMinusLista]
+          ) [Expr_obican]
+        ) [PrintStatement]
+      ) [StatementLista]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:11:22,535 - ===================================
+INFO  21:11:22,541 - Deklarisana promenljiva niz na liniji 7
+INFO  21:11:22,541 - Deklarisana promenljiva broj na liniji 8
+INFO  21:11:22,542 - Deklarisana promenljiva perica na liniji 9
+INFO  21:11:22,542 - Deklarisana simbolicka konstanta pi na liniji 10
+INFO  21:11:22,542 - Deklarisana metoda main na liniji 12
+INFO  21:11:22,542 - Deklarisana promenljiva flag na liniji 14
+INFO  21:11:22,543 - Detektovana globalna promenljiva broj na liniji 20
+INFO  21:11:22,543 - Izvrseno citanje promenljive broj
+INFO  21:11:22,543 - Detektovana globalna promenljiva broj na liniji 21
+INFO  21:11:22,544 - Detektovana simbolicka konstanta pi na liniji 21
+INFO  21:11:22,544 - Izvrsena operacija sabiranja
+INFO  21:11:22,544 - Zavrsena obrada metode main na liniji 12
+INFO  21:11:22,545 - ===================================
+INFO  21:11:22,547 - Generating bytecode file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  21:11:22,561 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,108 @@
+INFO  18:48:09,864 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:48:09,907 - #2 program
+INFO  18:48:09,907 - #48 test301
+INFO  18:48:09,907 - #8 const
+INFO  18:48:09,908 - #48 int
+INFO  18:48:09,908 - #48 nula
+INFO  18:48:09,909 - #9 =
+INFO  18:48:09,909 - #49 0
+INFO  18:48:09,910 - #7 ,
+INFO  18:48:09,910 - #48 pera
+INFO  18:48:09,910 - #9 =
+INFO  18:48:09,910 - #49 5
+INFO  18:48:09,910 - #7 ,
+INFO  18:48:09,910 - #48 draza
+INFO  18:48:09,910 - #9 =
+INFO  18:48:09,910 - #49 10
+INFO  18:48:09,911 - #4 ;
+INFO  18:48:09,911 - #8 const
+INFO  18:48:09,912 - #48 bool
+INFO  18:48:09,912 - #48 pet
+INFO  18:48:09,912 - #9 =
+INFO  18:48:09,912 - #50 false
+INFO  18:48:09,912 - #4 ;
+INFO  18:48:09,913 - #10 {
+INFO  18:48:09,913 - #12 void
+INFO  18:48:09,913 - #48 main
+INFO  18:48:09,914 - #11 (
+INFO  18:48:09,915 - #13 )
+INFO  18:48:09,915 - #48 int
+INFO  18:48:09,916 - #48 bodovi
+INFO  18:48:09,916 - #4 ;
+INFO  18:48:09,916 - #10 {
+INFO  18:48:09,917 - #3 }
+INFO  18:48:09,917 - #3 }
+INFO  18:48:09,919 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstDecls(
+    ConstDecls(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        DodelaViseVrednosti(
+          DodelaViseVrednosti(
+            DodelaVrednosti(
+             nula
+              Number_Const(
+               0
+              ) [Number_Const]
+            ) [DodelaVrednosti]
+           pera
+            Number_Const(
+             5
+            ) [Number_Const]
+          ) [DodelaViseVrednosti]
+         draza
+          Number_Const(
+           10
+          ) [Number_Const]
+        ) [DodelaViseVrednosti]
+      ) [ConstDecl]
+    ) [ConstDecls]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      DodelaVrednosti(
+       pet
+        Boolean_Const(
+        ) [Boolean_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDeclarationList(
+        NoVarDeclarationList(
+        ) [NoVarDeclarationList]
+        VarDeclOpstaSmena(
+          Type(
+           int
+          ) [Type]
+          VarJednaDeklaracija(
+            DeoDeklaracijaPromenljiva(
+             bodovi
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarJednaDeklaracija]
+        ) [VarDeclOpstaSmena]
+      ) [VarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:48:09,920 - ===================================

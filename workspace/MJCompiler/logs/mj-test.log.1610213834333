@@ -1,0 +1,59 @@
+INFO  18:37:04,626 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:37:04,667 - #2 program
+INFO  18:37:04,667 - #48 MJProgram
+INFO  18:37:04,667 - #8 const
+INFO  18:37:04,668 - #48 int
+INFO  18:37:04,668 - #48 milica
+INFO  18:37:04,669 - #9 =
+INFO  18:37:04,669 - #49 5
+INFO  18:37:04,669 - #4 ;
+INFO  18:37:04,669 - #10 {
+INFO  18:37:04,670 - #12 void
+INFO  18:37:04,670 - #48 main
+INFO  18:37:04,671 - #11 (
+INFO  18:37:04,671 - #13 )
+INFO  18:37:04,672 - #10 {
+INFO  18:37:04,673 - #3 }
+INFO  18:37:04,673 - #3 }
+INFO  18:37:04,680 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConstDecls(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      DodelaVrednosti(
+       milica
+        Number_Const(
+         5
+        ) [Number_Const]
+      ) [DodelaVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:37:04,680 - ===================================
+INFO  18:37:04,683 - Deklarisana metoda main na liniji 5
+INFO  18:37:04,683 - Zavrsena obrada metode main na liniji 5
+INFO  18:37:04,683 - ===================================
+INFO  18:37:04,684 - Parsiranje uspesno zavrseno!

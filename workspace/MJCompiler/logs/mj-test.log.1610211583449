@@ -1,0 +1,100 @@
+INFO  17:59:30,438 - Compiling source file: C:\Users\Marina\Desktop\3.1.2021 - kopija sa starom bibliotekom runtime za generisanje koda\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:59:30,505 - #2 program
+INFO  17:59:30,505 - #48 MJProgram
+INFO  17:59:30,506 - #48 int
+INFO  17:59:30,507 - #48 pera
+INFO  17:59:30,508 - #5 [
+INFO  17:59:30,508 - #6 ]
+INFO  17:59:30,508 - #7 ,
+INFO  17:59:30,508 - #48 mika
+INFO  17:59:30,508 - #7 ,
+INFO  17:59:30,509 - #48 laza
+INFO  17:59:30,509 - #4 ;
+INFO  17:59:30,509 - #48 int
+INFO  17:59:30,509 - #48 jovana
+INFO  17:59:30,509 - #7 ,
+INFO  17:59:30,509 - #48 laza
+INFO  17:59:30,509 - #4 ;
+INFO  17:59:30,509 - #10 {
+INFO  17:59:30,509 - #12 void
+INFO  17:59:30,510 - #48 main
+INFO  17:59:30,511 - #11 (
+INFO  17:59:30,512 - #13 )
+INFO  17:59:30,513 - #10 {
+INFO  17:59:30,514 - #3 }
+INFO  17:59:30,515 - #3 }
+INFO  17:59:30,525 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDeclOpstaSmena(
+        Type(
+         int
+        ) [Type]
+        VarViseDeklaracija(
+          VarViseDeklaracija(
+            VarJednaDeklaracija(
+              DeoDeklaracijeNiz(
+               pera
+              ) [DeoDeklaracijeNiz]
+            ) [VarJednaDeklaracija]
+            DeoDeklaracijaPromenljiva(
+             mika
+            ) [DeoDeklaracijaPromenljiva]
+          ) [VarViseDeklaracija]
+          DeoDeklaracijaPromenljiva(
+           laza
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarViseDeklaracija]
+      ) [VarDeclOpstaSmena]
+    ) [VarDeclarations]
+    VarDeclOpstaSmena(
+      Type(
+       int
+      ) [Type]
+      VarViseDeklaracija(
+        VarJednaDeklaracija(
+          DeoDeklaracijaPromenljiva(
+           jovana
+          ) [DeoDeklaracijaPromenljiva]
+        ) [VarJednaDeklaracija]
+        DeoDeklaracijaPromenljiva(
+         laza
+        ) [DeoDeklaracijaPromenljiva]
+      ) [VarViseDeklaracija]
+    ) [VarDeclOpstaSmena]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodDeclName(
+        Void_Povratna(
+        ) [Void_Povratna]
+       main
+      ) [MethodDeclName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarationList(
+      ) [NoVarDeclarationList]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:59:30,525 - ===================================
+INFO  17:59:30,529 - nizovna promenljiva ELSE GRANA
+INFO  17:59:30,529 - obicna promeljiva
+INFO  17:59:30,529 - usao
+INFO  17:59:30,529 - obicna promeljiva
+INFO  17:59:30,529 - obicna promeljiva ELSE GRANA
+INFO  17:59:30,530 - usao
+ERROR 17:59:30,530 - Greska na liniji 3! Promenljiva laza je vec deklarisana u ovom opsegu!
+INFO  17:59:30,530 - Deklarisana metoda main na liniji 7
+INFO  17:59:30,530 - Zavrsena obrada metode main na liniji 7
+INFO  17:59:30,530 - ===================================
+ERROR 17:59:30,531 - Parsiranje NIJE uspesno zavrseno!

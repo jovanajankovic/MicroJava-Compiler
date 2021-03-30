@@ -1,0 +1,151 @@
+INFO  01:26:20,505 - Compiling source file: C:\Users\Marina\Desktop\pp1lab.templateAST (1)\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  01:26:20,527 - #2 program
+INFO  01:26:20,528 - #3 MJProgram
+INFO  01:26:20,528 - #3 int
+INFO  01:26:20,529 - #3 hej
+INFO  01:26:20,530 - #5 ;
+INFO  01:26:20,530 - #3 char
+INFO  01:26:20,530 - #3 jovana
+INFO  01:26:20,530 - #5 ;
+INFO  01:26:20,531 - #3 int
+INFO  01:26:20,531 - #3 hello
+INFO  01:26:20,531 - #5 ;
+INFO  01:26:20,531 - #9 const
+INFO  01:26:20,531 - #3 int
+INFO  01:26:20,531 - #3 hello
+INFO  01:26:20,531 - #10 =
+INFO  01:26:20,531 - #11 5
+INFO  01:26:20,531 - #5 ;
+INFO  01:26:20,533 - #9 const
+INFO  01:26:20,534 - #3 int
+INFO  01:26:20,534 - #3 dosapdosa
+INFO  01:26:20,534 - #10 =
+INFO  01:26:20,534 - #11 0
+INFO  01:26:20,534 - #8 ,
+INFO  01:26:20,534 - #3 dsdksal
+INFO  01:26:20,534 - #10 =
+INFO  01:26:20,534 - #11 5
+INFO  01:26:20,534 - #8 ,
+INFO  01:26:20,535 - #3 perica
+INFO  01:26:20,535 - #10 =
+INFO  01:26:20,535 - #11 9
+INFO  01:26:20,535 - #8 ,
+INFO  01:26:20,535 - #3 mars
+INFO  01:26:20,535 - #10 =
+INFO  01:26:20,535 - #11 10
+INFO  01:26:20,535 - #8 ,
+INFO  01:26:20,535 - #3 bagra
+INFO  01:26:20,535 - #10 =
+INFO  01:26:20,535 - #11 7
+INFO  01:26:20,535 - #5 ;
+INFO  01:26:20,535 - #9 const
+INFO  01:26:20,536 - #3 int
+INFO  01:26:20,536 - #3 nemacka
+INFO  01:26:20,536 - #10 =
+INFO  01:26:20,536 - #11 8
+INFO  01:26:20,536 - #8 ,
+INFO  01:26:20,536 - #3 cale
+INFO  01:26:20,536 - #10 =
+INFO  01:26:20,536 - #11 9
+INFO  01:26:20,536 - #5 ;
+INFO  01:26:20,536 - #9 const
+INFO  01:26:20,536 - #3 char
+INFO  01:26:20,536 - #3 jocika
+INFO  01:26:20,536 - #10 =
+INFO  01:26:20,537 - #12 t
+INFO  01:26:20,537 - #8 ,
+INFO  01:26:20,537 - #3 tuti
+INFO  01:26:20,537 - #10 =
+INFO  01:26:20,538 - #12 a
+INFO  01:26:20,538 - #5 ;
+INFO  01:26:20,538 - #14 {
+INFO  01:26:20,538 - #4 }
+INFO  01:26:20,540 - Program(
+  ConstDecls(
+    ConstDecls(
+      ConstDecls(
+        ConstDecls(
+          VarDeclarations(
+            VarDeclarations(
+              VarDeclarations(
+                NoDeclarations(
+                ) [NoDeclarations]
+                VarDecl(
+                  Type(
+                  ) [Type]
+                ) [VarDecl]
+              ) [VarDeclarations]
+              VarDecl(
+                Type(
+                ) [Type]
+              ) [VarDecl]
+            ) [VarDeclarations]
+            VarDecl(
+              Type(
+              ) [Type]
+            ) [VarDecl]
+          ) [VarDeclarations]
+          ConstDecl(
+            Type(
+            ) [Type]
+            DodelaVrednosti(
+              Number_Const(
+              ) [Number_Const]
+            ) [DodelaVrednosti]
+          ) [ConstDecl]
+        ) [ConstDecls]
+        ConstDecl(
+          Type(
+          ) [Type]
+          DodeleVrednosti(
+            DodeleVrednosti(
+              DodeleVrednosti(
+                DodeleVrednosti(
+                  DodelaVrednosti(
+                    Number_Const(
+                    ) [Number_Const]
+                  ) [DodelaVrednosti]
+                  Number_Const(
+                  ) [Number_Const]
+                ) [DodeleVrednosti]
+                Number_Const(
+                ) [Number_Const]
+              ) [DodeleVrednosti]
+              Number_Const(
+              ) [Number_Const]
+            ) [DodeleVrednosti]
+            Number_Const(
+            ) [Number_Const]
+          ) [DodeleVrednosti]
+        ) [ConstDecl]
+      ) [ConstDecls]
+      ConstDecl(
+        Type(
+        ) [Type]
+        DodeleVrednosti(
+          DodelaVrednosti(
+            Number_Const(
+            ) [Number_Const]
+          ) [DodelaVrednosti]
+          Number_Const(
+          ) [Number_Const]
+        ) [DodeleVrednosti]
+      ) [ConstDecl]
+    ) [ConstDecls]
+    ConstDecl(
+      Type(
+      ) [Type]
+      DodeleVrednosti(
+        DodelaVrednosti(
+          Character_Const(
+          ) [Character_Const]
+        ) [DodelaVrednosti]
+        Character_Const(
+        ) [Character_Const]
+      ) [DodeleVrednosti]
+    ) [ConstDecl]
+  ) [ConstDecls]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  01:26:20,540 - ===================================
