@@ -1,0 +1,2 @@
+# MicroJava-Compiler
+This is a school project written in Java for the course Compilers.  This compiler was designed for MicroJava language which represents smaller version of Java programming language. MicroJava language specification was developed at University for educational purposes. Compiler for Microjava goes through lexical, syntax and semantic analysis and generates code. This code executes on Microjava virtual machine.  
